@@ -1,0 +1,198 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s23",
+  "brief": "My balcony is partial shade with low moisture, and no pets live in the household. A half-shady balcony with dry soil and no pets, low maintenance only.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p008",
+      "scientific_name": "Aloysia triphylla",
+      "common_name": "Lemon Verbena",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Essential oils; Stomach upset, colic. No concerns if small amounts used in cooking or as flavoring agent",
+      "retrieval_score": 10.6615
+    },
+    {
+      "id": "p092",
+      "scientific_name": "Alyssum spp.",
+      "common_name": "Alyssum",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 4.3533
+    },
+    {
+      "id": "p140",
+      "scientific_name": "Salvia officinalis",
+      "common_name": "Sage",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 4.3533
+    },
+    {
+      "id": "p072",
+      "scientific_name": "Solanum dulcamara",
+      "common_name": "Climbing Nightshade",
+      "plant_type": "groundcover",
+      "light": "partial_shade",
+      "moisture": "high",
+      "notes": "TOXIC to cats and dogs; Solanine; Vomiting, diarrhea - common. Drowsiness, low blood pressure, low heart rate - uncommon",
+      "retrieval_score": 4.2815
+    },
+    {
+      "id": "p105",
+      "scientific_name": "Cortaderia selloana",
+      "common_name": "Pampas Grass",
+      "plant_type": "grass",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 4.225
+    },
+    {
+      "id": "p109",
+      "scientific_name": "Echeveria elegans",
+      "common_name": "Hens and Chickens",
+      "plant_type": "succulent",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 4.225
+    },
+    {
+      "id": "p024",
+      "scientific_name": "Crassula argentea",
+      "common_name": "Jade Plant",
+      "plant_type": "succulent",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Unknown; Vomiting, depression, incoordination",
+      "retrieval_score": 3.9897
+    },
+    {
+      "id": "p068",
+      "scientific_name": "Sansevieria trifasciata",
+      "common_name": "Snake Plant",
+      "plant_type": "foliage",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Saponins; Nausea, vomiting, diarrhea",
+      "retrieval_score": 3.9897
+    }
+  ],
+  "recommended_plants": [
+    "Echeveria elegans",
+    "Aloysia triphylla",
+    "Salvia officinalis",
+    "Sansevieria trifasciata",
+    "Crassula argentea"
+  ],
+  "design": {
+    "site_summary": "A partial shade balcony with dry soil conditions and no pets in the household.",
+    "layout_strategy": "The planting is structured vertically with trailing succulents on the edge railing, upright structural shrubs and herbs at mid-height against the back wall, and low rosette succulents creating a dense ground-level edge.",
+    "combination_logic": "The scheme combines architectural uprights with soft cascading textures and tight rosettes, offering a contrast of grey-green foliage, aromatic textures, and smooth succulent surfaces that maintain their appearance year-round with minimal seasonal change.",
+    "zones": [
+      {
+        "zone_name": "Railing Edge",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on the outer partial shade railing, receiving filtered morning light and good air circulation",
+        "plants": [
+          {
+            "scientific_name": "Echeveria elegans",
+            "common_name": "Hens and Chickens",
+            "why": "Adapts well to low moisture and partial shade while producing neat rosettes.",
+            "role_in_combination": "Provides a neat, sculptural edge detail and soft blue-green colour contrast against the metallic railing."
+          }
+        ],
+        "maintenance": [
+          "Water sparingly only when the soil is completely dry",
+          "Remove any dead lower leaves annually in spring",
+          "Repot every two years into fresh gritty succulent compost"
+        ]
+      },
+      {
+        "zone_name": "Back Wall Containers",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "against the rear balcony wall in partial shade, sheltered from strong winds",
+        "plants": [
+          {
+            "scientific_name": "Aloysia triphylla",
+            "common_name": "Lemon Verbena",
+            "why": "Thrives in dry partial shade and provides height and a strong lemon fragrance.",
+            "role_in_combination": "Acts as the vertical backdrop and focal height anchor, contrasting with the stiff foliage of the succulents."
+          },
+          {
+            "scientific_name": "Salvia officinalis",
+            "common_name": "Sage",
+            "why": "Handles dry conditions and low moisture with ease in partial shade.",
+            "role_in_combination": "Adds velvety grey-green texture and mid-height mass that bridges the gap between tall shrubs and low succulents."
+          }
+        ],
+        "maintenance": [
+          "Water every 10 days during summer, monthly in winter",
+          "Prune back woody stems by one-third in early spring to encourage bushy new growth",
+          "Feed with a balanced slow-release fertiliser once in mid-spring"
+        ]
+      },
+      {
+        "zone_name": "Floor Level Edging",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "in wide shallow containers along the balcony floor edge in partial shade",
+        "plants": [
+          {
+            "scientific_name": "Sansevieria trifasciata",
+            "common_name": "Snake Plant",
+            "why": "Tolerates low moisture and partial shade effortlessly.",
+            "role_in_combination": "Provides striking vertical sword-like leaf accents at the base that contrast with the rounded rosettes and bushy herbs."
+          },
+          {
+            "scientific_name": "Crassula argentea",
+            "common_name": "Jade Plant",
+            "why": "A drought-tolerant succulent suited to low moisture environments.",
+            "role_in_combination": "Adds woody stems and fleshy green leaves, creating a miniature tree-like structure at the lower layer."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when soil is completely dry",
+          "Wipe dust from the leaves with a damp cloth as needed",
+          "Repot every 3 to 4 years when root-bound"
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers with a finger test before watering",
+        "frequency": "every 10 to 14 days in summer, every 4 weeks in winter",
+        "season": "all seasons"
+      },
+      {
+        "task": "Prune back the Lemon Verbena and Sage to maintain compact form and encourage fresh shoots",
+        "frequency": "once annually",
+        "season": "early spring"
+      },
+      {
+        "task": "Clear away any fallen debris from the surface of the pots to prevent fungal issues",
+        "frequency": "monthly",
+        "season": "autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Echeveria elegans and Crassula argentea in the cooler months can cause stem rot and leaf drop.",
+      "The Aloysia triphylla may suffer from frost damage if left exposed during freezing winter conditions and should be moved to a protected spot."
+    ],
+    "pet_safety_note": "There are no pets in the household, ensuring that aromatic and succulent species can be grown safely without risk of ingestion."
+  },
+  "design_text": "{\n  \"site_summary\": \"A partial shade balcony with dry soil conditions and no pets in the household.\",\n  \"layout_strategy\": \"The planting is structured vertically with trailing succulents on the edge railing, upright structural shrubs and herbs at mid-height against the back wall, and low rosette succulents creating a dense ground-level edge.\",\n  \"combination_logic\": \"The scheme combines architectural uprights with soft cascading textures and tight rosettes, offering a contrast of grey-green foliage, aromatic textures, and smooth succulent surfaces that maintain their appearance year-round with minimal seasonal change.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Edge\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the outer partial shade railing, receiving filtered morning light and good air circulation\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Echeveria elegans\",\n          \"common_name\": \"Hens and Chickens\",\n          \"why\": \"Adapts well to low moisture and partial shade while producing neat rosettes.\",\n          \"role_in_combination\": \"Provides a neat, sculptural edge detail and soft blue-green colour contrast against the metallic railing.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water sparingly only when the soil is completely dry\",\n        \"Remove any dead lower leaves annually in spring\",\n        \"Repot every two years into fresh gritty succulent compost\"\n      ]\n    },\n    {\n      \"zone_name\": \"Back Wall Containers\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the rear balcony wall in partial shade, sheltered from strong winds\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Aloysia triphylla\",\n          \"common_name\": \"Lemon Verbena\",\n          \"why\": \"Thrives in dry partial shade and provides height and a strong lemon fragrance.\",\n          \"role_in_combination\": \"Acts as the vertical backdrop and focal height anchor, contrasting with the stiff foliage of the succulents.\"\n        },\n        {\n          \"scientific_name\": \"Salvia officinalis\",\n          \"common_name\": \"Sage\",\n          \"why\": \"Handles dry conditions and low moisture with ease in partial shade.\",\n          \"role_in_combination\": \"Adds velvety grey-green texture and mid-height mass that bridges the gap between tall shrubs and low succulents.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every 10 days during summer, monthly in winter\",\n        \"Prune back woody stems by one-third in early spring to encourage bushy new growth\",\n        \"Feed with a balanced slow-release fertiliser once in mid-spring\"\n      ]\n    },\n    {\n      \"zone_name\": \"Floor Level Edging\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"in wide shallow containers along the balcony floor edge in partial shade\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sansevieria trifasciata\",\n          \"common_name\": \"Snake Plant\",\n          \"why\": \"Tolerates low moisture and partial shade effortlessly.\",\n          \"role_in_combination\": \"Provides striking vertical sword-like leaf accents at the base that contrast with the rounded rosettes and bushy herbs.\"\n        },\n        {\n          \"scientific_name\": \"Crassula argentea\",\n          \"common_name\": \"Jade Plant\",\n          \"why\": \"A drought-tolerant succulent suited to low moisture environments.\",\n          \"role_in_combination\": \"Adds woody stems and fleshy green leaves, creating a miniature tree-like structure at the lower layer.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when soil is completely dry\",\n        \"Wipe dust from the leaves with a damp cloth as needed\",\n        \"Repot every 3 to 4 years when root-bound\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers with a finger test before watering\",\n      \"frequency\": \"every 10 to 14 days in summer, every 4 weeks in winter\",\n      \"season\": \"all seasons\"\n    },\n    {\n      \"task\": \"Prune back the Lemon Verbena and Sage to maintain compact form and encourage fresh shoots\",\n      \"frequency\": \"once annually\",\n      \"season\": \"early spring\"\n    },\n    {\n      \"task\": \"Clear away any fallen debris from the surface of the pots to prevent fungal issues\",\n      \"frequency\": \"monthly\",\n      \"season\": \"autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Echeveria elegans and Crassula argentea in the cooler months can cause stem rot and leaf drop.\",\n    \"The Aloysia triphylla may suffer from frost damage if left exposed during freezing winter conditions and should be moved to a protected spot.\"\n  ],\n  \"pet_safety_note\": \"There are no pets in the household, ensuring that aromatic and succulent species can be grown safely without risk of ingestion.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

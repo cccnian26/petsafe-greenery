@@ -1,0 +1,191 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s20",
+  "brief": "My balcony is full shade with low moisture, and one cat lives in the household. A pitch-black north balcony with dry wind-blown soil and a cat who sits in the corner all day.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p138",
+      "scientific_name": "Rosmarinus officinalis",
+      "common_name": "Rosemary",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.1955
+    },
+    {
+      "id": "p149",
+      "scientific_name": "Thymus vulgaris",
+      "common_name": "Thyme",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.1955
+    },
+    {
+      "id": "p141",
+      "scientific_name": "Sanvitalia spp.",
+      "common_name": "Creeping Zinnia",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.0984
+    },
+    {
+      "id": "p097",
+      "scientific_name": "Beaucarnea recurvata",
+      "common_name": "Pony Tail; Bottle Palm",
+      "plant_type": "tree",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.921
+    },
+    {
+      "id": "p018",
+      "scientific_name": "Clivia minata",
+      "common_name": "Kaffir Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 2.3771
+    },
+    {
+      "id": "p019",
+      "scientific_name": "Clivia spp.",
+      "common_name": "Clivia Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 2.3771
+    },
+    {
+      "id": "p052",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Pentacyclic triterpenoids; Vomiting, diarrhea, labored breathing, weakness. Liver failure - more common in livestock",
+      "retrieval_score": 2.3765
+    },
+    {
+      "id": "p001",
+      "scientific_name": "Achillea millefolium",
+      "common_name": "Yarrow",
+      "plant_type": "perennial",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; glycoalkaloids (achillein), monoterpenes, sesquiterpene lactones (achillin); Vomiting, diarrhea, colic, drooling, anorexia, dermatitis, depression",
+      "retrieval_score": 2.3224
+    }
+  ],
+  "recommended_plants": [
+    "Dactylis glomerata",
+    "Clivia miniata",
+    "Clivia spp.",
+    "Beaucarnea recurvata"
+  ],
+  "design": {
+    "site_summary": "A full shade north-facing balcony with dry conditions and one cat living in the household.",
+    "layout_strategy": "The scheme stacks in three distinct layers: a low grazing tray on the floor for the cat, a mid-height cluster of upright perennials against the back wall, and a structural focal tree providing height in the corner.",
+    "combination_logic": "The plants contrast broad, strap-like evergreen foliage with architectural caudex stems and delicate structural greenery, creating year-round structural interest in a challenging dark environment with seasonal orange or yellow blooms.",
+    "zones": [
+      {
+        "zone_name": "Feline Grazing Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "On the north balcony floor in the shaded corner, completely accessible to the cat.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Cat Grass",
+            "why": "Provides a safe, edible nibbling option for the household cat.",
+            "role_in_combination": "Soft texture and bright green color that contrasts against the dark balcony flooring."
+          }
+        ],
+        "maintenance": [
+          "Water lightly every week to keep soil slightly moist.",
+          "Trim back old growth when it becomes leggy.",
+          "Resow fresh grass seed every 4 to 6 weeks for continuous supply."
+        ]
+      },
+      {
+        "zone_name": "Shade Perennial Wall",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "Against the north-facing back wall, receiving full shade and minimal light.",
+        "plants": [
+          {
+            "scientific_name": "Clivia miniata",
+            "common_name": "Kaffir Lily",
+            "why": "Thrives in full shade and tolerates the drier conditions of the site.",
+            "role_in_combination": "Provides broad, strap-like dark green foliage and striking orange trumpet flowers in spring."
+          },
+          {
+            "scientific_name": "Clivia spp.",
+            "common_name": "Clivia Lily",
+            "why": "Complements the Kaffir Lily with identical shade-loving habits.",
+            "role_in_combination": "Adds lush volume and subtle variations in leaf width and flower shade."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when the top two inches of soil are dry.",
+          "Apply a balanced liquid fertilizer once a month during spring and summer.",
+          "Remove spent flower stems at the base after blooming."
+        ]
+      },
+      {
+        "zone_name": "Architectural Corner Feature",
+        "zone_role": "screening",
+        "layer": "vertical",
+        "placement": "In the protected corner of the north balcony, receiving ambient reflected light.",
+        "plants": [
+          {
+            "scientific_name": "Beaucarnea recurvata",
+            "common_name": "Pony Tail Palm",
+            "why": "Extremely drought tolerant and adapts well to lower light conditions in containers.",
+            "role_in_combination": "Introduces a dramatic swollen base and cascading ribbon-like leaves that break up the vertical plane."
+          }
+        ],
+        "maintenance": [
+          "Water sparingly, allowing the bulbous trunk to store moisture; water every 3 weeks in summer and monthly in winter.",
+          "Wipe dust from the long leaves with a damp cloth in spring.",
+          "Repot into a slightly larger container every 2 to 3 years."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all pots",
+        "frequency": "Every 10 to 14 days",
+        "season": "Autumn and Winter"
+      },
+      {
+        "task": "Provide diluted liquid fertilizer to the Clivia and Ponytail Palm",
+        "frequency": "Once a month",
+        "season": "Spring and Summer"
+      },
+      {
+        "task": "Refresh the cat grass tray with new seed",
+        "frequency": "Every 4 to 6 weeks",
+        "season": "Year-round"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Ponytail Palm in the cool, shaded corner can cause stem rot, so ensure the soil dries completely between waterings.",
+      "The Clivia lily foliage can accumulate dust quickly in sheltered balcony conditions, reducing light absorption, so wipe leaves clean periodically."
+    ],
+    "pet_safety_note": "The cat grass is entirely safe for the cat to nibble, and toxic plants like Lantana or non-shade herbs have been excluded from the design."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full shade north-facing balcony with dry conditions and one cat living in the household.\",\n  \"layout_strategy\": \"The scheme stacks in three distinct layers: a low grazing tray on the floor for the cat, a mid-height cluster of upright perennials against the back wall, and a structural focal tree providing height in the corner.\",\n  \"combination_logic\": \"The plants contrast broad, strap-like evergreen foliage with architectural caudex stems and delicate structural greenery, creating year-round structural interest in a challenging dark environment with seasonal orange or yellow blooms.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Feline Grazing Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"On the north balcony floor in the shaded corner, completely accessible to the cat.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Cat Grass\",\n          \"why\": \"Provides a safe, edible nibbling option for the household cat.\",\n          \"role_in_combination\": \"Soft texture and bright green color that contrasts against the dark balcony flooring.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water lightly every week to keep soil slightly moist.\",\n        \"Trim back old growth when it becomes leggy.\",\n        \"Resow fresh grass seed every 4 to 6 weeks for continuous supply.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Shade Perennial Wall\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the north-facing back wall, receiving full shade and minimal light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Clivia miniata\",\n          \"common_name\": \"Kaffir Lily\",\n          \"why\": \"Thrives in full shade and tolerates the drier conditions of the site.\",\n          \"role_in_combination\": \"Provides broad, strap-like dark green foliage and striking orange trumpet flowers in spring.\"\n        },\n        {\n          \"scientific_name\": \"Clivia spp.\",\n          \"common_name\": \"Clivia Lily\",\n          \"why\": \"Complements the Kaffir Lily with identical shade-loving habits.\",\n          \"role_in_combination\": \"Adds lush volume and subtle variations in leaf width and flower shade.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when the top two inches of soil are dry.\",\n        \"Apply a balanced liquid fertilizer once a month during spring and summer.\",\n        \"Remove spent flower stems at the base after blooming.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Architectural Corner Feature\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"vertical\",\n      \"placement\": \"In the protected corner of the north balcony, receiving ambient reflected light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Beaucarnea recurvata\",\n          \"common_name\": \"Pony Tail Palm\",\n          \"why\": \"Extremely drought tolerant and adapts well to lower light conditions in containers.\",\n          \"role_in_combination\": \"Introduces a dramatic swollen base and cascading ribbon-like leaves that break up the vertical plane.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water sparingly, allowing the bulbous trunk to store moisture; water every 3 weeks in summer and monthly in winter.\",\n        \"Wipe dust from the long leaves with a damp cloth in spring.\",\n        \"Repot into a slightly larger container every 2 to 3 years.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all pots\",\n      \"frequency\": \"Every 10 to 14 days\",\n      \"season\": \"Autumn and Winter\"\n    },\n    {\n      \"task\": \"Provide diluted liquid fertilizer to the Clivia and Ponytail Palm\",\n      \"frequency\": \"Once a month\",\n      \"season\": \"Spring and Summer\"\n    },\n    {\n      \"task\": \"Refresh the cat grass tray with new seed\",\n      \"frequency\": \"Every 4 to 6 weeks\",\n      \"season\": \"Year-round\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Ponytail Palm in the cool, shaded corner can cause stem rot, so ensure the soil dries completely between waterings.\",\n    \"The Clivia lily foliage can accumulate dust quickly in sheltered balcony conditions, reducing light absorption, so wipe leaves clean periodically.\"\n  ],\n  \"pet_safety_note\": \"The cat grass is entirely safe for the cat to nibble, and toxic plants like Lantana or non-shade herbs have been excluded from the design.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,109 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s23",
+  "brief": "My balcony is partial shade with low moisture, and no pets live in the household. A half-shady balcony with dry soil and no pets, low maintenance only.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Hedera helix",
+    "Asplenium scolopendrium",
+    "Euonymus fortunei",
+    "Ophiopogon planiscapus 'Nigrescens'"
+  ],
+  "design": {
+    "site_summary": "A partial shade balcony with dry soil conditions and no pets in the household.",
+    "layout_strategy": "The scheme is structured in three distinct vertical layers to maximize visual depth in a compact space. The vertical layer features trailing plants cascading from the railing, the mid layer consists of upright structural perennials in containers against the back wall, and the ground layer comprises low-growing resilient foliage hugging the floor around the base pots.",
+    "combination_logic": "The combination relies on contrasting fine and bold leaf textures paired with a restrained cool-toned colour palette of silvers, deep greens, and soft purples. The upright mid-layer provides strong vertical accents, while the trailing plants soften the hard edges of the railing. Throughout the year, evergreen foliage maintains structure during winter, while spring and summer bring delicate flowers and new textural flushes.",
+    "zones": [
+      {
+        "zone_name": "Railing Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on the outer railing, receiving 3 hours of dappled morning light and sheltered from harsh winds",
+        "plants": [
+          {
+            "scientific_name": "Hedera helix",
+            "common_name": "English Ivy",
+            "why": "Extremely drought-tolerant once established and thrives in partial shade.",
+            "role_in_combination": "Provides a consistent trailing green backdrop that cascades gracefully over the metal railing, softening the overall architecture."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when the top two inches of soil are dry.",
+          "Feed with a balanced liquid fertilizer once a month in spring.",
+          "Trim back rogue trailing stems annually in late winter to maintain neatness."
+        ]
+      },
+      {
+        "zone_name": "Wall Structure",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "against the main back wall, situated in partial shade with indirect ambient light",
+        "plants": [
+          {
+            "scientific_name": "Asplenium scolopendrium",
+            "common_name": "Hart's Tongue Fern",
+            "why": "Adapts well to dry shade conditions and requires very little maintenance.",
+            "role_in_combination": "Offers a striking textural contrast with glossy, strap-shaped fronds that break up the vertical expanse of the wall."
+          },
+          {
+            "scientific_name": "Euonymus fortunei",
+            "common_name": "Winter Creeper",
+            "why": "Tolerates dry soils and partial shade while providing year-round structural presence.",
+            "role_in_combination": "Adds variegated color and a bushy medium-height volume that anchors the mid-level composition."
+          }
+        ],
+        "maintenance": [
+          "Water every 10 to 14 days depending on ambient humidity and rainfall.",
+          "Apply a slow-release granular fertilizer in early spring.",
+          "Remove any dead or yellowing fronds from the fern in late winter."
+        ]
+      },
+      {
+        "zone_name": "Floor Edge",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "at the base of the larger containers on the balcony floor, in deep partial shade",
+        "plants": [
+          {
+            "scientific_name": "Ophiopogon planiscapus 'Nigrescens'",
+            "common_name": "Black Mondo Grass",
+            "why": "Thrives in dry shade and creates a dense, weed-suppressing carpet at ground level.",
+            "role_in_combination": "Grounds the entire planting scheme with dramatic dark foliage that contrasts sharply with the lighter greens above."
+          }
+        ],
+        "maintenance": [
+          "Water sparingly, allowing the soil to dry out completely between waterings.",
+          "Clear away fallen debris from the foliage in autumn to prevent rot.",
+          "Divide congested clumps every three to four years in spring."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers with a finger test before watering.",
+        "frequency": "every 7 to 10 days in summer, every 3 to 4 weeks in winter",
+        "season": "all seasons"
+      },
+      {
+        "task": "Apply a dilute liquid seaweed extract to boost drought resilience.",
+        "frequency": "once a month",
+        "season": "spring and summer"
+      },
+      {
+        "task": "Clear accumulated dust and urban grime from the leaves of the ferns and ivy using a damp cloth.",
+        "frequency": "once every two months",
+        "season": "autumn and spring"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Black Mondo Grass in the ground-level containers can lead to fungal root rot due to the shaded, slow-drying environment.",
+      "The English Ivy in the railing basket may suffer from spider mites if the balcony air becomes exceptionally dry during hot summer heatwaves."
+    ],
+    "pet_safety_note": "Since no pets live in the household, standard non-toxic restrictions were not required, though the selected species are generally robust against urban environmental stressors."
+  },
+  "design_text": "{\n  \"site_summary\": \"A partial shade balcony with dry soil conditions and no pets in the household.\",\n  \"layout_strategy\": \"The scheme is structured in three distinct vertical layers to maximize visual depth in a compact space. The vertical layer features trailing plants cascading from the railing, the mid layer consists of upright structural perennials in containers against the back wall, and the ground layer comprises low-growing resilient foliage hugging the floor around the base pots.\",\n  \"combination_logic\": \"The combination relies on contrasting fine and bold leaf textures paired with a restrained cool-toned colour palette of silvers, deep greens, and soft purples. The upright mid-layer provides strong vertical accents, while the trailing plants soften the hard edges of the railing. Throughout the year, evergreen foliage maintains structure during winter, while spring and summer bring delicate flowers and new textural flushes.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the outer railing, receiving 3 hours of dappled morning light and sheltered from harsh winds\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hedera helix\",\n          \"common_name\": \"English Ivy\",\n          \"why\": \"Extremely drought-tolerant once established and thrives in partial shade.\",\n          \"role_in_combination\": \"Provides a consistent trailing green backdrop that cascades gracefully over the metal railing, softening the overall architecture.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when the top two inches of soil are dry.\",\n        \"Feed with a balanced liquid fertilizer once a month in spring.\",\n        \"Trim back rogue trailing stems annually in late winter to maintain neatness.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Wall Structure\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the main back wall, situated in partial shade with indirect ambient light\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Asplenium scolopendrium\",\n          \"common_name\": \"Hart's Tongue Fern\",\n          \"why\": \"Adapts well to dry shade conditions and requires very little maintenance.\",\n          \"role_in_combination\": \"Offers a striking textural contrast with glossy, strap-shaped fronds that break up the vertical expanse of the wall.\"\n        },\n        {\n          \"scientific_name\": \"Euonymus fortunei\",\n          \"common_name\": \"Winter Creeper\",\n          \"why\": \"Tolerates dry soils and partial shade while providing year-round structural presence.\",\n          \"role_in_combination\": \"Adds variegated color and a bushy medium-height volume that anchors the mid-level composition.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every 10 to 14 days depending on ambient humidity and rainfall.\",\n        \"Apply a slow-release granular fertilizer in early spring.\",\n        \"Remove any dead or yellowing fronds from the fern in late winter.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Floor Edge\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"at the base of the larger containers on the balcony floor, in deep partial shade\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Ophiopogon planiscapus 'Nigrescens'\",\n          \"common_name\": \"Black Mondo Grass\",\n          \"why\": \"Thrives in dry shade and creates a dense, weed-suppressing carpet at ground level.\",\n          \"role_in_combination\": \"Grounds the entire planting scheme with dramatic dark foliage that contrasts sharply with the lighter greens above.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water sparingly, allowing the soil to dry out completely between waterings.\",\n        \"Clear away fallen debris from the foliage in autumn to prevent rot.\",\n        \"Divide congested clumps every three to four years in spring.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers with a finger test before watering.\",\n      \"frequency\": \"every 7 to 10 days in summer, every 3 to 4 weeks in winter\",\n      \"season\": \"all seasons\"\n    },\n    {\n      \"task\": \"Apply a dilute liquid seaweed extract to boost drought resilience.\",\n      \"frequency\": \"once a month\",\n      \"season\": \"spring and summer\"\n    },\n    {\n      \"task\": \"Clear accumulated dust and urban grime from the leaves of the ferns and ivy using a damp cloth.\",\n      \"frequency\": \"once every two months\",\n      \"season\": \"autumn and spring\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Black Mondo Grass in the ground-level containers can lead to fungal root rot due to the shaded, slow-drying environment.\",\n    \"The English Ivy in the railing basket may suffer from spider mites if the balcony air becomes exceptionally dry during hot summer heatwaves.\"\n  ],\n  \"pet_safety_note\": \"Since no pets live in the household, standard non-toxic restrictions were not required, though the selected species are generally robust against urban environmental stressors.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

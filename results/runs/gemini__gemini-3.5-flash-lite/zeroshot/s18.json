@@ -1,0 +1,119 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s18",
+  "brief": "My balcony is full sun with moderate moisture, and no pets live in the household. A sunny balcony, no pets, I want a sensory planting with fragrant herbs.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Thymus serpyllum",
+    "Origanum vulgare",
+    "Rosmarinus officinalis",
+    "Lavandula angustifolia",
+    "Mentha spicata"
+  ],
+  "design": {
+    "site_summary": "A full sun balcony with moderate moisture and no pets in the household, designed as a fragrant sensory herb garden.",
+    "layout_strategy": "The scheme is structured in three distinct vertical layers starting with trailing fragrant herbs spilling over the railing at eye level, rising to upright architectural herb shrubs in containers at mid-height against the back wall, and finished with a low ground-level tray of aromatic groundcover along the floor edge.",
+    "combination_logic": "The plants work together through a harmonious contrast of fine needle-like foliage, broad soft leaves, and woody stems, combining strong aromatic scents of mint, lavender, and thyme. The visual composition layers silver-grey tones against deep greens, while the seasonal rhythm brings spring flushes of growth, summer peak flowering for pollinators, and evergreen structure in winter.",
+    "zones": [
+      {
+        "zone_name": "Railing Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On the south-facing balcony railing, receiving full sun all day with high exposure to wind and heat.",
+        "plants": [
+          {
+            "scientific_name": "Thymus serpyllum",
+            "common_name": "Creeping Thyme",
+            "why": "It loves full sun and naturally cascades over container edges, tolerating the exposed railing conditions.",
+            "role_in_combination": "Contributes a fine-textured, carpet-like green trail with tiny purple summer flowers that contrast against larger leaf shapes nearby."
+          },
+          {
+            "scientific_name": "Origanum vulgare",
+            "common_name": "Trailing Oregano",
+            "why": "Spills gracefully and thrives in baking sun.",
+            "role_in_combination": "Adds a looser, brighter green hanging habit that softens the rigid lines of the balcony railing."
+          }
+        ],
+        "maintenance": [
+          "Water daily during peak summer heat as hanging baskets dry out rapidly.",
+          "Feed with a liquid organic fertilizer once a month in spring and summer.",
+          "Prune back lightly after flowering to encourage dense new growth.",
+          "Repot every two years in fresh, well-draining gritty compost."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Architectural Wall",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Against the back interior wall of the balcony in large containers, receiving intense direct sunlight for over 6 hours a day.",
+        "plants": [
+          {
+            "scientific_name": "Rosmarinus officinalis",
+            "common_name": "Rosemary",
+            "why": "Provides height, structure, and intense fragrance while loving dry, sunny conditions.",
+            "role_in_combination": "Acts as the structural anchor with woody vertical stems and needle-like dark green leaves that provide year-round height contrast."
+          },
+          {
+            "scientific_name": "Lavandula angustifolia",
+            "common_name": "English Lavender",
+            "why": "Brings striking floral spikes and silvery foliage that thrive in baked spots.",
+            "role_in_combination": "Introduces a contrasting cool silver foliage color and vibrant purple summer flower spikes that elevate the sensory experience."
+          }
+        ],
+        "maintenance": [
+          "Water deeply once a week once established, allowing soil to dry slightly between waterings.",
+          "Feed lightly in early spring with a slow-release organic fertilizer.",
+          "Prune hard after flowering in late summer, cutting back to soft green growth but never into old bare wood.",
+          "Repot into larger containers every spring if root-bound."
+        ]
+      },
+      {
+        "zone_name": "Floor Level Sensory Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "In a wide, shallow wooden trough on the balcony floor near the entrance, getting full overhead sun.",
+        "plants": [
+          {
+            "scientific_name": "Mentha spicata",
+            "common_name": "Spearmint",
+            "why": "Contained safely in a low trough to prevent aggressive spreading, offering wonderful tactile and aromatic qualities.",
+            "role_in_combination": "Contributes lush, bright green broad leaves and a refreshing scent that contrasts sharply with the needle-like foliage of the rosemary."
+          }
+        ],
+        "maintenance": [
+          "Keep consistently moist, watering every two days in summer as mint hates drying out.",
+          "Cut back entirely to the soil level in late autumn to encourage fresh spring flushes.",
+          "Divide the root ball every spring to keep the plant vigorous and contained within the trough."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers with a finger test before watering.",
+        "frequency": "Daily in summer, twice a week in spring and autumn.",
+        "season": "Summer and Spring"
+      },
+      {
+        "task": "Apply organic liquid kelp fertilizer to all mid-level and hanging containers to support continuous herb growth.",
+        "frequency": "Every two weeks.",
+        "season": "Spring and Summer"
+      },
+      {
+        "task": "Inspect foliage and stems for aphids or spider mites which thrive in hot, dry balcony conditions.",
+        "frequency": "Weekly.",
+        "season": "Summer"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering and root rot in the hanging baskets can occur if drainage holes are blocked or if they are watered excessively during cooler, overcast spring days.",
+      "Scorch on the hot south-facing wall can stress the lavender and rosemary if they transition too quickly from a dark nursery to intense, reflective balcony sun without gradual hardening off.",
+      "Poor drainage in the floor-level mint trough can lead to stagnant water and root decay if excess runoff collects in a saucer below."
+    ],
+    "pet_safety_note": "Although no pets currently live in the household, the herbs selected are generally safe, and the layout avoids toxic ornamental plants."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full sun balcony with moderate moisture and no pets in the household, designed as a fragrant sensory herb garden.\",\n  \"layout_strategy\": \"The scheme is structured in three distinct vertical layers starting with trailing fragrant herbs spilling over the railing at eye level, rising to upright architectural herb shrubs in containers at mid-height against the back wall, and finished with a low ground-level tray of aromatic groundcover along the floor edge.\",\n  \"combination_logic\": \"The plants work together through a harmonious contrast of fine needle-like foliage, broad soft leaves, and woody stems, combining strong aromatic scents of mint, lavender, and thyme. The visual composition layers silver-grey tones against deep greens, while the seasonal rhythm brings spring flushes of growth, summer peak flowering for pollinators, and evergreen structure in winter.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On the south-facing balcony railing, receiving full sun all day with high exposure to wind and heat.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Thymus serpyllum\",\n          \"common_name\": \"Creeping Thyme\",\n          \"why\": \"It loves full sun and naturally cascades over container edges, tolerating the exposed railing conditions.\",\n          \"role_in_combination\": \"Contributes a fine-textured, carpet-like green trail with tiny purple summer flowers that contrast against larger leaf shapes nearby.\"\n        },\n        {\n          \"scientific_name\": \"Origanum vulgare\",\n          \"common_name\": \"Trailing Oregano\",\n          \"why\": \"Spills gracefully and thrives in baking sun.\",\n          \"role_in_combination\": \"Adds a looser, brighter green hanging habit that softens the rigid lines of the balcony railing.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water daily during peak summer heat as hanging baskets dry out rapidly.\",\n        \"Feed with a liquid organic fertilizer once a month in spring and summer.\",\n        \"Prune back lightly after flowering to encourage dense new growth.\",\n        \"Repot every two years in fresh, well-draining gritty compost.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Architectural Wall\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the back interior wall of the balcony in large containers, receiving intense direct sunlight for over 6 hours a day.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Rosmarinus officinalis\",\n          \"common_name\": \"Rosemary\",\n          \"why\": \"Provides height, structure, and intense fragrance while loving dry, sunny conditions.\",\n          \"role_in_combination\": \"Acts as the structural anchor with woody vertical stems and needle-like dark green leaves that provide year-round height contrast.\"\n        },\n        {\n          \"scientific_name\": \"Lavandula angustifolia\",\n          \"common_name\": \"English Lavender\",\n          \"why\": \"Brings striking floral spikes and silvery foliage that thrive in baked spots.\",\n          \"role_in_combination\": \"Introduces a contrasting cool silver foliage color and vibrant purple summer flower spikes that elevate the sensory experience.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water deeply once a week once established, allowing soil to dry slightly between waterings.\",\n        \"Feed lightly in early spring with a slow-release organic fertilizer.\",\n        \"Prune hard after flowering in late summer, cutting back to soft green growth but never into old bare wood.\",\n        \"Repot into larger containers every spring if root-bound.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Floor Level Sensory Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"In a wide, shallow wooden trough on the balcony floor near the entrance, getting full overhead sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Mentha spicata\",\n          \"common_name\": \"Spearmint\",\n          \"why\": \"Contained safely in a low trough to prevent aggressive spreading, offering wonderful tactile and aromatic qualities.\",\n          \"role_in_combination\": \"Contributes lush, bright green broad leaves and a refreshing scent that contrasts sharply with the needle-like foliage of the rosemary.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep consistently moist, watering every two days in summer as mint hates drying out.\",\n        \"Cut back entirely to the soil level in late autumn to encourage fresh spring flushes.\",\n        \"Divide the root ball every spring to keep the plant vigorous and contained within the trough.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers with a finger test before watering.\",\n      \"frequency\": \"Daily in summer, twice a week in spring and autumn.\",\n      \"season\": \"Summer and Spring\"\n    },\n    {\n      \"task\": \"Apply organic liquid kelp fertilizer to all mid-level and hanging containers to support continuous herb growth.\",\n      \"frequency\": \"Every two weeks.\",\n      \"season\": \"Spring and Summer\"\n    },\n    {\n      \"task\": \"Inspect foliage and stems for aphids or spider mites which thrive in hot, dry balcony conditions.\",\n      \"frequency\": \"Weekly.\",\n      \"season\": \"Summer\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering and root rot in the hanging baskets can occur if drainage holes are blocked or if they are watered excessively during cooler, overcast spring days.\",\n    \"Scorch on the hot south-facing wall can stress the lavender and rosemary if they transition too quickly from a dark nursery to intense, reflective balcony sun without gradual hardening off.\",\n    \"Poor drainage in the floor-level mint trough can lead to stagnant water and root decay if excess runoff collects in a saucer below.\"\n  ],\n  \"pet_safety_note\": \"Although no pets currently live in the household, the herbs selected are generally safe, and the layout avoids toxic ornamental plants.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,105 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s07",
+  "brief": "My balcony is bright indirect with moderate moisture, and one cat lives in the household. An east-facing balcony with no direct sun but very bright open shade, and a cat who chews absolutely everything.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Nephrolepis exaltata",
+    "Calathea lancifolia",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "An east-facing bright open shade balcony with moderate moisture and one curious cat who chews everything.",
+    "layout_strategy": "The scheme is structured into three vertical layers: trailing ferns and foliage cascade from high wall brackets above eye level, upright textural perennials sit in mid-height containers against the back wall, and a low grazing tray is placed directly on the floor for the cat.",
+    "combination_logic": "The combination relies on contrasting foliage textures, from the fine fronds of ferns to the bold, glossy leaves of calatheas and the soft blades of cat grass. The palette is dominated by rich greens and silvers that glow in bright indirect light, creating a lush, layered jungle effect that evolves subtly throughout the seasons as new fronds unfurl.",
+    "zones": [
+      {
+        "zone_name": "Canopy Cascades",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On high wall brackets against the east-facing wall, receiving bright indirect light and no direct sun.",
+        "plants": [
+          {
+            "scientific_name": "Nephrolepis exaltata",
+            "common_name": "Boston Fern",
+            "why": "Non-toxic to cats and thrives in bright indirect light and high humidity.",
+            "role_in_combination": "Provides fine-textured, arching green fronds that create a soft, cascading visual curtain."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top inch of soil feels dry.",
+          "Mist the fronds daily to maintain humidity.",
+          "Feed with a balanced liquid fertilizer monthly in spring and summer.",
+          "Repot every two years in fresh potting mix."
+        ]
+      },
+      {
+        "zone_name": "Jungle Backdrop",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "In stable containers against the inner east-facing balcony wall, basking in bright ambient light.",
+        "plants": [
+          {
+            "scientific_name": "Calathea lancifolia",
+            "common_name": "Rattlesnake Plant",
+            "why": "Completely pet-safe and adds striking pattern and upright form in indirect light.",
+            "role_in_combination": "Introduces bold vertical lines and dramatic leaf markings that contrast against the fine fern foliage."
+          }
+        ],
+        "maintenance": [
+          "Keep soil consistently moist but never waterlogged.",
+          "Wipe leaves gently with a damp cloth to remove dust.",
+          "Feed weakly every two weeks during the growing season.",
+          "Divide and repot in spring if root-bound."
+        ]
+      },
+      {
+        "zone_name": "Feline Grazing Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "On the balcony floor in an accessible corner, receiving gentle ambient light.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Cat Grass",
+            "why": "Safe, palatable grass specifically provided for the cat to chew on safely.",
+            "role_in_combination": "Offers a soft, grassy ground-level texture and serves a functional purpose to satisfy the cat's chewing urges."
+          }
+        ],
+        "maintenance": [
+          "Water lightly every few days to keep the shallow soil damp.",
+          "Discard and resow fresh seeds every 3 to 4 weeks as the grass declines.",
+          "No fertilizer required."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture in all containers by pushing a finger two inches into the potting mix.",
+        "frequency": "Twice a week in summer, weekly in spring and autumn",
+        "season": "Summer"
+      },
+      {
+        "task": "Clean balcony dust and fallen leaf debris from the floor to maintain hygiene.",
+        "frequency": "Weekly",
+        "season": "All seasons"
+      },
+      {
+        "task": "Apply half-strength liquid houseplant fertilizer to the mid and vertical zone containers.",
+        "frequency": "Every three weeks",
+        "season": "Spring and summer"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Boston Fern in the hanging brackets can lead to root rot if drainage holes are blocked.",
+      "The cat may excessively dig or knock over the low Cat Grass tray if it is not weighted down securely.",
+      "Low winter temperatures on the open balcony can shock tropical foliage like the Calathea, requiring relocation indoors."
+    ],
+    "pet_safety_note": "Every plant included in this scheme is completely non-toxic and safe for cats, while the dedicated grazing tray satisfies the cat's urge to chew."
+  },
+  "design_text": "{\n  \"site_summary\": \"An east-facing bright open shade balcony with moderate moisture and one curious cat who chews everything.\",\n  \"layout_strategy\": \"The scheme is structured into three vertical layers: trailing ferns and foliage cascade from high wall brackets above eye level, upright textural perennials sit in mid-height containers against the back wall, and a low grazing tray is placed directly on the floor for the cat.\",\n  \"combination_logic\": \"The combination relies on contrasting foliage textures, from the fine fronds of ferns to the bold, glossy leaves of calatheas and the soft blades of cat grass. The palette is dominated by rich greens and silvers that glow in bright indirect light, creating a lush, layered jungle effect that evolves subtly throughout the seasons as new fronds unfurl.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Canopy Cascades\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On high wall brackets against the east-facing wall, receiving bright indirect light and no direct sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Nephrolepis exaltata\",\n          \"common_name\": \"Boston Fern\",\n          \"why\": \"Non-toxic to cats and thrives in bright indirect light and high humidity.\",\n          \"role_in_combination\": \"Provides fine-textured, arching green fronds that create a soft, cascading visual curtain.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top inch of soil feels dry.\",\n        \"Mist the fronds daily to maintain humidity.\",\n        \"Feed with a balanced liquid fertilizer monthly in spring and summer.\",\n        \"Repot every two years in fresh potting mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Jungle Backdrop\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"In stable containers against the inner east-facing balcony wall, basking in bright ambient light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Calathea lancifolia\",\n          \"common_name\": \"Rattlesnake Plant\",\n          \"why\": \"Completely pet-safe and adds striking pattern and upright form in indirect light.\",\n          \"role_in_combination\": \"Introduces bold vertical lines and dramatic leaf markings that contrast against the fine fern foliage.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep soil consistently moist but never waterlogged.\",\n        \"Wipe leaves gently with a damp cloth to remove dust.\",\n        \"Feed weakly every two weeks during the growing season.\",\n        \"Divide and repot in spring if root-bound.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Feline Grazing Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"On the balcony floor in an accessible corner, receiving gentle ambient light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Cat Grass\",\n          \"why\": \"Safe, palatable grass specifically provided for the cat to chew on safely.\",\n          \"role_in_combination\": \"Offers a soft, grassy ground-level texture and serves a functional purpose to satisfy the cat's chewing urges.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water lightly every few days to keep the shallow soil damp.\",\n        \"Discard and resow fresh seeds every 3 to 4 weeks as the grass declines.\",\n        \"No fertilizer required.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture in all containers by pushing a finger two inches into the potting mix.\",\n      \"frequency\": \"Twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Clean balcony dust and fallen leaf debris from the floor to maintain hygiene.\",\n      \"frequency\": \"Weekly\",\n      \"season\": \"All seasons\"\n    },\n    {\n      \"task\": \"Apply half-strength liquid houseplant fertilizer to the mid and vertical zone containers.\",\n      \"frequency\": \"Every three weeks\",\n      \"season\": \"Spring and summer\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Boston Fern in the hanging brackets can lead to root rot if drainage holes are blocked.\",\n    \"The cat may excessively dig or knock over the low Cat Grass tray if it is not weighted down securely.\",\n    \"Low winter temperatures on the open balcony can shock tropical foliage like the Calathea, requiring relocation indoors.\"\n  ],\n  \"pet_safety_note\": \"Every plant included in this scheme is completely non-toxic and safe for cats, while the dedicated grazing tray satisfies the cat's urge to chew.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

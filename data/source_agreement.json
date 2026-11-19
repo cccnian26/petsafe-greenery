@@ -1,0 +1,200 @@
+{
+ "coverage": {
+  "curated_catalogue": 150,
+  "aspca_harvest_names": 1582,
+  "secondary_catalogue_names": 980,
+  "alias_names": 3872
+ },
+ "agreement": {
+  "overlap": 155,
+  "agree": 140,
+  "agreement_rate": 0.9032
+ },
+ "agreement_conflicts": [
+  {
+   "name": "Avocado",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "toxic"
+   }
+  },
+  {
+   "name": "Borage",
+   "aspca": {
+    "cats": true,
+    "dogs": true
+   },
+   "plantfolio": {
+    "cats": false,
+    "dogs": false,
+    "severity": "nonToxic"
+   }
+  },
+  {
+   "name": "Buckwheat",
+   "aspca": {
+    "cats": true,
+    "dogs": true
+   },
+   "plantfolio": {
+    "cats": false,
+    "dogs": false,
+    "severity": "nonToxic"
+   }
+  },
+  {
+   "name": "Catnip",
+   "aspca": {
+    "cats": true,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "mildlyToxic"
+   }
+  },
+  {
+   "name": "Cinnamon",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "mildlyToxic"
+   }
+  },
+  {
+   "name": "False Aralia",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "mildlyToxic"
+   }
+  },
+  {
+   "name": "Hops",
+   "aspca": {
+    "cats": false,
+    "dogs": true
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "toxic"
+   }
+  },
+  {
+   "name": "Lovage",
+   "aspca": {
+    "cats": true,
+    "dogs": true
+   },
+   "plantfolio": {
+    "cats": false,
+    "dogs": false,
+    "severity": "nonToxic"
+   }
+  },
+  {
+   "name": "Mahonia",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "mildlyToxic"
+   }
+  },
+  {
+   "name": "Mountain Laurel",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "toxic"
+   }
+  },
+  {
+   "name": "Oak",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "toxic"
+   }
+  },
+  {
+   "name": "Star Jasmine",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "mildlyToxic"
+   }
+  },
+  {
+   "name": "Sweet Pea",
+   "aspca": {
+    "cats": false,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "toxic"
+   }
+  },
+  {
+   "name": "Tarragon",
+   "aspca": {
+    "cats": true,
+    "dogs": true
+   },
+   "plantfolio": {
+    "cats": false,
+    "dogs": false,
+    "severity": "nonToxic"
+   }
+  },
+  {
+   "name": "Tiger Lily",
+   "aspca": {
+    "cats": true,
+    "dogs": false
+   },
+   "plantfolio": {
+    "cats": true,
+    "dogs": true,
+    "severity": "toxic"
+   }
+  }
+ ],
+ "curated_vs_harvest": {
+  "checked": 150,
+  "mismatches": 0,
+  "examples": []
+ }
+}

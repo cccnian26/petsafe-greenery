@@ -1,0 +1,4 @@
+method,A1 Vertical / trailing zone,A2 Ground-level zone,A3 Pet-accessible zone,B1 Spatial layering strategy stated,B2 Combination rationale stated,B3 Per-plant role in the composition,C1 At least three care instructions,C2 Watering frequency specified,C3 Light position specified,D1 At least two cautions,D2 A concrete risk is named,D3 The caution is specific to this design,E1 Safety note present,E2 Safety note names the pet,"E3 All zones populated, all plants justified"
+agent,0.92,1.0,1.0,1.0,1.0,1.0,0.8,1.0,1.0,1.0,1.0,1.0,1.0,0.88,0.12
+naive_rag,0.88,1.0,0.8,1.0,1.0,1.0,1.0,0.52,1.0,1.0,1.0,1.0,1.0,0.72,0.16
+zeroshot,0.96,1.0,0.88,1.0,1.0,1.0,1.0,0.4,0.96,1.0,0.96,0.96,1.0,0.76,0.2

@@ -1,0 +1,26 @@
+id,site_type,light,moisture,pets,brief_detail,expected_challenge
+s01,balcony,full_shade,moderate,cat,"A north-facing balcony behind a tall building, so it never sees direct sun. I want it to look lush anyway and my cat spends all day there.",deep shade + cat
+s02,balcony,partial_shade,moderate,cat|dog,A west-facing balcony with soft afternoon light filtered through a neighbouring tree. My indoor cat loves to sit among the pots.,partial shade + cat
+s03,balcony,full_sun,low,cat,"A south-facing balcony in summer gets brutal sun all day and the wind dries the soil quickly. One elderly cat, indoor, but I also worry about a stray.",full sun + dry + cat
+s04,balcony,partial_shade,high,dog,A small apartment balcony with a dripping air-conditioner that keeps the soil constantly wet. My beagle digs in every pot.,partial shade + wet + digger dog
+s05,courtyard,full_sun,moderate,dog,A ground-floor courtyard that gets full sun from midday. Two large dogs run through it daily and rub against the planters.,full sun + dog + rubbing
+s06,courtyard,full_shade,low,,"A walled courtyard with no direct sunlight at all and rain-shadow walls that keep it dry. Nobody lives here, it is just for the view.",deep shade + dry + control
+s07,balcony,bright_indirect,moderate,cat,"An east-facing balcony with no direct sun but very bright open shade, and a cat who chews absolutely everything.",bright indirect + cat + chewer
+s08,balcony,full_sun,high,,"A rooftop terrace with full sun and a shared rain barrel that keeps the soil wet. No pets, I just want a lush look.",full sun + wet + control
+s09,courtyard,partial_shade,low,dog,A shaded inner courtyard with very free-draining soil and a husky that digs up every root.,partial shade + dry + digger dog
+s10,balcony,full_shade,high,cat,"A damp north-facing balcony under dripping pipes, with a cat who loves to sit in the wet soil.",deep shade + wet + cat
+s11,balcony,full_sun,moderate,cat|dog,A sunny balcony and one cat. I would like some cat grass for her to nibble on.,full sun + cat + grazing request
+s12,balcony,partial_shade,moderate,dog,A half-shady balcony with a small dog who likes to nibble at plants.,partial shade + dog + nibbler
+s13,courtyard,bright_indirect,low,,"A bright but sunless courtyard with fast-draining gravel pots, purely decorative.",bright indirect + dry + control
+s14,balcony,full_sun,low,dog,A hot south balcony with dry soil and a dog who digs and chews.,full sun + dry + dog
+s15,balcony,partial_shade,high,cat|dog,"A shaded balcony with a rain barrel keeping the soil soggy, and a cat who is fascinated by anything green.",partial shade + wet + cat
+s16,courtyard,full_shade,moderate,cat,A fully shaded courtyard with a cat that spends hours in it.,deep shade + cat
+s17,balcony,bright_indirect,high,dog,A bright shaded balcony with wet soil and a dog who chews plants.,bright indirect + wet + dog
+s18,balcony,full_sun,moderate,,"A sunny balcony, no pets, I want a sensory planting with fragrant herbs.",full sun + control + sensory
+s19,courtyard,partial_shade,moderate,,"A courtyard with dappled light and moderate soil moisture, no pets, mainly visual interest.",partial shade + control
+s20,balcony,full_shade,low,cat,A pitch-black north balcony with dry wind-blown soil and a cat who sits in the corner all day.,deep shade + dry + cat + extreme
+s21,balcony,full_sun,high,cat|dog,"A sunny balcony kept wet by a drip hose, with one cat.",full sun + wet + cat
+s22,courtyard,full_shade,moderate,dog,A shaded courtyard where a large dog likes to rub against tall plants.,deep shade + dog + rubbing
+s23,balcony,partial_shade,low,,"A half-shady balcony with dry soil and no pets, low maintenance only.",partial shade + dry + control
+s24,balcony,bright_indirect,moderate,cat|dog,"A bright shaded balcony with a cat, and I want trailing plants to soften the railing.",bright indirect + cat + hanging
+s25,courtyard,full_sun,low,dog,"A hot, dry, sun-baked courtyard with a dog who digs and rubs against everything.",full sun + dry + dog + extreme

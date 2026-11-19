@@ -1,0 +1,8 @@
+{
+  "text": "ok",
+  "transcript": [],
+  "n_calls": 0,
+  "n_rounds": 0,
+  "backend": "gemini",
+  "model": "gemini-3.5-flash-lite"
+}

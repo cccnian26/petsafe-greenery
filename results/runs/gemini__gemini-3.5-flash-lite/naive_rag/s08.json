@@ -1,0 +1,198 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s08",
+  "brief": "My balcony is full sun with high moisture, and no pets live in the household. A rooftop terrace with full sun and a shared rain barrel that keeps the soil wet. No pets, I just want a lush look.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p008",
+      "scientific_name": "Aloysia triphylla",
+      "common_name": "Lemon Verbena",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Essential oils; Stomach upset, colic. No concerns if small amounts used in cooking or as flavoring agent",
+      "retrieval_score": 7.6709
+    },
+    {
+      "id": "p079",
+      "scientific_name": "Tradescantia flumeninsis",
+      "common_name": "Inch Plant",
+      "plant_type": "groundcover",
+      "light": "full_shade",
+      "moisture": "high",
+      "notes": "TOXIC to cats and dogs; Dermatitis",
+      "retrieval_score": 5.2712
+    },
+    {
+      "id": "p110",
+      "scientific_name": "Episcia dianthiflora",
+      "common_name": "Chocolate Soldier",
+      "plant_type": "foliage",
+      "light": "full_sun",
+      "moisture": "high",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 5.2712
+    },
+    {
+      "id": "p107",
+      "scientific_name": "Davallia spp.",
+      "common_name": "Ball Fern",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "high",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 5.1158
+    },
+    {
+      "id": "p126",
+      "scientific_name": "Nephrolepis biserrata",
+      "common_name": "Bold Sword Fern",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "high",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 4.9693
+    },
+    {
+      "id": "p127",
+      "scientific_name": "Nephrolepis exalta bostoniensis",
+      "common_name": "Boston Fern",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "high",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 4.9693
+    },
+    {
+      "id": "p056",
+      "scientific_name": "Lobelia cardinalis",
+      "common_name": "Cardinal Flower",
+      "plant_type": "herb",
+      "light": "full_shade",
+      "moisture": "high",
+      "notes": "TOXIC to cats and dogs; Lobeline; Depression, diarrhea, vomiting, excessive salivation, abdominal pain, heart rhythm disturbances",
+      "retrieval_score": 3.951
+    },
+    {
+      "id": "p075",
+      "scientific_name": "Spathiphyllum",
+      "common_name": "Peace Lily",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "high",
+      "notes": "TOXIC to cats and dogs; Insoluble calcium oxalates; Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty...",
+      "retrieval_score": 3.6984
+    }
+  ],
+  "recommended_plants": [
+    "Episcia dianthiflora",
+    "Nephrolepis exaltata bostoniensis",
+    "Lobelia cardinalis",
+    "Tradescantia fluminensis",
+    "Spathiphyllum"
+  ],
+  "design": {
+    "site_summary": "A full-sun, high-moisture rooftop terrace with a shared rain barrel supplying constant water and no pets in the household.",
+    "layout_strategy": "The scheme is vertically stacked with trailing foliage spilling from the railing baskets at eye level, lush architectural ferns and flowering herbs filling the mid-height containers against the sunny wall, and a dense, moisture-loving carpet of groundcover spreading across the floor-level containers.",
+    "combination_logic": "The combination relies on a striking textural contrast between the delicate, lace-like fronds of ferns, the glossy broad leaves of the peace lily, and the velvety trailing foliage of Episcia, creating a vibrant, tropical jungle effect that thrives under heavy moisture and full sun.",
+    "zones": [
+      {
+        "zone_name": "Rooftop Edge Cascades",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On the exterior rooftop railing, receiving full sun all day with constant moisture from the rain barrel.",
+        "plants": [
+          {
+            "scientific_name": "Episcia dianthiflora",
+            "common_name": "Chocolate Soldier",
+            "why": "Thrives in full sun and high moisture while providing a beautiful trailing habit.",
+            "role_in_combination": "Contributes glossy textured foliage and delicate white flowers that spill gracefully over the edges of the hanging baskets, contrasting with the rigid ferns below."
+          }
+        ],
+        "maintenance": [
+          "Water daily during peak summer using the rain barrel supply to prevent the hanging baskets from drying out.",
+          "Apply a balanced liquid fertilizer once a month in spring and summer.",
+          "Prune back long, leggy runners in early spring to encourage bushier growth."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Jungle Wall",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "Against the main perimeter wall at waist height, enjoying full sun with consistent moisture.",
+        "plants": [
+          {
+            "scientific_name": "Nephrolepis exaltata bostoniensis",
+            "common_name": "Boston Fern",
+            "why": "Loves high moisture and provides lush, volume-building green fronds.",
+            "role_in_combination": "Acts as the structural backbone of the mid-layer, offering feathery texture and dramatic height behind the lower plantings."
+          },
+          {
+            "scientific_name": "Lobelia cardinalis",
+            "common_name": "Cardinal Flower",
+            "why": "Thrives in wet soils and adds brilliant vertical spikes of color.",
+            "role_in_combination": "Provides a striking vertical element and intense red floral contrast against the sea of green foliage during its blooming season."
+          }
+        ],
+        "maintenance": [
+          "Ensure containers remain saturated using the rain barrel water.",
+          "Cut back spent flowering spikes of the Cardinal Flower to ground level in late autumn.",
+          "Divide overcrowded fern roots every two years in early spring."
+        ]
+      },
+      {
+        "zone_name": "Terrace Floor Carpet",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "In broad, shallow containers along the terrace floor, getting full sun and high ambient moisture.",
+        "plants": [
+          {
+            "scientific_name": "Tradescantia fluminensis",
+            "common_name": "Inch Plant",
+            "why": "Spreads rapidly and thrives in wet, high-moisture environments.",
+            "role_in_combination": "Forms a dense, succulent ground carpet that covers the bare soil in larger containers and catches the eye with its vibrant striped leaves."
+          },
+          {
+            "scientific_name": "Spathiphyllum",
+            "common_name": "Peace Lily",
+            "why": "Excels in very moist conditions and anchors the floor-level composition.",
+            "role_in_combination": "Brings bold, dark green vertical leaves and occasional elegant white spathes that pop against the trailing Inch Plant."
+          }
+        ],
+        "maintenance": [
+          "Keep the soil uniformly wet, taking advantage of the rain barrel runoff.",
+          "Trim back stray Inch Plant stems monthly to keep the ground cover neat and dense.",
+          "Remove yellowing lower leaves of the Peace Lily as they appear."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check moisture levels in all containers and flush with rain barrel water.",
+        "frequency": "Daily in peak summer, twice a week in spring and autumn.",
+        "season": "Summer"
+      },
+      {
+        "task": "Feed all containers with a water-soluble general fertilizer to support the lush tropical growth.",
+        "frequency": "Every three weeks.",
+        "season": "Spring and Summer"
+      },
+      {
+        "task": "Inspect plants for signs of heat stress or scorching on exceptionally hot rooftop days, providing temporary shading if necessary.",
+        "frequency": "Weekly during heatwaves.",
+        "season": "Summer"
+      }
+    ],
+    "care_cautions": [
+      "Despite the high moisture requirement, the hanging baskets containing Episcia dianthiflora can still suffer from extreme windburn and rapid drying on the exposed rooftop if the rain barrel supply fluctuates.",
+      "The full sun exposure on the rooftop terrace may cause leaf scorch on the Boston Ferns and Peace Lilies if the soil moisture drops even slightly on hot summer afternoons."
+    ],
+    "pet_safety_note": "No pets live in this household, so the inclusion of plants like Tradescantia fluminensis and Lobelia cardinalis poses no toxicity risk to animals."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full-sun, high-moisture rooftop terrace with a shared rain barrel supplying constant water and no pets in the household.\",\n  \"layout_strategy\": \"The scheme is vertically stacked with trailing foliage spilling from the railing baskets at eye level, lush architectural ferns and flowering herbs filling the mid-height containers against the sunny wall, and a dense, moisture-loving carpet of groundcover spreading across the floor-level containers.\",\n  \"combination_logic\": \"The combination relies on a striking textural contrast between the delicate, lace-like fronds of ferns, the glossy broad leaves of the peace lily, and the velvety trailing foliage of Episcia, creating a vibrant, tropical jungle effect that thrives under heavy moisture and full sun.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Rooftop Edge Cascades\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On the exterior rooftop railing, receiving full sun all day with constant moisture from the rain barrel.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Episcia dianthiflora\",\n          \"common_name\": \"Chocolate Soldier\",\n          \"why\": \"Thrives in full sun and high moisture while providing a beautiful trailing habit.\",\n          \"role_in_combination\": \"Contributes glossy textured foliage and delicate white flowers that spill gracefully over the edges of the hanging baskets, contrasting with the rigid ferns below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water daily during peak summer using the rain barrel supply to prevent the hanging baskets from drying out.\",\n        \"Apply a balanced liquid fertilizer once a month in spring and summer.\",\n        \"Prune back long, leggy runners in early spring to encourage bushier growth.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Jungle Wall\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the main perimeter wall at waist height, enjoying full sun with consistent moisture.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Nephrolepis exaltata bostoniensis\",\n          \"common_name\": \"Boston Fern\",\n          \"why\": \"Loves high moisture and provides lush, volume-building green fronds.\",\n          \"role_in_combination\": \"Acts as the structural backbone of the mid-layer, offering feathery texture and dramatic height behind the lower plantings.\"\n        },\n        {\n          \"scientific_name\": \"Lobelia cardinalis\",\n          \"common_name\": \"Cardinal Flower\",\n          \"why\": \"Thrives in wet soils and adds brilliant vertical spikes of color.\",\n          \"role_in_combination\": \"Provides a striking vertical element and intense red floral contrast against the sea of green foliage during its blooming season.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Ensure containers remain saturated using the rain barrel water.\",\n        \"Cut back spent flowering spikes of the Cardinal Flower to ground level in late autumn.\",\n        \"Divide overcrowded fern roots every two years in early spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Terrace Floor Carpet\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"In broad, shallow containers along the terrace floor, getting full sun and high ambient moisture.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Tradescantia fluminensis\",\n          \"common_name\": \"Inch Plant\",\n          \"why\": \"Spreads rapidly and thrives in wet, high-moisture environments.\",\n          \"role_in_combination\": \"Forms a dense, succulent ground carpet that covers the bare soil in larger containers and catches the eye with its vibrant striped leaves.\"\n        },\n        {\n          \"scientific_name\": \"Spathiphyllum\",\n          \"common_name\": \"Peace Lily\",\n          \"why\": \"Excels in very moist conditions and anchors the floor-level composition.\",\n          \"role_in_combination\": \"Brings bold, dark green vertical leaves and occasional elegant white spathes that pop against the trailing Inch Plant.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep the soil uniformly wet, taking advantage of the rain barrel runoff.\",\n        \"Trim back stray Inch Plant stems monthly to keep the ground cover neat and dense.\",\n        \"Remove yellowing lower leaves of the Peace Lily as they appear.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check moisture levels in all containers and flush with rain barrel water.\",\n      \"frequency\": \"Daily in peak summer, twice a week in spring and autumn.\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Feed all containers with a water-soluble general fertilizer to support the lush tropical growth.\",\n      \"frequency\": \"Every three weeks.\",\n      \"season\": \"Spring and Summer\"\n    },\n    {\n      \"task\": \"Inspect plants for signs of heat stress or scorching on exceptionally hot rooftop days, providing temporary shading if necessary.\",\n      \"frequency\": \"Weekly during heatwaves.\",\n      \"season\": \"Summer\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Despite the high moisture requirement, the hanging baskets containing Episcia dianthiflora can still suffer from extreme windburn and rapid drying on the exposed rooftop if the rain barrel supply fluctuates.\",\n    \"The full sun exposure on the rooftop terrace may cause leaf scorch on the Boston Ferns and Peace Lilies if the soil moisture drops even slightly on hot summer afternoons.\"\n  ],\n  \"pet_safety_note\": \"No pets live in this household, so the inclusion of plants like Tradescantia fluminensis and Lobelia cardinalis poses no toxicity risk to animals.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

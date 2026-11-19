@@ -1,0 +1,108 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s13",
+  "brief": "My courtyard is bright indirect with low moisture, and no pets live in the household. A bright but sunless courtyard with fast-draining gravel pots, purely decorative.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Nephrolepis exaltata",
+    "Aspidistra elatior",
+    "Chlorophytum comosum",
+    "Sedum makinoi"
+  ],
+  "design": {
+    "site_summary": "A bright indirect courtyard with low moisture and fast-draining gravel pots, with no pets living in the household.",
+    "layout_strategy": "The scheme is structured into three height layers: trailing shade-loving ferns on wall hooks at the vertical level, lush architectural foliage plants in mid-height containers against the back wall, and low-growing textural succulents and shade perennials spilling across the floor-level gravel pots.",
+    "combination_logic": "The plants work together through a strong contrast of fine textures, glossy fronds, and matte succulent rosettes. The vertical ferns provide soft, weeping motion that draws the eye upward, the mid-layer broad-leaved plants anchor the walls with rich green structural weight, and the ground-level stonecrop and ivy act as a cohesive, low-maintenance carpet that unifies the fast-draining gravel aesthetic.",
+    "zones": [
+      {
+        "zone_name": "Vertical Canopy",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On high wall-mounted hooks, receiving bright indirect ambient light from the open courtyard sky with no direct sun.",
+        "plants": [
+          {
+            "scientific_name": "Nephrolepis exaltata",
+            "common_name": "Boston Fern",
+            "why": "Thrives in bright indirect light and adds lush, weeping vertical volume.",
+            "role_in_combination": "Contributes soft, fine-textured weeping fronds that break the rigid lines of the courtyard walls and contrast sharply with the stiff foliage below."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top two inches of potting mix feel dry, approximately once a week.",
+          "Mist the fronds bi-weekly to maintain ambient humidity.",
+          "Remove any brown or dead fronds at the base as needed."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Walls",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "In large wall planters at knee-to-waist height, positioned against the main courtyard wall in bright indirect light.",
+        "plants": [
+          {
+            "scientific_name": "Aspidistra elatior",
+            "common_name": "Cast Iron Plant",
+            "why": "Extremely resilient in low moisture and indirect light conditions.",
+            "role_in_combination": "Provides bold, upright, glossy dark green lance-shaped leaves that create a strong architectural anchor against the wall."
+          },
+          {
+            "scientific_name": "Chlorophytum comosum",
+            "common_name": "Spider Plant",
+            "why": "Adapts well to bright indirect light and fast-draining gravel-topped potting media.",
+            "role_in_combination": "Offers a bright variegated contrast with arched linear leaves that soften the dark, glossy mass of the Cast Iron Plant."
+          }
+        ],
+        "maintenance": [
+          "Allow the soil to dry out moderately between waterings to prevent root issues in the gravel medium.",
+          "Feed with a balanced liquid fertilizer once a month during spring and summer.",
+          "Repot every two to three years in fresh, well-draining potting mix."
+        ]
+      },
+      {
+        "zone_name": "Ground Edging",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "In wide, shallow gravel-topped pots resting directly on the courtyard floor, receiving diffused indirect light from above.",
+        "plants": [
+          {
+            "scientific_name": "Sedum makinoi",
+            "common_name": "Stonecrop",
+            "why": "Thrives in fast-draining gravel pots and low moisture environments.",
+            "role_in_combination": "Acts as a low, creeping green carpet that weaves between the larger pots, offering a fleshy, succulent leaf texture."
+          }
+        ],
+        "maintenance": [
+          "Water sparingly, as this zone retains drought tolerance well in the gravel setup.",
+          "Trim back any creeping stems in early spring to keep the pots looking neat and contained."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers by inserting a finger into the gravel and topsoil.",
+        "frequency": "Once a week in summer, every two weeks in autumn and winter",
+        "season": "All seasons"
+      },
+      {
+        "task": "Apply a half-strength balanced liquid fertilizer to the mid-level structural pots to support steady foliage growth.",
+        "frequency": "Monthly",
+        "season": "Spring and summer"
+      },
+      {
+        "task": "Inspect the Boston Fern and Cast Iron Plant for dust accumulation on leaves, wiping gently with a damp cloth.",
+        "frequency": "Monthly",
+        "season": "Spring and autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Boston Fern in its vertical hanging basket can lead to root rot, especially since the courtyard lacks direct sun to quickly evaporate excess moisture.",
+      "The fast-draining gravel pots on the ground layer may dry out too quickly during unexpected warm spells, causing the Sedum makinoi to wrinkle if not checked."
+    ],
+    "pet_safety_note": "As there are no pets living in the household, pet safety is not a limiting factor for this decorative shade scheme."
+  },
+  "design_text": "{\n  \"site_summary\": \"A bright indirect courtyard with low moisture and fast-draining gravel pots, with no pets living in the household.\",\n  \"layout_strategy\": \"The scheme is structured into three height layers: trailing shade-loving ferns on wall hooks at the vertical level, lush architectural foliage plants in mid-height containers against the back wall, and low-growing textural succulents and shade perennials spilling across the floor-level gravel pots.\",\n  \"combination_logic\": \"The plants work together through a strong contrast of fine textures, glossy fronds, and matte succulent rosettes. The vertical ferns provide soft, weeping motion that draws the eye upward, the mid-layer broad-leaved plants anchor the walls with rich green structural weight, and the ground-level stonecrop and ivy act as a cohesive, low-maintenance carpet that unifies the fast-draining gravel aesthetic.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Vertical Canopy\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On high wall-mounted hooks, receiving bright indirect ambient light from the open courtyard sky with no direct sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Nephrolepis exaltata\",\n          \"common_name\": \"Boston Fern\",\n          \"why\": \"Thrives in bright indirect light and adds lush, weeping vertical volume.\",\n          \"role_in_combination\": \"Contributes soft, fine-textured weeping fronds that break the rigid lines of the courtyard walls and contrast sharply with the stiff foliage below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top two inches of potting mix feel dry, approximately once a week.\",\n        \"Mist the fronds bi-weekly to maintain ambient humidity.\",\n        \"Remove any brown or dead fronds at the base as needed.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Walls\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"In large wall planters at knee-to-waist height, positioned against the main courtyard wall in bright indirect light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Aspidistra elatior\",\n          \"common_name\": \"Cast Iron Plant\",\n          \"why\": \"Extremely resilient in low moisture and indirect light conditions.\",\n          \"role_in_combination\": \"Provides bold, upright, glossy dark green lance-shaped leaves that create a strong architectural anchor against the wall.\"\n        },\n        {\n          \"scientific_name\": \"Chlorophytum comosum\",\n          \"common_name\": \"Spider Plant\",\n          \"why\": \"Adapts well to bright indirect light and fast-draining gravel-topped potting media.\",\n          \"role_in_combination\": \"Offers a bright variegated contrast with arched linear leaves that soften the dark, glossy mass of the Cast Iron Plant.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Allow the soil to dry out moderately between waterings to prevent root issues in the gravel medium.\",\n        \"Feed with a balanced liquid fertilizer once a month during spring and summer.\",\n        \"Repot every two to three years in fresh, well-draining potting mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Edging\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"In wide, shallow gravel-topped pots resting directly on the courtyard floor, receiving diffused indirect light from above.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sedum makinoi\",\n          \"common_name\": \"Stonecrop\",\n          \"why\": \"Thrives in fast-draining gravel pots and low moisture environments.\",\n          \"role_in_combination\": \"Acts as a low, creeping green carpet that weaves between the larger pots, offering a fleshy, succulent leaf texture.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water sparingly, as this zone retains drought tolerance well in the gravel setup.\",\n        \"Trim back any creeping stems in early spring to keep the pots looking neat and contained.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers by inserting a finger into the gravel and topsoil.\",\n      \"frequency\": \"Once a week in summer, every two weeks in autumn and winter\",\n      \"season\": \"All seasons\"\n    },\n    {\n      \"task\": \"Apply a half-strength balanced liquid fertilizer to the mid-level structural pots to support steady foliage growth.\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Spring and summer\"\n    },\n    {\n      \"task\": \"Inspect the Boston Fern and Cast Iron Plant for dust accumulation on leaves, wiping gently with a damp cloth.\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Spring and autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Boston Fern in its vertical hanging basket can lead to root rot, especially since the courtyard lacks direct sun to quickly evaporate excess moisture.\",\n    \"The fast-draining gravel pots on the ground layer may dry out too quickly during unexpected warm spells, causing the Sedum makinoi to wrinkle if not checked.\"\n  ],\n  \"pet_safety_note\": \"As there are no pets living in the household, pet safety is not a limiting factor for this decorative shade scheme.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

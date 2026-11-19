@@ -1,0 +1,198 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s16",
+  "brief": "My courtyard is full shade with moderate moisture, and one cat lives in the household. A fully shaded courtyard with a cat that spends hours in it.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p104",
+      "scientific_name": "Chlorophytum comosum",
+      "common_name": "Spider Plant",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.4984
+    },
+    {
+      "id": "p091",
+      "scientific_name": "Ageratina altissima",
+      "common_name": "White Snakeroot",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.4248
+    },
+    {
+      "id": "p095",
+      "scientific_name": "Aspidistra elatior",
+      "common_name": "Cast Iron Plant",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.4248
+    },
+    {
+      "id": "p103",
+      "scientific_name": "Chamaedorea elegans",
+      "common_name": "Parlor Palm",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.4248
+    },
+    {
+      "id": "p135",
+      "scientific_name": "Pilea nummulariifolia",
+      "common_name": "Creeping Charlie",
+      "plant_type": "groundcover",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.4248
+    },
+    {
+      "id": "p096",
+      "scientific_name": "Asplenium bulbiferum",
+      "common_name": "Hen and Chickens Fern",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.3553
+    },
+    {
+      "id": "p106",
+      "scientific_name": "Cyrtomium falcatum",
+      "common_name": "Fish Tail Fern",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.3553
+    },
+    {
+      "id": "p037",
+      "scientific_name": "Ficus benjamina",
+      "common_name": "Indian Rubber Plant; Fig",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Proteolytic enzyme (ficin), psoralen (ficusin)",
+      "retrieval_score": 2.1133
+    }
+  ],
+  "recommended_plants": [
+    "Chlorophytum comosum",
+    "Aspidistra elatior",
+    "Chamaedorea elegans",
+    "Asplenium bulbiferum",
+    "Pilea nummulariifolia"
+  ],
+  "design": {
+    "site_summary": "A fully shaded courtyard with moderate moisture and one cat that spends hours exploring it.",
+    "layout_strategy": "The scheme stacks from the top down, with trailing foliage in hanging baskets at the upper level, structural upright architectural plants at mid height against the courtyard walls, and a lush, sprawling groundcover layer carpeting the floor pots.",
+    "combination_logic": "The combination relies on contrasting foliage shapes, ranging from the delicate fronds of ferns and palms to the broad, glossy leaves of the cast iron plant, creating a moody, dynamic woodland texture across the seasons without relying on blooms.",
+    "zones": [
+      {
+        "zone_name": "Upper Foliage Canopy",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On courtyard wall hooks in full shade, receiving no direct sun and ambient courtyard light.",
+        "plants": [
+          {
+            "scientific_name": "Chlorophytum comosum",
+            "common_name": "Spider Plant",
+            "why": "Adapts exceptionally well to full shade and trailing habit fits high placement.",
+            "role_in_combination": "Provides bright linear contrast and dangling pups that soften the hard edges of the courtyard walls."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top two inches of soil are dry.",
+          "Feed with a balanced liquid fertilizer monthly during the growing season.",
+          "Remove any browned leaf tips with clean scissors."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Architecture",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "Against the main courtyard walls at knee-to-waist height in complete shade.",
+        "plants": [
+          {
+            "scientific_name": "Aspidistra elatior",
+            "common_name": "Cast Iron Plant",
+            "why": "Thrives in deep shade and provides a sturdy vertical backdrop.",
+            "role_in_combination": "Serves as the structural anchor with broad, dark green upright leaves that contrast with finer fronds."
+          },
+          {
+            "scientific_name": "Chamaedorea elegans",
+            "common_name": "Parlor Palm",
+            "why": "Brings vertical height and a delicate tropical texture to the shaded mid layer.",
+            "role_in_combination": "Adds soft, feathery verticality that breaks up the heaviness of the cast iron plant leaves."
+          },
+          {
+            "scientific_name": "Asplenium bulbiferum",
+            "common_name": "Hen and Chickens Fern",
+            "why": "Loves moderate moisture and full shade, perfectly matching the courtyard microclimate.",
+            "role_in_combination": "Introduces fine-textured, arching fronds that contrast directly with the stiff architectural leaves of nearby plants."
+          }
+        ],
+        "maintenance": [
+          "Keep soil consistently moist but never waterlogged.",
+          "Wipe broad leaves occasionally with a damp cloth to remove dust.",
+          "Prune away old or yellowing fronds at the base in early spring."
+        ]
+      },
+      {
+        "zone_name": "Ground Carpet",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "At floor level along the base of the walls and low pots in deep shade, fully accessible to the cat.",
+        "plants": [
+          {
+            "scientific_name": "Pilea nummulariifolia",
+            "common_name": "Creeping Charlie",
+            "why": "Acts as a lush groundcover that tolerates shade and moderate moisture well.",
+            "role_in_combination": "Creates a dense, textured green carpet at the base of larger pots, providing a safe and tactile spot for the cat."
+          }
+        ],
+        "maintenance": [
+          "Water regularly to keep the surface soil evenly damp.",
+          "Trim back stray stems with shears if they escape the pot boundaries in summer.",
+          "Repot every two years in spring if growth becomes congested."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers",
+        "frequency": "Twice a week in summer, weekly in autumn and winter",
+        "season": "Year-round"
+      },
+      {
+        "task": "Apply a dilute liquid houseplant fertilizer to mid-level and hanging containers",
+        "frequency": "Every four weeks",
+        "season": "Spring and summer"
+      },
+      {
+        "task": "Clear away fallen organic debris from pots to prevent fungal issues",
+        "frequency": "Bi-weekly",
+        "season": "Autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering can easily occur in the shaded hanging baskets containing Chlorophytum comosum since evaporation is slow, leading to root rot.",
+      "The ground-level Pilea nummulariifolia is accessible and actively attractive to the resident cat, so monitor for excessive chewing and trampling."
+    ],
+    "pet_safety_note": "All selected plants including the spider plant and creeping charlie are completely non-toxic and safe for cats to interact with during their courtyard hours."
+  },
+  "design_text": "{\n  \"site_summary\": \"A fully shaded courtyard with moderate moisture and one cat that spends hours exploring it.\",\n  \"layout_strategy\": \"The scheme stacks from the top down, with trailing foliage in hanging baskets at the upper level, structural upright architectural plants at mid height against the courtyard walls, and a lush, sprawling groundcover layer carpeting the floor pots.\",\n  \"combination_logic\": \"The combination relies on contrasting foliage shapes, ranging from the delicate fronds of ferns and palms to the broad, glossy leaves of the cast iron plant, creating a moody, dynamic woodland texture across the seasons without relying on blooms.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Upper Foliage Canopy\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On courtyard wall hooks in full shade, receiving no direct sun and ambient courtyard light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Chlorophytum comosum\",\n          \"common_name\": \"Spider Plant\",\n          \"why\": \"Adapts exceptionally well to full shade and trailing habit fits high placement.\",\n          \"role_in_combination\": \"Provides bright linear contrast and dangling pups that soften the hard edges of the courtyard walls.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top two inches of soil are dry.\",\n        \"Feed with a balanced liquid fertilizer monthly during the growing season.\",\n        \"Remove any browned leaf tips with clean scissors.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Architecture\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the main courtyard walls at knee-to-waist height in complete shade.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Aspidistra elatior\",\n          \"common_name\": \"Cast Iron Plant\",\n          \"why\": \"Thrives in deep shade and provides a sturdy vertical backdrop.\",\n          \"role_in_combination\": \"Serves as the structural anchor with broad, dark green upright leaves that contrast with finer fronds.\"\n        },\n        {\n          \"scientific_name\": \"Chamaedorea elegans\",\n          \"common_name\": \"Parlor Palm\",\n          \"why\": \"Brings vertical height and a delicate tropical texture to the shaded mid layer.\",\n          \"role_in_combination\": \"Adds soft, feathery verticality that breaks up the heaviness of the cast iron plant leaves.\"\n        },\n        {\n          \"scientific_name\": \"Asplenium bulbiferum\",\n          \"common_name\": \"Hen and Chickens Fern\",\n          \"why\": \"Loves moderate moisture and full shade, perfectly matching the courtyard microclimate.\",\n          \"role_in_combination\": \"Introduces fine-textured, arching fronds that contrast directly with the stiff architectural leaves of nearby plants.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep soil consistently moist but never waterlogged.\",\n        \"Wipe broad leaves occasionally with a damp cloth to remove dust.\",\n        \"Prune away old or yellowing fronds at the base in early spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Carpet\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"At floor level along the base of the walls and low pots in deep shade, fully accessible to the cat.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Pilea nummulariifolia\",\n          \"common_name\": \"Creeping Charlie\",\n          \"why\": \"Acts as a lush groundcover that tolerates shade and moderate moisture well.\",\n          \"role_in_combination\": \"Creates a dense, textured green carpet at the base of larger pots, providing a safe and tactile spot for the cat.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water regularly to keep the surface soil evenly damp.\",\n        \"Trim back stray stems with shears if they escape the pot boundaries in summer.\",\n        \"Repot every two years in spring if growth becomes congested.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers\",\n      \"frequency\": \"Twice a week in summer, weekly in autumn and winter\",\n      \"season\": \"Year-round\"\n    },\n    {\n      \"task\": \"Apply a dilute liquid houseplant fertilizer to mid-level and hanging containers\",\n      \"frequency\": \"Every four weeks\",\n      \"season\": \"Spring and summer\"\n    },\n    {\n      \"task\": \"Clear away fallen organic debris from pots to prevent fungal issues\",\n      \"frequency\": \"Bi-weekly\",\n      \"season\": \"Autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering can easily occur in the shaded hanging baskets containing Chlorophytum comosum since evaporation is slow, leading to root rot.\",\n    \"The ground-level Pilea nummulariifolia is accessible and actively attractive to the resident cat, so monitor for excessive chewing and trampling.\"\n  ],\n  \"pet_safety_note\": \"All selected plants including the spider plant and creeping charlie are completely non-toxic and safe for cats to interact with during their courtyard hours.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

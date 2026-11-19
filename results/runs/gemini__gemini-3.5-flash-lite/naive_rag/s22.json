@@ -1,0 +1,209 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s22",
+  "brief": "My courtyard is full shade with moderate moisture, and one dog lives in the household. A shaded courtyard where a large dog likes to rub against tall plants.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p018",
+      "scientific_name": "Clivia minata",
+      "common_name": "Kaffir Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 3.9346
+    },
+    {
+      "id": "p019",
+      "scientific_name": "Clivia spp.",
+      "common_name": "Clivia Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 3.9346
+    },
+    {
+      "id": "p064",
+      "scientific_name": "Petroselinum crispum",
+      "common_name": "Parsley",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Furanocoumarins; Photosensitization (sunburn, dermatitis), large amounts are needed to cause this effect",
+      "retrieval_score": 3.4691
+    },
+    {
+      "id": "p057",
+      "scientific_name": "Mentha sp.",
+      "common_name": "Mint",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "high",
+      "notes": "TOXIC to cats and dogs; Essential Oils; Vomiting and diarrhea with large ingestions",
+      "retrieval_score": 3.2839
+    },
+    {
+      "id": "p044",
+      "scientific_name": "Hippeastrum spp.",
+      "common_name": "Fire Lily",
+      "plant_type": "perennial",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 2.9018
+    },
+    {
+      "id": "p060",
+      "scientific_name": "Narcissus spp",
+      "common_name": "Daffodil; Paper White",
+      "plant_type": "perennial",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 2.8437
+    },
+    {
+      "id": "p026",
+      "scientific_name": "Cyclamen spp",
+      "common_name": "Cyclamen",
+      "plant_type": "foliage",
+      "light": "bright_indirect",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Terpenoid saponins; Salivation, vomiting, diarrhea. Following large ingestions of tubers: heart rhythm abnormalities, seizures, death",
+      "retrieval_score": 2.7802
+    },
+    {
+      "id": "p053",
+      "scientific_name": "Laurus nobilis",
+      "common_name": "Bay Laurel",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Eugenol, and other essential oils; Vomiting and diarrhea, Large ingestion of whole leaves can cause obstruction",
+      "retrieval_score": 2.7117
+    }
+  ],
+  "recommended_plants": [
+    "Laurus nobilis",
+    "Clivia miniata",
+    "Cyclamen spp.",
+    "Narcissus spp.",
+    "Mentha sp.",
+    "Petroselinum crispum"
+  ],
+  "design": {
+    "site_summary": "A full shade, moderately moist courtyard housing one large dog.",
+    "layout_strategy": "Upright shrubs and perennials create a sturdy mid layer against the courtyard walls that can withstand dog rubbing, complemented by a low ground layer of delicate foliage and a pet-accessible low grazing herb patch.",
+    "combination_logic": "The scheme pairs the broad, strappy leaves and vibrant seasonal blooms of Clivia with the fine, textured aromatic foliage of mint and parsley. Glossy evergreen leaves of Laurus nobilis provide a permanent architectural anchor, while cyclamen and seasonal bulbs add bursts of unexpected contrast, transitioning from structural greenery in winter to bright floral accents in spring.",
+    "zones": [
+      {
+        "zone_name": "Mid-Level Structural Wall",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Against the back courtyard wall in full shade, knee to waist height, protected from direct afternoon sun.",
+        "plants": [
+          {
+            "scientific_name": "Laurus nobilis",
+            "common_name": "Bay Laurel",
+            "why": "Provides a sturdy, woody evergreen shrub structure that can handle being brushed against by a large dog.",
+            "role_in_combination": "Acts as the permanent architectural backbone of the mid-layer, offering dark green, glossy texture year-round."
+          },
+          {
+            "scientific_name": "Clivia miniata",
+            "common_name": "Kaffir Lily",
+            "why": "Thrives in full shade and moderate moisture, adding height and form.",
+            "role_in_combination": "Contributes bold, strappy foliage contrast and striking orange seasonal flower clusters that pop against the dark bay laurel."
+          }
+        ],
+        "maintenance": [
+          "Water moderately when the top two inches of soil feel dry",
+          "Feed with a balanced liquid fertilizer monthly during the spring and summer growing season",
+          "Prune bay laurel lightly in late spring to maintain desired shape",
+          "Repot every 2 to 3 years in fresh, well-draining potting mix"
+        ]
+      },
+      {
+        "zone_name": "Ground Level Shade Bed",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "Along the perimeter floor of the courtyard in full shade, receiving indirect ambient light.",
+        "plants": [
+          {
+            "scientific_name": "Cyclamen spp.",
+            "common_name": "Cyclamen",
+            "why": "Adapts well to bright indirect light and damp, shaded ground environments.",
+            "role_in_combination": "Brings heart-shaped patterned foliage and delicate upward-facing blooms that carpet the base of the taller structural plants."
+          },
+          {
+            "scientific_name": "Narcissus spp.",
+            "common_name": "Daffodil",
+            "why": "Adds seasonal rhythm to the dark corner of the courtyard.",
+            "role_in_combination": "Provides bright yellow early-spring vertical focal points that emerge through the lower foliage layer before dying back cleanly."
+          }
+        ],
+        "maintenance": [
+          "Water when the soil surface dries slightly, ensuring pots or beds do not become waterlogged",
+          "Remove spent flower stems and yellowing leaves promptly to prevent fungal rot",
+          "Apply a low-nitrogen bulb fertilizer in early spring",
+          "Divide overcrowded tubers or bulbs every few years during their summer dormancy"
+        ]
+      },
+      {
+        "zone_name": "Pet Grazing and Herb Corner",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "In an easily accessible corner on the courtyard floor, receiving moderate filtered light.",
+        "plants": [
+          {
+            "scientific_name": "Mentha sp.",
+            "common_name": "Mint",
+            "why": "Grows vigorously in moist, shaded conditions and provides sensory stimulation for pets.",
+            "role_in_combination": "Contributes a soft, sprawling green mat with aromatic foliage that contrasts in texture against the rigid architectural plants."
+          },
+          {
+            "scientific_name": "Petroselinum crispum",
+            "common_name": "Parsley",
+            "why": "Thrives in moderate moisture and partial to full shade, perfectly safe for canine nibbling.",
+            "role_in_combination": "Adds finely divided, ruffled green leaves that introduce a light, delicate foliage texture at the base of the composition."
+          }
+        ],
+        "maintenance": [
+          "Keep the soil consistently moist as these herbs prefer higher moisture levels",
+          "Harvest frequently by snipping stems to encourage bushier, fresh growth",
+          "Feed lightly with an organic liquid fertilizer once a month in spring",
+          "Divide the mint root runners annually to prevent them from overtaking the container or bed"
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all courtyard zones to ensure adequate hydration without waterlogging.",
+        "frequency": "Twice a week in summer, weekly in spring and autumn",
+        "season": "Summer and Spring"
+      },
+      {
+        "task": "Apply balanced liquid fertilizer to support foliage and seasonal blooms.",
+        "frequency": "Monthly",
+        "season": "Spring and Summer"
+      },
+      {
+        "task": "Clear away fallen leaves and dead plant debris from the ground layer to prevent fungal disease in the damp shade.",
+        "frequency": "Bi-weekly",
+        "season": "Autumn and Winter"
+      }
+    ],
+    "care_cautions": [
+      "Clivia miniata contains alkaloids that are toxic if ingested, so ensure the large dog does not chew on the mid-layer Clivia leaves.",
+      "Mint in the grazing corner can become overly aggressive and crowd out the parsley if its root spread is not routinely restricted.",
+      "Full shade combined with overzealous watering in the ground layer can cause root rot in cyclamen tubers."
+    ],
+    "pet_safety_note": "The design designates a specific low-level grazing zone containing safe herbs like mint and parsley for the dog to interact with, while keeping toxic shade perennials safely elevated or out of direct chewing reach."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full shade, moderately moist courtyard housing one large dog.\",\n  \"layout_strategy\": \"Upright shrubs and perennials create a sturdy mid layer against the courtyard walls that can withstand dog rubbing, complemented by a low ground layer of delicate foliage and a pet-accessible low grazing herb patch.\",\n  \"combination_logic\": \"The scheme pairs the broad, strappy leaves and vibrant seasonal blooms of Clivia with the fine, textured aromatic foliage of mint and parsley. Glossy evergreen leaves of Laurus nobilis provide a permanent architectural anchor, while cyclamen and seasonal bulbs add bursts of unexpected contrast, transitioning from structural greenery in winter to bright floral accents in spring.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Mid-Level Structural Wall\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the back courtyard wall in full shade, knee to waist height, protected from direct afternoon sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Laurus nobilis\",\n          \"common_name\": \"Bay Laurel\",\n          \"why\": \"Provides a sturdy, woody evergreen shrub structure that can handle being brushed against by a large dog.\",\n          \"role_in_combination\": \"Acts as the permanent architectural backbone of the mid-layer, offering dark green, glossy texture year-round.\"\n        },\n        {\n          \"scientific_name\": \"Clivia miniata\",\n          \"common_name\": \"Kaffir Lily\",\n          \"why\": \"Thrives in full shade and moderate moisture, adding height and form.\",\n          \"role_in_combination\": \"Contributes bold, strappy foliage contrast and striking orange seasonal flower clusters that pop against the dark bay laurel.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water moderately when the top two inches of soil feel dry\",\n        \"Feed with a balanced liquid fertilizer monthly during the spring and summer growing season\",\n        \"Prune bay laurel lightly in late spring to maintain desired shape\",\n        \"Repot every 2 to 3 years in fresh, well-draining potting mix\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Level Shade Bed\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"Along the perimeter floor of the courtyard in full shade, receiving indirect ambient light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Cyclamen spp.\",\n          \"common_name\": \"Cyclamen\",\n          \"why\": \"Adapts well to bright indirect light and damp, shaded ground environments.\",\n          \"role_in_combination\": \"Brings heart-shaped patterned foliage and delicate upward-facing blooms that carpet the base of the taller structural plants.\"\n        },\n        {\n          \"scientific_name\": \"Narcissus spp.\",\n          \"common_name\": \"Daffodil\",\n          \"why\": \"Adds seasonal rhythm to the dark corner of the courtyard.\",\n          \"role_in_combination\": \"Provides bright yellow early-spring vertical focal points that emerge through the lower foliage layer before dying back cleanly.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water when the soil surface dries slightly, ensuring pots or beds do not become waterlogged\",\n        \"Remove spent flower stems and yellowing leaves promptly to prevent fungal rot\",\n        \"Apply a low-nitrogen bulb fertilizer in early spring\",\n        \"Divide overcrowded tubers or bulbs every few years during their summer dormancy\"\n      ]\n    },\n    {\n      \"zone_name\": \"Pet Grazing and Herb Corner\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"In an easily accessible corner on the courtyard floor, receiving moderate filtered light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Mentha sp.\",\n          \"common_name\": \"Mint\",\n          \"why\": \"Grows vigorously in moist, shaded conditions and provides sensory stimulation for pets.\",\n          \"role_in_combination\": \"Contributes a soft, sprawling green mat with aromatic foliage that contrasts in texture against the rigid architectural plants.\"\n        },\n        {\n          \"scientific_name\": \"Petroselinum crispum\",\n          \"common_name\": \"Parsley\",\n          \"why\": \"Thrives in moderate moisture and partial to full shade, perfectly safe for canine nibbling.\",\n          \"role_in_combination\": \"Adds finely divided, ruffled green leaves that introduce a light, delicate foliage texture at the base of the composition.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep the soil consistently moist as these herbs prefer higher moisture levels\",\n        \"Harvest frequently by snipping stems to encourage bushier, fresh growth\",\n        \"Feed lightly with an organic liquid fertilizer once a month in spring\",\n        \"Divide the mint root runners annually to prevent them from overtaking the container or bed\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all courtyard zones to ensure adequate hydration without waterlogging.\",\n      \"frequency\": \"Twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"Summer and Spring\"\n    },\n    {\n      \"task\": \"Apply balanced liquid fertilizer to support foliage and seasonal blooms.\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Spring and Summer\"\n    },\n    {\n      \"task\": \"Clear away fallen leaves and dead plant debris from the ground layer to prevent fungal disease in the damp shade.\",\n      \"frequency\": \"Bi-weekly\",\n      \"season\": \"Autumn and Winter\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Clivia miniata contains alkaloids that are toxic if ingested, so ensure the large dog does not chew on the mid-layer Clivia leaves.\",\n    \"Mint in the grazing corner can become overly aggressive and crowd out the parsley if its root spread is not routinely restricted.\",\n    \"Full shade combined with overzealous watering in the ground layer can cause root rot in cyclamen tubers.\"\n  ],\n  \"pet_safety_note\": \"The design designates a specific low-level grazing zone containing safe herbs like mint and parsley for the dog to interact with, while keeping toxic shade perennials safely elevated or out of direct chewing reach.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

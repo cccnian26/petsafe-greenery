@@ -1,0 +1,180 @@
+query_common,query_scientific,plant_type,light_fallback,moisture_fallback,note
+Boston Fern,Nephrolepis exalta bostoniensis,foliage,full_shade,high,"Classic shade fern; the reference pet-safe balcony fern."
+Bold Sword Fern,Nephrolepis biserrata,foliage,full_shade,high,"Tough fern for deep shade."
+Fish Tail Fern,Cyrtomium falcatum,foliage,full_shade,moderate,"Holly fern; tolerates dry shade."
+Common Staghorn Fern,Platycerium bifurcatum,foliage,bright_indirect,moderate,"Epiphytic fern for hanging baskets."
+Ball Fern,Davallia spp.,foliage,full_shade,high,"Rabbits-foot fern; fine-textured foliage."
+Hen and Chickens Fern,Asplenium bulbiferum,foliage,full_shade,moderate,"Hardy fern with bulbils."
+Spider Plant,Chlorophytum comosum,foliage,partial_shade,moderate,"One of the most recommended pet-safe balcony plants."
+Parlor Palm,Chamaedorea elegans,foliage,partial_shade,moderate,"Small palm, non-toxic to cats and dogs."
+Areca Palm,Dypsis lutescens,foliage,partial_shade,moderate,"Clumping palm for containers."
+Bamboo,Phyllostachys aurea,grass,partial_shade,moderate,"Running bamboo; non-toxic."
+Lemon Grass,Cymbopogon citratus,grass,full_sun,moderate,"Fragrant clumping grass."
+Pampas Grass,Cortaderia selloana,grass,full_sun,low,"Tall ornamental grass."
+Grass Palm,Cordyline australis,foliage,partial_shade,moderate,"Dracaena relative."
+Maranta,Calathea insignis,foliage,partial_shade,high,"Prayer plant, non-toxic."
+Calathea,Calathea spp.,foliage,partial_shade,high,"Calathea group; non-toxic but humidity-demanding."
+Watermelon Pilea,Pilea cadieri,foliage,partial_shade,moderate,"Pilea group; non-toxic."
+Friendship Plant,Pilea involucrata,foliage,partial_shade,moderate,"Pilea group."
+Aluminum Plant,Pilea cadieri,foliage,partial_shade,moderate,"Pilea group."
+Baby Rubber Plant,Peperomia obtusifolia,foliage,bright_indirect,moderate,"Succulent-leaved and pet-safe."
+American Rubber Plant,Peperomia obtusifolia,foliage,bright_indirect,moderate,"Peperomia group."
+Cast Iron Plant,Aspidistra elatior,foliage,full_shade,moderate,"Almost indestructible in deep shade."
+African Violet,Saintpaulia spp.,foliage,bright_indirect,moderate,"Non-toxic flowering houseplant."
+Flame African Violet,Episcia reptans,foliage,bright_indirect,high,"Episcia group."
+Chocolate Soldier,Episcia dianthiflora,foliage,bright_indirect,high,"Episcia group."
+Cape Primrose,Streptocarpus spp.,foliage,bright_indirect,moderate,"Streptocarpus group."
+Gloxinia,Sinningia speciosa,foliage,bright_indirect,moderate,"Sinningia group."
+Christmas Cactus,Schlumbergera bridgesii,succulent,bright_indirect,moderate,"Holiday cactus, non-toxic."
+Blushing Bromeliad,Neoregalia spp.,foliage,bright_indirect,moderate,"Bromeliad group."
+Wax Plant,Hoya carnosa 'krinkle kurl',foliage,bright_indirect,moderate,"Trailing wax plant."
+Honey Plant,Hoya carnosa,foliage,bright_indirect,moderate,"Hoya group."
+Sweetheart Hoya,Hoya kerrii,foliage,bright_indirect,moderate,"Hoya group."
+Jade Plant,Crassula argentea,succulent,bright_indirect,low,"Crassula group; check label."
+Chinese Jade,Crassula arborescens,succulent,bright_indirect,low,"Crassula group."
+Haworthia,Haworthia species,succulent,bright_indirect,low,"Small succulent genus."
+Hens and Chickens,Echeveria elegans,succulent,full_sun,low,"Echeveria group; check label."
+Pencil Cactus,Euphorbia tirucalli,succulent,full_sun,low,"Milky sap."
+Kalanchoe,Kalanchoe spp,succulent,bright_indirect,moderate,"Cardiac glycosides."
+Mother of Millions,Kalanchoe tubiflora,succulent,bright_indirect,low,"Kalanchoe group."
+Jasmine,Jasminum species,shrub,full_sun,moderate,"Fragrant climber."
+Star Jasmine,Trachelospermum jasminoides,groundcover,full_sun,moderate,"Fragrant groundcover."
+Madagascar Jasmine,Stephanotis floribunda,shrub,full_sun,moderate,"Fragrant twining plant."
+Gardenia,Gardenia jasminoides,shrub,partial_shade,high,"Acid-loving shrub."
+Hibiscus,Hibiscus syriacus,shrub,full_sun,moderate,"Flowering shrub."
+Garden Marigold,Calendula officinalis,herb,full_sun,moderate,"Edible-flowering annual."
+Petunia,Petunia species,herb,full_sun,moderate,"Colourful trailing annual."
+Creeping Zinnia,Sanvitalia spp.,herb,full_sun,low,"Low bedding annual."
+Celosia Plumosa,Celosia plumosa,herb,full_sun,moderate,"Long-lasting cut flower."
+Coleus,Coleus ampoinicus,foliage,bright_indirect,moderate,"Colourful foliage bedding."
+Basil,Ocimum basilicum,herb,full_sun,moderate,"Aromatic edible herb."
+Rosemary,Rosmarinus officinalis,shrub,full_sun,low,"Mediterranean aromatic shrub."
+Thyme,Thymus vulgaris,herb,full_sun,low,"Low aromatic perennial."
+Sage,Salvia officinalis,herb,full_sun,low,"Aromatic culinary herb."
+Mint,Mentha sp.,herb,partial_shade,high,"Vigorous aromatic perennial."
+Lemon Balm,Mentha officinalis,herb,partial_shade,high,"Aromatic mint family."
+Oregano,Origanum vulgare hirtum,herb,full_sun,low,"Aromatic Mediterranean herb."
+Catnip,Nepeta cataria,herb,full_sun,moderate,"Sensory plant for cats."
+Catsear,Hypochaeris radicata,herb,partial_shade,moderate,"Foraging grass-like plant."
+Sudan Grass,Sorghum vulgare var sudanensis,grass,full_sun,moderate,"Fast-growing grass."
+Sago Palm,Cycas revoluta,tree,full_sun,low,"Cycasin causes acute liver failure."
+Peace Lily,Spathiphyllum,foliage,bright_indirect,high,"Calcium oxalate crystals."
+Golden Pothos,Epipremnum aureum,foliage,bright_indirect,moderate,"Calcium oxalate crystals."
+Satin Pothos,Scindapsus pictus,foliage,bright_indirect,moderate,"Oxalate crystals."
+Devils Ivy,Epipremnum aureum,foliage,bright_indirect,moderate,"Pothos group."
+English Ivy,Hedera helix,foliage,bright_indirect,moderate,"Sap causes oral irritation."
+Glacier Ivy,Hedera helix,foliage,bright_indirect,moderate,"Ivy group."
+Branching Ivy,Hedera helix,foliage,bright_indirect,moderate,"Ivy group."
+Oleander,Nerium oleander,shrub,full_sun,low,"Every part toxic; cardiac glycosides."
+Yellow Oleander,Thevetia peruviana,shrub,full_sun,low,"Cardiac glycosides."
+Azalea,Rhododendron spp,shrub,partial_shade,moderate,"Grayanotoxin."
+Rhododendron,Rhododendron spp,shrub,partial_shade,moderate,"Grayanotoxin."
+Rosebay,Rhododendron spp,shrub,partial_shade,moderate,"Rhododendron group."
+Hydrangea,Hydrangea arborescens,shrub,partial_shade,high,"Cyanogenic glycosides."
+Tiger Lily,Lilium lancifolium,perennial,full_sun,moderate,"True lily; acute renal failure in cats."
+Easter Lily,Lilium longiflorum,perennial,full_sun,moderate,"True lily; fatal to cats."
+Asian Lily,Lilium asiatica,perennial,full_sun,moderate,"True lily group."
+Lily,Lilium species,perennial,full_sun,moderate,"True lily genus."
+Tulip,Tulipa spp.,perennial,full_sun,moderate,"Bulb toxin."
+Daffodil,Narcissus spp,perennial,full_sun,moderate,"Bulb toxin; severe vomiting."
+Paper White,Narcissus spp,perennial,full_sun,moderate,"Narcissus group."
+Garden Hyacinth,Hyacinthus orientalis,perennial,full_sun,moderate,"Bulb toxin."
+Iris,Iris species,perennial,full_sun,moderate,"Bulb rhizome toxin."
+Water Flag,Iris species,perennial,full_sun,moderate,"Iris group."
+Gladiola,Gladiolus species,perennial,full_sun,moderate,"Corm toxin."
+Fire Lily,Hippeastrum spp.,perennial,full_sun,moderate,"Bulb; alkaloid poisoning."
+Clivia Lily,Clivia spp.,perennial,partial_shade,moderate,"Bulb; alkaloid poisoning."
+Poinsettia,Euphorbia pulcherrima,succulent,full_sun,moderate,"Milky sap; mild toxicity."
+Aloe,Aloe vera,succulent,bright_indirect,low,"Latex; vomiting and diarrhoea."
+Snake Plant,Sansevieria trifasciata,foliage,bright_indirect,low,"Species-specific label."
+Pony Tail,Beaucarnea recurvata,tree,bright_indirect,low,"Species-specific label."
+Bottle Palm,Beaucarnea recurvata,tree,bright_indirect,low,"Beaucarnea group."
+Corn Plant,Dracaena fragrans,foliage,bright_indirect,moderate,"Dracaena group."
+Dracaena,Dracaena spp.,foliage,bright_indirect,moderate,"Genus-level label."
+Ti-Plant,Cordyline terminalis,foliage,bright_indirect,moderate,"Cordyline group."
+Dieffenbachia,Dieffenbachia,foliage,bright_indirect,high,"Oxalate crystals."
+Dumbcane,Dieffenbachia,foliage,bright_indirect,high,"Dieffenbachia group."
+Chinese Evergreen,Aglaonema modestum,foliage,bright_indirect,moderate,"Oxalate crystals."
+Caladium,Caladium hortulanum,foliage,bright_indirect,high,"Oxalate crystals."
+Flamingo Flower,Anthurium scherzeranum,foliage,bright_indirect,high,"Oxalate crystals."
+Chrysanthemum,Chrysanthemum spp.,perennial,full_sun,moderate,"Pyrethrin; vomiting in cats."
+Mum,Chrysanthemum spp.,perennial,full_sun,moderate,"Chrysanthemum group."
+Yarrow,Achillea millefolium,perennial,full_sun,low,"Species-specific label."
+Lavender,Lavendula angustifolia,shrub,full_sun,low,"Species-specific label."
+Heavenly Bamboo,Nandina domestica,shrub,partial_shade,moderate,"Species-specific label."
+Holly,Ilex opaca,shrub,full_sun,moderate,"Species-specific label."
+English Holly,Ilex aquifolium,shrub,full_sun,moderate,"Ilex group."
+English Yew,Taxus baccata,shrub,partial_shade,moderate,"Taxine alkaloids."
+Yew,Taxus spp.,shrub,partial_shade,moderate,"Yew group."
+Privet,Ligustrum japonicum,shrub,partial_shade,moderate,"Species-specific label."
+Bay Laurel,Laurus nobilis,shrub,full_sun,low,"Essential oils; toxic."
+Lantana,Lantana camara,shrub,full_sun,low,"Toxic to pets and livestock."
+Dahlia,Dahlia species,perennial,full_sun,moderate,"Tuber; toxic."
+Begonia,Begonia spp.,foliage,bright_indirect,moderate,"Species-specific label."
+Periwinkle,Vinca rosea,groundcover,partial_shade,moderate,"Alkaloids; toxic."
+Climbing Nightshade,Solanum dulcamara,groundcover,partial_shade,high,"Solanaceae; toxic."
+Nightshade,Solanum spp,herb,partial_shade,moderate,"Solanaceae; toxic."
+Jerusalem Cherry,Solanum pseudocapsicum,herb,partial_shade,moderate,"Solanaceae; toxic."
+Climbing Lily,Gloriosa superba,perennial,full_sun,moderate,"Colchicine-like alkaloid."
+Arum,Arum maculatum,perennial,partial_shade,high,"Oxalate crystals."
+Asparagus Fern,Asparagus densiflorus cv sprengeri,foliage,bright_indirect,moderate,"Sap; toxic."
+Inch Plant,Tradescantia flumeninsis,groundcover,bright_indirect,high,"Species-specific label."
+Foxglove,Digitalis purpurea,perennial,partial_shade,moderate,"Cardiac glycosides."
+Hellebore,Helleborus niger,perennial,partial_shade,moderate,"Cardiac glycosides."
+Chives,Allium schoenoprasum,herb,full_sun,low,"Allium group; toxic."
+Garlic,Allium sativum,herb,full_sun,low,"Allium group; toxic."
+Onion,Allium cepa,herb,full_sun,low,"Allium group; toxic."
+Leek,Allium ampeloprasum,herb,full_sun,low,"Allium group; toxic."
+Golden Ragwort,Senecio species,perennial,full_sun,low,"Pyrrolizidine alkaloids."
+Buttercup,Ranunculus spp.,perennial,full_sun,moderate,"Fresh leaves are toxic."
+Cyclamen,Cyclamen spp,foliage,bright_indirect,moderate,"Tuber; toxic."
+White Snakeroot,Ageratina altissima,perennial,partial_shade,moderate,"Cyanogenic glycosides."
+Mountain Laurel,Kalmia latifolia,shrub,partial_shade,moderate,"Grayanotoxin."
+Japanese Pittosporum,Pittosporum tobira,shrub,partial_shade,moderate,"Species-specific label."
+Schefflera,Schefflera,foliage,bright_indirect,moderate,"Species-specific label."
+Coffee Tree,Polyscias guilfoylei,foliage,bright_indirect,moderate,"Species-specific label."
+Weeping Fig,Ficus sp.,foliage,bright_indirect,moderate,"Ficus sap; toxic."
+Indian Rubber Plant,Ficus benjamina,foliage,bright_indirect,moderate,"Ficus sap; toxic."
+Kaffir Lily,Clivia minata,perennial,partial_shade,moderate,"Clivia group."
+Giant Dracaena,Cordyline australis,foliage,partial_shade,moderate,"Cordyline group."
+Madagascar Jasmine,Stephanotis floribunda,shrub,full_sun,moderate,"Fragrant twining plant."
+Buzzy Lizzie,Impatiens spp.,herb,partial_shade,moderate,Colourful shade bedding; check label.
+Alyssum,Alyssum spp.,herb,full_sun,low,Fragrant low bedding annual.
+Pinks,Dianthus caryophyllus,herb,full_sun,moderate,Fragrant cut-flower perennial.
+Sweet William,Dianthus caryophyllus,herb,full_sun,moderate,Dianthus group.
+Parsley,Petroselinum crispum,herb,partial_shade,moderate,Culinary herb.
+Fennel,Foeniculum vulgare,herb,full_sun,moderate,Culinary herb.
+Dill,Anethum graveolena,herb,full_sun,moderate,Culinary herb.
+Borage,Borage officinalis,herb,full_sun,moderate,Edible-flower herb.
+Chamomile,Anthemis nobilis,herb,full_sun,low,Low aromatic annual.
+Lemon Verbena,Aloysia triphylla,shrub,full_sun,low,Fragrant tender shrub.
+Money Tree,Pachira aquatica,tree,bright_indirect,moderate,Pachira group; check label.
+Ghost Plant,Sedum weinbergii,succulent,full_sun,low,Sedum group.
+Burro's Tail,Sedum morganianum,succulent,full_sun,low,Sedum group.
+Scented Geranium,Pelargonium sp.,herb,full_sun,moderate,Geranium group.
+Geranium,Pelargonium species,herb,full_sun,moderate,Pelargonium group.
+Chinese Plumbago,Ceratostigma willmottianum,groundcover,full_sun,moderate,Autumn-flowering groundcover.
+Sweet Pea,Lathyrus latifolius,groundcover,partial_shade,moderate,Climbing perennial.
+Wisteria,Wisteria spp.,shrub,full_sun,moderate,Climbing woody vine.
+Clematis,Clematis spp.,shrub,full_sun,moderate,Climbing perennial.
+Cardinal Flower,Lobelia cardinalis,herb,partial_shade,high,Moisture-loving perennial.
+Creeping Charlie,Pilea nummulariifolia,groundcover,partial_shade,moderate,Pilea group.
+Prayer Plant,Calathea insignis,foliage,partial_shade,high,Calathea group.
+Red Veined Prayer,Calathea insignis,foliage,partial_shade,high,Calathea group.
+Little Zebra Plant,Haworthia subfasciata,succulent,bright_indirect,low,Haworthia group.
+Saffron Spike Zebra,Aphelandra squarrosa,foliage,bright_indirect,high,Check label.
+Mother-in-Law,Monstera deliciosa,foliage,bright_indirect,moderate,Monstera group.
+Ceriman,Monstera deliciosa,foliage,bright_indirect,moderate,Monstera group.
+Fig,Ficus benjamina,foliage,bright_indirect,moderate,Ficus sap; toxic.
+Japanese Show Lily,Lilium speciosum,perennial,full_sun,moderate,True lily; fatal to cats.
+Red Lily,Lilium umbellatum,perennial,full_sun,moderate,True lily group.
+Wood Lily,Lilium umbellatum,perennial,full_sun,moderate,True lily group.
+Stargazer Lily,Lilium orientalis,perennial,full_sun,moderate,True lily group.
+Gladiolus,Gladiolus species,perennial,full_sun,moderate,Gladiolus group.
+Marigold,Calendula officinalis,herb,full_sun,moderate,Calendula group.
+Sneezeweed,Helenium autumnale,perennial,full_sun,moderate,Check label.
+Blue Mist,Conoclinium coelestinum,foliage,partial_shade,moderate,Check label.
+Fountain Grass,Pennisetum alopecuroides,grass,full_sun,moderate,Ornamental grass.
+Papyrus,Cyperus papyrus,foliage,bright_indirect,high,Cyperus group; check label.
+Money Plant,Pilea peperomioides,foliage,partial_shade,moderate,Pilea group.
+Ivy Geranium,Pelargonium pelargonium,herb,full_sun,moderate,Pelargonium group.

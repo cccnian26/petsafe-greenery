@@ -1,0 +1,5695 @@
+{
+  "schema": "mavis.ppt_element_map.v1",
+  "artifact": {
+    "fileName": "PetSafe-Greenery-presentation.pptx",
+    "filePath": "./output/PetSafe-Greenery-presentation-static.pptx",
+    "createdAtMs": 1794908854993,
+    "generator": "presentations-skill"
+  },
+  "layout": {
+    "name": "LAYOUT_16x9",
+    "widthIn": 10,
+    "heightIn": 5.625
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "slideId": "cover",
+      "title": "PetSafe-Greenery",
+      "elements": [
+        {
+          "elementId": "cover.leaf.01",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.85,
+            "y": 0.35,
+            "w": 1.5,
+            "h": 2.1
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.0622,
+            "w": 0.15,
+            "h": 0.3733
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "cover.leaf.02",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 8.15,
+            "y": 0.75,
+            "w": 0.85,
+            "h": 1.25
+          },
+          "normalizedRect": {
+            "x": 0.815,
+            "y": 0.1333,
+            "w": 0.085,
+            "h": 0.2222
+          },
+          "style": {
+            "fill": {
+              "color": "E9C46A"
+            },
+            "line": {
+              "color": "E9C46A",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "cover.leaf.03",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 7.55,
+            "y": 2.85,
+            "w": 0.62,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.755,
+            "y": 0.5067,
+            "w": 0.062,
+            "h": 0.1689
+          },
+          "style": {
+            "fill": {
+              "color": "F4A261"
+            },
+            "line": {
+              "color": "F4A261",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "cover.leaf.04",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 8.45,
+            "y": 3.25,
+            "w": 0.5,
+            "h": 0.78
+          },
+          "normalizedRect": {
+            "x": 0.845,
+            "y": 0.5778,
+            "w": 0.05,
+            "h": 0.1387
+          },
+          "style": {
+            "fill": {
+              "color": "5FA894"
+            },
+            "line": {
+              "color": "5FA894",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "cover.leaf.05",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.45,
+            "y": 2.2,
+            "w": 0.44,
+            "h": 0.68
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.3911,
+            "w": 0.044,
+            "h": 0.1209
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "cover.leaf.06",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 8.85,
+            "y": 2.1,
+            "w": 0.38,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.885,
+            "y": 0.3733,
+            "w": 0.038,
+            "h": 0.1067
+          },
+          "style": {
+            "fill": {
+              "color": "E9C46A"
+            },
+            "line": {
+              "color": "E9C46A",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "cover.title",
+          "kind": "text",
+          "role": "title",
+          "text": "PetSafe-Greenery",
+          "rectIn": {
+            "x": 0.7,
+            "y": 1.35,
+            "w": 6.2,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.24,
+            "w": 0.62,
+            "h": 0.1689
+          },
+          "style": {
+            "fontSize": 46,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "cover.subtitle",
+          "kind": "text",
+          "role": "subtitle",
+          "text": "A Dual-Constraint Agentic Workflow for Pet-Friendly Balcony and Courtyard Planting Design",
+          "rectIn": {
+            "x": 0.7,
+            "y": 2.42,
+            "w": 6,
+            "h": 1
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.4302,
+            "w": 0.6,
+            "h": 0.1778
+          },
+          "style": {
+            "fontSize": 17,
+            "fontFace": "Arial",
+            "color": "E8EEEA",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "cover.author",
+          "kind": "text",
+          "role": "body",
+          "text": "CHEN Niannian  |  26063619G\nCOMP5511: Artificial Intelligence Concepts\nThe Hong Kong Polytechnic University",
+          "rectIn": {
+            "x": 0.7,
+            "y": 3.75,
+            "w": 5.6,
+            "h": 1.1
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.6667,
+            "w": 0.56,
+            "h": 0.1956
+          },
+          "style": {
+            "fontSize": 13,
+            "fontFace": "Arial",
+            "color": "BFD2C8",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "cover.date",
+          "kind": "text",
+          "role": "body",
+          "text": "Final presentation  |  20 or 27 November 2026",
+          "rectIn": {
+            "x": 0.7,
+            "y": 4.85,
+            "w": 5.6,
+            "h": 0.35
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.8622,
+            "w": 0.56,
+            "h": 0.0622
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "E9C46A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-01.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 2,
+      "slideId": "problem",
+      "title": "The problem",
+      "elements": [
+        {
+          "elementId": "problem.title",
+          "kind": "text",
+          "role": "title",
+          "text": "The problem",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.headline",
+          "kind": "text",
+          "role": "heading",
+          "text": "\"Beautiful for you. Fatal for your cat.\"",
+          "rectIn": {
+            "x": 0.55,
+            "y": 1.02,
+            "w": 8.9,
+            "h": 0.5
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.1813,
+            "w": 0.89,
+            "h": 0.0889
+          },
+          "style": {
+            "fontSize": 21,
+            "fontFace": "Arial",
+            "color": "E76F51",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.01.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 1.68,
+            "w": 2.8,
+            "h": 2.45
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.2987,
+            "w": 0.28,
+            "h": 0.4356
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "problem.card.01.badge",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 0.77,
+            "y": 1.9,
+            "w": 0.86,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.077,
+            "y": 0.3378,
+            "w": 0.086,
+            "h": 0.0604
+          },
+          "style": {
+            "fill": {
+              "color": "E76F51"
+            },
+            "line": {
+              "color": "E76F51",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "problem.card.01.pet",
+          "kind": "text",
+          "role": "label",
+          "text": "Cats",
+          "rectIn": {
+            "x": 0.77,
+            "y": 1.96,
+            "w": 0.86,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.077,
+            "y": 0.3484,
+            "w": 0.086,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.01.name",
+          "kind": "text",
+          "role": "heading",
+          "text": "True Lily",
+          "rectIn": {
+            "x": 0.77,
+            "y": 2.38,
+            "w": 2.4,
+            "h": 0.4
+          },
+          "normalizedRect": {
+            "x": 0.077,
+            "y": 0.4231,
+            "w": 0.24,
+            "h": 0.0711
+          },
+          "style": {
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.01.latin",
+          "kind": "text",
+          "role": "body",
+          "text": "Lilium spp.",
+          "rectIn": {
+            "x": 0.77,
+            "y": 2.76,
+            "w": 2.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.077,
+            "y": 0.4907,
+            "w": 0.24,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "italic": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.01.effect",
+          "kind": "text",
+          "role": "body",
+          "text": "Acute renal failure",
+          "rectIn": {
+            "x": 0.77,
+            "y": 3.12,
+            "w": 2.4,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.077,
+            "y": 0.5547,
+            "w": 0.24,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 12.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.02.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 3.6,
+            "y": 1.68,
+            "w": 2.8,
+            "h": 2.45
+          },
+          "normalizedRect": {
+            "x": 0.36,
+            "y": 0.2987,
+            "w": 0.28,
+            "h": 0.4356
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "problem.card.02.badge",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 3.82,
+            "y": 1.9,
+            "w": 0.86,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.382,
+            "y": 0.3378,
+            "w": 0.086,
+            "h": 0.0604
+          },
+          "style": {
+            "fill": {
+              "color": "E76F51"
+            },
+            "line": {
+              "color": "E76F51",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "problem.card.02.pet",
+          "kind": "text",
+          "role": "label",
+          "text": "Dogs",
+          "rectIn": {
+            "x": 3.82,
+            "y": 1.96,
+            "w": 0.86,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.382,
+            "y": 0.3484,
+            "w": 0.086,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.02.name",
+          "kind": "text",
+          "role": "heading",
+          "text": "Sago Palm",
+          "rectIn": {
+            "x": 3.82,
+            "y": 2.38,
+            "w": 2.4,
+            "h": 0.4
+          },
+          "normalizedRect": {
+            "x": 0.382,
+            "y": 0.4231,
+            "w": 0.24,
+            "h": 0.0711
+          },
+          "style": {
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.02.latin",
+          "kind": "text",
+          "role": "body",
+          "text": "Cycas revoluta",
+          "rectIn": {
+            "x": 3.82,
+            "y": 2.76,
+            "w": 2.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.382,
+            "y": 0.4907,
+            "w": 0.24,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "italic": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.02.effect",
+          "kind": "text",
+          "role": "body",
+          "text": "Liver failure",
+          "rectIn": {
+            "x": 3.82,
+            "y": 3.12,
+            "w": 2.4,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.382,
+            "y": 0.5547,
+            "w": 0.24,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 12.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.03.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6.65,
+            "y": 1.68,
+            "w": 2.8,
+            "h": 2.45
+          },
+          "normalizedRect": {
+            "x": 0.665,
+            "y": 0.2987,
+            "w": 0.28,
+            "h": 0.4356
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "problem.card.03.badge",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.87,
+            "y": 1.9,
+            "w": 0.86,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.687,
+            "y": 0.3378,
+            "w": 0.086,
+            "h": 0.0604
+          },
+          "style": {
+            "fill": {
+              "color": "E76F51"
+            },
+            "line": {
+              "color": "E76F51",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "problem.card.03.pet",
+          "kind": "text",
+          "role": "label",
+          "text": "Both pets",
+          "rectIn": {
+            "x": 6.87,
+            "y": 1.96,
+            "w": 0.86,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.687,
+            "y": 0.3484,
+            "w": 0.086,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.03.name",
+          "kind": "text",
+          "role": "heading",
+          "text": "Pothos / Peace Lily",
+          "rectIn": {
+            "x": 6.87,
+            "y": 2.38,
+            "w": 2.4,
+            "h": 0.4
+          },
+          "normalizedRect": {
+            "x": 0.687,
+            "y": 0.4231,
+            "w": 0.24,
+            "h": 0.0711
+          },
+          "style": {
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.03.latin",
+          "kind": "text",
+          "role": "body",
+          "text": "Epipremnum aureum",
+          "rectIn": {
+            "x": 6.87,
+            "y": 2.76,
+            "w": 2.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.687,
+            "y": 0.4907,
+            "w": 0.24,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "italic": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.card.03.effect",
+          "kind": "text",
+          "role": "body",
+          "text": "Calcium oxalate crystals",
+          "rectIn": {
+            "x": 6.87,
+            "y": 3.12,
+            "w": 2.4,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.687,
+            "y": 0.5547,
+            "w": 0.24,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 12.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "problem.callout",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 4.35,
+            "w": 8.9,
+            "h": 0.72
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.7733,
+            "w": 0.89,
+            "h": 0.128
+          },
+          "style": {
+            "fill": {
+              "color": "264653"
+            },
+            "line": {
+              "color": "264653",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "problem.callout.text",
+          "kind": "text",
+          "role": "body",
+          "text": "700+ ornamental species are dangerous to cats or dogs -- and LLMs recommend them, because toxicity is a fact the model cannot check for itself.",
+          "rectIn": {
+            "x": 0.8,
+            "y": 4.47,
+            "w": 8.4,
+            "h": 0.5
+          },
+          "normalizedRect": {
+            "x": 0.08,
+            "y": 0.7947,
+            "w": 0.84,
+            "h": 0.0889
+          },
+          "style": {
+            "fontSize": 13,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-02.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.2",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "2",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 3,
+      "slideId": "users",
+      "title": "Who this is for",
+      "elements": [
+        {
+          "elementId": "users.title",
+          "kind": "text",
+          "role": "title",
+          "text": "Who this is for",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.card.01.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 1.12,
+            "w": 4.55,
+            "h": 1.05
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.1991,
+            "w": 0.455,
+            "h": 0.1867
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "users.card.01.stripe",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 0.55,
+            "y": 1.12,
+            "w": 0.09,
+            "h": 1.05
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.1991,
+            "w": 0.009,
+            "h": 0.1867
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "users.card.01.title",
+          "kind": "text",
+          "role": "heading",
+          "text": "Pet-owning residents",
+          "rectIn": {
+            "x": 0.85,
+            "y": 1.28,
+            "w": 4.1,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.085,
+            "y": 0.2276,
+            "w": 0.41,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.card.01.desc",
+          "kind": "text",
+          "role": "body",
+          "text": "Cannot judge plant toxicity themselves.",
+          "rectIn": {
+            "x": 0.85,
+            "y": 1.64,
+            "w": 4.1,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.085,
+            "y": 0.2916,
+            "w": 0.41,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.card.02.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 2.4,
+            "w": 4.55,
+            "h": 1.05
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.4267,
+            "w": 0.455,
+            "h": 0.1867
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "users.card.02.stripe",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 0.55,
+            "y": 2.4,
+            "w": 0.09,
+            "h": 1.05
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.4267,
+            "w": 0.009,
+            "h": 0.1867
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "users.card.02.title",
+          "kind": "text",
+          "role": "heading",
+          "text": "Landscape-architecture students",
+          "rectIn": {
+            "x": 0.85,
+            "y": 2.56,
+            "w": 4.1,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.085,
+            "y": 0.4551,
+            "w": 0.41,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.card.02.desc",
+          "kind": "text",
+          "role": "body",
+          "text": "Need a defensible first draft, fast.",
+          "rectIn": {
+            "x": 0.85,
+            "y": 2.92,
+            "w": 4.1,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.085,
+            "y": 0.5191,
+            "w": 0.41,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.card.03.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 3.68,
+            "w": 4.55,
+            "h": 1.05
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.6542,
+            "w": 0.455,
+            "h": 0.1867
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "users.card.03.stripe",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 0.55,
+            "y": 3.68,
+            "w": 0.09,
+            "h": 1.05
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.6542,
+            "w": 0.009,
+            "h": 0.1867
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "users.card.03.title",
+          "kind": "text",
+          "role": "heading",
+          "text": "Junior planting designers",
+          "rectIn": {
+            "x": 0.85,
+            "y": 3.84,
+            "w": 4.1,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.085,
+            "y": 0.6827,
+            "w": 0.41,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.card.03.desc",
+          "kind": "text",
+          "role": "body",
+          "text": "Need one design that satisfies every constraint at once.",
+          "rectIn": {
+            "x": 0.85,
+            "y": 4.2,
+            "w": 4.1,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.085,
+            "y": 0.7467,
+            "w": 0.41,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.right.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 5.35,
+            "y": 1.12,
+            "w": 4.1,
+            "h": 3.61
+          },
+          "normalizedRect": {
+            "x": 0.535,
+            "y": 0.1991,
+            "w": 0.41,
+            "h": 0.6418
+          },
+          "style": {
+            "fill": {
+              "color": "264653"
+            },
+            "line": {
+              "color": "264653",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "users.right.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "Two constraints, one answer",
+          "rectIn": {
+            "x": 5.62,
+            "y": 1.4,
+            "w": 3.6,
+            "h": 0.4
+          },
+          "normalizedRect": {
+            "x": 0.562,
+            "y": 0.2489,
+            "w": 0.36,
+            "h": 0.0711
+          },
+          "style": {
+            "fontSize": 16,
+            "fontFace": "Arial",
+            "color": "E9C46A",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.right.body",
+          "kind": "text",
+          "role": "body",
+          "text": "Horticultural viability\n   light + moisture must suit the site\n\nVeterinary safety\n   no species toxic to the household pets\n\nDesign space\n   balcony / courtyard / rooftop terrace",
+          "rectIn": {
+            "x": 5.62,
+            "y": 1.92,
+            "w": 3.6,
+            "h": 2.1
+          },
+          "normalizedRect": {
+            "x": 0.562,
+            "y": 0.3413,
+            "w": 0.36,
+            "h": 0.3733
+          },
+          "style": {
+            "fontSize": 12,
+            "fontFace": "Arial",
+            "color": "E4EDE8",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "users.right.note",
+          "kind": "text",
+          "role": "body",
+          "text": "Both constraints must hold simultaneously, for every species in the scheme.",
+          "rectIn": {
+            "x": 5.62,
+            "y": 4.18,
+            "w": 3.6,
+            "h": 0.5
+          },
+          "normalizedRect": {
+            "x": 0.562,
+            "y": 0.7431,
+            "w": 0.36,
+            "h": 0.0889
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "9FC7BA",
+            "italic": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-03.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.3",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "3",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 4,
+      "slideId": "method",
+      "title": "Method",
+      "elements": [
+        {
+          "elementId": "method.title",
+          "kind": "text",
+          "role": "title",
+          "text": "Method: split the task by what can be checked",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.figure.shell",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.5,
+            "y": 1.08,
+            "w": 5.75,
+            "h": 3.85
+          },
+          "normalizedRect": {
+            "x": 0.05,
+            "y": 0.192,
+            "w": 0.575,
+            "h": 0.6844
+          },
+          "style": {
+            "fill": {
+              "color": "FFFFFF"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "method.figure.image",
+          "kind": "image",
+          "role": "image",
+          "rectIn": {
+            "x": 0.62,
+            "y": 1.2,
+            "w": 5.5,
+            "h": 3.6
+          },
+          "normalizedRect": {
+            "x": 0.062,
+            "y": 0.2133,
+            "w": 0.55,
+            "h": 0.64
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addImage"
+          }
+        },
+        {
+          "elementId": "method.idea.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6.45,
+            "y": 1.08,
+            "w": 3.05,
+            "h": 1.28
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.192,
+            "w": 0.305,
+            "h": 0.2276
+          },
+          "style": {
+            "fill": {
+              "color": "264653"
+            },
+            "line": {
+              "color": "264653",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "method.idea.text",
+          "kind": "text",
+          "role": "body",
+          "text": "If a constraint can be checked deterministically, the LLM should not be allowed to decide it.",
+          "rectIn": {
+            "x": 6.68,
+            "y": 1.28,
+            "w": 2.6,
+            "h": 0.9
+          },
+          "normalizedRect": {
+            "x": 0.668,
+            "y": 0.2276,
+            "w": 0.26,
+            "h": 0.16
+          },
+          "style": {
+            "fontSize": 12.5,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.1.dot",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.45,
+            "y": 2.5,
+            "w": 0.3,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.4444,
+            "w": 0.03,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "method.step.1.num",
+          "kind": "text",
+          "role": "label",
+          "text": "1",
+          "rectIn": {
+            "x": 6.45,
+            "y": 2.54,
+            "w": 0.3,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.4516,
+            "w": 0.03,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.1.label",
+          "kind": "text",
+          "role": "label",
+          "text": "Extract",
+          "rectIn": {
+            "x": 6.85,
+            "y": 2.53,
+            "w": 0.75,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.4498,
+            "w": 0.075,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.1.text",
+          "kind": "text",
+          "role": "body",
+          "text": "LLM reads the brief -> pets, light class, moisture class",
+          "rectIn": {
+            "x": 6.85,
+            "y": 2.74,
+            "w": 2.65,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.4871,
+            "w": 0.265,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.2.dot",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.45,
+            "y": 2.99,
+            "w": 0.3,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.5316,
+            "w": 0.03,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "method.step.2.num",
+          "kind": "text",
+          "role": "label",
+          "text": "2",
+          "rectIn": {
+            "x": 6.45,
+            "y": 3.03,
+            "w": 0.3,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.5387,
+            "w": 0.03,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.2.label",
+          "kind": "text",
+          "role": "label",
+          "text": "Filter",
+          "rectIn": {
+            "x": 6.85,
+            "y": 3.02,
+            "w": 0.75,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.5369,
+            "w": 0.075,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.2.text",
+          "kind": "text",
+          "role": "body",
+          "text": "Python removes every species toxic to a household pet",
+          "rectIn": {
+            "x": 6.85,
+            "y": 3.23,
+            "w": 2.65,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.5742,
+            "w": 0.265,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.3.dot",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.45,
+            "y": 3.48,
+            "w": 0.3,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.6187,
+            "w": 0.03,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "method.step.3.num",
+          "kind": "text",
+          "role": "label",
+          "text": "3",
+          "rectIn": {
+            "x": 6.45,
+            "y": 3.52,
+            "w": 0.3,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.6258,
+            "w": 0.03,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.3.label",
+          "kind": "text",
+          "role": "label",
+          "text": "Design",
+          "rectIn": {
+            "x": 6.85,
+            "y": 3.51,
+            "w": 0.75,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.624,
+            "w": 0.075,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.3.text",
+          "kind": "text",
+          "role": "body",
+          "text": "LLM composes zones, combination logic, care and cautions",
+          "rectIn": {
+            "x": 6.85,
+            "y": 3.72,
+            "w": 2.65,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.6613,
+            "w": 0.265,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.4.dot",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.45,
+            "y": 3.97,
+            "w": 0.3,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.7058,
+            "w": 0.03,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "method.step.4.num",
+          "kind": "text",
+          "role": "label",
+          "text": "4",
+          "rectIn": {
+            "x": 6.45,
+            "y": 4.01,
+            "w": 0.3,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.7129,
+            "w": 0.03,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.4.label",
+          "kind": "text",
+          "role": "label",
+          "text": "Audit",
+          "rectIn": {
+            "x": 6.85,
+            "y": 4,
+            "w": 0.75,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.7111,
+            "w": 0.075,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.4.text",
+          "kind": "text",
+          "role": "body",
+          "text": "Python re-checks safety and a 15-item design rubric",
+          "rectIn": {
+            "x": 6.85,
+            "y": 4.21,
+            "w": 2.65,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.7484,
+            "w": 0.265,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.5.dot",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.45,
+            "y": 4.46,
+            "w": 0.3,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.7929,
+            "w": 0.03,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "method.step.5.num",
+          "kind": "text",
+          "role": "label",
+          "text": "5",
+          "rectIn": {
+            "x": 6.45,
+            "y": 4.5,
+            "w": 0.3,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.645,
+            "y": 0.8,
+            "w": 0.03,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.5.label",
+          "kind": "text",
+          "role": "label",
+          "text": "Repair",
+          "rectIn": {
+            "x": 6.85,
+            "y": 4.49,
+            "w": 0.75,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.7982,
+            "w": 0.075,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "method.step.5.text",
+          "kind": "text",
+          "role": "body",
+          "text": "Violations and missing rubric items go back to the model",
+          "rectIn": {
+            "x": 6.85,
+            "y": 4.7,
+            "w": 2.65,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.8356,
+            "w": 0.265,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-04.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.4",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "4",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 5,
+      "slideId": "groundtruth",
+      "title": "Ground truth and rules",
+      "elements": [
+        {
+          "elementId": "groundtruth.title",
+          "kind": "text",
+          "role": "title",
+          "text": "Ground truth and the decision rules",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.1.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 1.05,
+            "w": 2.12,
+            "h": 1.12
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.1867,
+            "w": 0.212,
+            "h": 0.1991
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.1.value",
+          "kind": "text",
+          "role": "value",
+          "text": "150",
+          "rectIn": {
+            "x": 0.73,
+            "y": 1.14,
+            "w": 1.76,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.073,
+            "y": 0.2027,
+            "w": 0.176,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 26,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.1.label",
+          "kind": "text",
+          "role": "label",
+          "text": "species in the\nground-truth database",
+          "rectIn": {
+            "x": 0.73,
+            "y": 1.62,
+            "w": 1.76,
+            "h": 0.5
+          },
+          "normalizedRect": {
+            "x": 0.073,
+            "y": 0.288,
+            "w": 0.176,
+            "h": 0.0889
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.2.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 2.87,
+            "y": 1.05,
+            "w": 2.12,
+            "h": 1.12
+          },
+          "normalizedRect": {
+            "x": 0.287,
+            "y": 0.1867,
+            "w": 0.212,
+            "h": 0.1991
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.2.value",
+          "kind": "text",
+          "role": "value",
+          "text": "25",
+          "rectIn": {
+            "x": 3.05,
+            "y": 1.14,
+            "w": 1.76,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.305,
+            "y": 0.2027,
+            "w": 0.176,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 26,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.2.label",
+          "kind": "text",
+          "role": "label",
+          "text": "benchmark\nscenarios",
+          "rectIn": {
+            "x": 3.05,
+            "y": 1.62,
+            "w": 1.76,
+            "h": 0.5
+          },
+          "normalizedRect": {
+            "x": 0.305,
+            "y": 0.288,
+            "w": 0.176,
+            "h": 0.0889
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.3.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 5.19,
+            "y": 1.05,
+            "w": 2.12,
+            "h": 1.12
+          },
+          "normalizedRect": {
+            "x": 0.519,
+            "y": 0.1867,
+            "w": 0.212,
+            "h": 0.1991
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.3.value",
+          "kind": "text",
+          "role": "value",
+          "text": "3",
+          "rectIn": {
+            "x": 5.37,
+            "y": 1.14,
+            "w": 1.76,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.537,
+            "y": 0.2027,
+            "w": 0.176,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 26,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.3.label",
+          "kind": "text",
+          "role": "label",
+          "text": "methods compared\nunder one contract",
+          "rectIn": {
+            "x": 5.37,
+            "y": 1.62,
+            "w": 1.76,
+            "h": 0.5
+          },
+          "normalizedRect": {
+            "x": 0.537,
+            "y": 0.288,
+            "w": 0.176,
+            "h": 0.0889
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.4.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 7.51,
+            "y": 1.05,
+            "w": 2.12,
+            "h": 1.12
+          },
+          "normalizedRect": {
+            "x": 0.751,
+            "y": 0.1867,
+            "w": 0.212,
+            "h": 0.1991
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.4.value",
+          "kind": "text",
+          "role": "value",
+          "text": "5",
+          "rectIn": {
+            "x": 7.69,
+            "y": 1.14,
+            "w": 1.76,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.769,
+            "y": 0.2027,
+            "w": 0.176,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 26,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.kpi.4.label",
+          "kind": "text",
+          "role": "label",
+          "text": "deterministic\nmetrics",
+          "rectIn": {
+            "x": 7.69,
+            "y": 1.62,
+            "w": 1.76,
+            "h": 0.5
+          },
+          "normalizedRect": {
+            "x": 0.769,
+            "y": 0.288,
+            "w": 0.176,
+            "h": 0.0889
+          },
+          "style": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.safety.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 2.4,
+            "w": 4.4,
+            "h": 2.55
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.4267,
+            "w": 0.44,
+            "h": 0.4533
+          },
+          "style": {
+            "fill": {
+              "color": "FBF0ED"
+            },
+            "line": {
+              "color": "E76F51",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "groundtruth.safety.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "Safety rule -- never relaxed",
+          "rectIn": {
+            "x": 0.8,
+            "y": 2.58,
+            "w": 3.9,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.08,
+            "y": 0.4587,
+            "w": 0.39,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 14,
+            "fontFace": "Arial",
+            "color": "E76F51",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.safety.body",
+          "kind": "text",
+          "role": "body",
+          "text": "A species toxic to any pet in the household is removed before the model ever sees the candidate list.\n\nToxicity labels come from the ASPCA Animal Poison Control database, one source URL per species.",
+          "rectIn": {
+            "x": 0.8,
+            "y": 2.98,
+            "w": 3.9,
+            "h": 1.8
+          },
+          "normalizedRect": {
+            "x": 0.08,
+            "y": 0.5298,
+            "w": 0.39,
+            "h": 0.32
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.viability.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 5.15,
+            "y": 2.4,
+            "w": 4.35,
+            "h": 2.55
+          },
+          "normalizedRect": {
+            "x": 0.515,
+            "y": 0.4267,
+            "w": 0.435,
+            "h": 0.4533
+          },
+          "style": {
+            "fill": {
+              "color": "F1F7F4"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "groundtruth.viability.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "Viability rule -- relaxable, and reported",
+          "rectIn": {
+            "x": 5.4,
+            "y": 2.58,
+            "w": 3.85,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.54,
+            "y": 0.4587,
+            "w": 0.385,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 14,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "groundtruth.viability.body",
+          "kind": "text",
+          "role": "body",
+          "text": "Light is stored as the darkest light a plant tolerates: full shade < bright indirect < partial shade < full sun. A plant is viable when the site is at least as bright as its tolerance.\n\nIf the strict query is empty, moisture is relaxed first, then light -- and the relaxation is reported to the user.",
+          "rectIn": {
+            "x": 5.4,
+            "y": 2.98,
+            "w": 3.85,
+            "h": 1.85
+          },
+          "normalizedRect": {
+            "x": 0.54,
+            "y": 0.5298,
+            "w": 0.385,
+            "h": 0.3289
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-05.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.5",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "5",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 6,
+      "slideId": "evaluation",
+      "title": "Evaluation design",
+      "elements": [
+        {
+          "elementId": "evaluation.title",
+          "kind": "text",
+          "role": "title",
+          "text": "How the three methods are compared",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.01.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 1.08,
+            "w": 2.8,
+            "h": 2.1
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.192,
+            "w": 0.28,
+            "h": 0.3733
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.method.01.tag",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 0.75,
+            "y": 1.26,
+            "w": 0.42,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.075,
+            "y": 0.224,
+            "w": 0.042,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.method.01.tagtext",
+          "kind": "text",
+          "role": "label",
+          "text": "B1",
+          "rectIn": {
+            "x": 0.75,
+            "y": 1.3,
+            "w": 0.42,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.075,
+            "y": 0.2311,
+            "w": 0.042,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9.5,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.01.name",
+          "kind": "text",
+          "role": "heading",
+          "text": "Zero-shot LLM",
+          "rectIn": {
+            "x": 0.75,
+            "y": 1.68,
+            "w": 2.4,
+            "h": 0.38
+          },
+          "normalizedRect": {
+            "x": 0.075,
+            "y": 0.2987,
+            "w": 0.24,
+            "h": 0.0676
+          },
+          "style": {
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.01.desc",
+          "kind": "text",
+          "role": "body",
+          "text": "One prompt. The model answers from memory, with no catalogue and no filter.",
+          "rectIn": {
+            "x": 0.75,
+            "y": 2.1,
+            "w": 2.4,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.075,
+            "y": 0.3733,
+            "w": 0.24,
+            "h": 0.1689
+          },
+          "style": {
+            "fontSize": 10.5,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.02.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 3.6,
+            "y": 1.08,
+            "w": 2.8,
+            "h": 2.1
+          },
+          "normalizedRect": {
+            "x": 0.36,
+            "y": 0.192,
+            "w": 0.28,
+            "h": 0.3733
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.method.02.tag",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 3.8,
+            "y": 1.26,
+            "w": 0.42,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.38,
+            "y": 0.224,
+            "w": 0.042,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "2A9D8F"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.method.02.tagtext",
+          "kind": "text",
+          "role": "label",
+          "text": "B2",
+          "rectIn": {
+            "x": 3.8,
+            "y": 1.3,
+            "w": 0.42,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.38,
+            "y": 0.2311,
+            "w": 0.042,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9.5,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.02.name",
+          "kind": "text",
+          "role": "heading",
+          "text": "Naive keyword RAG",
+          "rectIn": {
+            "x": 3.8,
+            "y": 1.68,
+            "w": 2.4,
+            "h": 0.38
+          },
+          "normalizedRect": {
+            "x": 0.38,
+            "y": 0.2987,
+            "w": 0.24,
+            "h": 0.0676
+          },
+          "style": {
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.02.desc",
+          "kind": "text",
+          "role": "body",
+          "text": "Top-k retrieved species are passed to the model. Nothing is excluded.",
+          "rectIn": {
+            "x": 3.8,
+            "y": 2.1,
+            "w": 2.4,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.38,
+            "y": 0.3733,
+            "w": 0.24,
+            "h": 0.1689
+          },
+          "style": {
+            "fontSize": 10.5,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.03.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6.65,
+            "y": 1.08,
+            "w": 2.8,
+            "h": 2.1
+          },
+          "normalizedRect": {
+            "x": 0.665,
+            "y": 0.192,
+            "w": 0.28,
+            "h": 0.3733
+          },
+          "style": {
+            "fill": {
+              "color": "264653"
+            },
+            "line": {
+              "color": "264653",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.method.03.tag",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.85,
+            "y": 1.26,
+            "w": 0.42,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.224,
+            "w": 0.042,
+            "h": 0.0533
+          },
+          "style": {
+            "fill": {
+              "color": "E9C46A"
+            },
+            "line": {
+              "color": "E9C46A",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.method.03.tagtext",
+          "kind": "text",
+          "role": "label",
+          "text": "P",
+          "rectIn": {
+            "x": 6.85,
+            "y": 1.3,
+            "w": 0.42,
+            "h": 0.24
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.2311,
+            "w": 0.042,
+            "h": 0.0427
+          },
+          "style": {
+            "fontSize": 9.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.03.name",
+          "kind": "text",
+          "role": "heading",
+          "text": "Proposed agent",
+          "rectIn": {
+            "x": 6.85,
+            "y": 1.68,
+            "w": 2.4,
+            "h": 0.38
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.2987,
+            "w": 0.24,
+            "h": 0.0676
+          },
+          "style": {
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.method.03.desc",
+          "kind": "text",
+          "role": "body",
+          "text": "Retrieval + negative filtering + deterministic audit with repair loops.",
+          "rectIn": {
+            "x": 6.85,
+            "y": 2.1,
+            "w": 2.4,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.685,
+            "y": 0.3733,
+            "w": 0.24,
+            "h": 0.1689
+          },
+          "style": {
+            "fontSize": 10.5,
+            "fontFace": "Arial",
+            "color": "DCE8E1",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.fairness.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 3.4,
+            "w": 5.3,
+            "h": 1.55
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.6044,
+            "w": 0.53,
+            "h": 0.2756
+          },
+          "style": {
+            "fill": {
+              "color": "F1F7F4"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.fairness.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "Identical output contract for all three",
+          "rectIn": {
+            "x": 0.8,
+            "y": 3.56,
+            "w": 4.8,
+            "h": 0.32
+          },
+          "normalizedRect": {
+            "x": 0.08,
+            "y": 0.6329,
+            "w": 0.48,
+            "h": 0.0569
+          },
+          "style": {
+            "fontSize": 13,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.fairness.body",
+          "kind": "text",
+          "role": "body",
+          "text": "Same JSON schema, same required design content, same rubric. Only grounding and filtering differ -- so the comparison measures the architecture, not the prompt.",
+          "rectIn": {
+            "x": 0.8,
+            "y": 3.92,
+            "w": 4.8,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.08,
+            "y": 0.6969,
+            "w": 0.48,
+            "h": 0.1689
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.metrics.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6.05,
+            "y": 3.4,
+            "w": 3.45,
+            "h": 1.55
+          },
+          "normalizedRect": {
+            "x": 0.605,
+            "y": 0.6044,
+            "w": 0.345,
+            "h": 0.2756
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "evaluation.metrics.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "Five deterministic metrics",
+          "rectIn": {
+            "x": 6.3,
+            "y": 3.56,
+            "w": 2.95,
+            "h": 0.32
+          },
+          "normalizedRect": {
+            "x": 0.63,
+            "y": 0.6329,
+            "w": 0.295,
+            "h": 0.0569
+          },
+          "style": {
+            "fontSize": 13,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "evaluation.metrics.body",
+          "kind": "text",
+          "role": "body",
+          "text": "1 Pet safety\n2 Horticultural viability\n3 Dual-constraint accuracy\n4 Design completeness (0-15)\n5 Out-of-database rate",
+          "rectIn": {
+            "x": 6.3,
+            "y": 3.92,
+            "w": 2.95,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.63,
+            "y": 0.6969,
+            "w": 0.295,
+            "h": 0.1689
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "51605A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-06.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.6",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "6",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 7,
+      "slideId": "results",
+      "title": "Main results",
+      "elements": [
+        {
+          "elementId": "results.title",
+          "kind": "text",
+          "role": "title",
+          "text": "Main results over 25 scenarios",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.figure.shell",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.5,
+            "y": 1.05,
+            "w": 5.35,
+            "h": 3.85
+          },
+          "normalizedRect": {
+            "x": 0.05,
+            "y": 0.1867,
+            "w": 0.535,
+            "h": 0.6844
+          },
+          "style": {
+            "fill": {
+              "color": "FFFFFF"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "results.figure.image",
+          "kind": "image",
+          "role": "image",
+          "rectIn": {
+            "x": 0.62,
+            "y": 1.17,
+            "w": 5.1,
+            "h": 3.6
+          },
+          "normalizedRect": {
+            "x": 0.062,
+            "y": 0.208,
+            "w": 0.51,
+            "h": 0.64
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addImage"
+          }
+        },
+        {
+          "elementId": "results.table.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6,
+            "y": 1.05,
+            "w": 3.5,
+            "h": 2.5
+          },
+          "normalizedRect": {
+            "x": 0.6,
+            "y": 0.1867,
+            "w": 0.35,
+            "h": 0.4444
+          },
+          "style": {
+            "fill": {
+              "color": "F6F7F6"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "results.table.head.0",
+          "kind": "text",
+          "role": "label",
+          "text": "Method",
+          "rectIn": {
+            "x": 6.12,
+            "y": 1.2,
+            "w": 1.28,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.612,
+            "y": 0.2133,
+            "w": 0.128,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 8.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.head.1",
+          "kind": "text",
+          "role": "label",
+          "text": "Safety",
+          "rectIn": {
+            "x": 7.42,
+            "y": 1.2,
+            "w": 0.4,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.742,
+            "y": 0.2133,
+            "w": 0.04,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 8.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.head.2",
+          "kind": "text",
+          "role": "label",
+          "text": "Viab.",
+          "rectIn": {
+            "x": 7.82,
+            "y": 1.2,
+            "w": 0.38,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.782,
+            "y": 0.2133,
+            "w": 0.038,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 8.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.head.3",
+          "kind": "text",
+          "role": "label",
+          "text": "Dual",
+          "rectIn": {
+            "x": 8.2,
+            "y": 1.2,
+            "w": 0.38,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.82,
+            "y": 0.2133,
+            "w": 0.038,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 8.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.head.4",
+          "kind": "text",
+          "role": "label",
+          "text": "Compl.",
+          "rectIn": {
+            "x": 8.58,
+            "y": 1.2,
+            "w": 0.42,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.858,
+            "y": 0.2133,
+            "w": 0.042,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 8.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.head.5",
+          "kind": "text",
+          "role": "label",
+          "text": "OoDB",
+          "rectIn": {
+            "x": 9,
+            "y": 1.2,
+            "w": 0.4,
+            "h": 0.26
+          },
+          "normalizedRect": {
+            "x": 0.9,
+            "y": 0.2133,
+            "w": 0.04,
+            "h": 0.0462
+          },
+          "style": {
+            "fontSize": 8.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.0.0",
+          "kind": "text",
+          "role": "body",
+          "text": "B1 zero-shot",
+          "rectIn": {
+            "x": 6.12,
+            "y": 1.55,
+            "w": 1.28,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.612,
+            "y": 0.2756,
+            "w": 0.128,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "left",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.0.1",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 7.42,
+            "y": 1.55,
+            "w": 0.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.742,
+            "y": 0.2756,
+            "w": 0.04,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.0.2",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 7.82,
+            "y": 1.55,
+            "w": 0.38,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.782,
+            "y": 0.2756,
+            "w": 0.038,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.0.3",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 8.2,
+            "y": 1.55,
+            "w": 0.38,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.82,
+            "y": 0.2756,
+            "w": 0.038,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.0.4",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 8.58,
+            "y": 1.55,
+            "w": 0.42,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.858,
+            "y": 0.2756,
+            "w": 0.042,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.0.5",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 9,
+            "y": 1.55,
+            "w": 0.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.9,
+            "y": 0.2756,
+            "w": 0.04,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.1.0",
+          "kind": "text",
+          "role": "body",
+          "text": "B2 naive RAG",
+          "rectIn": {
+            "x": 6.12,
+            "y": 1.97,
+            "w": 1.28,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.612,
+            "y": 0.3502,
+            "w": 0.128,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "left",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.1.1",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 7.42,
+            "y": 1.97,
+            "w": 0.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.742,
+            "y": 0.3502,
+            "w": 0.04,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.1.2",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 7.82,
+            "y": 1.97,
+            "w": 0.38,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.782,
+            "y": 0.3502,
+            "w": 0.038,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.1.3",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 8.2,
+            "y": 1.97,
+            "w": 0.38,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.82,
+            "y": 0.3502,
+            "w": 0.038,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.1.4",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 8.58,
+            "y": 1.97,
+            "w": 0.42,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.858,
+            "y": 0.3502,
+            "w": 0.042,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.1.5",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 9,
+            "y": 1.97,
+            "w": 0.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.9,
+            "y": 0.3502,
+            "w": 0.04,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": false,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.row.2.band",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.12,
+            "y": 2.35,
+            "w": 3.34,
+            "h": 0.36
+          },
+          "normalizedRect": {
+            "x": 0.612,
+            "y": 0.4178,
+            "w": 0.334,
+            "h": 0.064
+          },
+          "style": {
+            "fill": {
+              "color": "E3EFE9"
+            },
+            "line": {
+              "color": "E3EFE9",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "results.table.cell.2.0",
+          "kind": "text",
+          "role": "body",
+          "text": "Proposed agent",
+          "rectIn": {
+            "x": 6.12,
+            "y": 2.39,
+            "w": 1.28,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.612,
+            "y": 0.4249,
+            "w": 0.128,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.2.1",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 7.42,
+            "y": 2.39,
+            "w": 0.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.742,
+            "y": 0.4249,
+            "w": 0.04,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.2.2",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 7.82,
+            "y": 2.39,
+            "w": 0.38,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.782,
+            "y": 0.4249,
+            "w": 0.038,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.2.3",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 8.2,
+            "y": 2.39,
+            "w": 0.38,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.82,
+            "y": 0.4249,
+            "w": 0.038,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.2.4",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 8.58,
+            "y": 2.39,
+            "w": 0.42,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.858,
+            "y": 0.4249,
+            "w": 0.042,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.cell.2.5",
+          "kind": "text",
+          "role": "body",
+          "text": "-",
+          "rectIn": {
+            "x": 9,
+            "y": 2.39,
+            "w": 0.4,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.9,
+            "y": 0.4249,
+            "w": 0.04,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "center",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.table.note",
+          "kind": "text",
+          "role": "body",
+          "text": "Fill from results/summary.csv\nSafety = pet-safety compliance, Viab. = horticultural viability, Compl. = design completeness 0-15, O-o-DB = out-of-database rate.",
+          "rectIn": {
+            "x": 6.18,
+            "y": 2.92,
+            "w": 3.2,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.618,
+            "y": 0.5191,
+            "w": 0.32,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 8.5,
+            "fontFace": "Arial",
+            "color": "6B7973",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "results.finding.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6,
+            "y": 3.65,
+            "w": 3.5,
+            "h": 1.25
+          },
+          "normalizedRect": {
+            "x": 0.6,
+            "y": 0.6489,
+            "w": 0.35,
+            "h": 0.2222
+          },
+          "style": {
+            "fill": {
+              "color": "264653"
+            },
+            "line": {
+              "color": "264653",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "results.finding.text",
+          "kind": "text",
+          "role": "body",
+          "text": "The agent's pet-safety compliance is exactly 100%, because the filter is deterministic -- the model is never given the opportunity to pick an unsafe species.",
+          "rectIn": {
+            "x": 6.22,
+            "y": 3.82,
+            "w": 3.1,
+            "h": 0.95
+          },
+          "normalizedRect": {
+            "x": 0.622,
+            "y": 0.6791,
+            "w": 0.31,
+            "h": 0.1689
+          },
+          "style": {
+            "fontSize": 10.5,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-07.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.7",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "7",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 8,
+      "slideId": "completeness",
+      "title": "Design completeness",
+      "elements": [
+        {
+          "elementId": "completeness.title",
+          "kind": "text",
+          "role": "title",
+          "text": "Design quality is a separate axis from safety",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "completeness.figure.shell",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.5,
+            "y": 1.05,
+            "w": 5.35,
+            "h": 3.85
+          },
+          "normalizedRect": {
+            "x": 0.05,
+            "y": 0.1867,
+            "w": 0.535,
+            "h": 0.6844
+          },
+          "style": {
+            "fill": {
+              "color": "FFFFFF"
+            },
+            "line": {
+              "color": "D8DEDC",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "completeness.figure.image",
+          "kind": "image",
+          "role": "image",
+          "rectIn": {
+            "x": 0.62,
+            "y": 1.17,
+            "w": 5.1,
+            "h": 3.6
+          },
+          "normalizedRect": {
+            "x": 0.062,
+            "y": 0.208,
+            "w": 0.51,
+            "h": 0.64
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addImage"
+          }
+        },
+        {
+          "elementId": "completeness.rubric.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6,
+            "y": 1.05,
+            "w": 3.5,
+            "h": 2.15
+          },
+          "normalizedRect": {
+            "x": 0.6,
+            "y": 0.1867,
+            "w": 0.35,
+            "h": 0.3822
+          },
+          "style": {
+            "fill": {
+              "color": "F1F7F4"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "completeness.rubric.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "The rubric is code, not opinion",
+          "rectIn": {
+            "x": 6.22,
+            "y": 1.2,
+            "w": 3.1,
+            "h": 0.32
+          },
+          "normalizedRect": {
+            "x": 0.622,
+            "y": 0.2133,
+            "w": 0.31,
+            "h": 0.0569
+          },
+          "style": {
+            "fontSize": 13,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "completeness.rubric.body",
+          "kind": "text",
+          "role": "body",
+          "text": "15 binary items, each with a stored detection rule:\n\nA1-A3  three spatial zones (vertical, ground, pet-accessible)\nC2-C3  watering frequency + light position  ->  core score 0-5\n\nA vague mention scores nothing.",
+          "rectIn": {
+            "x": 6.22,
+            "y": 1.56,
+            "w": 3.1,
+            "h": 1.55
+          },
+          "normalizedRect": {
+            "x": 0.622,
+            "y": 0.2773,
+            "w": 0.31,
+            "h": 0.2756
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "completeness.contract.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 6,
+            "y": 3.3,
+            "w": 3.5,
+            "h": 1.6
+          },
+          "normalizedRect": {
+            "x": 0.6,
+            "y": 0.5867,
+            "w": 0.35,
+            "h": 0.2844
+          },
+          "style": {
+            "fill": {
+              "color": "264653"
+            },
+            "line": {
+              "color": "264653",
+              "width": 0
+            }
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "completeness.contract.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "A design must also explain itself",
+          "rectIn": {
+            "x": 6.22,
+            "y": 3.44,
+            "w": 3.1,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.622,
+            "y": 0.6116,
+            "w": 0.31,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 12.5,
+            "fontFace": "Arial",
+            "color": "E9C46A",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "completeness.contract.body",
+          "kind": "text",
+          "role": "body",
+          "text": "spatial structure  /  combination logic  /  care instructions  /  care cautions -- each with a per-item failure list fed back to the model for one repair round.",
+          "rectIn": {
+            "x": 6.22,
+            "y": 3.76,
+            "w": 3.1,
+            "h": 1
+          },
+          "normalizedRect": {
+            "x": 0.622,
+            "y": 0.6684,
+            "w": 0.31,
+            "h": 0.1778
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "E4EDE8",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-08.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.8",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "8",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 9,
+      "slideId": "limitations",
+      "title": "Limitations and outlook",
+      "elements": [
+        {
+          "elementId": "limitations.title",
+          "kind": "text",
+          "role": "title",
+          "text": "Limitations and outlook",
+          "rectIn": {
+            "x": 0.55,
+            "y": 0.34,
+            "w": 8.9,
+            "h": 0.6
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.0604,
+            "w": 0.89,
+            "h": 0.1067
+          },
+          "style": {
+            "fontSize": 27,
+            "fontFace": "Arial",
+            "color": "264653",
+            "bold": true,
+            "align": "left",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "limitations.left.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 0.55,
+            "y": 1.1,
+            "w": 4.35,
+            "h": 3.8
+          },
+          "normalizedRect": {
+            "x": 0.055,
+            "y": 0.1956,
+            "w": 0.435,
+            "h": 0.6756
+          },
+          "style": {
+            "fill": {
+              "color": "FBF0ED"
+            },
+            "line": {
+              "color": "E76F51",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-09.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "limitations.left.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "Limitations I want to state myself",
+          "rectIn": {
+            "x": 0.8,
+            "y": 1.3,
+            "w": 3.85,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.08,
+            "y": 0.2311,
+            "w": 0.385,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 14,
+            "fontFace": "Arial",
+            "color": "E76F51",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-09.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "limitations.left.body",
+          "kind": "text",
+          "role": "body",
+          "text": "150 of 1000+ listed species\nCats and dogs only\n25 scenarios -- a defensible scale, not a large one\nA mis-parsed brief propagates into the candidate pool\nThe guarantee covers species in the database; the out-of-database rate is reported separately",
+          "rectIn": {
+            "x": 0.8,
+            "y": 1.72,
+            "w": 3.85,
+            "h": 2.9
+          },
+          "normalizedRect": {
+            "x": 0.08,
+            "y": 0.3058,
+            "w": 0.385,
+            "h": 0.5156
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-09.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "limitations.right.card",
+          "kind": "shape",
+          "role": "card",
+          "rectIn": {
+            "x": 5.15,
+            "y": 1.1,
+            "w": 4.35,
+            "h": 3.8
+          },
+          "normalizedRect": {
+            "x": 0.515,
+            "y": 0.1956,
+            "w": 0.435,
+            "h": 0.6756
+          },
+          "style": {
+            "fill": {
+              "color": "F1F7F4"
+            },
+            "line": {
+              "color": "2A9D8F",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-09.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "limitations.right.heading",
+          "kind": "text",
+          "role": "heading",
+          "text": "What comes next",
+          "rectIn": {
+            "x": 5.4,
+            "y": 1.3,
+            "w": 3.85,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.54,
+            "y": 0.2311,
+            "w": 0.385,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 14,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-09.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "limitations.right.body",
+          "kind": "text",
+          "role": "body",
+          "text": "Dense recall + deterministic filtering\nPer-species provenance shown in the answer\nIterative tool use with iterative auditing\nMore species, more pets, more site types\n\nThe takeaway: swap in a stronger LLM and the design gets prettier; the toxicity guarantee does not move.",
+          "rectIn": {
+            "x": 5.4,
+            "y": 1.72,
+            "w": 3.85,
+            "h": 2.9
+          },
+          "normalizedRect": {
+            "x": 0.54,
+            "y": 0.3058,
+            "w": 0.385,
+            "h": 0.5156
+          },
+          "style": {
+            "fontSize": 11.5,
+            "fontFace": "Arial",
+            "color": "264653",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-09.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.9",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "9",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    },
+    {
+      "slideNumber": 10,
+      "slideId": "conclusion",
+      "title": "Conclusion",
+      "elements": [
+        {
+          "elementId": "conclusion.title",
+          "kind": "text",
+          "role": "title",
+          "text": "Every checkable constraint belongs in code.",
+          "rectIn": {
+            "x": 0.7,
+            "y": 0.95,
+            "w": 8.6,
+            "h": 0.8
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.1689,
+            "w": 0.86,
+            "h": 0.1422
+          },
+          "style": {
+            "fontSize": 30,
+            "fontFace": "Arial",
+            "color": "FFFFFF",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0,
+            "fit": "shrink"
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.subtitle",
+          "kind": "text",
+          "role": "subtitle",
+          "text": "The LLM designs; deterministic code decides what is allowed, and checks what came back.",
+          "rectIn": {
+            "x": 0.7,
+            "y": 1.78,
+            "w": 8.2,
+            "h": 0.42
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.3164,
+            "w": 0.82,
+            "h": 0.0747
+          },
+          "style": {
+            "fontSize": 15,
+            "fontFace": "Arial",
+            "color": "E9C46A",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.1.shape",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 0.7,
+            "y": 2.45,
+            "w": 2.8,
+            "h": 0.56
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.4356,
+            "w": 0.28,
+            "h": 0.0996
+          },
+          "style": {
+            "fill": {
+              "color": "33505A"
+            },
+            "line": {
+              "color": "4A6B73",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.1.text",
+          "kind": "text",
+          "role": "body",
+          "text": "150-species ground truth",
+          "rectIn": {
+            "x": 0.82,
+            "y": 2.6,
+            "w": 2.56,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.082,
+            "y": 0.4622,
+            "w": 0.256,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "E4EDE8",
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.2.shape",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 3.7,
+            "y": 2.45,
+            "w": 2.8,
+            "h": 0.56
+          },
+          "normalizedRect": {
+            "x": 0.37,
+            "y": 0.4356,
+            "w": 0.28,
+            "h": 0.0996
+          },
+          "style": {
+            "fill": {
+              "color": "33505A"
+            },
+            "line": {
+              "color": "4A6B73",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.2.text",
+          "kind": "text",
+          "role": "body",
+          "text": "reproducible data pipeline",
+          "rectIn": {
+            "x": 3.82,
+            "y": 2.6,
+            "w": 2.56,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.382,
+            "y": 0.4622,
+            "w": 0.256,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "E4EDE8",
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.3.shape",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 6.7,
+            "y": 2.45,
+            "w": 2.8,
+            "h": 0.56
+          },
+          "normalizedRect": {
+            "x": 0.67,
+            "y": 0.4356,
+            "w": 0.28,
+            "h": 0.0996
+          },
+          "style": {
+            "fill": {
+              "color": "33505A"
+            },
+            "line": {
+              "color": "4A6B73",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.3.text",
+          "kind": "text",
+          "role": "body",
+          "text": "25-scenario benchmark",
+          "rectIn": {
+            "x": 6.82,
+            "y": 2.6,
+            "w": 2.56,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.682,
+            "y": 0.4622,
+            "w": 0.256,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "E4EDE8",
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.4.shape",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 0.7,
+            "y": 3.17,
+            "w": 2.8,
+            "h": 0.56
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.5636,
+            "w": 0.28,
+            "h": 0.0996
+          },
+          "style": {
+            "fill": {
+              "color": "33505A"
+            },
+            "line": {
+              "color": "4A6B73",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.4.text",
+          "kind": "text",
+          "role": "body",
+          "text": "deterministic completeness rubric",
+          "rectIn": {
+            "x": 0.82,
+            "y": 3.32,
+            "w": 2.56,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.082,
+            "y": 0.5902,
+            "w": 0.256,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "E4EDE8",
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.5.shape",
+          "kind": "shape",
+          "role": "decorative",
+          "rectIn": {
+            "x": 3.7,
+            "y": 3.17,
+            "w": 2.8,
+            "h": 0.56
+          },
+          "normalizedRect": {
+            "x": 0.37,
+            "y": 0.5636,
+            "w": 0.28,
+            "h": 0.0996
+          },
+          "style": {
+            "fill": {
+              "color": "33505A"
+            },
+            "line": {
+              "color": "4A6B73",
+              "width": 1
+            }
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addShape"
+          }
+        },
+        {
+          "elementId": "conclusion.chip.5.text",
+          "kind": "text",
+          "role": "body",
+          "text": "live demo",
+          "rectIn": {
+            "x": 3.82,
+            "y": 3.32,
+            "w": 2.56,
+            "h": 0.28
+          },
+          "normalizedRect": {
+            "x": 0.382,
+            "y": 0.5902,
+            "w": 0.256,
+            "h": 0.0498
+          },
+          "style": {
+            "fontSize": 11,
+            "fontFace": "Arial",
+            "color": "E4EDE8",
+            "align": "center",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.links",
+          "kind": "text",
+          "role": "body",
+          "text": "github.com/<your-id>/petsafe-greenery      |      <your-id>.streamlit.app",
+          "rectIn": {
+            "x": 0.7,
+            "y": 4.18,
+            "w": 8.6,
+            "h": 0.34
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.7431,
+            "w": 0.86,
+            "h": 0.0604
+          },
+          "style": {
+            "fontSize": 12,
+            "fontFace": "Arial",
+            "color": "9FC7BA",
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "conclusion.qa",
+          "kind": "text",
+          "role": "heading",
+          "text": "Questions?",
+          "rectIn": {
+            "x": 0.7,
+            "y": 4.62,
+            "w": 3,
+            "h": 0.45
+          },
+          "normalizedRect": {
+            "x": 0.07,
+            "y": 0.8213,
+            "w": 0.3,
+            "h": 0.08
+          },
+          "style": {
+            "fontSize": 20,
+            "fontFace": "Arial",
+            "color": "E9C46A",
+            "bold": true,
+            "align": "left",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-10.js",
+            "method": "addText"
+          }
+        },
+        {
+          "elementId": "page.number.10",
+          "kind": "text",
+          "role": "pageNumber",
+          "text": "10",
+          "rectIn": {
+            "x": 9.3,
+            "y": 5.08,
+            "w": 0.45,
+            "h": 0.3
+          },
+          "normalizedRect": {
+            "x": 0.93,
+            "y": 0.9031,
+            "w": 0.045,
+            "h": 0.0533
+          },
+          "style": {
+            "fontSize": 10,
+            "fontFace": "Arial",
+            "color": "2A9D8F",
+            "align": "right",
+            "valign": "top",
+            "margin": 0
+          },
+          "source": {
+            "file": "slides/slide-%s.js",
+            "method": "addText"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s19",
+  "brief": "My courtyard is partial shade with moderate moisture, and no pets live in the household. A courtyard with dappled light and moderate soil moisture, no pets, mainly visual interest.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Hedera helix",
+    "Lysimachia nummularia",
+    "Hosta plantaginea",
+    "Brunnera macrophylla",
+    "Adiantum pedatum"
+  ],
+  "design": {
+    "site_summary": "A partially shaded courtyard with moderate soil moisture and no pets, designed primarily for rich visual interest and textural contrast.",
+    "layout_strategy": "The scheme stacks three vertical layers: trailing shade-loving perennials hang in wall baskets at eye level, structural foliage plants sit in mid-height containers against the walls, and delicate ground-hugging ferns carpet the low floor pots.",
+    "combination_logic": "The combination relies on contrasting fine fern fronds with broad hosta leaves and cascading ivies, creating a rhythmic interplay of deep greens, silvers, and chartreuse that shifts across seasons with spring blooms and autumn foliage changes.",
+    "zones": [
+      {
+        "zone_name": "Wall Cascades",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on south-facing courtyard wall hooks, receiving dappled light for 4 hours a day",
+        "plants": [
+          {
+            "scientific_name": "Hedera helix",
+            "common_name": "English Ivy",
+            "why": "Thrives in partial shade and provides a reliable trailing habit.",
+            "role_in_combination": "Cascades downwards to soften the harsh edges of containers and adds permanent deep green structure."
+          },
+          {
+            "scientific_name": "Lysimachia nummularia",
+            "common_name": "Creeping Jenny",
+            "why": "Loves moderate moisture and brightens dark walls.",
+            "role_in_combination": "Offers a bright chartreuse colour contrast against the darker ivy leaves."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top inch of soil feels dry.",
+          "Feed with a balanced liquid fertilizer monthly during spring and summer.",
+          "Trim trailing stems twice a year to maintain desired length."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Foliage",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "against the main courtyard perimeter wall, in knee-high planters receiving dappled shade",
+        "plants": [
+          {
+            "scientific_name": "Hosta plantaginea",
+            "common_name": "August Lily",
+            "why": "Brings lush tropical-looking foliage well-suited for partial shade.",
+            "role_in_combination": "Provides massive structural leaves that contrast sharply with fine ferns and trailing vines."
+          },
+          {
+            "scientific_name": "Brunnera macrophylla",
+            "common_name": "Siberian Bugloss",
+            "why": "Adds heart-shaped foliage and delicate blue flowers.",
+            "role_in_combination": "Silver-veined leaves reflect indirect light, brightening the shaded wall."
+          }
+        ],
+        "maintenance": [
+          "Keep soil consistently moist but never waterlogged.",
+          "Remove spent flower stalks in late spring.",
+          "Divide overcrowded hosta clumps every three years in early spring."
+        ]
+      },
+      {
+        "zone_name": "Ground Carpet",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "at floor level along the courtyard paving edges, in low wide bowls in deep shade",
+        "plants": [
+          {
+            "scientific_name": "Adiantum pedatum",
+            "common_name": "Northern Maidenhair Fern",
+            "why": "Prefers cool, moist, shaded conditions at ground level.",
+            "role_in_combination": "Delicate wire-like stems and fan-shaped fronds create an ethereal, fine-textured carpet."
+          }
+        ],
+        "maintenance": [
+          "Mist foliage during dry summer spells to maintain humidity.",
+          "Clear away old fronds in late winter to make way for new spring growth.",
+          "Repot into a slightly larger container every two years."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers and water deeply",
+        "frequency": "twice a week in summer, weekly in spring and autumn",
+        "season": "summer"
+      },
+      {
+        "task": "Apply a dilute organic liquid fertilizer to mid-level and hanging containers",
+        "frequency": "monthly",
+        "season": "spring"
+      },
+      {
+        "task": "Clear away fallen autumn debris from the groundcover pots to prevent fungal issues",
+        "frequency": "bi-weekly",
+        "season": "autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the hanging wall baskets can lead to root rot if drainage holes become blocked by debris.",
+      "The delicate fronds of the Maidenhair Fern in the Ground Carpet zone can scorch or dry out completely if exposed to unexpected direct afternoon sun.",
+      "The Hosta leaves in the Mid-Level zone may suffer from slug damage during prolonged wet spells in spring."
+    ],
+    "pet_safety_note": "No pets live in this household, so traditional pet toxicity restrictions are not required for this design."
+  },
+  "design_text": "{\n  \"site_summary\": \"A partially shaded courtyard with moderate soil moisture and no pets, designed primarily for rich visual interest and textural contrast.\",\n  \"layout_strategy\": \"The scheme stacks three vertical layers: trailing shade-loving perennials hang in wall baskets at eye level, structural foliage plants sit in mid-height containers against the walls, and delicate ground-hugging ferns carpet the low floor pots.\",\n  \"combination_logic\": \"The combination relies on contrasting fine fern fronds with broad hosta leaves and cascading ivies, creating a rhythmic interplay of deep greens, silvers, and chartreuse that shifts across seasons with spring blooms and autumn foliage changes.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Wall Cascades\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on south-facing courtyard wall hooks, receiving dappled light for 4 hours a day\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hedera helix\",\n          \"common_name\": \"English Ivy\",\n          \"why\": \"Thrives in partial shade and provides a reliable trailing habit.\",\n          \"role_in_combination\": \"Cascades downwards to soften the harsh edges of containers and adds permanent deep green structure.\"\n        },\n        {\n          \"scientific_name\": \"Lysimachia nummularia\",\n          \"common_name\": \"Creeping Jenny\",\n          \"why\": \"Loves moderate moisture and brightens dark walls.\",\n          \"role_in_combination\": \"Offers a bright chartreuse colour contrast against the darker ivy leaves.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top inch of soil feels dry.\",\n        \"Feed with a balanced liquid fertilizer monthly during spring and summer.\",\n        \"Trim trailing stems twice a year to maintain desired length.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Foliage\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the main courtyard perimeter wall, in knee-high planters receiving dappled shade\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hosta plantaginea\",\n          \"common_name\": \"August Lily\",\n          \"why\": \"Brings lush tropical-looking foliage well-suited for partial shade.\",\n          \"role_in_combination\": \"Provides massive structural leaves that contrast sharply with fine ferns and trailing vines.\"\n        },\n        {\n          \"scientific_name\": \"Brunnera macrophylla\",\n          \"common_name\": \"Siberian Bugloss\",\n          \"why\": \"Adds heart-shaped foliage and delicate blue flowers.\",\n          \"role_in_combination\": \"Silver-veined leaves reflect indirect light, brightening the shaded wall.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep soil consistently moist but never waterlogged.\",\n        \"Remove spent flower stalks in late spring.\",\n        \"Divide overcrowded hosta clumps every three years in early spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Carpet\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"at floor level along the courtyard paving edges, in low wide bowls in deep shade\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Adiantum pedatum\",\n          \"common_name\": \"Northern Maidenhair Fern\",\n          \"why\": \"Prefers cool, moist, shaded conditions at ground level.\",\n          \"role_in_combination\": \"Delicate wire-like stems and fan-shaped fronds create an ethereal, fine-textured carpet.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Mist foliage during dry summer spells to maintain humidity.\",\n        \"Clear away old fronds in late winter to make way for new spring growth.\",\n        \"Repot into a slightly larger container every two years.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers and water deeply\",\n      \"frequency\": \"twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"summer\"\n    },\n    {\n      \"task\": \"Apply a dilute organic liquid fertilizer to mid-level and hanging containers\",\n      \"frequency\": \"monthly\",\n      \"season\": \"spring\"\n    },\n    {\n      \"task\": \"Clear away fallen autumn debris from the groundcover pots to prevent fungal issues\",\n      \"frequency\": \"bi-weekly\",\n      \"season\": \"autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the hanging wall baskets can lead to root rot if drainage holes become blocked by debris.\",\n    \"The delicate fronds of the Maidenhair Fern in the Ground Carpet zone can scorch or dry out completely if exposed to unexpected direct afternoon sun.\",\n    \"The Hosta leaves in the Mid-Level zone may suffer from slug damage during prolonged wet spells in spring.\"\n  ],\n  \"pet_safety_note\": \"No pets live in this household, so traditional pet toxicity restrictions are not required for this design.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

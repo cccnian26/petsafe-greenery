@@ -1,0 +1,76 @@
+{
+  "run": "offline_demo",
+  "model": "gemini-3.5-flash-lite",
+  "backend": "offline",
+  "provider": "gemini",
+  "code_version": "2026-11-12d",
+  "timestamp": "2026-11-13 17:04:17",
+  "n_scenarios": 3,
+  "rows": [
+    {
+      "method": "B1 zero-shot",
+      "safety": "0.000",
+      "viability": "1.000",
+      "dual": "0.000",
+      "completeness": "0.800",
+      "oodb": "0.000",
+      "raw": "12.0",
+      "core": "4.0",
+      "n_scenarios": 3,
+      "plants": "15",
+      "toxic": "15",
+      "seconds": "0.0"
+    },
+    {
+      "method": "B2 naive RAG",
+      "safety": "0.000",
+      "viability": "1.000",
+      "dual": "0.000",
+      "completeness": "0.800",
+      "oodb": "0.000",
+      "raw": "12.0",
+      "core": "4.0",
+      "n_scenarios": 3,
+      "plants": "15",
+      "toxic": "15",
+      "seconds": "0.0"
+    },
+    {
+      "method": "Proposed agent",
+      "safety": "1.000",
+      "viability": "1.000",
+      "dual": "1.000",
+      "completeness": "1.000",
+      "oodb": "0.000",
+      "raw": "15.0",
+      "core": "5.0",
+      "n_scenarios": 3,
+      "plants": "21",
+      "toxic": "0",
+      "seconds": "0.1"
+    }
+  ],
+  "usage": {
+    "calls": 0,
+    "cache_hits": 0,
+    "total_seconds": 0.0,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "rubric": [
+    {
+      "item": "",
+      "name": "",
+      "rate": "-"
+    },
+    {
+      "item": "",
+      "name": "",
+      "rate": "-"
+    },
+    {
+      "item": "",
+      "name": "",
+      "rate": "-"
+    }
+  ]
+}

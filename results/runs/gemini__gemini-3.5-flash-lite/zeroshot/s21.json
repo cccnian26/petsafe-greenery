@@ -1,0 +1,124 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s21",
+  "brief": "My balcony is full sun with high moisture, and a cat and a dog live in the household. A sunny balcony kept wet by a drip hose, with one cat.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Campanula poscharskyana",
+    "Bacopa monnieri",
+    "Phormium tenax",
+    "Salvia uliginosa",
+    "Dactylis glomerata",
+    "Mentha spicata"
+  ],
+  "design": {
+    "site_summary": "A full sun balcony with high moisture from a drip hose, shared with a cat and a dog.",
+    "layout_strategy": "Trailing plants cascade from the railing at eye level, upright structural perennials sit in mid-height containers against the wall, and a low edible herb and grass layer sits on the floor where the pets can reach it.",
+    "combination_logic": "The design contrasts fine, grassy textures with broad foliage and trailing habits, creating a dynamic visual rhythm from the floor up to the railing. In spring, fresh green growth emerges from the base while trailing perennials bloom profusely overhead, shifting to vibrant summer foliage and seed heads by autumn.",
+    "zones": [
+      {
+        "zone_name": "Railing Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On the outer edge of the south-facing railing, receiving full sun all day and frequent moisture from the drip hose.",
+        "plants": [
+          {
+            "scientific_name": "Campanula poscharskyana",
+            "common_name": "Serbian Bellflower",
+            "why": "Thrives in full sun to partial shade with regular moisture and forms a lush, cascading curtain of starry blue flowers.",
+            "role_in_combination": "Provides a bright floral accent and a soft, tumbling habit that breaks up the rigid lines of the balcony railing."
+          },
+          {
+            "scientific_name": "Bacopa monnieri",
+            "common_name": "Water Hyssop",
+            "why": "Loves consistently wet soil and full sun, making it ideal for the drip-fed railing baskets.",
+            "role_in_combination": "Contributes delicate white blooms and small, succulent-like rounded leaves that contrast with the star-shaped flowers of the bellflower."
+          }
+        ],
+        "maintenance": [
+          "Check soil moisture daily as hanging baskets dry out quickly even with drip lines.",
+          "Apply liquid balanced fertilizer fortnightly throughout the summer growing season.",
+          "Shear back lightly after the first heavy summer flush to encourage a second round of blooms."
+        ]
+      },
+      {
+        "zone_name": "Wall Architecture",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Against the back interior wall in large containers, catching full sun and moderate ambient warmth.",
+        "plants": [
+          {
+            "scientific_name": "Phormium tenax",
+            "common_name": "New Zealand Flax",
+            "why": "Brings bold, upright architectural structure and handles moist, sunny conditions exceptionally well.",
+            "role_in_combination": "Acts as the primary focal point, providing dramatic vertical contrast to the cascading and low-lying plants."
+          },
+          {
+            "scientific_name": "Salvia uliginosa",
+            "common_name": "Bog Sage",
+            "why": "Thrives in moist soils and full sun, growing tall with sky-blue flowers.",
+            "role_in_combination": "Adds height, airy texture, and vertical color spikes that weave visually behind the dense foliage of the flax."
+          }
+        ],
+        "maintenance": [
+          "Water deeply three times a week via the automatic drip system.",
+          "Feed with a slow-release granular fertilizer in early spring.",
+          "Cut back dead or tattered leaves of the flax in early spring, and prune bog sage stems back by half after flowering."
+        ]
+      },
+      {
+        "zone_name": "Pet Grazing Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "In a heavy, low-sided wooden trough on the sheltered interior floor, easily accessible to both the cat and the dog.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Cat Grass",
+            "why": "Completely safe and highly attractive for pets to chew and graze on.",
+            "role_in_combination": "Provides a soft, fine-textured green ground layer that contrasts sharply with the bold foliage of the mid-layer containers."
+          },
+          {
+            "scientific_name": "Mentha spicata",
+            "common_name": "Spearmint",
+            "why": "Thrives in the high moisture environment of the site and offers a fragrant, pet-safe herb for occasional nibbling.",
+            "role_in_combination": "Adds aromatic scent and a vibrant mid-green leaf texture that fills the gaps around the grass."
+          }
+        ],
+        "maintenance": [
+          "Water every other day to keep the potting mix consistently damp.",
+          "Trim the cat grass back every few weeks to promote fresh, tender new growth.",
+          "Divide the mint annually in spring to prevent it from overcrowding the container."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Inspect drip hose emitters and tubing for clogs or leaks to ensure even moisture distribution.",
+        "frequency": "Monthly",
+        "season": "Spring through autumn"
+      },
+      {
+        "task": "Prune back dead foliage and spent flower stems across all containers to maintain plant health and air circulation.",
+        "frequency": "Bi-weekly",
+        "season": "Summer"
+      },
+      {
+        "task": "Apply organic liquid fertilizer to the hanging and mid-layer containers to replenish nutrients washed out by the frequent drip watering.",
+        "frequency": "Every two weeks",
+        "season": "Summer"
+      }
+    ],
+    "care_cautions": [
+      "Constant moisture from the drip hose combined with intense full sun can encourage root rot in the Railing Cascade hanging baskets if drainage holes become blocked.",
+      "The dense vertical growth of Phormium tenax in the mid layer can trap humidity against the wall, creating a potential breeding ground for fungal issues if not properly spaced.",
+      "The low-level Mint in the Pet Grazing Patch may grow aggressively and crowd out the cat grass if not root-pruned regularly."
+    ],
+    "pet_safety_note": "All plants in the designated grazing zone and throughout the balcony are entirely non-toxic to cats and dogs, ensuring they can safely explore and nibble."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full sun balcony with high moisture from a drip hose, shared with a cat and a dog.\",\n  \"layout_strategy\": \"Trailing plants cascade from the railing at eye level, upright structural perennials sit in mid-height containers against the wall, and a low edible herb and grass layer sits on the floor where the pets can reach it.\",\n  \"combination_logic\": \"The design contrasts fine, grassy textures with broad foliage and trailing habits, creating a dynamic visual rhythm from the floor up to the railing. In spring, fresh green growth emerges from the base while trailing perennials bloom profusely overhead, shifting to vibrant summer foliage and seed heads by autumn.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On the outer edge of the south-facing railing, receiving full sun all day and frequent moisture from the drip hose.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Campanula poscharskyana\",\n          \"common_name\": \"Serbian Bellflower\",\n          \"why\": \"Thrives in full sun to partial shade with regular moisture and forms a lush, cascading curtain of starry blue flowers.\",\n          \"role_in_combination\": \"Provides a bright floral accent and a soft, tumbling habit that breaks up the rigid lines of the balcony railing.\"\n        },\n        {\n          \"scientific_name\": \"Bacopa monnieri\",\n          \"common_name\": \"Water Hyssop\",\n          \"why\": \"Loves consistently wet soil and full sun, making it ideal for the drip-fed railing baskets.\",\n          \"role_in_combination\": \"Contributes delicate white blooms and small, succulent-like rounded leaves that contrast with the star-shaped flowers of the bellflower.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Check soil moisture daily as hanging baskets dry out quickly even with drip lines.\",\n        \"Apply liquid balanced fertilizer fortnightly throughout the summer growing season.\",\n        \"Shear back lightly after the first heavy summer flush to encourage a second round of blooms.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Wall Architecture\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the back interior wall in large containers, catching full sun and moderate ambient warmth.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Phormium tenax\",\n          \"common_name\": \"New Zealand Flax\",\n          \"why\": \"Brings bold, upright architectural structure and handles moist, sunny conditions exceptionally well.\",\n          \"role_in_combination\": \"Acts as the primary focal point, providing dramatic vertical contrast to the cascading and low-lying plants.\"\n        },\n        {\n          \"scientific_name\": \"Salvia uliginosa\",\n          \"common_name\": \"Bog Sage\",\n          \"why\": \"Thrives in moist soils and full sun, growing tall with sky-blue flowers.\",\n          \"role_in_combination\": \"Adds height, airy texture, and vertical color spikes that weave visually behind the dense foliage of the flax.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water deeply three times a week via the automatic drip system.\",\n        \"Feed with a slow-release granular fertilizer in early spring.\",\n        \"Cut back dead or tattered leaves of the flax in early spring, and prune bog sage stems back by half after flowering.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Pet Grazing Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"In a heavy, low-sided wooden trough on the sheltered interior floor, easily accessible to both the cat and the dog.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Cat Grass\",\n          \"why\": \"Completely safe and highly attractive for pets to chew and graze on.\",\n          \"role_in_combination\": \"Provides a soft, fine-textured green ground layer that contrasts sharply with the bold foliage of the mid-layer containers.\"\n        },\n        {\n          \"scientific_name\": \"Mentha spicata\",\n          \"common_name\": \"Spearmint\",\n          \"why\": \"Thrives in the high moisture environment of the site and offers a fragrant, pet-safe herb for occasional nibbling.\",\n          \"role_in_combination\": \"Adds aromatic scent and a vibrant mid-green leaf texture that fills the gaps around the grass.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every other day to keep the potting mix consistently damp.\",\n        \"Trim the cat grass back every few weeks to promote fresh, tender new growth.\",\n        \"Divide the mint annually in spring to prevent it from overcrowding the container.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Inspect drip hose emitters and tubing for clogs or leaks to ensure even moisture distribution.\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Spring through autumn\"\n    },\n    {\n      \"task\": \"Prune back dead foliage and spent flower stems across all containers to maintain plant health and air circulation.\",\n      \"frequency\": \"Bi-weekly\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Apply organic liquid fertilizer to the hanging and mid-layer containers to replenish nutrients washed out by the frequent drip watering.\",\n      \"frequency\": \"Every two weeks\",\n      \"season\": \"Summer\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Constant moisture from the drip hose combined with intense full sun can encourage root rot in the Railing Cascade hanging baskets if drainage holes become blocked.\",\n    \"The dense vertical growth of Phormium tenax in the mid layer can trap humidity against the wall, creating a potential breeding ground for fungal issues if not properly spaced.\",\n    \"The low-level Mint in the Pet Grazing Patch may grow aggressively and crowd out the cat grass if not root-pruned regularly.\"\n  ],\n  \"pet_safety_note\": \"All plants in the designated grazing zone and throughout the balcony are entirely non-toxic to cats and dogs, ensuring they can safely explore and nibble.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

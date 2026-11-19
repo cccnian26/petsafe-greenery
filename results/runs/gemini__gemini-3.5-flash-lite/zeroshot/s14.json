@@ -1,0 +1,110 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s14",
+  "brief": "My balcony is full sun with low moisture, and one dog lives in the household. A hot south balcony with dry soil and a dog who digs and chews.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Rosmarinus officinalis 'Prostratus'",
+    "Lavandula angustifolia",
+    "Salvia rosmarinus",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "A hot, south-facing sunny balcony with dry soil conditions, designed to be completely safe for a dog that shares the space.",
+    "layout_strategy": "The scheme is structured in three vertical tiers: trailing drought-tolerant plants cascade from railing baskets at eye level, structural upright shrubs occupy mid-height containers against the warm south wall, and a dedicated low sensory tray sits at floor level for the dog.",
+    "combination_logic": "The plants combine fine needle-like foliage with broad architectural leaves, creating strong textural contrast against the stark balcony wall. Silvery foliage reflects the intense midday sun while purple and blue summer blooms provide seasonal accents, shifting from spring growth to a rugged, heat-tolerant summer display.",
+    "zones": [
+      {
+        "zone_name": "Railing Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on the south-facing outer railing, receiving 6 to 8 hours of intense direct sunlight and maximum wind exposure",
+        "plants": [
+          {
+            "scientific_name": "Rosmarinus officinalis 'Prostratus'",
+            "common_name": "Creeping Rosemary",
+            "why": "Thrives in baking sun and poor, dry soil while cascading gracefully over the edge.",
+            "role_in_combination": "Provides a evergreen weeping habit, aromatic scent, and soft needle texture that contrasts with upright plants."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when the top two inches of soil are completely dry.",
+          "Feed with a low-nitrogen organic fertilizer once in early spring.",
+          "Prune back long stems lightly after flowering to maintain a dense shape."
+        ]
+      },
+      {
+        "zone_name": "Sun-Worshipers Wall",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "in heavy terracotta pots lined up against the south-facing back wall, getting reflected heat and full sun all day",
+        "plants": [
+          {
+            "scientific_name": "Lavandula angustifolia",
+            "common_name": "English Lavender",
+            "why": "Loves baking sun and requires minimal water once established, fitting the dry microclimate.",
+            "role_in_combination": "Adds upright vertical flower spikes in soft purple and contrasting grey-green foliage."
+          },
+          {
+            "scientific_name": "Salvia rosmarinus",
+            "common_name": "Upright Rosemary",
+            "why": "Extremely drought tolerant and architectural, anchoring the mid-height zone.",
+            "role_in_combination": "Creates a strong woody backbone and height contrast against the softer lavender mounds."
+          }
+        ],
+        "maintenance": [
+          "Water deeply once a week during peak summer, reduce to monthly in winter.",
+          "Prune lavender hard in early spring after the frost risk passes, avoiding old wood.",
+          "Repot every two years into a slightly larger terracotta pot with sandy, well-draining soil."
+        ]
+      },
+      {
+        "zone_name": "Dog Grazing Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "in a heavy, wide, low wooden planter on the sheltered floor corner, receiving partial sun and easy access for the dog",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Safe Pet Grass",
+            "why": "Non-toxic, soft textured grass that satisfies the dog's natural urge to graze and dig safely.",
+            "role_in_combination": "Provides a soft, bright green ground-level carpet that softens the hard balcony flooring and contrasts with the woody shrubs above."
+          }
+        ],
+        "maintenance": [
+          "Water the grass lightly every three days to keep it fresh.",
+          "Trim back the grass with scissors when it gets overgrown.",
+          "Reseed bare patches in spring or autumn as the dog digs or grazes."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture in all containers using a finger test to prevent overwatering drought-loving plants.",
+        "frequency": "twice a week in summer, weekly in spring and autumn",
+        "season": "summer"
+      },
+      {
+        "task": "Apply a balanced, slow-release organic fertilizer to the mid-layer terracotta pots.",
+        "frequency": "once at the start of the season",
+        "season": "spring"
+      },
+      {
+        "task": "Clear away fallen dead leaves and spent flower heads to prevent fungal issues in the warm microclimate.",
+        "frequency": "weekly",
+        "season": "autumn"
+      }
+    ],
+    "care_cautions": [
+      "Lavender and rosemary in the mid-layer can suffer from root rot if drainage holes in the terracotta pots get blocked against the warm wall.",
+      "The dog grazing patch at ground level may be aggressively dug up, requiring sturdy, heavy wooden planters that the dog cannot tip over.",
+      "Creeping rosemary in the hanging baskets might dry out faster than ground containers during intense heatwaves and requires vigilant moisture checks."
+    ],
+    "pet_safety_note": "All plants selected are completely non-toxic and safe for canine consumption, with a dedicated low grass patch provided to direct the dog's digging and chewing away from the structural pots."
+  },
+  "design_text": "{\n  \"site_summary\": \"A hot, south-facing sunny balcony with dry soil conditions, designed to be completely safe for a dog that shares the space.\",\n  \"layout_strategy\": \"The scheme is structured in three vertical tiers: trailing drought-tolerant plants cascade from railing baskets at eye level, structural upright shrubs occupy mid-height containers against the warm south wall, and a dedicated low sensory tray sits at floor level for the dog.\",\n  \"combination_logic\": \"The plants combine fine needle-like foliage with broad architectural leaves, creating strong textural contrast against the stark balcony wall. Silvery foliage reflects the intense midday sun while purple and blue summer blooms provide seasonal accents, shifting from spring growth to a rugged, heat-tolerant summer display.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the south-facing outer railing, receiving 6 to 8 hours of intense direct sunlight and maximum wind exposure\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Rosmarinus officinalis 'Prostratus'\",\n          \"common_name\": \"Creeping Rosemary\",\n          \"why\": \"Thrives in baking sun and poor, dry soil while cascading gracefully over the edge.\",\n          \"role_in_combination\": \"Provides a evergreen weeping habit, aromatic scent, and soft needle texture that contrasts with upright plants.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when the top two inches of soil are completely dry.\",\n        \"Feed with a low-nitrogen organic fertilizer once in early spring.\",\n        \"Prune back long stems lightly after flowering to maintain a dense shape.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Sun-Worshipers Wall\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"in heavy terracotta pots lined up against the south-facing back wall, getting reflected heat and full sun all day\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Lavandula angustifolia\",\n          \"common_name\": \"English Lavender\",\n          \"why\": \"Loves baking sun and requires minimal water once established, fitting the dry microclimate.\",\n          \"role_in_combination\": \"Adds upright vertical flower spikes in soft purple and contrasting grey-green foliage.\"\n        },\n        {\n          \"scientific_name\": \"Salvia rosmarinus\",\n          \"common_name\": \"Upright Rosemary\",\n          \"why\": \"Extremely drought tolerant and architectural, anchoring the mid-height zone.\",\n          \"role_in_combination\": \"Creates a strong woody backbone and height contrast against the softer lavender mounds.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water deeply once a week during peak summer, reduce to monthly in winter.\",\n        \"Prune lavender hard in early spring after the frost risk passes, avoiding old wood.\",\n        \"Repot every two years into a slightly larger terracotta pot with sandy, well-draining soil.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Dog Grazing Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"in a heavy, wide, low wooden planter on the sheltered floor corner, receiving partial sun and easy access for the dog\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Safe Pet Grass\",\n          \"why\": \"Non-toxic, soft textured grass that satisfies the dog's natural urge to graze and dig safely.\",\n          \"role_in_combination\": \"Provides a soft, bright green ground-level carpet that softens the hard balcony flooring and contrasts with the woody shrubs above.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water the grass lightly every three days to keep it fresh.\",\n        \"Trim back the grass with scissors when it gets overgrown.\",\n        \"Reseed bare patches in spring or autumn as the dog digs or grazes.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture in all containers using a finger test to prevent overwatering drought-loving plants.\",\n      \"frequency\": \"twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"summer\"\n    },\n    {\n      \"task\": \"Apply a balanced, slow-release organic fertilizer to the mid-layer terracotta pots.\",\n      \"frequency\": \"once at the start of the season\",\n      \"season\": \"spring\"\n    },\n    {\n      \"task\": \"Clear away fallen dead leaves and spent flower heads to prevent fungal issues in the warm microclimate.\",\n      \"frequency\": \"weekly\",\n      \"season\": \"autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Lavender and rosemary in the mid-layer can suffer from root rot if drainage holes in the terracotta pots get blocked against the warm wall.\",\n    \"The dog grazing patch at ground level may be aggressively dug up, requiring sturdy, heavy wooden planters that the dog cannot tip over.\",\n    \"Creeping rosemary in the hanging baskets might dry out faster than ground containers during intense heatwaves and requires vigilant moisture checks.\"\n  ],\n  \"pet_safety_note\": \"All plants selected are completely non-toxic and safe for canine consumption, with a dedicated low grass patch provided to direct the dog's digging and chewing away from the structural pots.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

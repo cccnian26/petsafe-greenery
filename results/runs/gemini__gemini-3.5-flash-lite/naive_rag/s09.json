@@ -1,0 +1,205 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s09",
+  "brief": "My courtyard is partial shade with low moisture, and one dog lives in the household. A shaded inner courtyard with very free-draining soil and a husky that digs up every root.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p092",
+      "scientific_name": "Alyssum spp.",
+      "common_name": "Alyssum",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.7897
+    },
+    {
+      "id": "p140",
+      "scientific_name": "Salvia officinalis",
+      "common_name": "Sage",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.7897
+    },
+    {
+      "id": "p105",
+      "scientific_name": "Cortaderia selloana",
+      "common_name": "Pampas Grass",
+      "plant_type": "grass",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.7074
+    },
+    {
+      "id": "p109",
+      "scientific_name": "Echeveria elegans",
+      "common_name": "Hens and Chickens",
+      "plant_type": "succulent",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.7074
+    },
+    {
+      "id": "p072",
+      "scientific_name": "Solanum dulcamara",
+      "common_name": "Climbing Nightshade",
+      "plant_type": "groundcover",
+      "light": "partial_shade",
+      "moisture": "high",
+      "notes": "TOXIC to cats and dogs; Solanine; Vomiting, diarrhea - common. Drowsiness, low blood pressure, low heart rate - uncommon",
+      "retrieval_score": 2.59
+    },
+    {
+      "id": "p024",
+      "scientific_name": "Crassula argentea",
+      "common_name": "Jade Plant",
+      "plant_type": "succulent",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Unknown; Vomiting, depression, incoordination",
+      "retrieval_score": 2.5567
+    },
+    {
+      "id": "p068",
+      "scientific_name": "Sansevieria trifasciata",
+      "common_name": "Snake Plant",
+      "plant_type": "foliage",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Saponins; Nausea, vomiting, diarrhea",
+      "retrieval_score": 2.5567
+    },
+    {
+      "id": "p062",
+      "scientific_name": "Origanum vulgare hirtum",
+      "common_name": "Oregano",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Gastrointestinal irritants; Mild vomiting and diarrhea",
+      "retrieval_score": 2.4218
+    }
+  ],
+  "recommended_plants": [
+    "Echeveria elegans",
+    "Crassula argentea",
+    "Sansevieria trifasciata",
+    "Salvia officinalis",
+    "Origanum vulgare hirtum",
+    "Alyssum spp."
+  ],
+  "design": {
+    "site_summary": "A shaded inner courtyard with very free-draining soil and low moisture, inhabited by one digging husky.",
+    "layout_strategy": "The scheme stacks in three distinct height layers to outwit the digging husky: vertical hanging baskets at eye level for trailing succulents, mid-height heavy planters against the walls for upright architectural foliage and herbs, and a protected ground-level grazing tray secured against heavy paws.",
+    "combination_logic": "The combination relies on contrasting architectural forms and textures, pairing the rigid, upright swords of Sansevieria with the soft rosettes of Echeveria and the woody, textured foliage of Sage and Oregano. Seasonal changes bring subtle shifts in leaf sheen and occasional tiny blooms, while evergreen textures ensure year-round structure in the shade.",
+    "zones": [
+      {
+        "zone_name": "Railing Succulent Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On high courtyard wall brackets, out of reach of the husky, receiving filtered partial shade and ambient light.",
+        "plants": [
+          {
+            "scientific_name": "Echeveria elegans",
+            "common_name": "Hens and Chickens",
+            "why": "Adapts well to low moisture and partial shade while producing charming rosettes.",
+            "role_in_combination": "Provides soft, rounded rosette textures that contrast sharply with the spiky vertical plants below."
+          },
+          {
+            "scientific_name": "Crassula argentea",
+            "common_name": "Jade Plant",
+            "why": "Thrives in free-draining soil with minimal water requirements.",
+            "role_in_combination": "Adds woody stems and fleshy, glossy leaves that catch the light high up on the wall."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when the soil is completely dry, roughly every two weeks in summer and monthly in winter.",
+          "Fertilise with a low-nitrogen succulent feed once in mid-spring.",
+          "Prune any leggy stems in early spring to encourage bushy growth."
+        ]
+      },
+      {
+        "zone_name": "Wall-Mounted Architectural Shield",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "In heavy, wall-mounted masonry containers at waist height along the perimeter wall in partial shade.",
+        "plants": [
+          {
+            "scientific_name": "Sansevieria trifasciata",
+            "common_name": "Snake Plant",
+            "why": "Extremely drought-tolerant and handles partial shade effortlessly.",
+            "role_in_combination": "Contributes dramatic vertical height and rigid architectural lines that anchor the mid-layer."
+          },
+          {
+            "scientific_name": "Salvia officinalis",
+            "common_name": "Sage",
+            "why": "Loves free-draining soil and partial shade conditions.",
+            "role_in_combination": "Introduces grey-green, tactile foliage that softens the rigid geometry of the snake plant."
+          }
+        ],
+        "maintenance": [
+          "Check soil moisture weekly, watering sparingly as roots rot easily in damp conditions.",
+          "Prune sage back by a third after flowering in summer to maintain a compact shape.",
+          "Repot into slightly larger heavy containers every three years in spring."
+        ]
+      },
+      {
+        "zone_name": "Protected Husky Herb Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "In a heavy, weighted ground-level timber trough secured with wire mesh, located in partial shade.",
+        "plants": [
+          {
+            "scientific_name": "Origanum vulgare hirtum",
+            "common_name": "Oregano",
+            "why": "Tough low-growing herb that tolerates low moisture and partial shade.",
+            "role_in_combination": "Provides a low, aromatic ground-hugging mat that can be safely nibbled by the dog."
+          },
+          {
+            "scientific_name": "Alyssum spp.",
+            "common_name": "Alyssum",
+            "why": "Low moisture tolerant and creates a dense flowering ground cover.",
+            "role_in_combination": "Adds delicate floral clusters and a sweet scent at ground level, softening the edges of the heavy planter."
+          }
+        ],
+        "maintenance": [
+          "Water lightly once a week during dry summer spells, keeping the wire mesh intact.",
+          "Trim back alyssum and oregano slightly after their main flowering flush in mid-summer to promote fresh growth."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers, ensuring the free-draining mix dries out completely between waterings.",
+        "frequency": "Every week",
+        "season": "Summer"
+      },
+      {
+        "task": "Prune back woody herbs like sage and clear away spent foliage from the hanging baskets.",
+        "frequency": "Once at the beginning of the season",
+        "season": "Spring"
+      },
+      {
+        "task": "Relocate tender succulents and sensitive container plants to a frost-free, sheltered spot.",
+        "frequency": "Once as temperatures drop",
+        "season": "Winter"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Sansevieria trifasciata and Crassula argentea in the shaded courtyard can quickly lead to root rot.",
+      "The husky may attempt to dig into or overturn the ground-level planter if the wire mesh protection is not securely fastened.",
+      "The low light levels in the partial shade courtyard may cause leggy growth in the Echeveria elegans if not positioned to catch maximum ambient light."
+    ],
+    "pet_safety_note": "All ground-level herbs are non-toxic and safely caged behind heavy wire mesh to satisfy the dog's curiosity without letting him destroy the root systems."
+  },
+  "design_text": "{\n  \"site_summary\": \"A shaded inner courtyard with very free-draining soil and low moisture, inhabited by one digging husky.\",\n  \"layout_strategy\": \"The scheme stacks in three distinct height layers to outwit the digging husky: vertical hanging baskets at eye level for trailing succulents, mid-height heavy planters against the walls for upright architectural foliage and herbs, and a protected ground-level grazing tray secured against heavy paws.\",\n  \"combination_logic\": \"The combination relies on contrasting architectural forms and textures, pairing the rigid, upright swords of Sansevieria with the soft rosettes of Echeveria and the woody, textured foliage of Sage and Oregano. Seasonal changes bring subtle shifts in leaf sheen and occasional tiny blooms, while evergreen textures ensure year-round structure in the shade.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Succulent Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On high courtyard wall brackets, out of reach of the husky, receiving filtered partial shade and ambient light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Echeveria elegans\",\n          \"common_name\": \"Hens and Chickens\",\n          \"why\": \"Adapts well to low moisture and partial shade while producing charming rosettes.\",\n          \"role_in_combination\": \"Provides soft, rounded rosette textures that contrast sharply with the spiky vertical plants below.\"\n        },\n        {\n          \"scientific_name\": \"Crassula argentea\",\n          \"common_name\": \"Jade Plant\",\n          \"why\": \"Thrives in free-draining soil with minimal water requirements.\",\n          \"role_in_combination\": \"Adds woody stems and fleshy, glossy leaves that catch the light high up on the wall.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when the soil is completely dry, roughly every two weeks in summer and monthly in winter.\",\n        \"Fertilise with a low-nitrogen succulent feed once in mid-spring.\",\n        \"Prune any leggy stems in early spring to encourage bushy growth.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Wall-Mounted Architectural Shield\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"In heavy, wall-mounted masonry containers at waist height along the perimeter wall in partial shade.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sansevieria trifasciata\",\n          \"common_name\": \"Snake Plant\",\n          \"why\": \"Extremely drought-tolerant and handles partial shade effortlessly.\",\n          \"role_in_combination\": \"Contributes dramatic vertical height and rigid architectural lines that anchor the mid-layer.\"\n        },\n        {\n          \"scientific_name\": \"Salvia officinalis\",\n          \"common_name\": \"Sage\",\n          \"why\": \"Loves free-draining soil and partial shade conditions.\",\n          \"role_in_combination\": \"Introduces grey-green, tactile foliage that softens the rigid geometry of the snake plant.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Check soil moisture weekly, watering sparingly as roots rot easily in damp conditions.\",\n        \"Prune sage back by a third after flowering in summer to maintain a compact shape.\",\n        \"Repot into slightly larger heavy containers every three years in spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Protected Husky Herb Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"In a heavy, weighted ground-level timber trough secured with wire mesh, located in partial shade.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Origanum vulgare hirtum\",\n          \"common_name\": \"Oregano\",\n          \"why\": \"Tough low-growing herb that tolerates low moisture and partial shade.\",\n          \"role_in_combination\": \"Provides a low, aromatic ground-hugging mat that can be safely nibbled by the dog.\"\n        },\n        {\n          \"scientific_name\": \"Alyssum spp.\",\n          \"common_name\": \"Alyssum\",\n          \"why\": \"Low moisture tolerant and creates a dense flowering ground cover.\",\n          \"role_in_combination\": \"Adds delicate floral clusters and a sweet scent at ground level, softening the edges of the heavy planter.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water lightly once a week during dry summer spells, keeping the wire mesh intact.\",\n        \"Trim back alyssum and oregano slightly after their main flowering flush in mid-summer to promote fresh growth.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers, ensuring the free-draining mix dries out completely between waterings.\",\n      \"frequency\": \"Every week\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Prune back woody herbs like sage and clear away spent foliage from the hanging baskets.\",\n      \"frequency\": \"Once at the beginning of the season\",\n      \"season\": \"Spring\"\n    },\n    {\n      \"task\": \"Relocate tender succulents and sensitive container plants to a frost-free, sheltered spot.\",\n      \"frequency\": \"Once as temperatures drop\",\n      \"season\": \"Winter\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Sansevieria trifasciata and Crassula argentea in the shaded courtyard can quickly lead to root rot.\",\n    \"The husky may attempt to dig into or overturn the ground-level planter if the wire mesh protection is not securely fastened.\",\n    \"The low light levels in the partial shade courtyard may cause leggy growth in the Echeveria elegans if not positioned to catch maximum ambient light.\"\n  ],\n  \"pet_safety_note\": \"All ground-level herbs are non-toxic and safely caged behind heavy wire mesh to satisfy the dog's curiosity without letting him destroy the root systems.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

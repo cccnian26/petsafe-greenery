@@ -1,0 +1,191 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s18",
+  "brief": "My balcony is full sun with moderate moisture, and no pets live in the household. A sunny balcony, no pets, I want a sensory planting with fragrant herbs.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p008",
+      "scientific_name": "Aloysia triphylla",
+      "common_name": "Lemon Verbena",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Essential oils; Stomach upset, colic. No concerns if small amounts used in cooking or as flavoring agent",
+      "retrieval_score": 7.6709
+    },
+    {
+      "id": "p101",
+      "scientific_name": "Celosia plumosa",
+      "common_name": "Celosia Plumosa",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.0644
+    },
+    {
+      "id": "p104",
+      "scientific_name": "Chlorophytum comosum",
+      "common_name": "Spider Plant",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.0644
+    },
+    {
+      "id": "p147",
+      "scientific_name": "Stephanotis floribunda",
+      "common_name": "Madagascar Jasmine",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.0644
+    },
+    {
+      "id": "p091",
+      "scientific_name": "Ageratina altissima",
+      "common_name": "White Snakeroot",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.0035
+    },
+    {
+      "id": "p095",
+      "scientific_name": "Aspidistra elatior",
+      "common_name": "Cast Iron Plant",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.0035
+    },
+    {
+      "id": "p103",
+      "scientific_name": "Chamaedorea elegans",
+      "common_name": "Parlor Palm",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.0035
+    },
+    {
+      "id": "p135",
+      "scientific_name": "Pilea nummulariifolia",
+      "common_name": "Creeping Charlie",
+      "plant_type": "groundcover",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.0035
+    }
+  ],
+  "recommended_plants": [
+    "Pilea nummulariifolia",
+    "Aloysia triphylla",
+    "Stephanotis floribunda",
+    "Celosia plumosa"
+  ],
+  "design": {
+    "site_summary": "A full-sun balcony with moderate moisture and no pets in the household.",
+    "layout_strategy": "The planting is structured vertically with lush trailing vines spilling from high wall brackets, mid-level upright shrubs creating a fragrant backdrop against the wall, and low texturing groundcovers anchoring the containers at floor level.",
+    "combination_logic": "The scheme combines fine-textured trailing foliage with bold, architectural flower plumes and woody aromatic shrubs, offering a sensory experience of citrus scent and tactile contrasts that intensifies during the sunny summer months.",
+    "zones": [
+      {
+        "zone_name": "Trailing Canopy",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On high wall-mounted brackets, receiving 6 hours of full afternoon sun.",
+        "plants": [
+          {
+            "scientific_name": "Pilea nummulariifolia",
+            "common_name": "Creeping Charlie",
+            "why": "Provides a lush trailing habit for the upper vertical layer.",
+            "role_in_combination": "Contributes soft, rounded leaf textures that contrast sharply with the upright spires below."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top inch of soil feels dry.",
+          "Feed with a balanced liquid fertilizer monthly during the growing season.",
+          "Trim back unruly stems in late summer to maintain shape."
+        ]
+      },
+      {
+        "zone_name": "Fragrant Backdrop",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "In large containers against the main back wall, receiving full sun all day.",
+        "plants": [
+          {
+            "scientific_name": "Aloysia triphylla",
+            "common_name": "Lemon Verbena",
+            "why": "Delivers intense citrus fragrance and a woody shrub structure.",
+            "role_in_combination": "Serves as the primary scent anchor, releasing lemon aromas when brushed against."
+          },
+          {
+            "scientific_name": "Stephanotis floribunda",
+            "common_name": "Madagascar Jasmine",
+            "why": "Adds height and highly scented white tubular blooms.",
+            "role_in_combination": "Provides vertical structure and seasonal floral contrast against the Lemon Verbena foliage."
+          }
+        ],
+        "maintenance": [
+          "Keep soil evenly moist, watering deeply every few days in peak summer.",
+          "Prune back woody stems in early spring to encourage fresh lateral growth.",
+          "Repot every two years into fresh, nutrient-rich compost."
+        ]
+      },
+      {
+        "zone_name": "Color Accent Edge",
+        "zone_role": "focal",
+        "layer": "ground",
+        "placement": "In low bowls along the floor edge, basking in full sun.",
+        "plants": [
+          {
+            "scientific_name": "Celosia plumosa",
+            "common_name": "Celosia Plumosa",
+            "why": "Introduces vivid, feathery plumes of color at the base of the larger pots.",
+            "role_in_combination": "Provides bright chromatic contrast and unusual velvety textures at eye-to-knee level."
+          }
+        ],
+        "maintenance": [
+          "Water at the base daily during hot summer dry spells.",
+          "Deadhead spent flower plumes to encourage continuous blooming.",
+          "Replace annually as it is a tender seasonal plant."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers",
+        "frequency": "Daily in peak summer, twice weekly in spring and autumn",
+        "season": "Summer"
+      },
+      {
+        "task": "Apply a balanced liquid fertilizer to support heavy blooming",
+        "frequency": "Every two weeks",
+        "season": "Spring and Summer"
+      },
+      {
+        "task": "Prune back tender perennials and clear out spent annuals",
+        "frequency": "Once at the end of the season",
+        "season": "Autumn"
+      }
+    ],
+    "care_cautions": [
+      "The trailing Pilea nummulariifolia in the upper hanging baskets can experience root rot if allowed to sit in standing water during prolonged rainy periods.",
+      "The full sun exposure on the balcony can cause rapid soil dry-out for the Celosia plumosa bowls, leading to wilting if not watered consistently."
+    ],
+    "pet_safety_note": "Since there are no pets in the household, all selected plants can be enjoyed purely for their sensory and aesthetic qualities without restriction."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full-sun balcony with moderate moisture and no pets in the household.\",\n  \"layout_strategy\": \"The planting is structured vertically with lush trailing vines spilling from high wall brackets, mid-level upright shrubs creating a fragrant backdrop against the wall, and low texturing groundcovers anchoring the containers at floor level.\",\n  \"combination_logic\": \"The scheme combines fine-textured trailing foliage with bold, architectural flower plumes and woody aromatic shrubs, offering a sensory experience of citrus scent and tactile contrasts that intensifies during the sunny summer months.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Trailing Canopy\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On high wall-mounted brackets, receiving 6 hours of full afternoon sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Pilea nummulariifolia\",\n          \"common_name\": \"Creeping Charlie\",\n          \"why\": \"Provides a lush trailing habit for the upper vertical layer.\",\n          \"role_in_combination\": \"Contributes soft, rounded leaf textures that contrast sharply with the upright spires below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top inch of soil feels dry.\",\n        \"Feed with a balanced liquid fertilizer monthly during the growing season.\",\n        \"Trim back unruly stems in late summer to maintain shape.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Fragrant Backdrop\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"In large containers against the main back wall, receiving full sun all day.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Aloysia triphylla\",\n          \"common_name\": \"Lemon Verbena\",\n          \"why\": \"Delivers intense citrus fragrance and a woody shrub structure.\",\n          \"role_in_combination\": \"Serves as the primary scent anchor, releasing lemon aromas when brushed against.\"\n        },\n        {\n          \"scientific_name\": \"Stephanotis floribunda\",\n          \"common_name\": \"Madagascar Jasmine\",\n          \"why\": \"Adds height and highly scented white tubular blooms.\",\n          \"role_in_combination\": \"Provides vertical structure and seasonal floral contrast against the Lemon Verbena foliage.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep soil evenly moist, watering deeply every few days in peak summer.\",\n        \"Prune back woody stems in early spring to encourage fresh lateral growth.\",\n        \"Repot every two years into fresh, nutrient-rich compost.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Color Accent Edge\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"ground\",\n      \"placement\": \"In low bowls along the floor edge, basking in full sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Celosia plumosa\",\n          \"common_name\": \"Celosia Plumosa\",\n          \"why\": \"Introduces vivid, feathery plumes of color at the base of the larger pots.\",\n          \"role_in_combination\": \"Provides bright chromatic contrast and unusual velvety textures at eye-to-knee level.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water at the base daily during hot summer dry spells.\",\n        \"Deadhead spent flower plumes to encourage continuous blooming.\",\n        \"Replace annually as it is a tender seasonal plant.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers\",\n      \"frequency\": \"Daily in peak summer, twice weekly in spring and autumn\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Apply a balanced liquid fertilizer to support heavy blooming\",\n      \"frequency\": \"Every two weeks\",\n      \"season\": \"Spring and Summer\"\n    },\n    {\n      \"task\": \"Prune back tender perennials and clear out spent annuals\",\n      \"frequency\": \"Once at the end of the season\",\n      \"season\": \"Autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"The trailing Pilea nummulariifolia in the upper hanging baskets can experience root rot if allowed to sit in standing water during prolonged rainy periods.\",\n    \"The full sun exposure on the balcony can cause rapid soil dry-out for the Celosia plumosa bowls, leading to wilting if not watered consistently.\"\n  ],\n  \"pet_safety_note\": \"Since there are no pets in the household, all selected plants can be enjoyed purely for their sensory and aesthetic qualities without restriction.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

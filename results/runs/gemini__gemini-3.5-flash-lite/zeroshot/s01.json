@@ -1,0 +1,109 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s01",
+  "brief": "My balcony is full shade with moderate moisture, and one cat lives in the household. A north-facing balcony behind a tall building, so it never sees direct sun. I want it to look lush anyway and my cat spends all day there.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Nephrolepis exaltata",
+    "Chlorophytum comosum",
+    "Calathea makoyana",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "A fully shaded north-facing balcony with moderate moisture, designed to be cat-safe for one household cat.",
+    "layout_strategy": "The scheme stacks three distinct height layers: trailing shade-loving ferns cascade from vertical wall-mounted baskets above eye level, structural foliage perennials sit in mid-height containers against the back wall, and a low tray of cat grass occupies the ground floor for direct feline access.",
+    "combination_logic": "The plants are combined to maximize a lush, jungle-like aesthetic despite the deep shade, relying entirely on contrasting foliage shapes, frond textures, and shades of green rather than bright flowers. Fine feathery fern fronds contrast with broad glossy leaves, creating visual depth as the eye moves from the cascading vertical layer down to the sturdy mid-layer and finally to the soft ground-level grass.",
+    "zones": [
+      {
+        "zone_name": "Canopy Cascades",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on the upper north wall brackets, 0 hours of direct sun, in ambient reflected light.",
+        "plants": [
+          {
+            "scientific_name": "Nephrolepis exaltata",
+            "common_name": "Boston Fern",
+            "why": "Thrives in deep shade and high humidity, creating a lush hanging curtain.",
+            "role_in_combination": "Provides soft, finely textured vertical cascades that contrast sharply with the upright, broader leaves below."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top inch of soil feels dry.",
+          "Mist the fronds weekly to maintain humidity.",
+          "Remove any browned fronds at the base in spring."
+        ]
+      },
+      {
+        "zone_name": "Shade Structural Wall",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "against the rear north-facing wall in large containers, receiving bright indirect ambient light.",
+        "plants": [
+          {
+            "scientific_name": "Chlorophytum comosum",
+            "common_name": "Spider Plant",
+            "why": "Extremely resilient, non-toxic to cats, and adapts well to full shade.",
+            "role_in_combination": "Offers arching variegated ribbon-like leaves that brighten the dark backdrop and link the vertical and ground layers."
+          },
+          {
+            "scientific_name": "Calathea makoyana",
+            "common_name": "Peacock Plant",
+            "why": "Brings striking patterned foliage that prospers in low light without scorching.",
+            "role_in_combination": "Introduces rich burgundy undersides and intricate leaf patterns as a mid-level visual anchor."
+          }
+        ],
+        "maintenance": [
+          "Keep soil evenly moist but never waterlogged.",
+          "Wipe broad leaves with a damp cloth monthly to remove dust.",
+          "Repot every two years in spring into slightly larger containers."
+        ]
+      },
+      {
+        "zone_name": "Feline Grazing Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "on the balcony floor in the corner, easily reached by the cat and receiving cool indirect light.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Cat Grass",
+            "why": "Safe and enticing for the household cat to chew and nibble daily.",
+            "role_in_combination": "Acts as the accessible ground layer, providing a soft, edible carpet that contrasts with the architectural pots above."
+          }
+        ],
+        "maintenance": [
+          "Water lightly every few days to keep the shallow soil fresh.",
+          "Sow new grass seeds every 4 to 6 weeks as the old grass gets chewed down.",
+          "Discard old grass trays and replace with fresh soil and seed when depleted."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture in all containers using a finger test.",
+        "frequency": "twice a week in summer, weekly in autumn and spring",
+        "season": "summer"
+      },
+      {
+        "task": "Apply a diluted liquid houseplant fertilizer to the mid-layer containers.",
+        "frequency": "every four weeks",
+        "season": "spring and summer"
+      },
+      {
+        "task": "Clear away fallen dead leaves and debris from the balcony floor to prevent mold.",
+        "frequency": "weekly",
+        "season": "autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering and root rot in the hanging baskets due to poor air circulation and lack of direct sunlight evaporating the moisture.",
+      "Frost damage to the tender Calathea makoyana if left outside during freezing winter nights on the open balcony."
+    ],
+    "pet_safety_note": "All plants chosen for this scheme, including the Boston Fern, Spider Plant, Calathea, and Cat Grass, are completely non-toxic to cats, ensuring a safe environment for your pet to spend all day exploring."
+  },
+  "design_text": "{\n  \"site_summary\": \"A fully shaded north-facing balcony with moderate moisture, designed to be cat-safe for one household cat.\",\n  \"layout_strategy\": \"The scheme stacks three distinct height layers: trailing shade-loving ferns cascade from vertical wall-mounted baskets above eye level, structural foliage perennials sit in mid-height containers against the back wall, and a low tray of cat grass occupies the ground floor for direct feline access.\",\n  \"combination_logic\": \"The plants are combined to maximize a lush, jungle-like aesthetic despite the deep shade, relying entirely on contrasting foliage shapes, frond textures, and shades of green rather than bright flowers. Fine feathery fern fronds contrast with broad glossy leaves, creating visual depth as the eye moves from the cascading vertical layer down to the sturdy mid-layer and finally to the soft ground-level grass.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Canopy Cascades\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the upper north wall brackets, 0 hours of direct sun, in ambient reflected light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Nephrolepis exaltata\",\n          \"common_name\": \"Boston Fern\",\n          \"why\": \"Thrives in deep shade and high humidity, creating a lush hanging curtain.\",\n          \"role_in_combination\": \"Provides soft, finely textured vertical cascades that contrast sharply with the upright, broader leaves below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top inch of soil feels dry.\",\n        \"Mist the fronds weekly to maintain humidity.\",\n        \"Remove any browned fronds at the base in spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Shade Structural Wall\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the rear north-facing wall in large containers, receiving bright indirect ambient light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Chlorophytum comosum\",\n          \"common_name\": \"Spider Plant\",\n          \"why\": \"Extremely resilient, non-toxic to cats, and adapts well to full shade.\",\n          \"role_in_combination\": \"Offers arching variegated ribbon-like leaves that brighten the dark backdrop and link the vertical and ground layers.\"\n        },\n        {\n          \"scientific_name\": \"Calathea makoyana\",\n          \"common_name\": \"Peacock Plant\",\n          \"why\": \"Brings striking patterned foliage that prospers in low light without scorching.\",\n          \"role_in_combination\": \"Introduces rich burgundy undersides and intricate leaf patterns as a mid-level visual anchor.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep soil evenly moist but never waterlogged.\",\n        \"Wipe broad leaves with a damp cloth monthly to remove dust.\",\n        \"Repot every two years in spring into slightly larger containers.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Feline Grazing Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"on the balcony floor in the corner, easily reached by the cat and receiving cool indirect light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Cat Grass\",\n          \"why\": \"Safe and enticing for the household cat to chew and nibble daily.\",\n          \"role_in_combination\": \"Acts as the accessible ground layer, providing a soft, edible carpet that contrasts with the architectural pots above.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water lightly every few days to keep the shallow soil fresh.\",\n        \"Sow new grass seeds every 4 to 6 weeks as the old grass gets chewed down.\",\n        \"Discard old grass trays and replace with fresh soil and seed when depleted.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture in all containers using a finger test.\",\n      \"frequency\": \"twice a week in summer, weekly in autumn and spring\",\n      \"season\": \"summer\"\n    },\n    {\n      \"task\": \"Apply a diluted liquid houseplant fertilizer to the mid-layer containers.\",\n      \"frequency\": \"every four weeks\",\n      \"season\": \"spring and summer\"\n    },\n    {\n      \"task\": \"Clear away fallen dead leaves and debris from the balcony floor to prevent mold.\",\n      \"frequency\": \"weekly\",\n      \"season\": \"autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering and root rot in the hanging baskets due to poor air circulation and lack of direct sunlight evaporating the moisture.\",\n    \"Frost damage to the tender Calathea makoyana if left outside during freezing winter nights on the open balcony.\"\n  ],\n  \"pet_safety_note\": \"All plants chosen for this scheme, including the Boston Fern, Spider Plant, Calathea, and Cat Grass, are completely non-toxic to cats, ensuring a safe environment for your pet to spend all day exploring.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

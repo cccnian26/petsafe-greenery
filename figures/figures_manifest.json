@@ -1,0 +1,19 @@
+{
+  "results_dir": "E:\\cnn gah\\5511\\project\\experiment\\petsafe-greenery\\results\\runs\\gemini__gemini-3.5-flash-lite",
+  "run": "gemini__gemini-3.5-flash-lite",
+  "backend": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp": "2026-11-17 19:59:56",
+  "simulated": false,
+  "watermark": "",
+  "figures": [
+    "fig1_main_metrics.pdf",
+    "fig2_safety_by_scenario.pdf",
+    "fig3_breakdown.pdf",
+    "fig4_db_composition.pdf",
+    "fig5_tool_effect.pdf",
+    "fig6_rubric_items.pdf",
+    "fig7_completeness_dimensions.pdf",
+    "fig_workflow.pdf"
+  ]
+}

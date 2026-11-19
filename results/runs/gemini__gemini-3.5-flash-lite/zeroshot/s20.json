@@ -1,0 +1,113 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s20",
+  "brief": "My balcony is full shade with low moisture, and one cat lives in the household. A pitch-black north balcony with dry wind-blown soil and a cat who sits in the corner all day.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Hedera helix 'Glacier'",
+    "Polystichum setiferum",
+    "Asplenium scolopendrium",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "A full shade, dry north-facing balcony with strong wind exposure, designed safely for a resident cat who occupies the corner.",
+    "layout_strategy": "The scheme stacks in three distinct layers: trailing shade-lovers cascade from wall-mounted baskets at eye level, structural foliage perennials fill mid-height containers against the back wall, and a low, cat-safe grazing tray sits securely in the corner floor layer where the cat rests.",
+    "combination_logic": "The combination relies on contrasts in leaf texture and form rather than bright flowers, pairing the glossy, rounded fronds of ferns with the fine, grass-like blades of cat grass and the bold, strap-shaped leaves of shade perennials. This creates a lush, woodland feel that persists throughout the year, with seasonal variation provided by delicate spring fiddleheads and subtle autumn foliage dieback.",
+    "zones": [
+      {
+        "zone_name": "Railing Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On the north-facing outer railing, completely shaded and exposed to dry winds.",
+        "plants": [
+          {
+            "scientific_name": "Hedera helix 'Glacier'",
+            "common_name": "Variegated English Ivy",
+            "why": "Extremely tough, handles dry shade and wind well, and provides a persistent trailing element.",
+            "role_in_combination": "Contributes bright silver-green variegation that catches the low ambient light, trailing downward to soften the hard railing edge and contrast with the darker foliage below."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly every 7 to 10 days as soil dries out.",
+          "Feed with a half-strength liquid foliage fertilizer once a month in spring and summer.",
+          "Trim back rogue trailing stems in early spring to maintain density.",
+          "Repot every two years into fresh potting mix."
+        ]
+      },
+      {
+        "zone_name": "Mid-Wall Foliage",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "In sturdy ceramic containers positioned against the north-facing back wall, receiving zero direct sunlight.",
+        "plants": [
+          {
+            "scientific_name": "Polystichum setiferum",
+            "common_name": "Soft Shield Fern",
+            "why": "Thrives in dry shade once established and adds wonderful architectural texture.",
+            "role_in_combination": "Provides a lush, mounding mid-height base with finely divided, feathery fronds that contrast sharply with the smoother leaves in the arrangement."
+          },
+          {
+            "scientific_name": "Asplenium scolopendrium",
+            "common_name": "Hart's Tongue Fern",
+            "why": "Tolerates dry shade and introduces an entirely different leaf shape to the composition.",
+            "role_in_combination": "Offers bold, glossy, undivided strap-shaped leaves that create a striking textural contrast against the finely cut fronds of the Soft Shield Fern."
+          }
+        ],
+        "maintenance": [
+          "Check soil moisture weekly, watering deeply when the top two inches are dry.",
+          "Apply a balanced slow-release fertilizer in early spring.",
+          "Remove old, tattered fronds in late winter before new fiddleheads emerge.",
+          "Repot every three years in early spring."
+        ]
+      },
+      {
+        "zone_name": "Corner Grazing Tray",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "On the balcony floor in the sheltered corner where the cat naturally spends time, fully shaded.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Cat Grass",
+            "why": "Fast-germinating, entirely safe for feline nibdling, and enjoys low light conditions.",
+            "role_in_combination": "Creates a soft, vertical tufted ground layer that invites interaction from the resident cat and breaks up the rigid lines of the containers."
+          }
+        ],
+        "maintenance": [
+          "Water lightly every 3 to 4 days to keep soil evenly moist without becoming waterlogged.",
+          "Do not use chemical fertilizers.",
+          "Sow fresh batches of cat grass seeds every 4 to 6 weeks to maintain a lush supply.",
+          "Discard and replace the entire tray planting when grass becomes exhausted or sparse."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers, ensuring dry wind has not parched the root zones.",
+        "frequency": "Twice a week in summer, weekly in spring and autumn.",
+        "season": "Summer"
+      },
+      {
+        "task": "Clean dust from the glossy fern fronds and ivy leaves using a damp cloth to maximize light absorption in the dark corner.",
+        "frequency": "Monthly",
+        "season": "Spring"
+      },
+      {
+        "task": "Clear away dead fronds and debris from the base of mid-level containers to prevent fungal issues.",
+        "frequency": "Every two weeks",
+        "season": "Winter"
+      }
+    ],
+    "care_cautions": [
+      "The variegated English ivy in the railing cascade is toxic if ingested, so ensure the trailing stems are trimmed high enough that the cat cannot reach them from the balcony floor.",
+      "The dry wind on the north balcony can rapidly desiccate the soil in the mid-wall fern containers, leading to crispy fronds if watering intervals are neglected.",
+      "The cat grass in the corner grazing tray may suffer from root rot or mold due to poor air circulation in the enclosed corner if overwatered."
+    ],
+    "pet_safety_note": "The design strictly separates toxic decorative plants into high wall and railing zones out of paw's reach, while dedicating the floor-level corner tray exclusively to non-toxic cat grass for safe grazing."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full shade, dry north-facing balcony with strong wind exposure, designed safely for a resident cat who occupies the corner.\",\n  \"layout_strategy\": \"The scheme stacks in three distinct layers: trailing shade-lovers cascade from wall-mounted baskets at eye level, structural foliage perennials fill mid-height containers against the back wall, and a low, cat-safe grazing tray sits securely in the corner floor layer where the cat rests.\",\n  \"combination_logic\": \"The combination relies on contrasts in leaf texture and form rather than bright flowers, pairing the glossy, rounded fronds of ferns with the fine, grass-like blades of cat grass and the bold, strap-shaped leaves of shade perennials. This creates a lush, woodland feel that persists throughout the year, with seasonal variation provided by delicate spring fiddleheads and subtle autumn foliage dieback.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On the north-facing outer railing, completely shaded and exposed to dry winds.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hedera helix 'Glacier'\",\n          \"common_name\": \"Variegated English Ivy\",\n          \"why\": \"Extremely tough, handles dry shade and wind well, and provides a persistent trailing element.\",\n          \"role_in_combination\": \"Contributes bright silver-green variegation that catches the low ambient light, trailing downward to soften the hard railing edge and contrast with the darker foliage below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly every 7 to 10 days as soil dries out.\",\n        \"Feed with a half-strength liquid foliage fertilizer once a month in spring and summer.\",\n        \"Trim back rogue trailing stems in early spring to maintain density.\",\n        \"Repot every two years into fresh potting mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Wall Foliage\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"In sturdy ceramic containers positioned against the north-facing back wall, receiving zero direct sunlight.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Polystichum setiferum\",\n          \"common_name\": \"Soft Shield Fern\",\n          \"why\": \"Thrives in dry shade once established and adds wonderful architectural texture.\",\n          \"role_in_combination\": \"Provides a lush, mounding mid-height base with finely divided, feathery fronds that contrast sharply with the smoother leaves in the arrangement.\"\n        },\n        {\n          \"scientific_name\": \"Asplenium scolopendrium\",\n          \"common_name\": \"Hart's Tongue Fern\",\n          \"why\": \"Tolerates dry shade and introduces an entirely different leaf shape to the composition.\",\n          \"role_in_combination\": \"Offers bold, glossy, undivided strap-shaped leaves that create a striking textural contrast against the finely cut fronds of the Soft Shield Fern.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Check soil moisture weekly, watering deeply when the top two inches are dry.\",\n        \"Apply a balanced slow-release fertilizer in early spring.\",\n        \"Remove old, tattered fronds in late winter before new fiddleheads emerge.\",\n        \"Repot every three years in early spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Corner Grazing Tray\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"On the balcony floor in the sheltered corner where the cat naturally spends time, fully shaded.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Cat Grass\",\n          \"why\": \"Fast-germinating, entirely safe for feline nibdling, and enjoys low light conditions.\",\n          \"role_in_combination\": \"Creates a soft, vertical tufted ground layer that invites interaction from the resident cat and breaks up the rigid lines of the containers.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water lightly every 3 to 4 days to keep soil evenly moist without becoming waterlogged.\",\n        \"Do not use chemical fertilizers.\",\n        \"Sow fresh batches of cat grass seeds every 4 to 6 weeks to maintain a lush supply.\",\n        \"Discard and replace the entire tray planting when grass becomes exhausted or sparse.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers, ensuring dry wind has not parched the root zones.\",\n      \"frequency\": \"Twice a week in summer, weekly in spring and autumn.\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Clean dust from the glossy fern fronds and ivy leaves using a damp cloth to maximize light absorption in the dark corner.\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Spring\"\n    },\n    {\n      \"task\": \"Clear away dead fronds and debris from the base of mid-level containers to prevent fungal issues.\",\n      \"frequency\": \"Every two weeks\",\n      \"season\": \"Winter\"\n    }\n  ],\n  \"care_cautions\": [\n    \"The variegated English ivy in the railing cascade is toxic if ingested, so ensure the trailing stems are trimmed high enough that the cat cannot reach them from the balcony floor.\",\n    \"The dry wind on the north balcony can rapidly desiccate the soil in the mid-wall fern containers, leading to crispy fronds if watering intervals are neglected.\",\n    \"The cat grass in the corner grazing tray may suffer from root rot or mold due to poor air circulation in the enclosed corner if overwatered.\"\n  ],\n  \"pet_safety_note\": \"The design strictly separates toxic decorative plants into high wall and railing zones out of paw's reach, while dedicating the floor-level corner tray exclusively to non-toxic cat grass for safe grazing.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

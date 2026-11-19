@@ -1,0 +1,7 @@
+{
+  "text": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "backend": "gemini",
+  "prompt_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,199 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s12",
+  "brief": "My balcony is partial shade with moderate moisture, and one dog lives in the household. A half-shady balcony with a small dog who likes to nibble at plants.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p008",
+      "scientific_name": "Aloysia triphylla",
+      "common_name": "Lemon Verbena",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Essential oils; Stomach upset, colic. No concerns if small amounts used in cooking or as flavoring agent",
+      "retrieval_score": 4.6777
+    },
+    {
+      "id": "p093",
+      "scientific_name": "Anethum graveolena",
+      "common_name": "Dill",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p112",
+      "scientific_name": "Foeniculum vulgare",
+      "common_name": "Fennel",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p115",
+      "scientific_name": "Hibiscus syriacus",
+      "common_name": "Hibiscus",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p116",
+      "scientific_name": "Hoya carnosa",
+      "common_name": "Honey Plant",
+      "plant_type": "foliage",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p119",
+      "scientific_name": "Hypochaeris radicata",
+      "common_name": "Catsear",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p121",
+      "scientific_name": "Jasminum species",
+      "common_name": "Jasmine",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p128",
+      "scientific_name": "Ocimum basilicum",
+      "common_name": "Basil",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    }
+  ],
+  "recommended_plants": [
+    "Hoya carnosa",
+    "Hibiscus syriacus",
+    "Aloysia triphylla",
+    "Jasminum species",
+    "Ocimum basilicum"
+  ],
+  "design": {
+    "site_summary": "A partial shade balcony with moderate moisture, featuring one small dog who likes to nibble at plants.",
+    "layout_strategy": "The balcony is structured in three distinct vertical layers: trailing Hoya carnosa cascades from wall-mounted hooks at eye level, structural shrubs and herbs like Hibiscus syriacus and Aloysia triphylla form the mid-height container layer against the back wall, and a low, pet-safe grazing tray of Ocimum basilicum sits at floor level along the inner edge.",
+    "combination_logic": "The plants combine fine, feathery foliage with glossy succulent leaves and bold shrubby textures, creating a rich contrast in leaf shape and growth habit. The fragrant foliage of Lemon Verbena and Basil provides a sensory layer of citrus and spice, while the seasonal blooms of Hibiscus and Jasmine introduce soft floral accents that peak in summer and fade into structural evergreens and foliage in winter.",
+    "zones": [
+      {
+        "zone_name": "Upper Trailing Canopy",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On high wall brackets in partial shade, receiving 3 hours of indirect dappled light daily.",
+        "plants": [
+          {
+            "scientific_name": "Hoya carnosa",
+            "common_name": "Honey Plant",
+            "why": "It thrives in partial shade and trails gracefully from elevated positions.",
+            "role_in_combination": "Contributes glossy, succulent foliage and structural weight to the upper vertical layer, contrasting with the fine textures below."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top two inches of soil are dry.",
+          "Feed with a balanced liquid fertilizer monthly during spring and summer.",
+          "Prune away dead or overly long stems in early spring."
+        ]
+      },
+      {
+        "zone_name": "Mid-Height Structural Wall",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Against the back balcony wall in partial shade, sheltered from harsh winds.",
+        "plants": [
+          {
+            "scientific_name": "Hibiscus syriacus",
+            "common_name": "Hibiscus",
+            "why": "Provides height and stunning seasonal flowers in partial shade conditions.",
+            "role_in_combination": "Serves as the primary vertical focal point, offering large summer blooms that tower over the aromatic shrubs."
+          },
+          {
+            "scientific_name": "Aloysia triphylla",
+            "common_name": "Lemon Verbena",
+            "why": "Adds height, aromatic foliage, and thrives in moderate moisture containers.",
+            "role_in_combination": "Provides fine-textured deciduous foliage and releases a refreshing lemon scent when brushed against."
+          },
+          {
+            "scientific_name": "Jasminum species",
+            "common_name": "Jasmine",
+            "why": "Climbs and fills the mid-layer with fragrant blooms.",
+            "role_in_combination": "Introduces twining climbing habits and sweet-scented white flowers that weave through the Hibiscus stems."
+          }
+        ],
+        "maintenance": [
+          "Keep soil consistently moist but never waterlogged.",
+          "Prune back Hibiscus and Jasmine by one-third in late winter to encourage bushier growth.",
+          "Repot every two years into fresh, nutrient-rich potting mix."
+        ]
+      },
+      {
+        "zone_name": "Pet Grazing Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "On the balcony floor in an accessible, partial shade corner.",
+        "plants": [
+          {
+            "scientific_name": "Ocimum basilicum",
+            "common_name": "Basil",
+            "why": "A safe, aromatic herb that satisfies the pet's urge to nibble.",
+            "role_in_combination": "Provides a low, lush green ground layer with edible leaves that contrast against the surrounding hard surfaces."
+          }
+        ],
+        "maintenance": [
+          "Water the soil gently every few days to maintain moderate moisture without splashing leaves.",
+          "Harvest frequently from the top to encourage bushy, compact growth.",
+          "Replace the annual basil plants at the end of the growing season."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers with a finger test",
+        "frequency": "Every two days in summer, weekly in spring and autumn",
+        "season": "Summer and Spring"
+      },
+      {
+        "task": "Apply a dilute organic liquid fertilizer to the mid-layer shrubs and upper trailing plants",
+        "frequency": "Every two weeks",
+        "season": "Summer"
+      },
+      {
+        "task": "Prune back deadwood and shape the Jasmine and Lemon Verbena",
+        "frequency": "Once a year",
+        "season": "Late Winter"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Hoya carnosa in the upper vertical hanging baskets can lead to root rot.",
+      "The pet grazing patch containing Ocimum basilicum may become depleted quickly if the dog nibbles too frequently without allowing time for regrowth.",
+      "Tender mid-layer perennials like Aloysia triphylla may suffer frost damage if left unprotected during freezing winter nights."
+    ],
+    "pet_safety_note": "The design isolates potentially woody or sensitive shrubs in elevated or mid-height containers, while providing a dedicated, completely pet-safe Ocimum basilicum grazing tray at ground level for the dog to enjoy safely."
+  },
+  "design_text": "{\n  \"site_summary\": \"A partial shade balcony with moderate moisture, featuring one small dog who likes to nibble at plants.\",\n  \"layout_strategy\": \"The balcony is structured in three distinct vertical layers: trailing Hoya carnosa cascades from wall-mounted hooks at eye level, structural shrubs and herbs like Hibiscus syriacus and Aloysia triphylla form the mid-height container layer against the back wall, and a low, pet-safe grazing tray of Ocimum basilicum sits at floor level along the inner edge.\",\n  \"combination_logic\": \"The plants combine fine, feathery foliage with glossy succulent leaves and bold shrubby textures, creating a rich contrast in leaf shape and growth habit. The fragrant foliage of Lemon Verbena and Basil provides a sensory layer of citrus and spice, while the seasonal blooms of Hibiscus and Jasmine introduce soft floral accents that peak in summer and fade into structural evergreens and foliage in winter.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Upper Trailing Canopy\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On high wall brackets in partial shade, receiving 3 hours of indirect dappled light daily.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hoya carnosa\",\n          \"common_name\": \"Honey Plant\",\n          \"why\": \"It thrives in partial shade and trails gracefully from elevated positions.\",\n          \"role_in_combination\": \"Contributes glossy, succulent foliage and structural weight to the upper vertical layer, contrasting with the fine textures below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top two inches of soil are dry.\",\n        \"Feed with a balanced liquid fertilizer monthly during spring and summer.\",\n        \"Prune away dead or overly long stems in early spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Height Structural Wall\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the back balcony wall in partial shade, sheltered from harsh winds.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hibiscus syriacus\",\n          \"common_name\": \"Hibiscus\",\n          \"why\": \"Provides height and stunning seasonal flowers in partial shade conditions.\",\n          \"role_in_combination\": \"Serves as the primary vertical focal point, offering large summer blooms that tower over the aromatic shrubs.\"\n        },\n        {\n          \"scientific_name\": \"Aloysia triphylla\",\n          \"common_name\": \"Lemon Verbena\",\n          \"why\": \"Adds height, aromatic foliage, and thrives in moderate moisture containers.\",\n          \"role_in_combination\": \"Provides fine-textured deciduous foliage and releases a refreshing lemon scent when brushed against.\"\n        },\n        {\n          \"scientific_name\": \"Jasminum species\",\n          \"common_name\": \"Jasmine\",\n          \"why\": \"Climbs and fills the mid-layer with fragrant blooms.\",\n          \"role_in_combination\": \"Introduces twining climbing habits and sweet-scented white flowers that weave through the Hibiscus stems.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep soil consistently moist but never waterlogged.\",\n        \"Prune back Hibiscus and Jasmine by one-third in late winter to encourage bushier growth.\",\n        \"Repot every two years into fresh, nutrient-rich potting mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Pet Grazing Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"On the balcony floor in an accessible, partial shade corner.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Ocimum basilicum\",\n          \"common_name\": \"Basil\",\n          \"why\": \"A safe, aromatic herb that satisfies the pet's urge to nibble.\",\n          \"role_in_combination\": \"Provides a low, lush green ground layer with edible leaves that contrast against the surrounding hard surfaces.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water the soil gently every few days to maintain moderate moisture without splashing leaves.\",\n        \"Harvest frequently from the top to encourage bushy, compact growth.\",\n        \"Replace the annual basil plants at the end of the growing season.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers with a finger test\",\n      \"frequency\": \"Every two days in summer, weekly in spring and autumn\",\n      \"season\": \"Summer and Spring\"\n    },\n    {\n      \"task\": \"Apply a dilute organic liquid fertilizer to the mid-layer shrubs and upper trailing plants\",\n      \"frequency\": \"Every two weeks\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Prune back deadwood and shape the Jasmine and Lemon Verbena\",\n      \"frequency\": \"Once a year\",\n      \"season\": \"Late Winter\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Hoya carnosa in the upper vertical hanging baskets can lead to root rot.\",\n    \"The pet grazing patch containing Ocimum basilicum may become depleted quickly if the dog nibbles too frequently without allowing time for regrowth.\",\n    \"Tender mid-layer perennials like Aloysia triphylla may suffer frost damage if left unprotected during freezing winter nights.\"\n  ],\n  \"pet_safety_note\": \"The design isolates potentially woody or sensitive shrubs in elevated or mid-height containers, while providing a dedicated, completely pet-safe Ocimum basilicum grazing tray at ground level for the dog to enjoy safely.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

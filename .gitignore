@@ -1,0 +1,22 @@
+# secrets
+.env
+*.env
+.envrc
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# experiment artefacts that should not be committed
+results/cache/
+results/offline_demo/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# raw scraped HTML cache
+.cache/

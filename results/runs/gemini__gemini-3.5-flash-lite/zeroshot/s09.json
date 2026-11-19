@@ -1,0 +1,124 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s09",
+  "brief": "My courtyard is partial shade with low moisture, and one dog lives in the household. A shaded inner courtyard with very free-draining soil and a husky that digs up every root.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Polystichum setiferum",
+    "Hedera helix 'Glacier'",
+    "Hosta 'Halcyon'",
+    "Brunnera macrophylla 'Jack Frost'",
+    "Dactylis glomerata",
+    "Melissa officinalis"
+  ],
+  "design": {
+    "site_summary": "An inner shaded courtyard with dry soil and one husky present in the household.",
+    "layout_strategy": "The scheme stacks in three vertical layers to prevent root destruction by the digging husky: trailing plants in wall-mounted baskets above eye level, upright structural perennials in heavy waist-high containers against the walls, and a protected ground-level grazing tray securely elevated for the dog.",
+    "combination_logic": "The design contrasts delicate fern fronds with bold, architectural hosta leaves and fine, weeping grasses. Soft greens and silver variegations brighten the shade, while seasonal flowers provide brief focal points. The combination evolves from fresh spring emergence through lush summer foliage to textural winter dormancy.",
+    "zones": [
+      {
+        "zone_name": "Wall Canopy",
+        "zone_role": "screening",
+        "layer": "vertical",
+        "placement": "on the north-facing courtyard wall, 2 hours of dappled overhead light, sheltered from wind.",
+        "plants": [
+          {
+            "scientific_name": "Polystichum setiferum",
+            "common_name": "Soft Shield Fern",
+            "why": "Thrives in dry shade once established and fills the vertical wall baskets out of reach of the digging husky.",
+            "role_in_combination": "Provides soft, feathery texture and year-round green structure that cascades gracefully over the edge of the wall pot."
+          },
+          {
+            "scientific_name": "Hedera helix 'Glacier'",
+            "common_name": "Variegated English Ivy",
+            "why": "Extremely hardy in dry shade and creates a dense, trailing green curtain.",
+            "role_in_combination": "Offers silver-green leaf variegation that brightens the dark wall and contrasts with the darker green of the fern."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly every 7 to 10 days during summer, allowing the top inch of soil to dry out.",
+          "Apply a balanced liquid fertilizer once a month in spring.",
+          "Trim back wayward trailing stems in late winter to maintain a neat shape."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Fortress",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "in heavy stone planters at waist height against the courtyard perimeter, receiving indirect bright shade.",
+        "plants": [
+          {
+            "scientific_name": "Hosta 'Halcyon'",
+            "common_name": "Blue Plantain Lily",
+            "why": "Prefers shade and its robust root system adapts well to containers out of the dog's digging range.",
+            "role_in_combination": "Contributes bold, heart-shaped blue-gray leaves that offer a strong textural contrast to the fine foliage of the ferns above."
+          },
+          {
+            "scientific_name": "Brunnera macrophylla 'Jack Frost'",
+            "common_name": "Heartleaf Brunnera",
+            "why": "Loves dry shade and adds seasonal color with minimal moisture needs.",
+            "role_in_combination": "Brings striking frosted, silver-netted leaves and airy blue forget-me-knot flowers in spring, illuminating the dark corners."
+          }
+        ],
+        "maintenance": [
+          "Water deeply once a week in summer; keep slightly drier in winter.",
+          "Feed with a slow-release granular fertilizer in early spring.",
+          "Cut back dead hosta foliage to the soil level in late autumn after the first frost."
+        ]
+      },
+      {
+        "zone_name": "Canine Corner",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "in a heavy, bolted wooden trough on the shaded courtyard floor, designed specifically for safe dog interaction.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Safe Pet Grass",
+            "why": "Grows well in partial shade and satisfies the husky's natural urge to graze without harm.",
+            "role_in_combination": "Provides fine vertical line and a soft grassy texture at ground level that contrasts with the broad leaves above."
+          },
+          {
+            "scientific_name": "Melissa officinalis",
+            "common_name": "Lemon Balm",
+            "why": "Extremely tough in dry shade, aromatic, and entirely safe for dogs to nibble.",
+            "role_in_combination": "Adds a rich, textured mound of crinkled green leaves and releases a fresh lemon scent when brushed against."
+          }
+        ],
+        "maintenance": [
+          "Water the grazing tray twice a week in summer to keep the grass palatable.",
+          "Clip back the lemon balm by half in mid-summer to promote fresh, tender new growth.",
+          "Reseed bare patches of pet grass every two months as it gets heavily grazed."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels in all containers using a finger test to combat dry shade hydrophobic soil.",
+        "frequency": "Twice a week in summer, weekly in spring and autumn.",
+        "season": "Summer"
+      },
+      {
+        "task": "Apply a layer of organic bark mulch to the top of all containers to retain moisture in the dry soil.",
+        "frequency": "Once a year.",
+        "season": "Spring"
+      },
+      {
+        "task": "Clear away fallen debris and dead leaves from the base of the containers to prevent fungal issues in the damp shade.",
+        "frequency": "Fortnightly.",
+        "season": "Autumn"
+      }
+    ],
+    "care_cautions": [
+      "The wall-mounted baskets may dry out quicker than expected due to overhead shelter and wind, leading to crispy fronds on the Polystichum setiferum if not watered deeply.",
+      "The husky may attempt to dig into the mid-level stone planters if they are placed low enough, so ensure all structural containers remain strictly at waist height.",
+      "The Lemon Balm in the Canine Corner can become aggressive if overwatered in the shady courtyard, so restrict moisture to prevent root rot."
+    ],
+    "pet_safety_note": "All plants chosen are non-toxic to dogs, and the only accessible zone is specifically dedicated to safe grazing herbs and pet grass, keeping the husky happy and the structural plants safe from digging."
+  },
+  "design_text": "{\n  \"site_summary\": \"An inner shaded courtyard with dry soil and one husky present in the household.\",\n  \"layout_strategy\": \"The scheme stacks in three vertical layers to prevent root destruction by the digging husky: trailing plants in wall-mounted baskets above eye level, upright structural perennials in heavy waist-high containers against the walls, and a protected ground-level grazing tray securely elevated for the dog.\",\n  \"combination_logic\": \"The design contrasts delicate fern fronds with bold, architectural hosta leaves and fine, weeping grasses. Soft greens and silver variegations brighten the shade, while seasonal flowers provide brief focal points. The combination evolves from fresh spring emergence through lush summer foliage to textural winter dormancy.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Wall Canopy\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the north-facing courtyard wall, 2 hours of dappled overhead light, sheltered from wind.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Polystichum setiferum\",\n          \"common_name\": \"Soft Shield Fern\",\n          \"why\": \"Thrives in dry shade once established and fills the vertical wall baskets out of reach of the digging husky.\",\n          \"role_in_combination\": \"Provides soft, feathery texture and year-round green structure that cascades gracefully over the edge of the wall pot.\"\n        },\n        {\n          \"scientific_name\": \"Hedera helix 'Glacier'\",\n          \"common_name\": \"Variegated English Ivy\",\n          \"why\": \"Extremely hardy in dry shade and creates a dense, trailing green curtain.\",\n          \"role_in_combination\": \"Offers silver-green leaf variegation that brightens the dark wall and contrasts with the darker green of the fern.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly every 7 to 10 days during summer, allowing the top inch of soil to dry out.\",\n        \"Apply a balanced liquid fertilizer once a month in spring.\",\n        \"Trim back wayward trailing stems in late winter to maintain a neat shape.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Fortress\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"in heavy stone planters at waist height against the courtyard perimeter, receiving indirect bright shade.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hosta 'Halcyon'\",\n          \"common_name\": \"Blue Plantain Lily\",\n          \"why\": \"Prefers shade and its robust root system adapts well to containers out of the dog's digging range.\",\n          \"role_in_combination\": \"Contributes bold, heart-shaped blue-gray leaves that offer a strong textural contrast to the fine foliage of the ferns above.\"\n        },\n        {\n          \"scientific_name\": \"Brunnera macrophylla 'Jack Frost'\",\n          \"common_name\": \"Heartleaf Brunnera\",\n          \"why\": \"Loves dry shade and adds seasonal color with minimal moisture needs.\",\n          \"role_in_combination\": \"Brings striking frosted, silver-netted leaves and airy blue forget-me-knot flowers in spring, illuminating the dark corners.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water deeply once a week in summer; keep slightly drier in winter.\",\n        \"Feed with a slow-release granular fertilizer in early spring.\",\n        \"Cut back dead hosta foliage to the soil level in late autumn after the first frost.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Canine Corner\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"in a heavy, bolted wooden trough on the shaded courtyard floor, designed specifically for safe dog interaction.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Safe Pet Grass\",\n          \"why\": \"Grows well in partial shade and satisfies the husky's natural urge to graze without harm.\",\n          \"role_in_combination\": \"Provides fine vertical line and a soft grassy texture at ground level that contrasts with the broad leaves above.\"\n        },\n        {\n          \"scientific_name\": \"Melissa officinalis\",\n          \"common_name\": \"Lemon Balm\",\n          \"why\": \"Extremely tough in dry shade, aromatic, and entirely safe for dogs to nibble.\",\n          \"role_in_combination\": \"Adds a rich, textured mound of crinkled green leaves and releases a fresh lemon scent when brushed against.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water the grazing tray twice a week in summer to keep the grass palatable.\",\n        \"Clip back the lemon balm by half in mid-summer to promote fresh, tender new growth.\",\n        \"Reseed bare patches of pet grass every two months as it gets heavily grazed.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels in all containers using a finger test to combat dry shade hydrophobic soil.\",\n      \"frequency\": \"Twice a week in summer, weekly in spring and autumn.\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Apply a layer of organic bark mulch to the top of all containers to retain moisture in the dry soil.\",\n      \"frequency\": \"Once a year.\",\n      \"season\": \"Spring\"\n    },\n    {\n      \"task\": \"Clear away fallen debris and dead leaves from the base of the containers to prevent fungal issues in the damp shade.\",\n      \"frequency\": \"Fortnightly.\",\n      \"season\": \"Autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"The wall-mounted baskets may dry out quicker than expected due to overhead shelter and wind, leading to crispy fronds on the Polystichum setiferum if not watered deeply.\",\n    \"The husky may attempt to dig into the mid-level stone planters if they are placed low enough, so ensure all structural containers remain strictly at waist height.\",\n    \"The Lemon Balm in the Canine Corner can become aggressive if overwatered in the shady courtyard, so restrict moisture to prevent root rot.\"\n  ],\n  \"pet_safety_note\": \"All plants chosen are non-toxic to dogs, and the only accessible zone is specifically dedicated to safe grazing herbs and pet grass, keeping the husky happy and the structural plants safe from digging.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

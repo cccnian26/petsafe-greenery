@@ -1,0 +1,124 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s06",
+  "brief": "My courtyard is full shade with low moisture, and no pets live in the household. A walled courtyard with no direct sunlight at all and rain-shadow walls that keep it dry. Nobody lives here, it is just for the view.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Polypodium vulgare",
+    "Asplenium scolopendrium",
+    "Aspidistra elatior",
+    "Aucuba japonica 'Crotonifolia'",
+    "Ophiopogon japonicus 'Nanus'",
+    "Saxifraga stolonifera"
+  ],
+  "design": {
+    "site_summary": "A full-shade, dry walled courtyard with no direct sunlight, rain-shadow walls, and no pets in the household.",
+    "layout_strategy": "The scheme stacks three vertical layers to draw the eye upward in the dark courtyard: trailing ferns in high wall-mounted baskets, structured broad-leaved evergreens at mid-height against the dry masonry, and a creeping ground layer in low, wide bowls along the courtyard floor.",
+    "combination_logic": "The combination relies on contrasting foliage textures, from delicate fronds to glossy broad leaves and finely cut rosettes, all working in shades of deep green, chartreuse, and silver to illuminate the dark space. The scheme is evergreen and provides year-round structural interest, with subtle seasonal shifts in leaf sheen and spring fiddlehead emergence rather than heavy reliance on flowers.",
+    "zones": [
+      {
+        "zone_name": "Canopy Cascades",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "Mounted on the upper brick wall, in deep shade, experiencing dry rain-shadow conditions and zero direct sun.",
+        "plants": [
+          {
+            "scientific_name": "Polypodium vulgare",
+            "common_name": "Common Polypody",
+            "why": "Extremely hardy in dry shade and naturalizes well in vertical containers.",
+            "role_in_combination": "Provides leathery, deeply divided fronds that contrast with finer ferns and cascade gracefully over the pot edges."
+          },
+          {
+            "scientific_name": "Asplenium scolopendrium",
+            "common_name": "Hart's Tongue Fern",
+            "why": "Thrives in deep shade and tolerates dry conditions once established.",
+            "role_in_combination": "Introduces bold, strap-shaped, glossy fronds that create a striking structural contrast to the fine textures below."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly every 7 to 10 days, allowing the top inch to dry out to prevent rot.",
+          "Apply half-strength liquid foliage fertilizer once a month in spring.",
+          "Trim away old, browned fronds at the base in late winter."
+        ]
+      },
+      {
+        "zone_name": "Wall Anchor Structure",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Standing against the main courtyard wall, positioned in deep shade and sheltered from rain, receiving zero direct sunlight.",
+        "plants": [
+          {
+            "scientific_name": "Aspidistra elatior",
+            "common_name": "Cast-Iron Plant",
+            "why": "Virtually indestructible in deep shade and drought-tolerant once established.",
+            "role_in_combination": "Acts as the architectural anchor with upright, lance-shaped dark green leaves that give vertical weight and a tropical feel."
+          },
+          {
+            "scientific_name": "Aucuba japonica 'Crotonifolia'",
+            "common_name": "Spotted Laurel",
+            "why": "Thrives in complete shade and dry conditions under walls.",
+            "role_in_combination": "Brings bright yellow-spotted variegation that visually illuminates the dark wall behind it."
+          }
+        ],
+        "maintenance": [
+          "Water every two weeks, ensuring the root ball receives moisture despite the rain shadow.",
+          "Wipe dust from the large leaves with a damp cloth in spring.",
+          "Repot every three years into fresh, well-draining potting mix in early spring."
+        ]
+      },
+      {
+        "zone_name": "Floor Carpet",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "In wide, shallow bowls along the courtyard floor edges, situated in permanent deep shade and dry conditions.",
+        "plants": [
+          {
+            "scientific_name": "Ophiopogon japonicus 'Nanus'",
+            "common_name": "Dwarf Mondo Grass",
+            "why": "Forms dense, low-growing tufts that handle deep shade and dry soil effortlessly.",
+            "role_in_combination": "Provides a fine-textured, grass-like carpet that softens the hard edges of the courtyard floor and contrasts with the broad leaves above."
+          },
+          {
+            "scientific_name": "Saxifraga stolonifera",
+            "common_name": "Strawberry Begonia",
+            "why": "Adapts exceptionally well to dry shade and forms a lovely spreading mat.",
+            "role_in_combination": "Offers rounded, veined leaves with reddish undersides that add subtle color variation to the ground layer."
+          }
+        ],
+        "maintenance": [
+          "Mist the foliage lightly twice a week to maintain ambient humidity in the dry microclimate.",
+          "Water at the base weekly during dry spells.",
+          "Remove dead runners and spent leaves in late autumn."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Hand-water all containers thoroughly to compensate for the rain-shadow effect, checking soil moisture with a finger.",
+        "frequency": "Every 7 to 10 days",
+        "season": "Summer"
+      },
+      {
+        "task": "Feed all containers with a balanced, slow-release organic fertilizer to support foliage health.",
+        "frequency": "Once at the beginning of the season",
+        "season": "Spring"
+      },
+      {
+        "task": "Inspect plants for dust accumulation and gently clean leaves to maximize light absorption in the dim courtyard.",
+        "frequency": "Monthly",
+        "season": "Autumn"
+      }
+    ],
+    "care_cautions": [
+      "Rain-shadow effect can trick you into thinking soil is moist when only the surface is wet; ensure water penetrates the root balls of the mid-layer containers like the Aspidistra.",
+      "Dust and lack of air movement in the walled courtyard can attract scale insects; monitor the Aucuba japonica closely on the mid wall.",
+      "Overwatering the hanging Polypodium baskets in deep shade can easily lead to root rot since evaporation rates are very low."
+    ],
+    "pet_safety_note": "Since no pets live in the household, all selected plants are safely arranged without needing to restrict toxic species, though the design remains entirely non-toxic for visiting animals."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full-shade, dry walled courtyard with no direct sunlight, rain-shadow walls, and no pets in the household.\",\n  \"layout_strategy\": \"The scheme stacks three vertical layers to draw the eye upward in the dark courtyard: trailing ferns in high wall-mounted baskets, structured broad-leaved evergreens at mid-height against the dry masonry, and a creeping ground layer in low, wide bowls along the courtyard floor.\",\n  \"combination_logic\": \"The combination relies on contrasting foliage textures, from delicate fronds to glossy broad leaves and finely cut rosettes, all working in shades of deep green, chartreuse, and silver to illuminate the dark space. The scheme is evergreen and provides year-round structural interest, with subtle seasonal shifts in leaf sheen and spring fiddlehead emergence rather than heavy reliance on flowers.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Canopy Cascades\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"Mounted on the upper brick wall, in deep shade, experiencing dry rain-shadow conditions and zero direct sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Polypodium vulgare\",\n          \"common_name\": \"Common Polypody\",\n          \"why\": \"Extremely hardy in dry shade and naturalizes well in vertical containers.\",\n          \"role_in_combination\": \"Provides leathery, deeply divided fronds that contrast with finer ferns and cascade gracefully over the pot edges.\"\n        },\n        {\n          \"scientific_name\": \"Asplenium scolopendrium\",\n          \"common_name\": \"Hart's Tongue Fern\",\n          \"why\": \"Thrives in deep shade and tolerates dry conditions once established.\",\n          \"role_in_combination\": \"Introduces bold, strap-shaped, glossy fronds that create a striking structural contrast to the fine textures below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly every 7 to 10 days, allowing the top inch to dry out to prevent rot.\",\n        \"Apply half-strength liquid foliage fertilizer once a month in spring.\",\n        \"Trim away old, browned fronds at the base in late winter.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Wall Anchor Structure\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Standing against the main courtyard wall, positioned in deep shade and sheltered from rain, receiving zero direct sunlight.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Aspidistra elatior\",\n          \"common_name\": \"Cast-Iron Plant\",\n          \"why\": \"Virtually indestructible in deep shade and drought-tolerant once established.\",\n          \"role_in_combination\": \"Acts as the architectural anchor with upright, lance-shaped dark green leaves that give vertical weight and a tropical feel.\"\n        },\n        {\n          \"scientific_name\": \"Aucuba japonica 'Crotonifolia'\",\n          \"common_name\": \"Spotted Laurel\",\n          \"why\": \"Thrives in complete shade and dry conditions under walls.\",\n          \"role_in_combination\": \"Brings bright yellow-spotted variegation that visually illuminates the dark wall behind it.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every two weeks, ensuring the root ball receives moisture despite the rain shadow.\",\n        \"Wipe dust from the large leaves with a damp cloth in spring.\",\n        \"Repot every three years into fresh, well-draining potting mix in early spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Floor Carpet\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"In wide, shallow bowls along the courtyard floor edges, situated in permanent deep shade and dry conditions.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Ophiopogon japonicus 'Nanus'\",\n          \"common_name\": \"Dwarf Mondo Grass\",\n          \"why\": \"Forms dense, low-growing tufts that handle deep shade and dry soil effortlessly.\",\n          \"role_in_combination\": \"Provides a fine-textured, grass-like carpet that softens the hard edges of the courtyard floor and contrasts with the broad leaves above.\"\n        },\n        {\n          \"scientific_name\": \"Saxifraga stolonifera\",\n          \"common_name\": \"Strawberry Begonia\",\n          \"why\": \"Adapts exceptionally well to dry shade and forms a lovely spreading mat.\",\n          \"role_in_combination\": \"Offers rounded, veined leaves with reddish undersides that add subtle color variation to the ground layer.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Mist the foliage lightly twice a week to maintain ambient humidity in the dry microclimate.\",\n        \"Water at the base weekly during dry spells.\",\n        \"Remove dead runners and spent leaves in late autumn.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Hand-water all containers thoroughly to compensate for the rain-shadow effect, checking soil moisture with a finger.\",\n      \"frequency\": \"Every 7 to 10 days\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Feed all containers with a balanced, slow-release organic fertilizer to support foliage health.\",\n      \"frequency\": \"Once at the beginning of the season\",\n      \"season\": \"Spring\"\n    },\n    {\n      \"task\": \"Inspect plants for dust accumulation and gently clean leaves to maximize light absorption in the dim courtyard.\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Rain-shadow effect can trick you into thinking soil is moist when only the surface is wet; ensure water penetrates the root balls of the mid-layer containers like the Aspidistra.\",\n    \"Dust and lack of air movement in the walled courtyard can attract scale insects; monitor the Aucuba japonica closely on the mid wall.\",\n    \"Overwatering the hanging Polypodium baskets in deep shade can easily lead to root rot since evaporation rates are very low.\"\n  ],\n  \"pet_safety_note\": \"Since no pets live in the household, all selected plants are safely arranged without needing to restrict toxic species, though the design remains entirely non-toxic for visiting animals.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

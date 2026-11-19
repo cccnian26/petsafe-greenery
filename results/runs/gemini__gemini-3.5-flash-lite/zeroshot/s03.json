@@ -1,0 +1,124 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s03",
+  "brief": "My balcony is full sun with low moisture, and one cat lives in the household. A south-facing balcony in summer gets brutal sun all day and the wind dries the soil quickly. One elderly cat, indoor, but I also worry about a stray.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Sedum morganianum",
+    "Lampranthus blandus",
+    "Rosmarinus officinalis",
+    "Lavandula angustifolia",
+    "Nepeta cataria",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "A hot, south-facing full-sun balcony with high wind exposure, designed to be completely safe for an elderly indoor cat and visiting strays.",
+    "layout_strategy": "The scheme is structured in three distinct vertical layers starting with trailing succulents cascading over the south-facing railing at eye level, rising to upright architectural shrubs and aromatic herbs in mid-height containers against the back wall, and finishing with a low, accessible grazing tray at floor level.",
+    "combination_logic": "The plants combine spiky, vertical textures with soft, weeping succulents and dense, mounding herbs to create intense visual contrast under harsh sunlight. Silvery and glaucous foliage reflects solar radiation while providing a cohesive cool-toned palette that shifts with the purple blooms of catmint in summer and the evergreen presence of rosemary throughout winter.",
+    "zones": [
+      {
+        "zone_name": "Railing Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "On the exterior south-facing railing, exposed to all-day intense sun and drying winds.",
+        "plants": [
+          {
+            "scientific_name": "Sedum morganianum",
+            "common_name": "Burro's Tail",
+            "why": "Extremely drought-tolerant succulent that drapes gracefully over the railing edge.",
+            "role_in_combination": "Provides soft, weeping texture and a cool blue-green colour that contrasts with the spiky mid-layer plants."
+          },
+          {
+            "scientific_name": "Lampranthus blandus",
+            "common_name": "Pink Ice Plant",
+            "why": "Thrives in baked conditions and offers vivid floral accents.",
+            "role_in_combination": "Contributes bright magenta seasonal colour bursts that weave into the trailing succulent stems."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when the soil is completely dry.",
+          "Fertilise lightly with a low-nitrogen liquid feed once a month in spring.",
+          "Prune back long trailing stems lightly after flowering to encourage bushier growth."
+        ]
+      },
+      {
+        "zone_name": "Architectural Wall and Scented Hub",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "In heavy terracotta pots placed against the back wall, receiving direct southern sun and radiating heat.",
+        "plants": [
+          {
+            "scientific_name": "Rosmarinus officinalis",
+            "common_name": "Rosemary",
+            "why": "A woody, evergreen shrub that loves heat, poor soil, and neglect.",
+            "role_in_combination": "Delivers strong vertical height, needle-like texture, and a rich earthy scent that anchors the mid-layer."
+          },
+          {
+            "scientific_name": "Lavandula angustifolia",
+            "common_name": "English Lavender",
+            "why": "Loves baking in the sun and adds lovely summer color.",
+            "role_in_combination": "Offers soft grey-green foliage and aromatic flower spikes that complement the darker green of the rosemary."
+          }
+        ],
+        "maintenance": [
+          "Water every 7 to 10 days once established, allowing soil to dry deeply between waterings.",
+          "Prune hard after the main summer flowering by cutting back to leafy green shoots, never into old bare wood.",
+          "Repot every two years into a slightly larger terracotta container with fresh gritty compost."
+        ]
+      },
+      {
+        "zone_name": "Feline Grazing Tray",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "On the shaded balcony floor near the sliding door, protected from the fiercest midday heat.",
+        "plants": [
+          {
+            "scientific_name": "Nepeta cataria",
+            "common_name": "Catnip",
+            "why": "Completely safe, highly stimulating herb for the resident and visiting cats.",
+            "role_in_combination": "Provides a soft, mounding texture and heart-shaped leaves that contrast with the needle foliage above."
+          },
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Cat Grass",
+            "why": "Fast-growing safe grass for indoor-only cats to digest easily.",
+            "role_in_combination": "Adds fine vertical tufts at floor level, softening the hard paving tiles of the balcony."
+          }
+        ],
+        "maintenance": [
+          "Water the grazing tray every 3 days to keep the fast-growing grass lush and green.",
+          "Trim the cat grass back by half every two weeks to promote fresh tender blade growth.",
+          "Sow fresh cat grass seeds in a secondary tray every month to maintain a continuous supply."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels in all containers by sticking a finger two inches into the potting mix.",
+        "frequency": "Every 3 days in peak summer, weekly in spring and autumn.",
+        "season": "Summer and Spring"
+      },
+      {
+        "task": "Apply a balanced, slow-release organic fertilizer to the mid-layer and hanging baskets.",
+        "frequency": "Once at the beginning of the season and once mid-summer.",
+        "season": "Spring and Summer"
+      },
+      {
+        "task": "Clear away fallen dead leaves and spent flower heads to prevent wind-blown debris buildup and fungal issues.",
+        "frequency": "Bi-weekly during autumn, weekly in summer.",
+        "season": "Autumn"
+      }
+    ],
+    "care_cautions": [
+      "The Burro's Tail in the hanging baskets can suffer from root rot if caught in heavy, prolonged autumn rain without adequate drainage.",
+      "The terracotta pots against the back wall absorb intense solar radiation, which can scorch the foliage of the lavender if they dry out completely during heatwaves.",
+      "Cats may over-graze the catnip and cat grass tray, so rotate the tray indoors or provide a backup supply to let the plants recover."
+    ],
+    "pet_safety_note": "Every plant included in this scheme is completely non-toxic and safe for cats, with the catnip and cat grass specifically chosen to provide a stimulating and enriching sensory experience for your elderly cat and any visiting strays."
+  },
+  "design_text": "{\n  \"site_summary\": \"A hot, south-facing full-sun balcony with high wind exposure, designed to be completely safe for an elderly indoor cat and visiting strays.\",\n  \"layout_strategy\": \"The scheme is structured in three distinct vertical layers starting with trailing succulents cascading over the south-facing railing at eye level, rising to upright architectural shrubs and aromatic herbs in mid-height containers against the back wall, and finishing with a low, accessible grazing tray at floor level.\",\n  \"combination_logic\": \"The plants combine spiky, vertical textures with soft, weeping succulents and dense, mounding herbs to create intense visual contrast under harsh sunlight. Silvery and glaucous foliage reflects solar radiation while providing a cohesive cool-toned palette that shifts with the purple blooms of catmint in summer and the evergreen presence of rosemary throughout winter.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On the exterior south-facing railing, exposed to all-day intense sun and drying winds.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sedum morganianum\",\n          \"common_name\": \"Burro's Tail\",\n          \"why\": \"Extremely drought-tolerant succulent that drapes gracefully over the railing edge.\",\n          \"role_in_combination\": \"Provides soft, weeping texture and a cool blue-green colour that contrasts with the spiky mid-layer plants.\"\n        },\n        {\n          \"scientific_name\": \"Lampranthus blandus\",\n          \"common_name\": \"Pink Ice Plant\",\n          \"why\": \"Thrives in baked conditions and offers vivid floral accents.\",\n          \"role_in_combination\": \"Contributes bright magenta seasonal colour bursts that weave into the trailing succulent stems.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when the soil is completely dry.\",\n        \"Fertilise lightly with a low-nitrogen liquid feed once a month in spring.\",\n        \"Prune back long trailing stems lightly after flowering to encourage bushier growth.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Architectural Wall and Scented Hub\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"In heavy terracotta pots placed against the back wall, receiving direct southern sun and radiating heat.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Rosmarinus officinalis\",\n          \"common_name\": \"Rosemary\",\n          \"why\": \"A woody, evergreen shrub that loves heat, poor soil, and neglect.\",\n          \"role_in_combination\": \"Delivers strong vertical height, needle-like texture, and a rich earthy scent that anchors the mid-layer.\"\n        },\n        {\n          \"scientific_name\": \"Lavandula angustifolia\",\n          \"common_name\": \"English Lavender\",\n          \"why\": \"Loves baking in the sun and adds lovely summer color.\",\n          \"role_in_combination\": \"Offers soft grey-green foliage and aromatic flower spikes that complement the darker green of the rosemary.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every 7 to 10 days once established, allowing soil to dry deeply between waterings.\",\n        \"Prune hard after the main summer flowering by cutting back to leafy green shoots, never into old bare wood.\",\n        \"Repot every two years into a slightly larger terracotta container with fresh gritty compost.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Feline Grazing Tray\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"On the shaded balcony floor near the sliding door, protected from the fiercest midday heat.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Nepeta cataria\",\n          \"common_name\": \"Catnip\",\n          \"why\": \"Completely safe, highly stimulating herb for the resident and visiting cats.\",\n          \"role_in_combination\": \"Provides a soft, mounding texture and heart-shaped leaves that contrast with the needle foliage above.\"\n        },\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Cat Grass\",\n          \"why\": \"Fast-growing safe grass for indoor-only cats to digest easily.\",\n          \"role_in_combination\": \"Adds fine vertical tufts at floor level, softening the hard paving tiles of the balcony.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water the grazing tray every 3 days to keep the fast-growing grass lush and green.\",\n        \"Trim the cat grass back by half every two weeks to promote fresh tender blade growth.\",\n        \"Sow fresh cat grass seeds in a secondary tray every month to maintain a continuous supply.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels in all containers by sticking a finger two inches into the potting mix.\",\n      \"frequency\": \"Every 3 days in peak summer, weekly in spring and autumn.\",\n      \"season\": \"Summer and Spring\"\n    },\n    {\n      \"task\": \"Apply a balanced, slow-release organic fertilizer to the mid-layer and hanging baskets.\",\n      \"frequency\": \"Once at the beginning of the season and once mid-summer.\",\n      \"season\": \"Spring and Summer\"\n    },\n    {\n      \"task\": \"Clear away fallen dead leaves and spent flower heads to prevent wind-blown debris buildup and fungal issues.\",\n      \"frequency\": \"Bi-weekly during autumn, weekly in summer.\",\n      \"season\": \"Autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"The Burro's Tail in the hanging baskets can suffer from root rot if caught in heavy, prolonged autumn rain without adequate drainage.\",\n    \"The terracotta pots against the back wall absorb intense solar radiation, which can scorch the foliage of the lavender if they dry out completely during heatwaves.\",\n    \"Cats may over-graze the catnip and cat grass tray, so rotate the tray indoors or provide a backup supply to let the plants recover.\"\n  ],\n  \"pet_safety_note\": \"Every plant included in this scheme is completely non-toxic and safe for cats, with the catnip and cat grass specifically chosen to provide a stimulating and enriching sensory experience for your elderly cat and any visiting strays.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

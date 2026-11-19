@@ -1,0 +1,205 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s19",
+  "brief": "My courtyard is partial shade with moderate moisture, and no pets live in the household. A courtyard with dappled light and moderate soil moisture, no pets, mainly visual interest.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p008",
+      "scientific_name": "Aloysia triphylla",
+      "common_name": "Lemon Verbena",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Essential oils; Stomach upset, colic. No concerns if small amounts used in cooking or as flavoring agent",
+      "retrieval_score": 8.5132
+    },
+    {
+      "id": "p093",
+      "scientific_name": "Anethum graveolena",
+      "common_name": "Dill",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.2852
+    },
+    {
+      "id": "p112",
+      "scientific_name": "Foeniculum vulgare",
+      "common_name": "Fennel",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.2852
+    },
+    {
+      "id": "p115",
+      "scientific_name": "Hibiscus syriacus",
+      "common_name": "Hibiscus",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.2852
+    },
+    {
+      "id": "p116",
+      "scientific_name": "Hoya carnosa",
+      "common_name": "Honey Plant",
+      "plant_type": "foliage",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.2852
+    },
+    {
+      "id": "p119",
+      "scientific_name": "Hypochaeris radicata",
+      "common_name": "Catsear",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.2852
+    },
+    {
+      "id": "p121",
+      "scientific_name": "Jasminum species",
+      "common_name": "Jasmine",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.2852
+    },
+    {
+      "id": "p128",
+      "scientific_name": "Ocimum basilicum",
+      "common_name": "Basil",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.2852
+    }
+  ],
+  "recommended_plants": [
+    "Jasminum species",
+    "Hoya carnosa",
+    "Hibiscus syriacus",
+    "Aloysia triphylla",
+    "Foeniculum vulgare",
+    "Anethum graveolena"
+  ],
+  "design": {
+    "site_summary": "A partial shade courtyard with moderate moisture and no pets present, designed primarily for visual interest.",
+    "layout_strategy": "The scheme stacks three distinct height layers: trailing and climbing elements at the vertical level along walls and trellises, structural upright shrubs and herbs at the mid-height container level, and soft textural herbs and foliage spreading at the ground level.",
+    "combination_logic": "The plants combine fine feathery foliage with glossy thick leaves and delicate blooms, offering a contrast in height, soft textures, and aromatic scents that change across the seasons with summer flowering and lush green growth.",
+    "zones": [
+      {
+        "zone_name": "Vertical Canopy",
+        "zone_role": "screening",
+        "layer": "vertical",
+        "placement": "On the upper wall trellis, partial shade with dappled light throughout the day.",
+        "plants": [
+          {
+            "scientific_name": "Jasminum species",
+            "common_name": "Jasmine",
+            "why": "Provides vertical height and fragrant climbing habit in partial shade.",
+            "role_in_combination": "Contributes height and sweet fragrance, creating a dramatic backdrop for the mid-level plants."
+          },
+          {
+            "scientific_name": "Hoya carnosa",
+            "common_name": "Honey Plant",
+            "why": "Suited for wall-mounted pots in partial shade with moderate moisture.",
+            "role_in_combination": "Adds glossy, succulent foliage and waxy flowers that contrast texturally against the fine foliage of the jasmine."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top two inches of soil are dry.",
+          "Feed with a balanced liquid fertilizer monthly during the growing season.",
+          "Prune back unruly stems after the main flowering period."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Structure",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "In raised containers against the courtyard walls, receiving dappled light and partial shade.",
+        "plants": [
+          {
+            "scientific_name": "Hibiscus syriacus",
+            "common_name": "Hibiscus",
+            "why": "Forms a lovely mid-height woody shrub structure thriving in partial shade.",
+            "role_in_combination": "Acts as the structural focal point with large, showy blossoms that draw the eye."
+          },
+          {
+            "scientific_name": "Aloysia triphylla",
+            "common_name": "Lemon Verbena",
+            "why": "Brings shrubby texture and a powerful citrus scent to mid-height pots.",
+            "role_in_combination": "Contributes rough-textured lance-shaped leaves and releases a fresh aroma when brushed against."
+          }
+        ],
+        "maintenance": [
+          "Water consistently to keep the potting mix evenly moist.",
+          "Fertilize every three weeks in spring and summer.",
+          "Prune woody stems in early spring to encourage bushy new growth."
+        ]
+      },
+      {
+        "zone_name": "Ground Level Texture",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "Along the perimeter floor edges of the courtyard in partial shade with moderate moisture.",
+        "plants": [
+          {
+            "scientific_name": "Foeniculum vulgare",
+            "common_name": "Fennel",
+            "why": "Offers fine, feathery foliage at ground level in partial shade conditions.",
+            "role_in_combination": "Provides a striking contrast in texture with its needle-like green leaves against broader-leaved plants."
+          },
+          {
+            "scientific_name": "Anethum graveolena",
+            "common_name": "Dill",
+            "why": "Thrives in moderate moisture and partial shade at the base of larger pots.",
+            "role_in_combination": "Fills in gaps with delicate, airy umbels that soften the hard edges of the containers."
+          }
+        ],
+        "maintenance": [
+          "Water frequently to maintain steady soil moisture without waterlogging.",
+          "Remove spent flower heads to prolong foliage life.",
+          "Sow new seeds annually for continuous ground-level coverage."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture and water containers thoroughly",
+        "frequency": "Twice a week in summer, weekly in spring and autumn",
+        "season": "Summer and Spring"
+      },
+      {
+        "task": "Apply a balanced liquid fertilizer to support lush foliage and blooms",
+        "frequency": "Monthly",
+        "season": "Spring and Summer"
+      },
+      {
+        "task": "Prune back dead or damaged stems and clear fallen debris",
+        "frequency": "As needed, major prune once",
+        "season": "Early Spring"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Hoya carnosa and Hibiscus syriacus in the vertical and mid-level pots can lead to root rot due to insufficient drainage in heavy shade.",
+      "The fine foliage of Foeniculum vulgare and Anethum graveolena may dry out quickly during unexpectedly hot spells in the partial shade courtyard."
+    ],
+    "pet_safety_note": "Since no pets live in the household, this scheme focuses entirely on visual and aromatic human enjoyment without pet-toxicity restrictions."
+  },
+  "design_text": "{\n  \"site_summary\": \"A partial shade courtyard with moderate moisture and no pets present, designed primarily for visual interest.\",\n  \"layout_strategy\": \"The scheme stacks three distinct height layers: trailing and climbing elements at the vertical level along walls and trellises, structural upright shrubs and herbs at the mid-height container level, and soft textural herbs and foliage spreading at the ground level.\",\n  \"combination_logic\": \"The plants combine fine feathery foliage with glossy thick leaves and delicate blooms, offering a contrast in height, soft textures, and aromatic scents that change across the seasons with summer flowering and lush green growth.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Vertical Canopy\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On the upper wall trellis, partial shade with dappled light throughout the day.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Jasminum species\",\n          \"common_name\": \"Jasmine\",\n          \"why\": \"Provides vertical height and fragrant climbing habit in partial shade.\",\n          \"role_in_combination\": \"Contributes height and sweet fragrance, creating a dramatic backdrop for the mid-level plants.\"\n        },\n        {\n          \"scientific_name\": \"Hoya carnosa\",\n          \"common_name\": \"Honey Plant\",\n          \"why\": \"Suited for wall-mounted pots in partial shade with moderate moisture.\",\n          \"role_in_combination\": \"Adds glossy, succulent foliage and waxy flowers that contrast texturally against the fine foliage of the jasmine.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top two inches of soil are dry.\",\n        \"Feed with a balanced liquid fertilizer monthly during the growing season.\",\n        \"Prune back unruly stems after the main flowering period.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Structure\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"In raised containers against the courtyard walls, receiving dappled light and partial shade.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hibiscus syriacus\",\n          \"common_name\": \"Hibiscus\",\n          \"why\": \"Forms a lovely mid-height woody shrub structure thriving in partial shade.\",\n          \"role_in_combination\": \"Acts as the structural focal point with large, showy blossoms that draw the eye.\"\n        },\n        {\n          \"scientific_name\": \"Aloysia triphylla\",\n          \"common_name\": \"Lemon Verbena\",\n          \"why\": \"Brings shrubby texture and a powerful citrus scent to mid-height pots.\",\n          \"role_in_combination\": \"Contributes rough-textured lance-shaped leaves and releases a fresh aroma when brushed against.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water consistently to keep the potting mix evenly moist.\",\n        \"Fertilize every three weeks in spring and summer.\",\n        \"Prune woody stems in early spring to encourage bushy new growth.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Level Texture\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"Along the perimeter floor edges of the courtyard in partial shade with moderate moisture.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Foeniculum vulgare\",\n          \"common_name\": \"Fennel\",\n          \"why\": \"Offers fine, feathery foliage at ground level in partial shade conditions.\",\n          \"role_in_combination\": \"Provides a striking contrast in texture with its needle-like green leaves against broader-leaved plants.\"\n        },\n        {\n          \"scientific_name\": \"Anethum graveolena\",\n          \"common_name\": \"Dill\",\n          \"why\": \"Thrives in moderate moisture and partial shade at the base of larger pots.\",\n          \"role_in_combination\": \"Fills in gaps with delicate, airy umbels that soften the hard edges of the containers.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water frequently to maintain steady soil moisture without waterlogging.\",\n        \"Remove spent flower heads to prolong foliage life.\",\n        \"Sow new seeds annually for continuous ground-level coverage.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture and water containers thoroughly\",\n      \"frequency\": \"Twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"Summer and Spring\"\n    },\n    {\n      \"task\": \"Apply a balanced liquid fertilizer to support lush foliage and blooms\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Spring and Summer\"\n    },\n    {\n      \"task\": \"Prune back dead or damaged stems and clear fallen debris\",\n      \"frequency\": \"As needed, major prune once\",\n      \"season\": \"Early Spring\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Hoya carnosa and Hibiscus syriacus in the vertical and mid-level pots can lead to root rot due to insufficient drainage in heavy shade.\",\n    \"The fine foliage of Foeniculum vulgare and Anethum graveolena may dry out quickly during unexpectedly hot spells in the partial shade courtyard.\"\n  ],\n  \"pet_safety_note\": \"Since no pets live in the household, this scheme focuses entirely on visual and aromatic human enjoyment without pet-toxicity restrictions.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

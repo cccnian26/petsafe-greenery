@@ -1,0 +1,7 @@
+{
+  "run": "gemini__gemini-3.5-flash-lite",
+  "backend": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "timestamp": "2026-11-17 19:59:56",
+  "path": "E:\\cnn gah\\5511\\project\\experiment\\petsafe-greenery\\results\\runs\\gemini__gemini-3.5-flash-lite"
+}

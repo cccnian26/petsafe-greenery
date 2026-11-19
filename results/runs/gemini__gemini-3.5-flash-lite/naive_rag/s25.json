@@ -1,0 +1,199 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s25",
+  "brief": "My courtyard is full sun with low moisture, and one dog lives in the household. A hot, dry, sun-baked courtyard with a dog who digs and rubs against everything.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p138",
+      "scientific_name": "Rosmarinus officinalis",
+      "common_name": "Rosemary",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.1955
+    },
+    {
+      "id": "p149",
+      "scientific_name": "Thymus vulgaris",
+      "common_name": "Thyme",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.1955
+    },
+    {
+      "id": "p141",
+      "scientific_name": "Sanvitalia spp.",
+      "common_name": "Creeping Zinnia",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.0984
+    },
+    {
+      "id": "p097",
+      "scientific_name": "Beaucarnea recurvata",
+      "common_name": "Pony Tail; Bottle Palm",
+      "plant_type": "tree",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.921
+    },
+    {
+      "id": "p052",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Pentacyclic triterpenoids; Vomiting, diarrhea, labored breathing, weakness. Liver failure - more common in livestock",
+      "retrieval_score": 2.3765
+    },
+    {
+      "id": "p001",
+      "scientific_name": "Achillea millefolium",
+      "common_name": "Yarrow",
+      "plant_type": "perennial",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; glycoalkaloids (achillein), monoterpenes, sesquiterpene lactones (achillin); Vomiting, diarrhea, colic, drooling, anorexia, dermatitis, depression",
+      "retrieval_score": 2.3224
+    },
+    {
+      "id": "p003",
+      "scientific_name": "Allium ampeloprasum",
+      "common_name": "Leek",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; N-propyl disulfide; Vomiting, breakdown of red blood cells (hemolytic anemia, Heinz body anemia), blood in urine, weakness, high heart...",
+      "retrieval_score": 2.085
+    },
+    {
+      "id": "p004",
+      "scientific_name": "Allium cepa",
+      "common_name": "Onion",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; N-propyl disulfide; Vomiting, breakdown of red blood cells (hemolytic anemia, Heinz body anemia), blood in urine, weakness, high heart...",
+      "retrieval_score": 2.085
+    }
+  ],
+  "recommended_plants": [
+    "Beaucarnea recurvata",
+    "Rosmarinus officinalis",
+    "Thymus vulgaris",
+    "Achillea millefolium",
+    "Sanvitalia spp."
+  ],
+  "design": {
+    "site_summary": "A full-sun, low-moisture, sun-baked courtyard designed to withstand heat and accommodate a dog that digs and rubs.",
+    "layout_strategy": "The scheme is structured into three height layers stacked against the courtyard wall: an upright architectural focal point in the mid layer, a low sprawling ground layer of tough herbs and perennials at floor level, and a trailing accent layer cascading from wall-mounted pots just above dog height.",
+    "combination_logic": "The plants combine upright architectural forms with fine, needle-like textures and soft sprawling mats, creating a striking contrast against harsh stone walls. Silvery foliage and bright yellow or purple summer blooms offer a Mediterranean aesthetic that intensifies under baking sun and changes with seasonal flowering.",
+    "zones": [
+      {
+        "zone_name": "Mid-Level Architectural Focal Point",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "Against the sun-baked back wall in full, unrelenting southern sun, elevated in heavy stone containers out of direct dog reach.",
+        "plants": [
+          {
+            "scientific_name": "Beaucarnea recurvata",
+            "common_name": "Pony Tail Palm",
+            "why": "Extremely drought tolerant and stores water in its swollen base, perfect for baking sun.",
+            "role_in_combination": "Provides a strong architectural vertical silhouette and cascading ribbon-like leaves that contrast sharply with stiff shrubs."
+          },
+          {
+            "scientific_name": "Rosmarinus officinalis",
+            "common_name": "Rosemary",
+            "why": "Thrives in dry, hot conditions and forms a robust woody structure.",
+            "role_in_combination": "Adds woody height, aromatic pine scent when brushed against, and pale blue flowers in spring."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when the soil is completely dry",
+          "Prune rosemary lightly after flowering to maintain shape",
+          "Repot the ponytail palm every 3 to 4 years into a slightly larger container"
+        ]
+      },
+      {
+        "zone_name": "Ground Grazing and Sprawling Edge",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "Along the courtyard floor perimeter in full sun, easily accessible for the household dog to interact with.",
+        "plants": [
+          {
+            "scientific_name": "Thymus vulgaris",
+            "common_name": "Thyme",
+            "why": "Low-growing, intensely aromatic, and tolerant of occasional trampling or light nibbling by a dog.",
+            "role_in_combination": "Forms a dense, aromatic ground carpet that releases scent when stepped on and complements the upright shrubs."
+          },
+          {
+            "scientific_name": "Achillea millefolium",
+            "common_name": "Yarrow",
+            "why": "Tough perennial that handles poor, dry soils and spreads to fill gaps.",
+            "role_in_combination": "Introduces feathery, fern-like foliage texture and flat-topped flower clusters that contrast with needle leaves."
+          }
+        ],
+        "maintenance": [
+          "Water sparingly once established to encourage deep root growth",
+          "Trim back thyme after flowering to prevent woody centers",
+          "Divide yarrow in early spring if it spreads too aggressively"
+        ]
+      },
+      {
+        "zone_name": "Hanging and Sprawling Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "Mounted on high wall brackets, receiving full sun and completely out of reach of the dog.",
+        "plants": [
+          {
+            "scientific_name": "Sanvitalia spp.",
+            "common_name": "Creeping Zinnia",
+            "why": "Loves baking sun and cascades beautifully over container edges in dry conditions.",
+            "role_in_combination": "Provides brilliant yellow daisy-like flowers that cascade downwards, contrasting with the neutral greens of the lower zones."
+          }
+        ],
+        "maintenance": [
+          "Check daily for moisture during peak summer heat as hanging baskets dry out fast",
+          "Feed with a balanced liquid fertilizer monthly in summer",
+          "Deadhead spent flowers regularly to encourage continuous blooming"
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Deep watering of established ground and mid-layer containers",
+        "frequency": "Once every 7 to 10 days in peak summer, and every 3 weeks in winter",
+        "season": "Summer and Autumn"
+      },
+      {
+        "task": "Pruning and shaping woody herbs like rosemary",
+        "frequency": "Once a year after the main flowering period",
+        "season": "Spring"
+      },
+      {
+        "task": "Checking wall brackets and hanging baskets for structural security",
+        "frequency": "Monthly before high winds or storms",
+        "season": "All seasons"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Pony Tail Palm or Rosemary in the mid-layer containers can quickly cause fatal root rot due to poor drainage in heavy heat.",
+      "The trailing Sanvitalia in the hanging baskets will scorch and dry out within hours if neglected during a severe heatwave.",
+      "While thyme and yarrow are robust, intense digging by the dog directly at the base of the ground layer can expose and damage fragile root systems."
+    ],
+    "pet_safety_note": "The pet-accessible grazing zone features safe, non-toxic aromatic herbs like thyme, while toxic or delicate plants are safely elevated out of reach in wall containers."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full-sun, low-moisture, sun-baked courtyard designed to withstand heat and accommodate a dog that digs and rubs.\",\n  \"layout_strategy\": \"The scheme is structured into three height layers stacked against the courtyard wall: an upright architectural focal point in the mid layer, a low sprawling ground layer of tough herbs and perennials at floor level, and a trailing accent layer cascading from wall-mounted pots just above dog height.\",\n  \"combination_logic\": \"The plants combine upright architectural forms with fine, needle-like textures and soft sprawling mats, creating a striking contrast against harsh stone walls. Silvery foliage and bright yellow or purple summer blooms offer a Mediterranean aesthetic that intensifies under baking sun and changes with seasonal flowering.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Mid-Level Architectural Focal Point\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the sun-baked back wall in full, unrelenting southern sun, elevated in heavy stone containers out of direct dog reach.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Beaucarnea recurvata\",\n          \"common_name\": \"Pony Tail Palm\",\n          \"why\": \"Extremely drought tolerant and stores water in its swollen base, perfect for baking sun.\",\n          \"role_in_combination\": \"Provides a strong architectural vertical silhouette and cascading ribbon-like leaves that contrast sharply with stiff shrubs.\"\n        },\n        {\n          \"scientific_name\": \"Rosmarinus officinalis\",\n          \"common_name\": \"Rosemary\",\n          \"why\": \"Thrives in dry, hot conditions and forms a robust woody structure.\",\n          \"role_in_combination\": \"Adds woody height, aromatic pine scent when brushed against, and pale blue flowers in spring.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when the soil is completely dry\",\n        \"Prune rosemary lightly after flowering to maintain shape\",\n        \"Repot the ponytail palm every 3 to 4 years into a slightly larger container\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Grazing and Sprawling Edge\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"Along the courtyard floor perimeter in full sun, easily accessible for the household dog to interact with.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Thymus vulgaris\",\n          \"common_name\": \"Thyme\",\n          \"why\": \"Low-growing, intensely aromatic, and tolerant of occasional trampling or light nibbling by a dog.\",\n          \"role_in_combination\": \"Forms a dense, aromatic ground carpet that releases scent when stepped on and complements the upright shrubs.\"\n        },\n        {\n          \"scientific_name\": \"Achillea millefolium\",\n          \"common_name\": \"Yarrow\",\n          \"why\": \"Tough perennial that handles poor, dry soils and spreads to fill gaps.\",\n          \"role_in_combination\": \"Introduces feathery, fern-like foliage texture and flat-topped flower clusters that contrast with needle leaves.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water sparingly once established to encourage deep root growth\",\n        \"Trim back thyme after flowering to prevent woody centers\",\n        \"Divide yarrow in early spring if it spreads too aggressively\"\n      ]\n    },\n    {\n      \"zone_name\": \"Hanging and Sprawling Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"Mounted on high wall brackets, receiving full sun and completely out of reach of the dog.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sanvitalia spp.\",\n          \"common_name\": \"Creeping Zinnia\",\n          \"why\": \"Loves baking sun and cascades beautifully over container edges in dry conditions.\",\n          \"role_in_combination\": \"Provides brilliant yellow daisy-like flowers that cascade downwards, contrasting with the neutral greens of the lower zones.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Check daily for moisture during peak summer heat as hanging baskets dry out fast\",\n        \"Feed with a balanced liquid fertilizer monthly in summer\",\n        \"Deadhead spent flowers regularly to encourage continuous blooming\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Deep watering of established ground and mid-layer containers\",\n      \"frequency\": \"Once every 7 to 10 days in peak summer, and every 3 weeks in winter\",\n      \"season\": \"Summer and Autumn\"\n    },\n    {\n      \"task\": \"Pruning and shaping woody herbs like rosemary\",\n      \"frequency\": \"Once a year after the main flowering period\",\n      \"season\": \"Spring\"\n    },\n    {\n      \"task\": \"Checking wall brackets and hanging baskets for structural security\",\n      \"frequency\": \"Monthly before high winds or storms\",\n      \"season\": \"All seasons\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Pony Tail Palm or Rosemary in the mid-layer containers can quickly cause fatal root rot due to poor drainage in heavy heat.\",\n    \"The trailing Sanvitalia in the hanging baskets will scorch and dry out within hours if neglected during a severe heatwave.\",\n    \"While thyme and yarrow are robust, intense digging by the dog directly at the base of the ground layer can expose and damage fragile root systems.\"\n  ],\n  \"pet_safety_note\": \"The pet-accessible grazing zone features safe, non-toxic aromatic herbs like thyme, while toxic or delicate plants are safely elevated out of reach in wall containers.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

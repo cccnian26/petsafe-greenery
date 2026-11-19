@@ -1,0 +1,45 @@
+{
+  "schema": "mavis.ppt_notes.v1",
+  "slides": [
+    {
+      "slideNumber": 1,
+      "text": "Good morning. I built an AI agent that designs planting schemes for balconies where a cat or a dog lives - and that cannot recommend a plant that would poison the animal."
+    },
+    {
+      "slideNumber": 2,
+      "text": "Seven hundred plus ornamental species are dangerous to cats or dogs. True lilies cause acute renal failure in cats. Sago palm causes liver failure in dogs. Pothos and peace lily are in almost every balcony plant shop in Hong Kong. The problem is not that these plants are rare. It is that LLMs recommend them. I asked a zero-shot LLM for a cat-friendly sunny balcony, and it proposed a peace lily. That is not a reasoning error - it is a fact the model cannot check for itself."
+    },
+    {
+      "slideNumber": 3,
+      "text": "The users are people who cannot judge toxicity themselves. The task is a genuine two-constraint optimisation: horticultural viability and veterinary safety, simultaneously. The design space is a balcony, a courtyard or a rooftop terrace."
+    },
+    {
+      "slideNumber": 4,
+      "text": "My question is: if a constraint can be checked deterministically, should an LLM be allowed to decide it? My answer is no - so I split the task. The LLM does what it is good at: reading the brief and composing a spatially organised design. Python does what the LLM is bad at: deciding whether a plant is poisonous. The model calls the tool, the tool filters the candidate pool, and the model composes the design from what survives. Then Python audits the result and sends back everything that is wrong, either a toxic species or a missing part of the design. One more detail: if the strict filter returns nothing, horticultural constraints may be relaxed - but the pet-safety filter is never relaxed at any level. That asymmetry is the whole safety argument. And because safe plants are not enough, the output contract obliges the design to contain four things beyond the species: the spatial structure - a vertical layer, a mid layer, a ground layer, and one zone the pet can actually reach; the combination logic - how the plants work together in height, texture, colour and seasonal rhythm; the care - what to do, how often, in which season; and the care cautions - what goes wrong with this particular scheme."
+    },
+    {
+      "slideNumber": 5,
+      "text": "The ground truth is 150 species, each with a toxicity label and a source URL, built by a reproducible scraping pipeline rather than by hand. The safety rule is absolute: a species toxic to any pet in the household never reaches the model. The viability rule is a light tolerance ladder plus a moisture class, and it is relaxable - but whenever it is relaxed, the relaxation is reported to the user."
+    },
+    {
+      "slideNumber": 6,
+      "text": "Three methods, one contract. The zero-shot LLM answers from memory. Naive keyword RAG retrieves species but excludes nothing. The proposed agent adds negative filtering, deterministic auditing and repair loops. Crucially, all three receive exactly the same output contract and the same rubric, so the comparison measures the architecture rather than the prompt. Every metric is computed by deterministic Python - the evaluator never asks a model whether it was right."
+    },
+    {
+      "slideNumber": 7,
+      "text": "The headline result: the agent's pet-safety compliance is exactly 100 percent, while both baselines are far below. And the reason is architectural, not prompt-based - the model is never given the opportunity to pick an unsafe species, because the filter removes them before the model sees the list. Notice the second result, which I find more interesting: viability is competitive across all three methods. The baselines are not bad at horticulture. They just cannot know which of the plants they like are lethal."
+    },
+    {
+      "slideNumber": 8,
+      "text": "Two separate increments. Adding retrieval improves viability - the model stops inventing plants. Adding the negative filter fixes safety. Neither fix substitutes for the other. Here is a real failure from the zero-shot baseline: a cat household, and the model proposed a true lily because it is a beautiful, sun-loving balcony flower. The proposed pipeline cannot produce this output; the species is not in the pool the model receives. The second finding is about design quality, which is a different axis from safety. A design can be perfectly safe and still be useless - six safe plants with no spatial structure, no maintenance advice and no warning about the watering regime. So completeness is scored by a deterministic rubric of fifteen binary items, never by an LLM judging an answer. This is the per-item view: the baselines are not uniformly weaker, they lose points on exactly the items that require reasoning about the design as a whole - a zone the pet can actually reach, cautions that name a specific plant, a safety note that names the animal. One caveat I want to state myself: our guarantee applies to species in the database. We measure that separately - the out-of-database rate."
+    },
+    {
+      "slideNumber": 9,
+      "text": "The limitations are real: the catalogue is a fraction of the ASPCA list, we model cats and dogs only, a mis-parsed brief still propagates into the candidate pool, and twenty-five scenarios is a defensible scale rather than a large one. The relaxation ladder guarantees safety, not optimality. The takeaway I would defend is this: the safety floor here comes from the architecture, not from the model. Swap in a stronger LLM and the design gets prettier; the toxicity guarantee does not move."
+    },
+    {
+      "slideNumber": 10,
+      "text": "To summarise: every checkable constraint belongs in code. The LLM designs; deterministic code decides what is allowed, and checks what came back. The data pipeline, the benchmark and the live demo are all public, and I am happy to take questions - in particular about how the completeness rubric is scored and why the safety filter is never relaxed."
+    }
+  ]
+}

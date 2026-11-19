@@ -1,0 +1,7 @@
+{
+  "text": "ok",
+  "model": "deepseek-v4.1-flash",
+  "backend": "deepseek",
+  "prompt_tokens": 10,
+  "output_tokens": 5
+}

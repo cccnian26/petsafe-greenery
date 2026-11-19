@@ -1,0 +1,191 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s13",
+  "brief": "My courtyard is bright indirect with low moisture, and no pets live in the household. A bright but sunless courtyard with fast-draining gravel pots, purely decorative.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p113",
+      "scientific_name": "Haworthia species",
+      "common_name": "Haworthia",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 7.373
+    },
+    {
+      "id": "p144",
+      "scientific_name": "Sedum weinbergii",
+      "common_name": "Ghost Plant",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 7.373
+    },
+    {
+      "id": "p114",
+      "scientific_name": "Haworthia subfasciata",
+      "common_name": "Little Zebra Plant",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 7.1556
+    },
+    {
+      "id": "p143",
+      "scientific_name": "Sedum morganianum",
+      "common_name": "Burro's Tail",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 6.9507
+    },
+    {
+      "id": "p134",
+      "scientific_name": "Pilea involucrata",
+      "common_name": "Friendship Plant",
+      "plant_type": "foliage",
+      "light": "bright_indirect",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 5.8094
+    },
+    {
+      "id": "p145",
+      "scientific_name": "Sinningia speciosa",
+      "common_name": "Gloxinia",
+      "plant_type": "foliage",
+      "light": "bright_indirect",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 5.8094
+    },
+    {
+      "id": "p108",
+      "scientific_name": "Dypsis lutescens",
+      "common_name": "Areca Palm",
+      "plant_type": "foliage",
+      "light": "bright_indirect",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 5.6381
+    },
+    {
+      "id": "p118",
+      "scientific_name": "Hoya kerrii",
+      "common_name": "Sweetheart Hoya",
+      "plant_type": "foliage",
+      "light": "bright_indirect",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 5.6381
+    }
+  ],
+  "recommended_plants": [
+    "Sedum morganianum",
+    "Haworthia subfasciata",
+    "Haworthia species",
+    "Sedum weinbergii"
+  ],
+  "design": {
+    "site_summary": "A bright indirect courtyard with low moisture and fast-draining gravel pots, featuring no pets in the household.",
+    "layout_strategy": "The scheme stacks in three distinct height layers: trailing succulents cascade from wall-mounted pots at eye level, architectural rosette succulents fill the mid-height containers against the wall, and low-growing textural succulents carpet the base gravel layer.",
+    "combination_logic": "The combination relies on contrasting architectural forms and textures, pairing the rosettes of Haworthia with the weeping, bead-like stems of Sedum morganianum and the powdery, open rosettes of Sedum weinbergii. The monochromatic green and silver tones remain stable year-round, while changes in light angle create subtle shifts in shadow and highlight across the succulent leaves.",
+    "zones": [
+      {
+        "zone_name": "Upper Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on wall-mounted brackets at eye level, receiving bright indirect light from above with no direct sun.",
+        "plants": [
+          {
+            "scientific_name": "Sedum morganianum",
+            "common_name": "Burro's Tail",
+            "why": "Fits the bright indirect light and low moisture requirements while providing a dramatic trailing habit.",
+            "role_in_combination": "Contributes soft, weeping vertical lines that contrast sharply with the rigid upright and rosette shapes in the mid and ground layers."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly only when the soil is completely dry every 3 to 4 weeks.",
+          "Fertilize lightly with a diluted succulent formula once in spring.",
+          "Handle gently to avoid dropping delicate plump leaves."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Architecture",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "in waist-height ceramic pots set against the main courtyard wall, in bright indirect light.",
+        "plants": [
+          {
+            "scientific_name": "Haworthia subfasciata",
+            "common_name": "Little Zebra Plant",
+            "why": "Thrives in bright indirect light and low moisture, fitting the gravel-pot drainage profile.",
+            "role_in_combination": "Provides striking dark green foliage with white textural bands, offering a strong geometric focal point that anchors the mid-layer."
+          },
+          {
+            "scientific_name": "Haworthia species",
+            "common_name": "Haworthia",
+            "why": "Adapted to low-moisture conditions and indirect light environments.",
+            "role_in_combination": "Complements the Little Zebra Plant with varied leaf patterning and compact rosette structure."
+          }
+        ],
+        "maintenance": [
+          "Water every 3 weeks allowing the fast-draining gravel mix to dry completely.",
+          "Inspect leaves periodically for mealybugs.",
+          "Repot every 2 to 3 years into slightly larger pots using a gritty succulent mix."
+        ]
+      },
+      {
+        "zone_name": "Ground Carpet",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "in low, wide gravel-filled containers along the floor perimeter, receiving ambient bright indirect light.",
+        "plants": [
+          {
+            "scientific_name": "Sedum weinbergii",
+            "common_name": "Ghost Plant",
+            "why": "Low-growing succulent that thrives in low moisture and fast-draining gravel substrates.",
+            "role_in_combination": "Spreads laterally with fleshy, powdery lavender-grey rosettes that contrast in color and form with the vertical and mid-level greens."
+          }
+        ],
+        "maintenance": [
+          "Water sparingly every 3 to 4 weeks at the soil base.",
+          "Prune back leggy stems in early spring to maintain a dense carpet habit.",
+          "Remove any dead lower leaves to prevent fungal issues."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels across all containers to ensure complete dry-out between waterings.",
+        "frequency": "every 3 weeks",
+        "season": "summer"
+      },
+      {
+        "task": "Clear accumulated dust from the succulent leaves using a soft brush.",
+        "frequency": "monthly",
+        "season": "spring"
+      },
+      {
+        "task": "Reduce watering frequency as ambient temperatures drop and evaporation slows.",
+        "frequency": "every 5 to 6 weeks",
+        "season": "winter"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Sedum morganianum in the hanging baskets can easily cause root rot and stem drop due to water retention in dense potting mixes.",
+      "The Sedum weinbergii in the ground zone may suffer from etiolation or leaf drop if the courtyard receives insufficient ambient light reflection during overcast winter months."
+    ],
+    "pet_safety_note": "No pets live in the household, ensuring all selected succulents remain purely decorative without risk of ingestion."
+  },
+  "design_text": "{\n  \"site_summary\": \"A bright indirect courtyard with low moisture and fast-draining gravel pots, featuring no pets in the household.\",\n  \"layout_strategy\": \"The scheme stacks in three distinct height layers: trailing succulents cascade from wall-mounted pots at eye level, architectural rosette succulents fill the mid-height containers against the wall, and low-growing textural succulents carpet the base gravel layer.\",\n  \"combination_logic\": \"The combination relies on contrasting architectural forms and textures, pairing the rosettes of Haworthia with the weeping, bead-like stems of Sedum morganianum and the powdery, open rosettes of Sedum weinbergii. The monochromatic green and silver tones remain stable year-round, while changes in light angle create subtle shifts in shadow and highlight across the succulent leaves.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Upper Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on wall-mounted brackets at eye level, receiving bright indirect light from above with no direct sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sedum morganianum\",\n          \"common_name\": \"Burro's Tail\",\n          \"why\": \"Fits the bright indirect light and low moisture requirements while providing a dramatic trailing habit.\",\n          \"role_in_combination\": \"Contributes soft, weeping vertical lines that contrast sharply with the rigid upright and rosette shapes in the mid and ground layers.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly only when the soil is completely dry every 3 to 4 weeks.\",\n        \"Fertilize lightly with a diluted succulent formula once in spring.\",\n        \"Handle gently to avoid dropping delicate plump leaves.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Architecture\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"in waist-height ceramic pots set against the main courtyard wall, in bright indirect light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Haworthia subfasciata\",\n          \"common_name\": \"Little Zebra Plant\",\n          \"why\": \"Thrives in bright indirect light and low moisture, fitting the gravel-pot drainage profile.\",\n          \"role_in_combination\": \"Provides striking dark green foliage with white textural bands, offering a strong geometric focal point that anchors the mid-layer.\"\n        },\n        {\n          \"scientific_name\": \"Haworthia species\",\n          \"common_name\": \"Haworthia\",\n          \"why\": \"Adapted to low-moisture conditions and indirect light environments.\",\n          \"role_in_combination\": \"Complements the Little Zebra Plant with varied leaf patterning and compact rosette structure.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every 3 weeks allowing the fast-draining gravel mix to dry completely.\",\n        \"Inspect leaves periodically for mealybugs.\",\n        \"Repot every 2 to 3 years into slightly larger pots using a gritty succulent mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Carpet\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"in low, wide gravel-filled containers along the floor perimeter, receiving ambient bright indirect light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sedum weinbergii\",\n          \"common_name\": \"Ghost Plant\",\n          \"why\": \"Low-growing succulent that thrives in low moisture and fast-draining gravel substrates.\",\n          \"role_in_combination\": \"Spreads laterally with fleshy, powdery lavender-grey rosettes that contrast in color and form with the vertical and mid-level greens.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water sparingly every 3 to 4 weeks at the soil base.\",\n        \"Prune back leggy stems in early spring to maintain a dense carpet habit.\",\n        \"Remove any dead lower leaves to prevent fungal issues.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels across all containers to ensure complete dry-out between waterings.\",\n      \"frequency\": \"every 3 weeks\",\n      \"season\": \"summer\"\n    },\n    {\n      \"task\": \"Clear accumulated dust from the succulent leaves using a soft brush.\",\n      \"frequency\": \"monthly\",\n      \"season\": \"spring\"\n    },\n    {\n      \"task\": \"Reduce watering frequency as ambient temperatures drop and evaporation slows.\",\n      \"frequency\": \"every 5 to 6 weeks\",\n      \"season\": \"winter\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Sedum morganianum in the hanging baskets can easily cause root rot and stem drop due to water retention in dense potting mixes.\",\n    \"The Sedum weinbergii in the ground zone may suffer from etiolation or leaf drop if the courtyard receives insufficient ambient light reflection during overcast winter months.\"\n  ],\n  \"pet_safety_note\": \"No pets live in the household, ensuring all selected succulents remain purely decorative without risk of ingestion.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

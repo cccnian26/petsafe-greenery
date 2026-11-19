@@ -1,0 +1,914 @@
+{
+ "Nephrolepis exalta bostoniensis": {
+  "slug": "nephrolepis-exaltata",
+  "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+  "light_options": [
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Nephrolepis biserrata": {
+  "slug": "nephrolepis-biserrata",
+  "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-biserrata/",
+  "light_options": [
+   "partial_shade",
+   "full_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Cyrtomium falcatum": {
+  "slug": "cyrtomium-falcatum",
+  "url": "https://plants.ces.ncsu.edu/plants/cyrtomium-falcatum/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Platycerium bifurcatum": {
+  "slug": "platycerium-bifurcatum",
+  "url": "https://plants.ces.ncsu.edu/plants/platycerium-bifurcatum/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Chlorophytum comosum": {
+  "slug": "chlorophytum-comosum",
+  "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+  "light_options": [
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Chamaedorea elegans": {
+  "slug": "chamaedorea-elegans",
+  "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+  "light_options": [
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Phyllostachys aurea": {
+  "slug": "phyllostachys-aurea",
+  "url": "https://plants.ces.ncsu.edu/plants/phyllostachys-aurea/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Cymbopogon citratus": {
+  "slug": "cymbopogon-citratus",
+  "url": "https://plants.ces.ncsu.edu/plants/cymbopogon-citratus/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": []
+ },
+ "Cortaderia selloana": {
+  "slug": "cortaderia-selloana",
+  "url": "https://plants.ces.ncsu.edu/plants/cortaderia-selloana/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Cordyline australis": {
+  "slug": "cordyline-australis",
+  "url": "https://plants.ces.ncsu.edu/plants/cordyline-australis/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Pilea involucrata": {
+  "slug": "pilea-involucrata",
+  "url": "https://plants.ces.ncsu.edu/plants/pilea-involucrata/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Peperomia obtusifolia": {
+  "slug": "peperomia-obtusifolia",
+  "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Aspidistra elatior": {
+  "slug": "aspidistra-elatior",
+  "url": "https://plants.ces.ncsu.edu/plants/aspidistra-elatior/",
+  "light_options": [
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Episcia reptans": {
+  "slug": "episcia-reptans",
+  "url": "https://plants.ces.ncsu.edu/plants/episcia-reptans/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Sinningia speciosa": {
+  "slug": "sinningia-speciosa",
+  "url": "https://plants.ces.ncsu.edu/plants/sinningia-speciosa/",
+  "light_options": [
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Hoya carnosa": {
+  "slug": "hoya-carnosa",
+  "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+  "light_options": [
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Hoya kerrii": {
+  "slug": "hoya-kerrii",
+  "url": "https://plants.ces.ncsu.edu/plants/hoya-kerrii/",
+  "light_options": [
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Crassula arborescens": {
+  "slug": "crassula-arborescens",
+  "url": "https://plants.ces.ncsu.edu/plants/crassula-arborescens/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Echeveria elegans": {
+  "slug": "echeveria-elegans",
+  "url": "https://plants.ces.ncsu.edu/plants/echeveria-elegans/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Euphorbia tirucalli": {
+  "slug": "euphorbia-tirucalli",
+  "url": "https://plants.ces.ncsu.edu/plants/euphorbia-tirucalli/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Trachelospermum jasminoides": {
+  "slug": "trachelospermum-jasminoides",
+  "url": "https://plants.ces.ncsu.edu/plants/trachelospermum-jasminoides/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Stephanotis floribunda": {
+  "slug": "stephanotis-floribunda",
+  "url": "https://plants.ces.ncsu.edu/plants/stephanotis-floribunda/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Gardenia jasminoides": {
+  "slug": "gardenia-jasminoides",
+  "url": "https://plants.ces.ncsu.edu/plants/gardenia-jasminoides/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": []
+ },
+ "Hibiscus syriacus": {
+  "slug": "hibiscus-syriacus",
+  "url": "https://plants.ces.ncsu.edu/plants/hibiscus-syriacus/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Calendula officinalis": {
+  "slug": "calendula-officinalis",
+  "url": "https://plants.ces.ncsu.edu/plants/calendula-officinalis/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs"
+  ]
+ },
+ "Ocimum basilicum": {
+  "slug": "ocimum-basilicum",
+  "url": "https://plants.ces.ncsu.edu/plants/ocimum-basilicum/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs"
+  ]
+ },
+ "Thymus vulgaris": {
+  "slug": "thymus-vulgaris",
+  "url": "https://plants.ces.ncsu.edu/plants/thymus-vulgaris/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Salvia officinalis": {
+  "slug": "salvia-officinalis",
+  "url": "https://plants.ces.ncsu.edu/plants/salvia-officinalis/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Melissa officinalis": {
+  "slug": "melissa-officinalis",
+  "url": "https://plants.ces.ncsu.edu/plants/melissa-officinalis/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Origanum vulgare hirtum": {
+  "slug": "origanum-vulgare",
+  "url": "https://plants.ces.ncsu.edu/plants/origanum-vulgare/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Nepeta cataria": {
+  "slug": "nepeta-cataria",
+  "url": "https://plants.ces.ncsu.edu/plants/nepeta-cataria/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Hypochaeris radicata": {
+  "slug": "hypochaeris-radicata",
+  "url": "https://plants.ces.ncsu.edu/plants/hypochaeris-radicata/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Cycas revoluta, zamia species": {
+  "slug": "cycas-revoluta",
+  "url": "https://plants.ces.ncsu.edu/plants/cycas-revoluta/",
+  "light_options": [
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Epipremnum aureum": {
+  "slug": "epipremnum-aureum",
+  "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Scindapsus pictus": {
+  "slug": "scindapsus-pictus",
+  "url": "https://plants.ces.ncsu.edu/plants/scindapsus-pictus/",
+  "light_options": [
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Hedera helix": {
+  "slug": "hedera-helix",
+  "url": "https://plants.ces.ncsu.edu/plants/hedera-helix/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Nerium oleander": {
+  "slug": "nerium-oleander",
+  "url": "https://plants.ces.ncsu.edu/plants/nerium-oleander/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Hydrangea arborescens": {
+  "slug": "hydrangea-arborescens",
+  "url": "https://plants.ces.ncsu.edu/plants/hydrangea-arborescens/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Lilium longiflorum": {
+  "slug": "lilium-longiflorum",
+  "url": "https://plants.ces.ncsu.edu/plants/lilium-longiflorum/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Hyacinthus orientalis": {
+  "slug": "hyacinthus-orientalis",
+  "url": "https://plants.ces.ncsu.edu/plants/hyacinthus-orientalis/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Euphorbia pulcherrima": {
+  "slug": "euphorbia-pulcherrima",
+  "url": "https://plants.ces.ncsu.edu/plants/euphorbia-pulcherrima/",
+  "light_options": [
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Aloe vera": {
+  "slug": "aloe-vera",
+  "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Beaucarnea recurvata": {
+  "slug": "beaucarnea-recurvata",
+  "url": "https://plants.ces.ncsu.edu/plants/beaucarnea-recurvata/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Dracaena fragrans": {
+  "slug": "dracaena-fragrans",
+  "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Achillea millefolium": {
+  "slug": "achillea-millefolium",
+  "url": "https://plants.ces.ncsu.edu/plants/achillea-millefolium/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": []
+ },
+ "Nandina domestica": {
+  "slug": "nandina-domestica",
+  "url": "https://plants.ces.ncsu.edu/plants/nandina-domestica/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": []
+ },
+ "Ilex opaca": {
+  "slug": "ilex-opaca",
+  "url": "https://plants.ces.ncsu.edu/plants/ilex-opaca/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Ilex aquifolium": {
+  "slug": "ilex-aquifolium",
+  "url": "https://plants.ces.ncsu.edu/plants/ilex-aquifolium/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Ligustrum japonicum": {
+  "slug": "ligustrum-japonicum",
+  "url": "https://plants.ces.ncsu.edu/plants/ligustrum-japonicum/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Laurus nobilis": {
+  "slug": "laurus-nobilis",
+  "url": "https://plants.ces.ncsu.edu/plants/laurus-nobilis/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Lantana camara": {
+  "slug": "lantana-camara",
+  "url": "https://plants.ces.ncsu.edu/plants/lantana-camara/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": []
+ },
+ "Solanum dulcamara": {
+  "slug": "solanum-dulcamara",
+  "url": "https://plants.ces.ncsu.edu/plants/solanum-dulcamara/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Solanum pseudocapsicum": {
+  "slug": "solanum-pseudocapsicum",
+  "url": "https://plants.ces.ncsu.edu/plants/solanum-pseudocapsicum/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": []
+ },
+ "Gloriosa superba": {
+  "slug": "gloriosa-superba",
+  "url": "https://plants.ces.ncsu.edu/plants/gloriosa-superba/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Asparagus densiflorus cv sprengeri": {
+  "slug": "asparagus-densiflorus-sprengeri-group",
+  "url": "https://plants.ces.ncsu.edu/plants/asparagus-densiflorus-sprengeri-group/",
+  "light_options": [
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Digitalis purpurea": {
+  "slug": "digitalis-purpurea",
+  "url": "https://plants.ces.ncsu.edu/plants/digitalis-purpurea/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Helleborus niger": {
+  "slug": "helleborus-niger",
+  "url": "https://plants.ces.ncsu.edu/plants/helleborus-niger/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Allium schoenoprasum": {
+  "slug": "allium-schoenoprasum",
+  "url": "https://plants.ces.ncsu.edu/plants/allium-schoenoprasum/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Kalmia latifolia": {
+  "slug": "kalmia-latifolia",
+  "url": "https://plants.ces.ncsu.edu/plants/kalmia-latifolia/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": []
+ },
+ "Pittosporum tobira": {
+  "slug": "pittosporum-tobira",
+  "url": "https://plants.ces.ncsu.edu/plants/pittosporum-tobira/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Polyscias guilfoylei": {
+  "slug": "polyscias-guilfoylei",
+  "url": "https://plants.ces.ncsu.edu/plants/polyscias-guilfoylei/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": []
+ },
+ "Ficus benjamina": {
+  "slug": "ficus-benjamina",
+  "url": "https://plants.ces.ncsu.edu/plants/ficus-benjamina/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Asplenium bulbiferum": {
+  "slug": "asplenium-bulbiferum",
+  "url": "https://plants.ces.ncsu.edu/plants/asplenium-bulbiferum/",
+  "light_options": [
+   "partial_shade",
+   "full_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Dypsis lutescens": {
+  "slug": "dypsis-lutescens",
+  "url": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Episcia dianthiflora": {
+  "slug": "episcia-dianthiflora",
+  "url": "https://plants.ces.ncsu.edu/plants/episcia-dianthiflora/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Schlumbergera bridgesii": {
+  "slug": "schlumbergera-bridgesii",
+  "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-bridgesii/",
+  "light_options": [
+   "bright_indirect"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Hoya carnosa 'krinkle kurl'": {
+  "slug": "hoya-carnosa",
+  "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+  "light_options": [
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Crassula argentea": {
+  "slug": "crassula-argentea",
+  "url": "https://plants.ces.ncsu.edu/plants/crassula-argentea/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Kalanchoe spp": {
+  "slug": "kalanchoe-spp",
+  "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-spp/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Kalanchoe tubiflora": {
+  "slug": "kalanchoe-tubiflora",
+  "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-tubiflora/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Celosia plumosa": {
+  "slug": "celosia-plumosa",
+  "url": "https://plants.ces.ncsu.edu/plants/celosia-plumosa/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Rosmarinus officinalis": {
+  "slug": "rosmarinus-officinalis",
+  "url": "https://plants.ces.ncsu.edu/plants/rosmarinus-officinalis/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": [
+   "nontoxic for cats",
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Thevetia peruviana": {
+  "slug": "thevetia-peruviana",
+  "url": "https://plants.ces.ncsu.edu/plants/thevetia-peruviana/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Rhododendron spp": {
+  "slug": "rhododendron-spp",
+  "url": "https://plants.ces.ncsu.edu/plants/rhododendron-spp/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Lilium tigrinum": {
+  "slug": "lilium-tigrinum",
+  "url": "https://plants.ces.ncsu.edu/plants/lilium-tigrinum/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": [
+   "nontoxic for dogs",
+   "nontoxic for horses"
+  ]
+ },
+ "Narcissus spp": {
+  "slug": "narcissus-spp",
+  "url": "https://plants.ces.ncsu.edu/plants/narcissus-spp/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Sansevieria trifasciata": {
+  "slug": "sansevieria-trifasciata",
+  "url": "https://plants.ces.ncsu.edu/plants/sansevieria-trifasciata/",
+  "light_options": [
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Cordyline terminalis": {
+  "slug": "cordyline-terminalis",
+  "url": "https://plants.ces.ncsu.edu/plants/cordyline-terminalis/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect",
+   "full_shade"
+  ],
+  "tags": []
+ },
+ "Taxus baccata": {
+  "slug": "taxus-baccata",
+  "url": "https://plants.ces.ncsu.edu/plants/taxus-baccata/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Vinca rosea": {
+  "slug": "vinca-rosea",
+  "url": "https://plants.ces.ncsu.edu/plants/vinca-rosea/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": []
+ },
+ "Solanum spp": {
+  "slug": "solanum-spp",
+  "url": "https://plants.ces.ncsu.edu/plants/solanum-spp/",
+  "light_options": [
+   "full_sun",
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Arum maculatum": {
+  "slug": "arum-maculatum",
+  "url": "https://plants.ces.ncsu.edu/plants/arum-maculatum/",
+  "light_options": [
+   "partial_shade"
+  ],
+  "tags": []
+ },
+ "Allium sativum": {
+  "slug": "allium-sativum",
+  "url": "https://plants.ces.ncsu.edu/plants/allium-sativum/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": []
+ },
+ "Allium cepa": {
+  "slug": "allium-cepa",
+  "url": "https://plants.ces.ncsu.edu/plants/allium-cepa/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": []
+ },
+ "Allium ampeloprasum": {
+  "slug": "allium-ampeloprasum",
+  "url": "https://plants.ces.ncsu.edu/plants/allium-ampeloprasum/",
+  "light_options": [
+   "full_sun"
+  ],
+  "tags": []
+ },
+ "Cyclamen spp": {
+  "slug": "cyclamen-spp",
+  "url": "https://plants.ces.ncsu.edu/plants/cyclamen-spp/",
+  "light_options": [
+   "partial_shade",
+   "bright_indirect"
+  ],
+  "tags": []
+ },
+ "Ageratina altissima": {
+  "slug": "ageratina-altissima",
+  "url": "https://plants.ces.ncsu.edu/plants/ageratina-altissima/",
+  "light_options": [
+   "full_sun",
+   "partial_shade",
+   "full_shade"
+  ],
+  "tags": []
+ }
+}

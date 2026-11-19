@@ -1,0 +1,445 @@
+{
+  "method": "agent_dual_constraint",
+  "scenario_id": "s09",
+  "brief": "My courtyard is partial shade with low moisture, and one dog lives in the household. A shaded inner courtyard with very free-draining soil and a husky that digs up every root.",
+  "extracted_constraints": {
+    "pets": [
+      "dog"
+    ],
+    "light": "partial_shade",
+    "moisture": "low",
+    "plant_type": null
+  },
+  "tool_fallback_used": false,
+  "n_tool_calls": 1,
+  "tool_transcript": [
+    {
+      "tool": "query_pet_safe_plants",
+      "args": {
+        "limit": 8,
+        "moisture": "low",
+        "light": "partial_shade",
+        "pets": [
+          "dog"
+        ]
+      },
+      "result": {
+        "query": {
+          "pets": [
+            "dog"
+          ],
+          "light": "partial_shade",
+          "moisture": "low",
+          "plant_type": null,
+          "limit": 8
+        },
+        "relaxation_level": 0,
+        "relaxation_note": "none",
+        "pet_safety_filter": "applied (never relaxed)",
+        "n_candidates": 8,
+        "candidates": [
+          {
+            "id": "p092",
+            "scientific_name": "Alyssum spp.",
+            "common_name": "Alyssum",
+            "plant_type": "herb",
+            "light": "partial_shade",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alyssum",
+            "notes": "non-toxic to cats and dogs"
+          },
+          {
+            "id": "p105",
+            "scientific_name": "Cortaderia selloana",
+            "common_name": "Pampas Grass",
+            "plant_type": "grass",
+            "light": "partial_shade",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pampas-grass",
+            "notes": "non-toxic to cats and dogs"
+          },
+          {
+            "id": "p109",
+            "scientific_name": "Echeveria elegans",
+            "common_name": "Hens and Chickens",
+            "plant_type": "succulent",
+            "light": "partial_shade",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens",
+            "notes": "non-toxic to cats and dogs"
+          },
+          {
+            "id": "p113",
+            "scientific_name": "Haworthia species",
+            "common_name": "Haworthia",
+            "plant_type": "succulent",
+            "light": "bright_indirect",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/haworthia",
+            "notes": "non-toxic to cats and dogs"
+          },
+          {
+            "id": "p114",
+            "scientific_name": "Haworthia subfasciata",
+            "common_name": "Little Zebra Plant",
+            "plant_type": "succulent",
+            "light": "bright_indirect",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/little-zebra-plant",
+            "notes": "non-toxic to cats and dogs"
+          },
+          {
+            "id": "p140",
+            "scientific_name": "Salvia officinalis",
+            "common_name": "Sage",
+            "plant_type": "herb",
+            "light": "partial_shade",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sage",
+            "notes": "non-toxic to cats and dogs"
+          },
+          {
+            "id": "p143",
+            "scientific_name": "Sedum morganianum",
+            "common_name": "Burro's Tail",
+            "plant_type": "succulent",
+            "light": "bright_indirect",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail",
+            "notes": "non-toxic to cats and dogs"
+          },
+          {
+            "id": "p144",
+            "scientific_name": "Sedum weinbergii",
+            "common_name": "Ghost Plant",
+            "plant_type": "succulent",
+            "light": "bright_indirect",
+            "moisture": "low",
+            "toxic_to_cats": false,
+            "toxic_to_dogs": false,
+            "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ghost-plant",
+            "notes": "non-toxic to cats and dogs"
+          }
+        ]
+      }
+    }
+  ],
+  "n_candidates": 8,
+  "candidates": [
+    {
+      "id": "p092",
+      "scientific_name": "Alyssum spp.",
+      "common_name": "Alyssum",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alyssum",
+      "notes": "non-toxic to cats and dogs"
+    },
+    {
+      "id": "p105",
+      "scientific_name": "Cortaderia selloana",
+      "common_name": "Pampas Grass",
+      "plant_type": "grass",
+      "light": "partial_shade",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pampas-grass",
+      "notes": "non-toxic to cats and dogs"
+    },
+    {
+      "id": "p109",
+      "scientific_name": "Echeveria elegans",
+      "common_name": "Hens and Chickens",
+      "plant_type": "succulent",
+      "light": "partial_shade",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens",
+      "notes": "non-toxic to cats and dogs"
+    },
+    {
+      "id": "p113",
+      "scientific_name": "Haworthia species",
+      "common_name": "Haworthia",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/haworthia",
+      "notes": "non-toxic to cats and dogs"
+    },
+    {
+      "id": "p114",
+      "scientific_name": "Haworthia subfasciata",
+      "common_name": "Little Zebra Plant",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/little-zebra-plant",
+      "notes": "non-toxic to cats and dogs"
+    },
+    {
+      "id": "p140",
+      "scientific_name": "Salvia officinalis",
+      "common_name": "Sage",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sage",
+      "notes": "non-toxic to cats and dogs"
+    },
+    {
+      "id": "p143",
+      "scientific_name": "Sedum morganianum",
+      "common_name": "Burro's Tail",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail",
+      "notes": "non-toxic to cats and dogs"
+    },
+    {
+      "id": "p144",
+      "scientific_name": "Sedum weinbergii",
+      "common_name": "Ghost Plant",
+      "plant_type": "succulent",
+      "light": "bright_indirect",
+      "moisture": "low",
+      "toxic_to_cats": false,
+      "toxic_to_dogs": false,
+      "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/ghost-plant",
+      "notes": "non-toxic to cats and dogs"
+    }
+  ],
+  "recommended_plants": [
+    "Sedum morganianum",
+    "Salvia officinalis",
+    "Alyssum spp.",
+    "Echeveria elegans",
+    "Haworthia subfasciata"
+  ],
+  "design": {
+    "site_summary": "A partially shaded balcony microclimate with low moisture needs, designed for a curious cat who loves to graze safely.",
+    "layout_strategy": "Trailing succulents on the upper railing at eye level, upright perennial herbs at mid height against the back wall, and low grazing succulents along the easily accessible floor edge.",
+    "combination_logic": "The combination contrasts the fine, cascading texture of Sedum morganianum with the architectural rosette forms of Echeveria elegans and the aromatic foliage of Salvia officinalis. Throughout the year, evergreen foliage provides steady color while Alyssum spp. introduces seasonal floral accents, creating visual variety in height, color, and texture.",
+    "zones": [
+      {
+        "zone_name": "Railing Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on the east-facing railing, 3 h of morning sun, sheltered from afternoon heat",
+        "plants": [
+          {
+            "scientific_name": "Sedum morganianum",
+            "common_name": "Burro's Tail",
+            "why": "Provides a lush trailing habit suitable for hanging containers above floor level.",
+            "role_in_combination": "Contributes a cascading texture that softens the hard edges of the railing."
+          }
+        ],
+        "maintenance": [
+          "Water every 10 to 14 days when soil is completely dry",
+          "Prune stray stems lightly in spring"
+        ]
+      },
+      {
+        "zone_name": "Mid Wall Herbs",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "against the back wall, receiving bright indirect light and 2 hours of morning sun",
+        "plants": [
+          {
+            "scientific_name": "Salvia officinalis",
+            "common_name": "Sage",
+            "why": "Adds vertical height and pleasant aroma at mid-container level.",
+            "role_in_combination": "Provides a contrasting grey-green leaf colour and woody stems that anchor the mid-level composition."
+          },
+          {
+            "scientific_name": "Alyssum spp.",
+            "common_name": "Alyssum",
+            "why": "Fills gaps with low-growing flowering habit in partial shade.",
+            "role_in_combination": "Introduces delicate seasonal flowers and sweet fragrance to complement the sage."
+          }
+        ],
+        "maintenance": [
+          "Water weekly during active summer growth and every three weeks in winter",
+          "Trim back spent flower heads after blooming"
+        ]
+      },
+      {
+        "zone_name": "Pet Grazing Corner",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "on the accessible balcony floor in a bright indirect light zone where the cat rests",
+        "plants": [
+          {
+            "scientific_name": "Echeveria elegans",
+            "common_name": "Hens and Chickens",
+            "why": "Completely non-toxic, touch-safe, and low-growing for direct pet interaction.",
+            "role_in_combination": "Offers sculptural rosette symmetry at ground level that contrasts with trailing and upright elements."
+          },
+          {
+            "scientific_name": "Haworthia subfasciata",
+            "common_name": "Little Zebra Plant",
+            "why": "Safe for chewing and robust enough for ground-level placement.",
+            "role_in_combination": "Adds striking striped patterns and tactile variety within the ground layer."
+          }
+        ],
+        "maintenance": [
+          "Water every 14 days when the soil dries out completely",
+          "Inspect leaves monthly for any signs of wear from grazing"
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture in all containers by inserting a finger 2 inches deep",
+        "frequency": "Every week",
+        "season": "Summer"
+      },
+      {
+        "task": "Water all containers thoroughly until drainage occurs at the base",
+        "frequency": "Every 10 to 14 days",
+        "season": "Summer"
+      },
+      {
+        "task": "Reduce watering frequency for succulent and herb zones to prevent root rot",
+        "frequency": "Every 3 to 4 weeks",
+        "season": "Winter"
+      },
+      {
+        "task": "Fertilize containers with a balanced organic plant food",
+        "frequency": "Once a month",
+        "season": "Spring"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering Sedum morganianum and Echeveria elegans in the hanging baskets and ground pots can lead to root rot.",
+      "Tender perennials like Salvia officinalis may suffer frost damage if left unprotected during freezing winter nights."
+    ],
+    "pet_safety_note": "Every plant selected is completely non-toxic to cats and dogs, and the grazing zone is positioned directly on the floor for safe, independent access."
+  },
+  "design_text": "{\n  \"site_summary\": \"A partially shaded balcony microclimate with low moisture needs, designed for a curious cat who loves to graze safely.\",\n  \"layout_strategy\": \"Trailing succulents on the upper railing at eye level, upright perennial herbs at mid height against the back wall, and low grazing succulents along the easily accessible floor edge.\",\n  \"combination_logic\": \"The combination contrasts the fine, cascading texture of Sedum morganianum with the architectural rosette forms of Echeveria elegans and the aromatic foliage of Salvia officinalis. Throughout the year, evergreen foliage provides steady color while Alyssum spp. introduces seasonal floral accents, creating visual variety in height, color, and texture.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the east-facing railing, 3 h of morning sun, sheltered from afternoon heat\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sedum morganianum\",\n          \"common_name\": \"Burro's Tail\",\n          \"why\": \"Provides a lush trailing habit suitable for hanging containers above floor level.\",\n          \"role_in_combination\": \"Contributes a cascading texture that softens the hard edges of the railing.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every 10 to 14 days when soil is completely dry\",\n        \"Prune stray stems lightly in spring\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid Wall Herbs\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the back wall, receiving bright indirect light and 2 hours of morning sun\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Salvia officinalis\",\n          \"common_name\": \"Sage\",\n          \"why\": \"Adds vertical height and pleasant aroma at mid-container level.\",\n          \"role_in_combination\": \"Provides a contrasting grey-green leaf colour and woody stems that anchor the mid-level composition.\"\n        },\n        {\n          \"scientific_name\": \"Alyssum spp.\",\n          \"common_name\": \"Alyssum\",\n          \"why\": \"Fills gaps with low-growing flowering habit in partial shade.\",\n          \"role_in_combination\": \"Introduces delicate seasonal flowers and sweet fragrance to complement the sage.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water weekly during active summer growth and every three weeks in winter\",\n        \"Trim back spent flower heads after blooming\"\n      ]\n    },\n    {\n      \"zone_name\": \"Pet Grazing Corner\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"on the accessible balcony floor in a bright indirect light zone where the cat rests\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Echeveria elegans\",\n          \"common_name\": \"Hens and Chickens\",\n          \"why\": \"Completely non-toxic, touch-safe, and low-growing for direct pet interaction.\",\n          \"role_in_combination\": \"Offers sculptural rosette symmetry at ground level that contrasts with trailing and upright elements.\"\n        },\n        {\n          \"scientific_name\": \"Haworthia subfasciata\",\n          \"common_name\": \"Little Zebra Plant\",\n          \"why\": \"Safe for chewing and robust enough for ground-level placement.\",\n          \"role_in_combination\": \"Adds striking striped patterns and tactile variety within the ground layer.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every 14 days when the soil dries out completely\",\n        \"Inspect leaves monthly for any signs of wear from grazing\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture in all containers by inserting a finger 2 inches deep\",\n      \"frequency\": \"Every week\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Water all containers thoroughly until drainage occurs at the base\",\n      \"frequency\": \"Every 10 to 14 days\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Reduce watering frequency for succulent and herb zones to prevent root rot\",\n      \"frequency\": \"Every 3 to 4 weeks\",\n      \"season\": \"Winter\"\n    },\n    {\n      \"task\": \"Fertilize containers with a balanced organic plant food\",\n      \"frequency\": \"Once a month\",\n      \"season\": \"Spring\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering Sedum morganianum and Echeveria elegans in the hanging baskets and ground pots can lead to root rot.\",\n    \"Tender perennials like Salvia officinalis may suffer frost damage if left unprotected during freezing winter nights.\"\n  ],\n  \"pet_safety_note\": \"Every plant selected is completely non-toxic to cats and dogs, and the grazing zone is positioned directly on the floor for safe, independent access.\"\n}",
+  "audit": {
+    "n_checked": 5,
+    "checked": [
+      {
+        "requested_name": "Sedum morganianum",
+        "scientific_name": "Sedum morganianum",
+        "common_name": "Burro's Tail",
+        "pet_safe": true,
+        "horticulturally_viable": true,
+        "light": "bright_indirect",
+        "moisture": "low",
+        "toxic_to_cats": false,
+        "toxic_to_dogs": false,
+        "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail"
+      },
+      {
+        "requested_name": "Salvia officinalis",
+        "scientific_name": "Salvia officinalis",
+        "common_name": "Sage",
+        "pet_safe": true,
+        "horticulturally_viable": true,
+        "light": "partial_shade",
+        "moisture": "low",
+        "toxic_to_cats": false,
+        "toxic_to_dogs": false,
+        "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sage"
+      },
+      {
+        "requested_name": "Alyssum spp.",
+        "scientific_name": "Alyssum spp.",
+        "common_name": "Alyssum",
+        "pet_safe": true,
+        "horticulturally_viable": true,
+        "light": "partial_shade",
+        "moisture": "low",
+        "toxic_to_cats": false,
+        "toxic_to_dogs": false,
+        "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alyssum"
+      },
+      {
+        "requested_name": "Echeveria elegans",
+        "scientific_name": "Echeveria elegans",
+        "common_name": "Hens and Chickens",
+        "pet_safe": true,
+        "horticulturally_viable": true,
+        "light": "partial_shade",
+        "moisture": "low",
+        "toxic_to_cats": false,
+        "toxic_to_dogs": false,
+        "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens"
+      },
+      {
+        "requested_name": "Haworthia subfasciata",
+        "scientific_name": "Haworthia subfasciata",
+        "common_name": "Little Zebra Plant",
+        "pet_safe": true,
+        "horticulturally_viable": true,
+        "light": "bright_indirect",
+        "moisture": "low",
+        "toxic_to_cats": false,
+        "toxic_to_dogs": false,
+        "source_url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/little-zebra-plant"
+      }
+    ],
+    "n_violations": 0,
+    "violations": [],
+    "unknown_plants": [],
+    "audit_passed": true
+  },
+  "n_repair_rounds": 0,
+  "repair_history": [],
+  "completeness_score_raw": 14,
+  "completeness_score_core5": 5,
+  "completeness_missing": [
+    "E3: All zones populated, all plants justified"
+  ],
+  "n_completeness_repair_rounds": 1,
+  "completeness_repair_history": [
+    {
+      "before": {
+        "score": 14,
+        "missing": [
+          "C2: Watering frequency specified"
+        ]
+      },
+      "after": {
+        "score": 14,
+        "missing": [
+          "E3: All zones populated, all plants justified"
+        ]
+      }
+    }
+  ],
+  "seconds": 0.04,
+  "elapsed_seconds": 0.04,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

@@ -1,0 +1,111 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s16",
+  "brief": "My courtyard is full shade with moderate moisture, and one cat lives in the household. A fully shaded courtyard with a cat that spends hours in it.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Adiantum raddianum",
+    "Hosta 'Patriot'",
+    "Heuchera 'Lime Rickey'",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "A full shade courtyard with moderate moisture, safely shared with one cat who loves spending hours outdoors.",
+    "layout_strategy": "The vertical layer features trailing shade-loving ferns on wall hooks at eye level, the mid layer consists of structural foliage plants in containers against the courtyard wall at waist height, and the ground layer includes a dedicated low tray of cat grass along the floor for the cat to graze safely.",
+    "combination_logic": "The combination relies on contrasting leaf textures, ranging from the fine, delicate fronds of the maidenhair fern to the bold, glossy leaves of the hosta and the soft blades of cat grass. The color palette focuses on soothing shades of rich green, chartreuse, and white variegation, which brighten the full shade environment, while the seasonal rhythm brings fresh emergence in spring, lush summer foliage, and winter dormancy for the perennials.",
+    "zones": [
+      {
+        "zone_name": "Wall-Mounted Greenery",
+        "zone_role": "screening",
+        "layer": "vertical",
+        "placement": "on the north-facing courtyard wall hooks, receiving completely indirect light and sheltered from drying winds.",
+        "plants": [
+          {
+            "scientific_name": "Adiantum raddianum",
+            "common_name": "Delta Maidenhair Fern",
+            "why": "Thrives in full shade and high humidity, creating a soft, cascading green curtain.",
+            "role_in_combination": "Provides fine, delicate texture and a high vertical accent that draws the eye upward."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly whenever the top inch of soil feels dry.",
+          "Mist the fronds weekly in summer to maintain humidity.",
+          "Prune away dead or brown fronds in early spring.",
+          "Repot every two years into fresh, peat-rich potting mix."
+        ]
+      },
+      {
+        "zone_name": "Mid-Level Foliage Display",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "against the main courtyard perimeter wall at knee-to-waist height, in full shade with cool, stable temperatures.",
+        "plants": [
+          {
+            "scientific_name": "Hosta 'Patriot'",
+            "common_name": "Patriot Hosta",
+            "why": "Prefers heavy shade and provides striking foliage with high visual impact.",
+            "role_in_combination": "Acts as the structural anchor with bold, variegated green and white leaves that contrast sharply with finer ferns."
+          },
+          {
+            "scientific_name": "Heuchera 'Lime Rickey'",
+            "common_name": "Coral Bells",
+            "why": "Adds vibrant color to dark, shaded corners without needing direct sunlight.",
+            "role_in_combination": "Introduces a luminous chartreuse color accent and a rounded leaf form that bridges the gap between the hosta and trailing plants."
+          }
+        ],
+        "maintenance": [
+          "Water at the base of the plants once a week during dry periods.",
+          "Apply a balanced liquid fertilizer once a month in spring and summer.",
+          "Remove spent flower stalks and yellowing leaves in autumn.",
+          "Divide overcrowded hosta clumps every three to four years in early spring."
+        ]
+      },
+      {
+        "zone_name": "Feline Grazing Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "flat on the paved courtyard floor against the corner, easily accessible to the cat and receiving dappled indirect light.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Cat Grass",
+            "why": "Grows rapidly in shade and provides a completely safe, palatable nibbling plant for the resident cat.",
+            "role_in_combination": "Creates a soft, grassy ground texture at floor level that invites feline interaction and completes the vertical layering of the design."
+          }
+        ],
+        "maintenance": [
+          "Water lightly every few days to keep the soil evenly moist.",
+          "Sow new seeds every 3 to 4 weeks to maintain a fresh supply as the cat grazes.",
+          "Discard old, exhausted grass trays and replace with fresh potting soil and seed."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture across all containers and water thoroughly if dry to the touch.",
+        "frequency": "twice a week in summer, weekly in spring and autumn",
+        "season": "spring, summer, and autumn"
+      },
+      {
+        "task": "Feed container plants with a diluted, balanced liquid organic fertilizer.",
+        "frequency": "monthly",
+        "season": "spring and summer"
+      },
+      {
+        "task": "Clear away fallen debris and dead foliage from container surfaces to prevent fungal issues in the damp shade.",
+        "frequency": "fortnightly",
+        "season": "autumn and winter"
+      }
+    ],
+    "care_cautions": [
+      "Because the courtyard is in full shade with moderate moisture, excess water can easily pool in the Wall-Mounted Greenery and Mid-Level Foliage Display pots, leading to root rot if drainage holes are blocked.",
+      "The Feline Grazing Patch is designed specifically for the cat to chew, so ensure no toxic shade plants are accidentally placed at floor level within the cat's reach."
+    ],
+    "pet_safety_note": "All plants selected for this courtyard (Maidenhair Fern, Hosta, Coral Bells, and Cat Grass) are completely non-toxic to cats, and the ground-level grass tray gives the cat its own dedicated, safe spot to graze."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full shade courtyard with moderate moisture, safely shared with one cat who loves spending hours outdoors.\",\n  \"layout_strategy\": \"The vertical layer features trailing shade-loving ferns on wall hooks at eye level, the mid layer consists of structural foliage plants in containers against the courtyard wall at waist height, and the ground layer includes a dedicated low tray of cat grass along the floor for the cat to graze safely.\",\n  \"combination_logic\": \"The combination relies on contrasting leaf textures, ranging from the fine, delicate fronds of the maidenhair fern to the bold, glossy leaves of the hosta and the soft blades of cat grass. The color palette focuses on soothing shades of rich green, chartreuse, and white variegation, which brighten the full shade environment, while the seasonal rhythm brings fresh emergence in spring, lush summer foliage, and winter dormancy for the perennials.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Wall-Mounted Greenery\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the north-facing courtyard wall hooks, receiving completely indirect light and sheltered from drying winds.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Adiantum raddianum\",\n          \"common_name\": \"Delta Maidenhair Fern\",\n          \"why\": \"Thrives in full shade and high humidity, creating a soft, cascading green curtain.\",\n          \"role_in_combination\": \"Provides fine, delicate texture and a high vertical accent that draws the eye upward.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly whenever the top inch of soil feels dry.\",\n        \"Mist the fronds weekly in summer to maintain humidity.\",\n        \"Prune away dead or brown fronds in early spring.\",\n        \"Repot every two years into fresh, peat-rich potting mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Mid-Level Foliage Display\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the main courtyard perimeter wall at knee-to-waist height, in full shade with cool, stable temperatures.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hosta 'Patriot'\",\n          \"common_name\": \"Patriot Hosta\",\n          \"why\": \"Prefers heavy shade and provides striking foliage with high visual impact.\",\n          \"role_in_combination\": \"Acts as the structural anchor with bold, variegated green and white leaves that contrast sharply with finer ferns.\"\n        },\n        {\n          \"scientific_name\": \"Heuchera 'Lime Rickey'\",\n          \"common_name\": \"Coral Bells\",\n          \"why\": \"Adds vibrant color to dark, shaded corners without needing direct sunlight.\",\n          \"role_in_combination\": \"Introduces a luminous chartreuse color accent and a rounded leaf form that bridges the gap between the hosta and trailing plants.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water at the base of the plants once a week during dry periods.\",\n        \"Apply a balanced liquid fertilizer once a month in spring and summer.\",\n        \"Remove spent flower stalks and yellowing leaves in autumn.\",\n        \"Divide overcrowded hosta clumps every three to four years in early spring.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Feline Grazing Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"flat on the paved courtyard floor against the corner, easily accessible to the cat and receiving dappled indirect light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Cat Grass\",\n          \"why\": \"Grows rapidly in shade and provides a completely safe, palatable nibbling plant for the resident cat.\",\n          \"role_in_combination\": \"Creates a soft, grassy ground texture at floor level that invites feline interaction and completes the vertical layering of the design.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water lightly every few days to keep the soil evenly moist.\",\n        \"Sow new seeds every 3 to 4 weeks to maintain a fresh supply as the cat grazes.\",\n        \"Discard old, exhausted grass trays and replace with fresh potting soil and seed.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture across all containers and water thoroughly if dry to the touch.\",\n      \"frequency\": \"twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"spring, summer, and autumn\"\n    },\n    {\n      \"task\": \"Feed container plants with a diluted, balanced liquid organic fertilizer.\",\n      \"frequency\": \"monthly\",\n      \"season\": \"spring and summer\"\n    },\n    {\n      \"task\": \"Clear away fallen debris and dead foliage from container surfaces to prevent fungal issues in the damp shade.\",\n      \"frequency\": \"fortnightly\",\n      \"season\": \"autumn and winter\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Because the courtyard is in full shade with moderate moisture, excess water can easily pool in the Wall-Mounted Greenery and Mid-Level Foliage Display pots, leading to root rot if drainage holes are blocked.\",\n    \"The Feline Grazing Patch is designed specifically for the cat to chew, so ensure no toxic shade plants are accidentally placed at floor level within the cat's reach.\"\n  ],\n  \"pet_safety_note\": \"All plants selected for this courtyard (Maidenhair Fern, Hosta, Coral Bells, and Cat Grass) are completely non-toxic to cats, and the ground-level grass tray gives the cat its own dedicated, safe spot to graze.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

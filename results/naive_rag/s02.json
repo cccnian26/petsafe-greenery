@@ -1,0 +1,195 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s02",
+  "brief": "My balcony is partial shade with moderate moisture, and a cat and a dog live in the household. A west-facing balcony with soft afternoon light filtered through a neighbouring tree. My indoor cat loves to sit among the pots.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p129",
+      "scientific_name": "Pachira aquatica",
+      "common_name": "Money Tree",
+      "plant_type": "tree",
+      "light": "bright_indirect",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 6.1301
+    },
+    {
+      "id": "p065",
+      "scientific_name": "Polyscias guilfoylei",
+      "common_name": "Coffee Tree",
+      "plant_type": "foliage",
+      "light": "bright_indirect",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Saponin; Contact dermatitis, vomiting, anorexia, depression",
+      "retrieval_score": 4.0454
+    },
+    {
+      "id": "p097",
+      "scientific_name": "Beaucarnea recurvata",
+      "common_name": "Pony Tail; Bottle Palm",
+      "plant_type": "tree",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 4.0096
+    },
+    {
+      "id": "p025",
+      "scientific_name": "Cycas revoluta, zamia species",
+      "common_name": "Sago Palm",
+      "plant_type": "tree",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Cycasin; Vomiting, melena, icterus, increased thirst, hemorrhagic gastroenteritis, bruising, coagulopathy, liver damage, liver...",
+      "retrieval_score": 3.764
+    },
+    {
+      "id": "p093",
+      "scientific_name": "Anethum graveolena",
+      "common_name": "Dill",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p112",
+      "scientific_name": "Foeniculum vulgare",
+      "common_name": "Fennel",
+      "plant_type": "herb",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p115",
+      "scientific_name": "Hibiscus syriacus",
+      "common_name": "Hibiscus",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    },
+    {
+      "id": "p116",
+      "scientific_name": "Hoya carnosa",
+      "common_name": "Honey Plant",
+      "plant_type": "foliage",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 1.7556
+    }
+  ],
+  "recommended_plants": [
+    "Hoya carnosa",
+    "Pachira aquatica",
+    "Hibiscus syriacus",
+    "Anethum graveolena",
+    "Foeniculum vulgare"
+  ],
+  "design": {
+    "site_summary": "A west-facing partial shade balcony with moderate moisture and pets present, receiving soft afternoon light filtered through a tree.",
+    "layout_strategy": "The scheme stacks three vertical layers starting with trailing foliage baskets above eye level, moving to mid-height structural shrubs against the back wall, and finishing with a low ground-level grazing tray accessible to the cat along the floor.",
+    "combination_logic": "The combination contrasts the broad, tropical leaves of the money tree with the feathery, fine texture of dill and fennel, creating a rich tapestry of green. The waxy foliage and starry blooms of the honey plant provide subtle seasonal rhythm while the structural shrubs offer year-round green architecture.",
+    "zones": [
+      {
+        "zone_name": "Railing Canopy",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "on the west-facing railing, receiving soft filtered afternoon light.",
+        "plants": [
+          {
+            "scientific_name": "Hoya carnosa",
+            "common_name": "Honey Plant",
+            "why": "It trails gracefully over the basket edge in partial shade.",
+            "role_in_combination": "Provides waxy texture and delicate, sweet-scented flowers that contrast with the upright shrubs below."
+          }
+        ],
+        "maintenance": [
+          "Water when the top two inches of soil are dry.",
+          "Feed monthly with balanced liquid fertilizer in spring.",
+          "Prune stray long vines after flowering."
+        ]
+      },
+      {
+        "zone_name": "Wall Architecture",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "against the back west-facing wall in large containers, sheltered by the overhead balcony structure.",
+        "plants": [
+          {
+            "scientific_name": "Pachira aquatica",
+            "common_name": "Money Tree",
+            "why": "Thrives in indirect light and adds height with its braided trunk.",
+            "role_in_combination": "Acts as the structural anchor with large palmate leaves providing a bold canopy backdrop."
+          },
+          {
+            "scientific_name": "Hibiscus syriacus",
+            "common_name": "Hibiscus",
+            "why": "Brings colorful seasonal blooms in partial shade conditions.",
+            "role_in_combination": "Introduces vivid seasonal color and upright woody stems that contrast with the indoor tropicals."
+          }
+        ],
+        "maintenance": [
+          "Water weekly to keep soil moderately moist but not waterlogged.",
+          "Feed bi-weekly during summer blooming phase.",
+          "Prune hibiscus in early spring to encourage new flower buds."
+        ]
+      },
+      {
+        "zone_name": "Pet Nibble Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "on the floor near the balcony entrance, safe and fully accessible for the indoor cat.",
+        "plants": [
+          {
+            "scientific_name": "Anethum graveolena",
+            "common_name": "Dill",
+            "why": "Grows easily in pots and provides a safe, feathery texture for cat interaction.",
+            "role_in_combination": "Offers a delicate, cloud-like textural contrast right at foot level against the heavier pots."
+          },
+          {
+            "scientific_name": "Foeniculum vulgare",
+            "common_name": "Fennel",
+            "why": "Provides an aromatic and safe ground-level herb interest.",
+            "role_in_combination": "Adds fine needle-like foliage and a subtle anise scent to enrich the sensory experience at ground level."
+          }
+        ],
+        "maintenance": [
+          "Water every few days to keep the shallow grazing tray consistently moist.",
+          "Sow successive seeds every month to maintain fresh foliage.",
+          "Trim back spent stems to encourage bushy new growth."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Water all mid-level and hanging containers thoroughly",
+        "frequency": "twice a week in summer, weekly in spring and autumn",
+        "season": "summer"
+      },
+      {
+        "task": "Inspect plants for common pests like aphids on the dill and hibiscus",
+        "frequency": "weekly during active growth periods",
+        "season": "spring and summer"
+      },
+      {
+        "task": "Bring tender potted shrubs closer to the wall or wrap containers",
+        "frequency": "as needed before hard freezes",
+        "season": "winter"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the hanging Hoya carnosa basket can lead to root rot in the filtered west-facing light.",
+      "The grazing tray with dill and fennel may be heavily excavated or chewed by the cat, requiring regular reseeding."
+    ],
+    "pet_safety_note": "The ground-level grazing zone is stocked exclusively with pet-safe herbs, and toxic plants are elevated out of reach to ensure the cat and dog remain safe."
+  },
+  "design_text": "{\n  \"site_summary\": \"A west-facing partial shade balcony with moderate moisture and pets present, receiving soft afternoon light filtered through a tree.\",\n  \"layout_strategy\": \"The scheme stacks three vertical layers starting with trailing foliage baskets above eye level, moving to mid-height structural shrubs against the back wall, and finishing with a low ground-level grazing tray accessible to the cat along the floor.\",\n  \"combination_logic\": \"The combination contrasts the broad, tropical leaves of the money tree with the feathery, fine texture of dill and fennel, creating a rich tapestry of green. The waxy foliage and starry blooms of the honey plant provide subtle seasonal rhythm while the structural shrubs offer year-round green architecture.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Railing Canopy\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"on the west-facing railing, receiving soft filtered afternoon light.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Hoya carnosa\",\n          \"common_name\": \"Honey Plant\",\n          \"why\": \"It trails gracefully over the basket edge in partial shade.\",\n          \"role_in_combination\": \"Provides waxy texture and delicate, sweet-scented flowers that contrast with the upright shrubs below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water when the top two inches of soil are dry.\",\n        \"Feed monthly with balanced liquid fertilizer in spring.\",\n        \"Prune stray long vines after flowering.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Wall Architecture\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the back west-facing wall in large containers, sheltered by the overhead balcony structure.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Pachira aquatica\",\n          \"common_name\": \"Money Tree\",\n          \"why\": \"Thrives in indirect light and adds height with its braided trunk.\",\n          \"role_in_combination\": \"Acts as the structural anchor with large palmate leaves providing a bold canopy backdrop.\"\n        },\n        {\n          \"scientific_name\": \"Hibiscus syriacus\",\n          \"common_name\": \"Hibiscus\",\n          \"why\": \"Brings colorful seasonal blooms in partial shade conditions.\",\n          \"role_in_combination\": \"Introduces vivid seasonal color and upright woody stems that contrast with the indoor tropicals.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water weekly to keep soil moderately moist but not waterlogged.\",\n        \"Feed bi-weekly during summer blooming phase.\",\n        \"Prune hibiscus in early spring to encourage new flower buds.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Pet Nibble Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"on the floor near the balcony entrance, safe and fully accessible for the indoor cat.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Anethum graveolena\",\n          \"common_name\": \"Dill\",\n          \"why\": \"Grows easily in pots and provides a safe, feathery texture for cat interaction.\",\n          \"role_in_combination\": \"Offers a delicate, cloud-like textural contrast right at foot level against the heavier pots.\"\n        },\n        {\n          \"scientific_name\": \"Foeniculum vulgare\",\n          \"common_name\": \"Fennel\",\n          \"why\": \"Provides an aromatic and safe ground-level herb interest.\",\n          \"role_in_combination\": \"Adds fine needle-like foliage and a subtle anise scent to enrich the sensory experience at ground level.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every few days to keep the shallow grazing tray consistently moist.\",\n        \"Sow successive seeds every month to maintain fresh foliage.\",\n        \"Trim back spent stems to encourage bushy new growth.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Water all mid-level and hanging containers thoroughly\",\n      \"frequency\": \"twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"summer\"\n    },\n    {\n      \"task\": \"Inspect plants for common pests like aphids on the dill and hibiscus\",\n      \"frequency\": \"weekly during active growth periods\",\n      \"season\": \"spring and summer\"\n    },\n    {\n      \"task\": \"Bring tender potted shrubs closer to the wall or wrap containers\",\n      \"frequency\": \"as needed before hard freezes\",\n      \"season\": \"winter\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the hanging Hoya carnosa basket can lead to root rot in the filtered west-facing light.\",\n    \"The grazing tray with dill and fennel may be heavily excavated or chewed by the cat, requiring regular reseeding.\"\n  ],\n  \"pet_safety_note\": \"The ground-level grazing zone is stocked exclusively with pet-safe herbs, and toxic plants are elevated out of reach to ensure the cat and dog remain safe.\"\n}",
+  "seconds": 0.0
+}

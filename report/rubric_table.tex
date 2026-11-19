@@ -1,0 +1,26 @@
+\begin{table}[!ht]
+\centering
+\footnotesize
+\begin{tabular}{llp{10.4cm}c}
+\toprule
+ID & Dimension & Item and machine-checkable detection rule & Pts \\
+\midrule
+A1 & Spatial zoning & Vertical / trailing zone --- A zone whose layer is 'vertical', or whose role/name/placement matches hanging\textbar{}trailing\textbar{}railing\textbar{}upper\textbar{}canopy\textbar{}overhead & 1 \\
+A2 & Spatial zoning & Ground-level zone --- A zone whose layer is 'ground', or whose role/name/placement matches ground\textbar{}floor\textbar{}base\textbar{}lower\textbar{}edging\textbar{}groundcover & 1 \\
+A3 & Spatial zoning & Pet-accessible zone --- A zone whose role is grazing\textbar{}sensory\textbar{}pet\textbar{}forage\textbar{}edible, or whose text mentions cat grass\textbar{}graze\textbar{}nibble\textbar{}chew\textbar{}forage\textbar{}pet & 1 \\
+B1 & Combination logic & Spatial layering strategy stated --- layout\_strategy is >= 25 characters AND names at least one height layer (vertical\textbar{}mid\textbar{}ground) & 1 \\
+B2 & Combination logic & Combination rationale stated --- combination\_logic is >= 25 characters AND mentions contrast, texture, colour, height, season or rhythm & 1 \\
+B3 & Combination logic & Per-plant role in the composition --- every plant has a role\_in\_combination of >= 8 characters & 1 \\
+C1 & Care & At least three care instructions --- len(care\_instructions) >= 3 & 1 \\
+C2 & Care & Watering frequency specified --- a care instruction mentions watering AND a frequency (daily\textbar{}weekly\textbar{}every N days\textbar{}twice a week\textbar{}monthly) & 1 \\
+C3 & Care & Light position specified --- a zone placement or a care instruction mentions full sun\textbar{}partial shade\textbar{}bright indirect\textbar{}deep shade\textbar{}morning sun\textbar{}east-facing\textbar{}... & 1 \\
+D1 & Care cautions & At least two cautions --- len(care\_cautions) >= 2 & 1 \\
+D2 & Care cautions & A concrete risk is named --- a caution mentions overwatering\textbar{}root rot\textbar{}drainage\textbar{}scorch\textbar{}frost\textbar{}heat\textbar{}toxic\textbar{}chew\textbar{}bite\textbar{}wind\textbar{}pest & 1 \\
+D3 & Care cautions & The caution is specific to this design --- a caution names one of this design's plants or one of its zones & 1 \\
+E1 & Pet safety & Safety note present --- pet\_safety\_note is >= 30 characters & 1 \\
+E2 & Pet safety & Safety note names the pet --- pet\_safety\_note mentions cat\textbar{}dog & 1 \\
+E3 & Coverage & All zones populated, all plants justified --- every zone has >= 2 plants AND every plant has a why of >= 10 characters & 1 \\
+\bottomrule
+\end{tabular}
+\caption{Design Completeness Score: 15 binary, machine-checkable items (maximum 15 points). The compact core score uses items A1--A3, C2 and C3 (maximum 5 points).}
+\end{table}

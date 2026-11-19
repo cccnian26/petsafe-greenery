@@ -1,0 +1,110 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s05",
+  "brief": "My courtyard is full sun with moderate moisture, and one dog lives in the household. A ground-floor courtyard that gets full sun from midday. Two large dogs run through it daily and rub against the planters.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Rosmarinus officinalis",
+    "Salvia officinalis",
+    "Carex glauca",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "A sunny ground-floor courtyard with moderate moisture and two large, active dogs sharing the space.",
+    "layout_strategy": "The scheme is structured into three height layers: sturdy upright evergreen shrubs and perennials at mid height against the courtyard walls, a robust ground layer of resilient grasses along the floor edges, and a pet-accessible grazing zone positioned in a low, heavy planter that dogs can safely reach.",
+    "combination_logic": "The plants are combined to offer strong textural contrast between the fine, wispy foliage of ornamental grasses and the broad, glossy leaves of woody shrubs. Colour-wise, soft blues and purples complement silvery foliage, creating a calm Mediterranean feel that shifts through the seasons with spring blooms, summer structural growth, and evergreen winter presence.",
+    "zones": [
+      {
+        "zone_name": "Mid-Level Wall Backing",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Against the main courtyard wall, receiving full baking sun from midday onwards.",
+        "plants": [
+          {
+            "scientific_name": "Rosmarinus officinalis",
+            "common_name": "Rosemary",
+            "why": "Extremely tough, loves full sun, and tolerates occasional rough brushing from large dogs.",
+            "role_in_combination": "Provides a woody, evergreen structure and vertical contrast with fine, needle-like leaves and aromatic scent."
+          },
+          {
+            "scientific_name": "Salvia officinalis",
+            "common_name": "Sage",
+            "why": "Thrives in hot, sunny conditions and has robust stems.",
+            "role_in_combination": "Introduces soft, grey-green velvety foliage that contrasts texturally against the needle-like leaves of the rosemary."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly when the top two inches of soil feel dry.",
+          "Feed with a balanced liquid fertiliser once a month in spring and summer.",
+          "Prune back lightly after flowering to maintain a dense shape."
+        ]
+      },
+      {
+        "zone_name": "Ground-Level Buffer",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "Along the perimeter edges of the courtyard floor, receiving direct afternoon sun.",
+        "plants": [
+          {
+            "scientific_name": "Carex glauca",
+            "common_name": "Blue Sedge",
+            "why": "Tough, non-toxic, and flexible enough to bounce back if stepped on or brushed against by dogs.",
+            "role_in_combination": "Creates a soft, fountain-like mound of powdery blue foliage that softens the hard edges of the courtyard paving."
+          }
+        ],
+        "maintenance": [
+          "Water moderately, ensuring containers or edging beds have good drainage.",
+          "Comb through dead leaves by hand in early spring.",
+          "Divide clumps every three years if they become congested."
+        ]
+      },
+      {
+        "zone_name": "Canine Grazing Station",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "In a heavy, stable wooden trough at ground level in the corner of the courtyard, fully accessible to the dogs.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Pet-Safe Orchard Grass",
+            "why": "Completely safe for dogs to nibble and robust enough to recover from moderate grazing.",
+            "role_in_combination": "Provides a bright green, fresh vertical tuft that contrasts sharply with the woody, grey-green tones of the surrounding shrubs."
+          }
+        ],
+        "maintenance": [
+          "Water weekly to keep the grass sweet and green.",
+          "Trim back by half every few weeks to encourage fresh, tender growth.",
+          "Reseed the tray every season as the grass gets worn down by heavy pet use."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Water the mid-level and ground layer planters deeply to encourage deep root growth.",
+        "frequency": "Twice a week in peak summer, weekly in spring and autumn.",
+        "season": "Summer and Spring"
+      },
+      {
+        "task": "Trim back the rosemary and sage shrubs to prevent them from becoming woody and sparse from dog collisions.",
+        "frequency": "Once a year after the main flowering period.",
+        "season": "Late Summer"
+      },
+      {
+        "task": "Check heavy planters for stability and secure anchoring against the walls to prevent them from tipping over when large dogs rub against them.",
+        "frequency": "Monthly",
+        "season": "Year-round"
+      }
+    ],
+    "care_cautions": [
+      "Large dogs rubbing against the Mid-Level Wall Backing may snap brittle branches of the rosemary if planters are too lightweight; ensure all pots are heavy or wall-anchored.",
+      "The Canine Grazing Station will need frequent reseeding because heavy foot traffic and constant grazing by two large dogs will exhaust the grass quickly.",
+      "Full midday sun in the courtyard can cause the soil in smaller ground-level pots to dry out rapidly, risking drought stress for the blue sedge."
+    ],
+    "pet_safety_note": "All selected plants are completely non-toxic to dogs, and the dedicated grazing station gives the pets a safe, designated outlet for chewing."
+  },
+  "design_text": "{\n  \"site_summary\": \"A sunny ground-floor courtyard with moderate moisture and two large, active dogs sharing the space.\",\n  \"layout_strategy\": \"The scheme is structured into three height layers: sturdy upright evergreen shrubs and perennials at mid height against the courtyard walls, a robust ground layer of resilient grasses along the floor edges, and a pet-accessible grazing zone positioned in a low, heavy planter that dogs can safely reach.\",\n  \"combination_logic\": \"The plants are combined to offer strong textural contrast between the fine, wispy foliage of ornamental grasses and the broad, glossy leaves of woody shrubs. Colour-wise, soft blues and purples complement silvery foliage, creating a calm Mediterranean feel that shifts through the seasons with spring blooms, summer structural growth, and evergreen winter presence.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Mid-Level Wall Backing\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the main courtyard wall, receiving full baking sun from midday onwards.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Rosmarinus officinalis\",\n          \"common_name\": \"Rosemary\",\n          \"why\": \"Extremely tough, loves full sun, and tolerates occasional rough brushing from large dogs.\",\n          \"role_in_combination\": \"Provides a woody, evergreen structure and vertical contrast with fine, needle-like leaves and aromatic scent.\"\n        },\n        {\n          \"scientific_name\": \"Salvia officinalis\",\n          \"common_name\": \"Sage\",\n          \"why\": \"Thrives in hot, sunny conditions and has robust stems.\",\n          \"role_in_combination\": \"Introduces soft, grey-green velvety foliage that contrasts texturally against the needle-like leaves of the rosemary.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly when the top two inches of soil feel dry.\",\n        \"Feed with a balanced liquid fertiliser once a month in spring and summer.\",\n        \"Prune back lightly after flowering to maintain a dense shape.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground-Level Buffer\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"Along the perimeter edges of the courtyard floor, receiving direct afternoon sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Carex glauca\",\n          \"common_name\": \"Blue Sedge\",\n          \"why\": \"Tough, non-toxic, and flexible enough to bounce back if stepped on or brushed against by dogs.\",\n          \"role_in_combination\": \"Creates a soft, fountain-like mound of powdery blue foliage that softens the hard edges of the courtyard paving.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water moderately, ensuring containers or edging beds have good drainage.\",\n        \"Comb through dead leaves by hand in early spring.\",\n        \"Divide clumps every three years if they become congested.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Canine Grazing Station\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"In a heavy, stable wooden trough at ground level in the corner of the courtyard, fully accessible to the dogs.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Pet-Safe Orchard Grass\",\n          \"why\": \"Completely safe for dogs to nibble and robust enough to recover from moderate grazing.\",\n          \"role_in_combination\": \"Provides a bright green, fresh vertical tuft that contrasts sharply with the woody, grey-green tones of the surrounding shrubs.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water weekly to keep the grass sweet and green.\",\n        \"Trim back by half every few weeks to encourage fresh, tender growth.\",\n        \"Reseed the tray every season as the grass gets worn down by heavy pet use.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Water the mid-level and ground layer planters deeply to encourage deep root growth.\",\n      \"frequency\": \"Twice a week in peak summer, weekly in spring and autumn.\",\n      \"season\": \"Summer and Spring\"\n    },\n    {\n      \"task\": \"Trim back the rosemary and sage shrubs to prevent them from becoming woody and sparse from dog collisions.\",\n      \"frequency\": \"Once a year after the main flowering period.\",\n      \"season\": \"Late Summer\"\n    },\n    {\n      \"task\": \"Check heavy planters for stability and secure anchoring against the walls to prevent them from tipping over when large dogs rub against them.\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Year-round\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Large dogs rubbing against the Mid-Level Wall Backing may snap brittle branches of the rosemary if planters are too lightweight; ensure all pots are heavy or wall-anchored.\",\n    \"The Canine Grazing Station will need frequent reseeding because heavy foot traffic and constant grazing by two large dogs will exhaust the grass quickly.\",\n    \"Full midday sun in the courtyard can cause the soil in smaller ground-level pots to dry out rapidly, risking drought stress for the blue sedge.\"\n  ],\n  \"pet_safety_note\": \"All selected plants are completely non-toxic to dogs, and the dedicated grazing station gives the pets a safe, designated outlet for chewing.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

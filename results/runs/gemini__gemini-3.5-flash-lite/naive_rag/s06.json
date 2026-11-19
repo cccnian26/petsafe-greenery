@@ -1,0 +1,173 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s06",
+  "brief": "My courtyard is full shade with low moisture, and no pets live in the household. A walled courtyard with no direct sunlight at all and rain-shadow walls that keep it dry. Nobody lives here, it is just for the view.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p008",
+      "scientific_name": "Aloysia triphylla",
+      "common_name": "Lemon Verbena",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Essential oils; Stomach upset, colic. No concerns if small amounts used in cooking or as flavoring agent",
+      "retrieval_score": 9.0433
+    },
+    {
+      "id": "p138",
+      "scientific_name": "Rosmarinus officinalis",
+      "common_name": "Rosemary",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.1955
+    },
+    {
+      "id": "p149",
+      "scientific_name": "Thymus vulgaris",
+      "common_name": "Thyme",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.1955
+    },
+    {
+      "id": "p141",
+      "scientific_name": "Sanvitalia spp.",
+      "common_name": "Creeping Zinnia",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.0984
+    },
+    {
+      "id": "p097",
+      "scientific_name": "Beaucarnea recurvata",
+      "common_name": "Pony Tail; Bottle Palm",
+      "plant_type": "tree",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 2.921
+    },
+    {
+      "id": "p018",
+      "scientific_name": "Clivia minata",
+      "common_name": "Kaffir Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 2.3771
+    },
+    {
+      "id": "p019",
+      "scientific_name": "Clivia spp.",
+      "common_name": "Clivia Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 2.3771
+    },
+    {
+      "id": "p052",
+      "scientific_name": "Lantana camara",
+      "common_name": "Lantana",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "low",
+      "notes": "TOXIC to cats and dogs; Pentacyclic triterpenoids; Vomiting, diarrhea, labored breathing, weakness. Liver failure - more common in livestock",
+      "retrieval_score": 2.3765
+    }
+  ],
+  "recommended_plants": [
+    "Clivia miniata",
+    "Clivia spp.",
+    "Beaucarnea recurvata"
+  ],
+  "design": {
+    "site_summary": "Your courtyard is a full shade, low moisture walled space with rain-shadowed dry walls and no pets.",
+    "layout_strategy": "The scheme is structured with upright structural perennials forming the mid height against the dry walls, and a robust low layer filling the ground level containers to create depth.",
+    "combination_logic": "The plants combine glossy strap-like foliage with architectural structure and upright leafy forms, offering seasonal blooms and reliable year-round green texture in a dark environment.",
+    "zones": [
+      {
+        "zone_name": "Mid-Height Wall Accents",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "against the north-facing courtyard wall at knee to waist height, receiving full shade and low moisture.",
+        "plants": [
+          {
+            "scientific_name": "Clivia miniata",
+            "common_name": "Kaffir Lily",
+            "why": "Thrives in full shade and brings vibrant seasonal flowers to a dark corner.",
+            "role_in_combination": "Provides glossy, dark green strap-like foliage and striking orange trumpet flowers that light up the shade."
+          },
+          {
+            "scientific_name": "Clivia spp.",
+            "common_name": "Clivia Lily",
+            "why": "Complements the main focal plant with matching shade tolerance and similar architectural form.",
+            "role_in_combination": "Reinforces the structural leaf rhythm and adds depth to the mid layer with its bold foliage."
+          }
+        ],
+        "maintenance": [
+          "Water moderately when the top few inches of soil are dry.",
+          "Apply a balanced liquid fertiliser every month during spring and summer.",
+          "Remove spent flower stems at the base after blooming finishes.",
+          "Repot every two to three years only when roots become tightly crowded."
+        ]
+      },
+      {
+        "zone_name": "Ground Level Foliage Layer",
+        "zone_role": "groundcover",
+        "layer": "ground",
+        "placement": "at the base of the courtyard walls on the floor, fully shaded with low moisture conditions.",
+        "plants": [
+          {
+            "scientific_name": "Beaucarnea recurvata",
+            "common_name": "Pony Tail Palm",
+            "why": "Brings a unique sculptural element to the ground level and tolerates low moisture well.",
+            "role_in_combination": "Acts as an architectural anchor with its swollen base and arching, ribbon-like leaves, contrasting with the strap leaves above."
+          }
+        ],
+        "maintenance": [
+          "Water sparingly as the swollen trunk stores water effectively.",
+          "Feed with a weak liquid fertiliser once in mid-spring.",
+          "Wipe dust from the long leaves occasionally to keep them healthy.",
+          "Repot only when the base completely fills the container."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels in the containers to prevent under or overwatering",
+        "frequency": "every two weeks",
+        "season": "summer"
+      },
+      {
+        "task": "Apply a balanced liquid fertiliser to support active growth",
+        "frequency": "monthly",
+        "season": "spring"
+      },
+      {
+        "task": "Inspect plants for dead foliage and clear away debris from the soil surface",
+        "frequency": "once a month",
+        "season": "autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Clivia plants in the rain-shadowed dry shade can lead to root rot.",
+      "Underwatering the Pony Tail Palm during prolonged dry spells may cause leaf tip dieback."
+    ],
+    "pet_safety_note": "No pets live in the household, so the design focuses entirely on aesthetic appeal and architectural structure."
+  },
+  "design_text": "{\n  \"site_summary\": \"Your courtyard is a full shade, low moisture walled space with rain-shadowed dry walls and no pets.\",\n  \"layout_strategy\": \"The scheme is structured with upright structural perennials forming the mid height against the dry walls, and a robust low layer filling the ground level containers to create depth.\",\n  \"combination_logic\": \"The plants combine glossy strap-like foliage with architectural structure and upright leafy forms, offering seasonal blooms and reliable year-round green texture in a dark environment.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Mid-Height Wall Accents\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"against the north-facing courtyard wall at knee to waist height, receiving full shade and low moisture.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Clivia miniata\",\n          \"common_name\": \"Kaffir Lily\",\n          \"why\": \"Thrives in full shade and brings vibrant seasonal flowers to a dark corner.\",\n          \"role_in_combination\": \"Provides glossy, dark green strap-like foliage and striking orange trumpet flowers that light up the shade.\"\n        },\n        {\n          \"scientific_name\": \"Clivia spp.\",\n          \"common_name\": \"Clivia Lily\",\n          \"why\": \"Complements the main focal plant with matching shade tolerance and similar architectural form.\",\n          \"role_in_combination\": \"Reinforces the structural leaf rhythm and adds depth to the mid layer with its bold foliage.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water moderately when the top few inches of soil are dry.\",\n        \"Apply a balanced liquid fertiliser every month during spring and summer.\",\n        \"Remove spent flower stems at the base after blooming finishes.\",\n        \"Repot every two to three years only when roots become tightly crowded.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Level Foliage Layer\",\n      \"zone_role\": \"groundcover\",\n      \"layer\": \"ground\",\n      \"placement\": \"at the base of the courtyard walls on the floor, fully shaded with low moisture conditions.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Beaucarnea recurvata\",\n          \"common_name\": \"Pony Tail Palm\",\n          \"why\": \"Brings a unique sculptural element to the ground level and tolerates low moisture well.\",\n          \"role_in_combination\": \"Acts as an architectural anchor with its swollen base and arching, ribbon-like leaves, contrasting with the strap leaves above.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water sparingly as the swollen trunk stores water effectively.\",\n        \"Feed with a weak liquid fertiliser once in mid-spring.\",\n        \"Wipe dust from the long leaves occasionally to keep them healthy.\",\n        \"Repot only when the base completely fills the container.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels in the containers to prevent under or overwatering\",\n      \"frequency\": \"every two weeks\",\n      \"season\": \"summer\"\n    },\n    {\n      \"task\": \"Apply a balanced liquid fertiliser to support active growth\",\n      \"frequency\": \"monthly\",\n      \"season\": \"spring\"\n    },\n    {\n      \"task\": \"Inspect plants for dead foliage and clear away debris from the soil surface\",\n      \"frequency\": \"once a month\",\n      \"season\": \"autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Clivia plants in the rain-shadowed dry shade can lead to root rot.\",\n    \"Underwatering the Pony Tail Palm during prolonged dry spells may cause leaf tip dieback.\"\n  ],\n  \"pet_safety_note\": \"No pets live in the household, so the design focuses entirely on aesthetic appeal and architectural structure.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

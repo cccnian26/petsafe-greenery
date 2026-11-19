@@ -1,0 +1,113 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s22",
+  "brief": "My courtyard is full shade with moderate moisture, and one dog lives in the household. A shaded courtyard where a large dog likes to rub against tall plants.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Saxifraga stolonifera",
+    "Dryopteris erythrosora",
+    "Aspidistra elatior",
+    "Acorus gramineus 'Ogon'"
+  ],
+  "design": {
+    "site_summary": "A full shade courtyard with moderate moisture, shared with one large dog who enjoys rubbing against tall plants.",
+    "layout_strategy": "The scheme is spatially structured into three distinct height layers: vertical wall pockets mounted high up featuring trailing shade-lovers, mid-height sturdy structural planters against the masonry to withstand dog brushing, and a low ground layer utilizing heavy, stable stone troughs along the courtyard perimeter.",
+    "combination_logic": "The plants work together through a rich interplay of fine and bold textures, contrasting deep greens with silver variegation, and varying leaf shapes from glossy fronds to delicate ferns. The scheme provides year-round evergreen structure while introducing subtle seasonal shifts in foliage tone and occasional delicate blooms in spring, ensuring the shaded courtyard feels lush and dynamic without relying on direct sunlight.",
+    "zones": [
+      {
+        "zone_name": "Wall Foliage Cascade",
+        "zone_role": "hanging",
+        "layer": "vertical",
+        "placement": "Mounted on the north-facing courtyard wall above dog height, receiving bright indirect light and complete shade.",
+        "plants": [
+          {
+            "scientific_name": "Saxifraga stolonifera",
+            "common_name": "Strawberry Begonia",
+            "why": "It thrives in full shade and sends out long, beautiful trailing runners that soften the masonry.",
+            "role_in_combination": "Contributes delicate, rounded veined leaves and fine reddish stolons that create a soft, cascading curtain contrasting with the stiff foliage below."
+          }
+        ],
+        "maintenance": [
+          "Water weekly using a watering wand.",
+          "Feed monthly with a diluted liquid foliage fertilizer in spring and summer.",
+          "Trim dead runners annually in early spring.",
+          "Repot every two years into fresh, well-draining potting mix."
+        ]
+      },
+      {
+        "zone_name": "Sturdy Structural Centerpiece",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Against the east courtyard wall in heavy, wide-rimmed ceramic pots, in deep shade and sheltered from heavy winds.",
+        "plants": [
+          {
+            "scientific_name": "Dryopteris erythrosora",
+            "common_name": "Autumn Fern",
+            "why": "Provides robust, upright mid-height structure that can withstand occasional gentle brushing from a passing large dog.",
+            "role_in_combination": "Offers bright coppery-red young fronds that mature to glossy deep green, introducing strong vertical lines and a leathery texture."
+          },
+          {
+            "scientific_name": "Aspidistra elatior",
+            "common_name": "Cast Iron Plant",
+            "why": "Legendary shade tolerance and virtually indestructible against a dog rubbing against its base.",
+            "role_in_combination": "Provides broad, dark green strap-like leaves that create a dramatic architectural contrast to the fine fronds of the fern."
+          }
+        ],
+        "maintenance": [
+          "Water every 7 to 10 days, allowing the top inch of soil to dry slightly.",
+          "Apply a balanced slow-release fertilizer in early spring.",
+          "Remove old, tattered fronds or leaves at the base in late winter.",
+          "Repot every three to four years when roots become tightly bound."
+        ]
+      },
+      {
+        "zone_name": "Dog-Safe Grazing and Ground Edge",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "Along the safe paved courtyard floor edge, in low heavy planters, receiving dappled shade.",
+        "plants": [
+          {
+            "scientific_name": "Acorus gramineus 'Ogon'",
+            "common_name": "Golden Sweet Flag",
+            "why": "Non-toxic to dogs and provides a soft, grassy texture that tolerates moist, shady conditions.",
+            "role_in_combination": "Introduces a bright chartreuse color pop at ground level, instantly lifting the dark shade and contrasting sharply with the deep greens of the mid-layer."
+          }
+        ],
+        "maintenance": [
+          "Keep the soil consistently moist, never allowing it to dry out completely.",
+          "Feed lightly with organic liquid kelp once a month in spring.",
+          "Cut back any dormant foliage in late winter to encourage fresh spring flushes.",
+          "Divide clumps every three years to maintain vigor."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture in all containers using a finger test",
+        "frequency": "Twice a week in summer, weekly in spring and autumn",
+        "season": "Summer"
+      },
+      {
+        "task": "Clean accumulated dust off the broad leaves of the Cast Iron Plant with a damp cloth",
+        "frequency": "Monthly",
+        "season": "Spring"
+      },
+      {
+        "task": "Clear away fallen debris and decaying organic matter from the base of the planters to prevent fungal issues in damp shade",
+        "frequency": "Bi-weekly",
+        "season": "Autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering and root rot in the Wall Foliage Cascade zone due to lack of direct sun and poor evaporation in deep shade.",
+      "Container tipping or stem breakage in the Sturdy Structural Centerpiece zone if the large dog rubs too aggressively against lightweight pots, requiring heavy ceramic vessels.",
+      "Stagnant moisture accumulation at the base of the ground layer planters leading to fungus gnats if drainage holes become blocked."
+    ],
+    "pet_safety_note": "All selected plants including the Autumn Fern, Cast Iron Plant, Strawberry Begonia, and Golden Sweet Flag are non-toxic to dogs, ensuring complete safety even if the dog rubs against or nibbles the vegetation."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full shade courtyard with moderate moisture, shared with one large dog who enjoys rubbing against tall plants.\",\n  \"layout_strategy\": \"The scheme is spatially structured into three distinct height layers: vertical wall pockets mounted high up featuring trailing shade-lovers, mid-height sturdy structural planters against the masonry to withstand dog brushing, and a low ground layer utilizing heavy, stable stone troughs along the courtyard perimeter.\",\n  \"combination_logic\": \"The plants work together through a rich interplay of fine and bold textures, contrasting deep greens with silver variegation, and varying leaf shapes from glossy fronds to delicate ferns. The scheme provides year-round evergreen structure while introducing subtle seasonal shifts in foliage tone and occasional delicate blooms in spring, ensuring the shaded courtyard feels lush and dynamic without relying on direct sunlight.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Wall Foliage Cascade\",\n      \"zone_role\": \"hanging\",\n      \"layer\": \"vertical\",\n      \"placement\": \"Mounted on the north-facing courtyard wall above dog height, receiving bright indirect light and complete shade.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Saxifraga stolonifera\",\n          \"common_name\": \"Strawberry Begonia\",\n          \"why\": \"It thrives in full shade and sends out long, beautiful trailing runners that soften the masonry.\",\n          \"role_in_combination\": \"Contributes delicate, rounded veined leaves and fine reddish stolons that create a soft, cascading curtain contrasting with the stiff foliage below.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water weekly using a watering wand.\",\n        \"Feed monthly with a diluted liquid foliage fertilizer in spring and summer.\",\n        \"Trim dead runners annually in early spring.\",\n        \"Repot every two years into fresh, well-draining potting mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Sturdy Structural Centerpiece\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the east courtyard wall in heavy, wide-rimmed ceramic pots, in deep shade and sheltered from heavy winds.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dryopteris erythrosora\",\n          \"common_name\": \"Autumn Fern\",\n          \"why\": \"Provides robust, upright mid-height structure that can withstand occasional gentle brushing from a passing large dog.\",\n          \"role_in_combination\": \"Offers bright coppery-red young fronds that mature to glossy deep green, introducing strong vertical lines and a leathery texture.\"\n        },\n        {\n          \"scientific_name\": \"Aspidistra elatior\",\n          \"common_name\": \"Cast Iron Plant\",\n          \"why\": \"Legendary shade tolerance and virtually indestructible against a dog rubbing against its base.\",\n          \"role_in_combination\": \"Provides broad, dark green strap-like leaves that create a dramatic architectural contrast to the fine fronds of the fern.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water every 7 to 10 days, allowing the top inch of soil to dry slightly.\",\n        \"Apply a balanced slow-release fertilizer in early spring.\",\n        \"Remove old, tattered fronds or leaves at the base in late winter.\",\n        \"Repot every three to four years when roots become tightly bound.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Dog-Safe Grazing and Ground Edge\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"Along the safe paved courtyard floor edge, in low heavy planters, receiving dappled shade.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Acorus gramineus 'Ogon'\",\n          \"common_name\": \"Golden Sweet Flag\",\n          \"why\": \"Non-toxic to dogs and provides a soft, grassy texture that tolerates moist, shady conditions.\",\n          \"role_in_combination\": \"Introduces a bright chartreuse color pop at ground level, instantly lifting the dark shade and contrasting sharply with the deep greens of the mid-layer.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Keep the soil consistently moist, never allowing it to dry out completely.\",\n        \"Feed lightly with organic liquid kelp once a month in spring.\",\n        \"Cut back any dormant foliage in late winter to encourage fresh spring flushes.\",\n        \"Divide clumps every three years to maintain vigor.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture in all containers using a finger test\",\n      \"frequency\": \"Twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Clean accumulated dust off the broad leaves of the Cast Iron Plant with a damp cloth\",\n      \"frequency\": \"Monthly\",\n      \"season\": \"Spring\"\n    },\n    {\n      \"task\": \"Clear away fallen debris and decaying organic matter from the base of the planters to prevent fungal issues in damp shade\",\n      \"frequency\": \"Bi-weekly\",\n      \"season\": \"Autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering and root rot in the Wall Foliage Cascade zone due to lack of direct sun and poor evaporation in deep shade.\",\n    \"Container tipping or stem breakage in the Sturdy Structural Centerpiece zone if the large dog rubs too aggressively against lightweight pots, requiring heavy ceramic vessels.\",\n    \"Stagnant moisture accumulation at the base of the ground layer planters leading to fungus gnats if drainage holes become blocked.\"\n  ],\n  \"pet_safety_note\": \"All selected plants including the Autumn Fern, Cast Iron Plant, Strawberry Begonia, and Golden Sweet Flag are non-toxic to dogs, ensuring complete safety even if the dog rubs against or nibbles the vegetation.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

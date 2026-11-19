@@ -1,0 +1,108 @@
+{
+  "method": "baseline1_zeroshot",
+  "scenario_id": "s25",
+  "brief": "My courtyard is full sun with low moisture, and one dog lives in the household. A hot, dry, sun-baked courtyard with a dog who digs and rubs against everything.",
+  "n_tool_calls": 0,
+  "recommended_plants": [
+    "Rosmarinus officinalis",
+    "Lavandula angustifolia",
+    "Sedum morganianum",
+    "Dactylis glomerata"
+  ],
+  "design": {
+    "site_summary": "A full sun, low moisture courtyard designed to withstand heat and accommodate a dog that digs and rubs against containers.",
+    "layout_strategy": "The scheme stacks in three distinct layers: tall, robust structural plants in heavy mid-height containers against the sun-baked wall, trailing drought-tolerant plants hanging just above reach, and a sturdy ground-level zone protected by heavy edging.",
+    "combination_logic": "The combination relies on contrasting fine needle-like foliage with broad architectural leaves and spiky textures, offering a palette of silvery greys and deep greens that shimmer in the harsh sun and shift to warm purples and yellows in summer.",
+    "zones": [
+      {
+        "zone_name": "Wall-Mounted Mid-Height Containers",
+        "zone_role": "focal",
+        "layer": "mid",
+        "placement": "Against the south-facing back wall, receiving 8 hours of intense full sun and baking heat.",
+        "plants": [
+          {
+            "scientific_name": "Rosmarinus officinalis",
+            "common_name": "Rosemary",
+            "why": "Thrives in baked, dry conditions and resists dog rubbing due to woody stems and strong scent.",
+            "role_in_combination": "Provides structural height and evergreen contrast with dark, needle-like foliage against the warm wall."
+          },
+          {
+            "scientific_name": "Lavandula angustifolia",
+            "common_name": "English Lavender",
+            "why": "Loves full sun and poor, dry soil, adding lovely purple summer color and scent.",
+            "role_in_combination": "Offers soft, mounding texture and a pale silvery-grey contrast that brightens the mid-layer."
+          }
+        ],
+        "maintenance": [
+          "Water deeply every 7 to 10 days in summer once soil is completely dry.",
+          "Fertilize lightly with a low-nitrogen organic feed in early spring.",
+          "Prune back hard after flowering in late summer to prevent woody bases from becoming bare."
+        ]
+      },
+      {
+        "zone_name": "Hanging Sun Baskets",
+        "zone_role": "screening",
+        "layer": "vertical",
+        "placement": "On high wall brackets above the courtyard, getting maximum overhead solar exposure and circulating air.",
+        "plants": [
+          {
+            "scientific_name": "Sedum morganianum",
+            "common_name": "Donkey's Tail",
+            "why": "Stores water in its plump leaves, making it exceptionally drought-tolerant for high-hanging baskets.",
+            "role_in_combination": "Creates a soft, trailing cascade of pale green bead-like stems that break up the harsh brick lines of the wall."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly every 5 to 7 days in peak summer, allowing excess to drain completely.",
+          "Repot every 2 to 3 years in spring using a fast-draining succulent potting mix."
+        ]
+      },
+      {
+        "zone_name": "Protected Ground Patch",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "Along the sheltered courtyard floor perimeter, surrounded by heavy stone borders, getting 6 hours of direct sun.",
+        "plants": [
+          {
+            "scientific_name": "Dactylis glomerata",
+            "common_name": "Pet-Safe Orchard Grass",
+            "why": "Provides a safe, chewable texture for the household dog within a designated low footprint.",
+            "role_in_combination": "Adds fine vertical blades at ground level that contrast with the mounding shrubs above."
+          }
+        ],
+        "maintenance": [
+          "Water twice a week during hot summer spells to keep the grass palatable.",
+          "Trim back regularly with shears to encourage fresh, tender green growth."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture in the mid-height containers using a finger test",
+        "frequency": "Every 5 days in summer, every 14 days in winter",
+        "season": "Summer and Winter"
+      },
+      {
+        "task": "Prune back the woody herbs to maintain compact shape",
+        "frequency": "Once a year after the main flowering flush",
+        "season": "Late Summer"
+      },
+      {
+        "task": "Clear dead leaves and debris from the base of containers to discourage pests",
+        "frequency": "Weekly",
+        "season": "Autumn"
+      }
+    ],
+    "care_cautions": [
+      "Overwatering the Rosemary and Lavender in their mid-height pots can lead to root rot; ensure containers have ample drainage holes.",
+      "The trailing Sedum morganianum in the hanging baskets is susceptible to sunburn if moved into unaccustomed reflected heat zones during peak July afternoons.",
+      "The dog may attempt to dig in the lightweight potting mix of the mid-height pots unless heavy top-dressing stones are applied."
+    ],
+    "pet_safety_note": "The design restricts the dog's access to toxic plants by keeping woody, strongly scented shrubs in elevated containers while providing a dedicated, safe grass patch at ground level."
+  },
+  "design_text": "{\n  \"site_summary\": \"A full sun, low moisture courtyard designed to withstand heat and accommodate a dog that digs and rubs against containers.\",\n  \"layout_strategy\": \"The scheme stacks in three distinct layers: tall, robust structural plants in heavy mid-height containers against the sun-baked wall, trailing drought-tolerant plants hanging just above reach, and a sturdy ground-level zone protected by heavy edging.\",\n  \"combination_logic\": \"The combination relies on contrasting fine needle-like foliage with broad architectural leaves and spiky textures, offering a palette of silvery greys and deep greens that shimmer in the harsh sun and shift to warm purples and yellows in summer.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Wall-Mounted Mid-Height Containers\",\n      \"zone_role\": \"focal\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the south-facing back wall, receiving 8 hours of intense full sun and baking heat.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Rosmarinus officinalis\",\n          \"common_name\": \"Rosemary\",\n          \"why\": \"Thrives in baked, dry conditions and resists dog rubbing due to woody stems and strong scent.\",\n          \"role_in_combination\": \"Provides structural height and evergreen contrast with dark, needle-like foliage against the warm wall.\"\n        },\n        {\n          \"scientific_name\": \"Lavandula angustifolia\",\n          \"common_name\": \"English Lavender\",\n          \"why\": \"Loves full sun and poor, dry soil, adding lovely purple summer color and scent.\",\n          \"role_in_combination\": \"Offers soft, mounding texture and a pale silvery-grey contrast that brightens the mid-layer.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water deeply every 7 to 10 days in summer once soil is completely dry.\",\n        \"Fertilize lightly with a low-nitrogen organic feed in early spring.\",\n        \"Prune back hard after flowering in late summer to prevent woody bases from becoming bare.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Hanging Sun Baskets\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"vertical\",\n      \"placement\": \"On high wall brackets above the courtyard, getting maximum overhead solar exposure and circulating air.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Sedum morganianum\",\n          \"common_name\": \"Donkey's Tail\",\n          \"why\": \"Stores water in its plump leaves, making it exceptionally drought-tolerant for high-hanging baskets.\",\n          \"role_in_combination\": \"Creates a soft, trailing cascade of pale green bead-like stems that break up the harsh brick lines of the wall.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly every 5 to 7 days in peak summer, allowing excess to drain completely.\",\n        \"Repot every 2 to 3 years in spring using a fast-draining succulent potting mix.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Protected Ground Patch\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"Along the sheltered courtyard floor perimeter, surrounded by heavy stone borders, getting 6 hours of direct sun.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Dactylis glomerata\",\n          \"common_name\": \"Pet-Safe Orchard Grass\",\n          \"why\": \"Provides a safe, chewable texture for the household dog within a designated low footprint.\",\n          \"role_in_combination\": \"Adds fine vertical blades at ground level that contrast with the mounding shrubs above.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water twice a week during hot summer spells to keep the grass palatable.\",\n        \"Trim back regularly with shears to encourage fresh, tender green growth.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture in the mid-height containers using a finger test\",\n      \"frequency\": \"Every 5 days in summer, every 14 days in winter\",\n      \"season\": \"Summer and Winter\"\n    },\n    {\n      \"task\": \"Prune back the woody herbs to maintain compact shape\",\n      \"frequency\": \"Once a year after the main flowering flush\",\n      \"season\": \"Late Summer\"\n    },\n    {\n      \"task\": \"Clear dead leaves and debris from the base of containers to discourage pests\",\n      \"frequency\": \"Weekly\",\n      \"season\": \"Autumn\"\n    }\n  ],\n  \"care_cautions\": [\n    \"Overwatering the Rosemary and Lavender in their mid-height pots can lead to root rot; ensure containers have ample drainage holes.\",\n    \"The trailing Sedum morganianum in the hanging baskets is susceptible to sunburn if moved into unaccustomed reflected heat zones during peak July afternoons.\",\n    \"The dog may attempt to dig in the lightweight potting mix of the mid-height pots unless heavy top-dressing stones are applied.\"\n  ],\n  \"pet_safety_note\": \"The design restricts the dog's access to toxic plants by keeping woody, strongly scented shrubs in elevated containers while providing a dedicated, safe grass patch at ground level.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

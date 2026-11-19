@@ -1,0 +1,171 @@
+{
+  "method": "baseline2_naive_rag",
+  "scenario_id": "s05",
+  "brief": "My courtyard is full sun with moderate moisture, and one dog lives in the household. A ground-floor courtyard that gets full sun from midday. Two large dogs run through it daily and rub against the planters.",
+  "n_tool_calls": 0,
+  "retrieved": [
+    {
+      "id": "p077",
+      "scientific_name": "Taxus spp.",
+      "common_name": "Yew",
+      "plant_type": "shrub",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Taxine; Sudden death from acute cardiac failure, early signs -- muscular tremors, dyspnea, seizures in dogs",
+      "retrieval_score": 6.214
+    },
+    {
+      "id": "p018",
+      "scientific_name": "Clivia minata",
+      "common_name": "Kaffir Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 4.7225
+    },
+    {
+      "id": "p019",
+      "scientific_name": "Clivia spp.",
+      "common_name": "Clivia Lily",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Lycorine and other alkaloids; Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias....",
+      "retrieval_score": 4.7225
+    },
+    {
+      "id": "p076",
+      "scientific_name": "Taxus baccata",
+      "common_name": "English Yew",
+      "plant_type": "shrub",
+      "light": "partial_shade",
+      "moisture": "moderate",
+      "notes": "TOXIC to cats and dogs; Taxine A and B, Volatile oil; Tremors, difficulty breathing, vomiting, seizures (dogs), sudden death from acute heart failure",
+      "retrieval_score": 3.7685
+    },
+    {
+      "id": "p101",
+      "scientific_name": "Celosia plumosa",
+      "common_name": "Celosia Plumosa",
+      "plant_type": "herb",
+      "light": "full_sun",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.6693
+    },
+    {
+      "id": "p104",
+      "scientific_name": "Chlorophytum comosum",
+      "common_name": "Spider Plant",
+      "plant_type": "foliage",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.6693
+    },
+    {
+      "id": "p147",
+      "scientific_name": "Stephanotis floribunda",
+      "common_name": "Madagascar Jasmine",
+      "plant_type": "shrub",
+      "light": "full_sun",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.6693
+    },
+    {
+      "id": "p091",
+      "scientific_name": "Ageratina altissima",
+      "common_name": "White Snakeroot",
+      "plant_type": "perennial",
+      "light": "full_shade",
+      "moisture": "moderate",
+      "notes": "non-toxic to cats and dogs",
+      "retrieval_score": 3.5611
+    }
+  ],
+  "recommended_plants": [
+    "Taxus baccata",
+    "Celosia plumosa",
+    "Chlorophytum comosum"
+  ],
+  "design": {
+    "site_summary": "A ground-floor full-sun courtyard with moderate moisture and two active dogs that run through daily.",
+    "layout_strategy": "The scheme is structured into two stacked height layers designed to withstand energetic dogs, featuring sturdy upright shrubs at the mid-level against the boundary walls and a resilient ground layer along the floor edges.",
+    "combination_logic": "The combination contrasts the fine, grassy foliage of spider plants with the bold, tropical texture of Celosia plumosa and the dense, dark evergreen needles of English Yew, creating a dynamic interplay of vertical highlights and rich textures that provide year-round structure and vibrant summer color.",
+    "zones": [
+      {
+        "zone_name": "Mid-Level Border",
+        "zone_role": "screening",
+        "layer": "mid",
+        "placement": "Against the perimeter walls in full sun receiving midday exposure, elevated in heavy containers out of direct heavy dog traffic.",
+        "plants": [
+          {
+            "scientific_name": "Taxus baccata",
+            "common_name": "English Yew",
+            "why": "Provides a sturdy evergreen backdrop that handles container life well.",
+            "role_in_combination": "Acts as the structural anchor, offering dark green needle contrast and a formal shape against which brighter plants stand out."
+          },
+          {
+            "scientific_name": "Celosia plumosa",
+            "common_name": "Celosia Plumosa",
+            "why": "Thrives in full sun and adds vibrant texture.",
+            "role_in_combination": "Contributes brilliant vertical plumes of color that contrast sharply with the dark, needle-like foliage of the yew."
+          }
+        ],
+        "maintenance": [
+          "Water thoroughly whenever the top two inches of soil feel dry.",
+          "Apply a balanced liquid fertilizer monthly during the growing season.",
+          "Prune the yew lightly in late summer to maintain its shape."
+        ]
+      },
+      {
+        "zone_name": "Ground Edging Zone",
+        "zone_role": "grazing",
+        "layer": "ground",
+        "placement": "Along the perimeter base of the courtyard floor, receiving full midday sun and easily accessible for the household dogs.",
+        "plants": [
+          {
+            "scientific_name": "Chlorophytum comosum",
+            "common_name": "Spider Plant",
+            "why": "Non-toxic to pets and creates a soft, arching ground-level border.",
+            "role_in_combination": "Provides soft, cascading green and white striped foliage that lightens the base of the heavier mid-layer shrubs."
+          }
+        ],
+        "maintenance": [
+          "Water once a week during warm periods to keep soil evenly moist.",
+          "Trim back any browned leaf tips at the end of spring.",
+          "Repot into a slightly larger container every two years if root-bound."
+        ]
+      }
+    ],
+    "care_instructions": [
+      {
+        "task": "Check soil moisture levels in all planters",
+        "frequency": "Twice a week in summer, weekly in spring and autumn",
+        "season": "Summer"
+      },
+      {
+        "task": "Feed container plants with a balanced, slow-release fertilizer",
+        "frequency": "Once a month",
+        "season": "Spring"
+      },
+      {
+        "task": "Inspect planters for any damage caused by running dogs and stabilize loose pots",
+        "frequency": "Bi-weekly",
+        "season": "All seasons"
+      }
+    ],
+    "care_cautions": [
+      "The English Yew in the mid-level zone contains toxic compounds if ingested, so the active dogs must be discouraged from chewing on its foliage or bark.",
+      "Celosia plumosa in full sun can dry out rapidly during peak summer afternoons, requiring vigilant watering to prevent permanent wilt."
+    ],
+    "pet_safety_note": "The ground-level grazing zone exclusively features pet-safe spider plants, while the toxic English yew is elevated in heavy containers against the wall out of direct browsing height."
+  },
+  "design_text": "{\n  \"site_summary\": \"A ground-floor full-sun courtyard with moderate moisture and two active dogs that run through daily.\",\n  \"layout_strategy\": \"The scheme is structured into two stacked height layers designed to withstand energetic dogs, featuring sturdy upright shrubs at the mid-level against the boundary walls and a resilient ground layer along the floor edges.\",\n  \"combination_logic\": \"The combination contrasts the fine, grassy foliage of spider plants with the bold, tropical texture of Celosia plumosa and the dense, dark evergreen needles of English Yew, creating a dynamic interplay of vertical highlights and rich textures that provide year-round structure and vibrant summer color.\",\n  \"zones\": [\n    {\n      \"zone_name\": \"Mid-Level Border\",\n      \"zone_role\": \"screening\",\n      \"layer\": \"mid\",\n      \"placement\": \"Against the perimeter walls in full sun receiving midday exposure, elevated in heavy containers out of direct heavy dog traffic.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Taxus baccata\",\n          \"common_name\": \"English Yew\",\n          \"why\": \"Provides a sturdy evergreen backdrop that handles container life well.\",\n          \"role_in_combination\": \"Acts as the structural anchor, offering dark green needle contrast and a formal shape against which brighter plants stand out.\"\n        },\n        {\n          \"scientific_name\": \"Celosia plumosa\",\n          \"common_name\": \"Celosia Plumosa\",\n          \"why\": \"Thrives in full sun and adds vibrant texture.\",\n          \"role_in_combination\": \"Contributes brilliant vertical plumes of color that contrast sharply with the dark, needle-like foliage of the yew.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water thoroughly whenever the top two inches of soil feel dry.\",\n        \"Apply a balanced liquid fertilizer monthly during the growing season.\",\n        \"Prune the yew lightly in late summer to maintain its shape.\"\n      ]\n    },\n    {\n      \"zone_name\": \"Ground Edging Zone\",\n      \"zone_role\": \"grazing\",\n      \"layer\": \"ground\",\n      \"placement\": \"Along the perimeter base of the courtyard floor, receiving full midday sun and easily accessible for the household dogs.\",\n      \"plants\": [\n        {\n          \"scientific_name\": \"Chlorophytum comosum\",\n          \"common_name\": \"Spider Plant\",\n          \"why\": \"Non-toxic to pets and creates a soft, arching ground-level border.\",\n          \"role_in_combination\": \"Provides soft, cascading green and white striped foliage that lightens the base of the heavier mid-layer shrubs.\"\n        }\n      ],\n      \"maintenance\": [\n        \"Water once a week during warm periods to keep soil evenly moist.\",\n        \"Trim back any browned leaf tips at the end of spring.\",\n        \"Repot into a slightly larger container every two years if root-bound.\"\n      ]\n    }\n  ],\n  \"care_instructions\": [\n    {\n      \"task\": \"Check soil moisture levels in all planters\",\n      \"frequency\": \"Twice a week in summer, weekly in spring and autumn\",\n      \"season\": \"Summer\"\n    },\n    {\n      \"task\": \"Feed container plants with a balanced, slow-release fertilizer\",\n      \"frequency\": \"Once a month\",\n      \"season\": \"Spring\"\n    },\n    {\n      \"task\": \"Inspect planters for any damage caused by running dogs and stabilize loose pots\",\n      \"frequency\": \"Bi-weekly\",\n      \"season\": \"All seasons\"\n    }\n  ],\n  \"care_cautions\": [\n    \"The English Yew in the mid-level zone contains toxic compounds if ingested, so the active dogs must be discouraged from chewing on its foliage or bark.\",\n    \"Celosia plumosa in full sun can dry out rapidly during peak summer afternoons, requiring vigilant watering to prevent permanent wilt.\"\n  ],\n  \"pet_safety_note\": \"The ground-level grazing zone exclusively features pet-safe spider plants, while the toxic English yew is elevated in heavy containers against the wall out of direct browsing height.\"\n}",
+  "seconds": 0.01,
+  "elapsed_seconds": 0.01,
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "model": "gemini-3.5-flash-lite"
+}

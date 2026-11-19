@@ -1,0 +1,48 @@
+{
+  "backend": "gemini",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "models_used": [
+    "gemini-3.5-flash-lite"
+  ],
+  "code_version": "2026-11-17a",
+  "config_tag": "code=2026-11-17a|palette=6|rounds=3|think=off|maxtok=0|backend=gemini|model=gemini-3.5-flash-lite",
+  "thinking": "off",
+  "max_output_tokens": 0,
+  "database": "E:\\cnn gah\\5511\\project\\experiment\\petsafe-greenery\\data\\plants.csv",
+  "methods": [
+    "agent",
+    "zeroshot",
+    "naive_rag"
+  ],
+  "n_scenarios": 25,
+  "scenario_ids": [
+    "s01",
+    "s02",
+    "s03",
+    "s04",
+    "s05",
+    "s06",
+    "s07",
+    "s08",
+    "s09",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s16",
+    "s17",
+    "s18",
+    "s19",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "s25"
+  ],
+  "timestamp": "2026-11-17 19:59:56",
+  "simulated": false
+}
