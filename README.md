@@ -2,8 +2,8 @@
 
 **A Dual-Constraint Agentic Workflow for Pet-Friendly Balcony and Courtyard Planting Design**
 
-COMP5511: Artificial Intelligence Concepts — Final Project
-Student: CHEN Niannian (26063619G)
+Final Project
+
 
 ---
 
